@@ -6,11 +6,7 @@ public class Gun : Weapon
 {
     public override void Init()
     {
-        Name = "Gun";
-        maxBulletCount = 10;
-        curBulletCount = maxBulletCount;
-        reloadTime = 0.8f;
-        ShootSpeed = 0.2f;
+        base.Init();
     }
 
     public override void Reload()
@@ -21,10 +17,10 @@ public class Gun : Weapon
     public override void Shoot()
     {
         if (IsReloading) return;
-        curBulletCount--;
+        curAmmo--;
         GameObject go = Instantiate(bulletPrefab, Muzzle.transform.position,
             Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90));
-        if (curBulletCount == 0)
+        if (curAmmo == 0)
             Reload();
     }
 

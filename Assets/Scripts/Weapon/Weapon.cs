@@ -6,32 +6,42 @@ using UnityEngine.UI;
 
 public abstract class Weapon : MonoBehaviour
 {
+    public WeaponType type;
     // Action 으로 shoot, reload 등록
+    [SerializeField]
+    protected WeaponData weaponData;
 
-    public string Name = "Weapon";
+    public string Name;
 
-    public int curBulletCount { get; protected set; }
-    public int maxBulletCount { get; protected set; }
+    public int curAmmo { get; protected set; }
+    public int maxAmmo { get; protected set; }
 
     protected float reloadTime;
 
     [SerializeField]
     protected GameObject Muzzle;
 
-    [SerializeField]
     public Sprite weaponSprite;
 
-    [SerializeField]
     protected GameObject bulletPrefab;
 
-    //[SerializeField]
-    public float ShootSpeed { get; protected set; }
+    public float FireRate { get; protected set; }
 
     public bool IsReloading = false;
 
-    public bool CanShoot() { return curBulletCount > 0; }
+    public bool CanShoot() { return curAmmo > 0; }
 
-    public abstract void Init();
+    public virtual void Init()
+    {
+        Name = weaponData.Name;
+        maxAmmo = weaponData.maxAmmo;
+        curAmmo = maxAmmo;
+        reloadTime = weaponData.reloadTime;
+        FireRate = weaponData.FireRate;
+        weaponSprite = weaponData.weaponSprite;
+        bulletPrefab = weaponData.bulletPrefab;
+        type = weaponData.type;
+    }
     public abstract void Shoot();
     public abstract void Reload();
 
@@ -50,9 +60,9 @@ public abstract class Weapon : MonoBehaviour
             yield return null;
         }
 
-        curBulletCount = maxBulletCount;
+        curAmmo = maxAmmo;
         WeaponManager.Instance.ReloadSlider.gameObject.SetActive(false);
         IsReloading = false;
-        GameManager.Instance.bulletText.text = $"{curBulletCount}/{maxBulletCount}";
+        GameManager.Instance.bulletText.text = $"{curAmmo}/{maxAmmo}";
     }
 }

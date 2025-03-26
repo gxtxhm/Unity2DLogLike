@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum WeaponType
+{
+    Rifle,
+    Gun
+}
+
+[CreateAssetMenu(menuName = "Weapon Data")]
+public class WeaponData : ScriptableObject
+{
+    public string Name;
+    public int maxAmmo;
+
+    public float FireRate;
+    public float reloadTime;
+
+    public Sprite weaponSprite;
+
+    public GameObject bulletPrefab;
+    public WeaponType type;
+
+}

@@ -172,8 +172,8 @@ public class PlayerController : MonoBehaviour
     {
         canShoot = false;
         curWeapon.Shoot();
-        GameManager.Instance.bulletText.text = $"{curWeapon.curBulletCount}/{curWeapon.maxBulletCount}";
-        yield return new WaitForSeconds(curWeapon.ShootSpeed);
+        GameManager.Instance.bulletText.text = $"{curWeapon.curAmmo}/{curWeapon.maxAmmo}";
+        yield return new WaitForSeconds(curWeapon.FireRate);
         canShoot = true;
     }
 
@@ -185,7 +185,7 @@ public class PlayerController : MonoBehaviour
         curWeapon = weapon;
 
         GameManager.Instance.weaponImage.sprite = curWeapon.weaponSprite;
-        GameManager.Instance.bulletText.text = $"{curWeapon.curBulletCount}/{curWeapon.maxBulletCount}";
+        GameManager.Instance.bulletText.text = $"{curWeapon.curAmmo}/{curWeapon.maxAmmo}";
 
     }
 
