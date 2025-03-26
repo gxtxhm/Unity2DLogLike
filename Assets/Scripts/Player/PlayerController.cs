@@ -15,11 +15,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float speed = 5.0f;
 
-    [SerializeField]
-    float ShootSpeed = 0.2f;
+    
 
-    GameObject WeaponPos;
+    public GameObject WeaponPos;
     Weapon curWeapon;
+    public Weapon TestWeapon;
 
     Vector2 moveVec;
     string curWeaponDirection;
@@ -36,18 +36,20 @@ public class PlayerController : MonoBehaviour
 
     public Canvas GetCanvas() { return UICanvas; }
 
-    // юс╫ц
-    public Slider reloadSlider;
+    public void Init()
+    {
+        curWeapon.Init();
+
+        WeaponManager.Instance.AddWeapon(curWeapon);
+        WeaponManager.Instance.AddWeapon(TestWeapon);
+    }
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        WeaponPos = GameObject.Find("Weapon");
+        WeaponPos = GameObject.Find("WeaponPos");
         curWeapon = WeaponPos.GetComponentInChildren<Weapon>();
-
-        curWeapon.Init();
-        //UICanvas.gameObject.SetActive(false);
 
     }
 
@@ -64,7 +66,8 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
-            if (canShoot) StartCoroutine("Co_Shoot");
+            if (canShoot && curWeapon.CanShoot()) 
+                StartCoroutine("Co_Shoot");
         }
         if(Input.GetMouseButtonUp(0))
         {
@@ -77,6 +80,12 @@ public class PlayerController : MonoBehaviour
             curWeapon.Reload();
         }
 
+        if(Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            Weapon weapon = WeaponManager.Instance.SwapWeapon();
+            if (weapon == null) return;
+            EquipWeapon(weapon);
+        }
     }
 
 
@@ -163,8 +172,25 @@ public class PlayerController : MonoBehaviour
     {
         canShoot = false;
         curWeapon.Shoot();
-        yield return new WaitForSeconds(ShootSpeed);
+        GameManager.Instance.bulletText.text = $"{curWeapon.curBulletCount}/{curWeapon.maxBulletCount}";
+        yield return new WaitForSeconds(curWeapon.ShootSpeed);
         canShoot = true;
     }
 
+    public void EquipWeapon(Weapon weapon)
+    {
+        weapon.transform.SetParent(WeaponPos.transform);
+        weapon.transform.localPosition = new Vector3(0,0.12f,0);
+        weapon.transform.localRotation = Quaternion.identity;
+        curWeapon = weapon;
+
+        GameManager.Instance.weaponImage.sprite = curWeapon.weaponSprite;
+        GameManager.Instance.bulletText.text = $"{curWeapon.curBulletCount}/{curWeapon.maxBulletCount}";
+
+    }
+
+    public void UnEquipWeapon()
+    {
+        curWeapon.gameObject.SetActive(false);
+    }
 }
