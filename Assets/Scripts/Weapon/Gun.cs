@@ -18,8 +18,11 @@ public class Gun : Weapon
     {
         if (IsReloading) return;
         curAmmo--;
-        GameObject go = Instantiate(bulletPrefab, Muzzle.transform.position,
-            Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90));
+        GameObject bullet = PoolingManager.Instance.GetItem(PoolingType.GunBullet);
+        bullet.transform.position = Muzzle.transform.position;
+        bullet.transform.rotation = Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90);
+        bullet.GetComponent<Bullet>().InitBullet(gameObject.transform.parent.eulerAngles.z - 90);
+        bullet.SetActive(true);
         if (curAmmo == 0)
             Reload();
     }

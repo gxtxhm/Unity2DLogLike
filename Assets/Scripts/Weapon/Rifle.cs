@@ -15,9 +15,14 @@ public class Rifle : Weapon
     {
         if (IsReloading) return;
         curAmmo--;
-        GameObject go = Instantiate(bulletPrefab, Muzzle.transform.position,
-            Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90));
-        if(curAmmo == 0)
+        GameObject bullet = PoolingManager.Instance.GetItem(PoolingType.RifleBullet);
+        bullet.transform.position = Muzzle.transform.position;
+        bullet.transform.rotation = Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90);
+        bullet.GetComponent<Bullet>().InitBullet(gameObject.transform.parent.eulerAngles.z - 90);
+        bullet.SetActive(true);
+        //GameObject go = Instantiate(bulletPrefab, Muzzle.transform.position,
+        //Quaternion.Euler(0, 0, gameObject.transform.parent.eulerAngles.z - 90));
+        if (curAmmo == 0)
             Reload();
     }
 

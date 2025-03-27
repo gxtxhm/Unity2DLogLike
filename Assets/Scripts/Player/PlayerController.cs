@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public GameObject WeaponPos;
     Weapon curWeapon;
     public Weapon TestWeapon;
+    public Weapon TestWeapon2;
 
     Vector2 moveVec;
     string curWeaponDirection;
@@ -38,10 +39,10 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
-        curWeapon.Init();
-
         WeaponManager.Instance.AddWeapon(curWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon);
+        WeaponManager.Instance.AddWeapon(TestWeapon2);
+        EquipWeapon(curWeapon);
     }
 
     private void Awake()
@@ -181,7 +182,7 @@ public class PlayerController : MonoBehaviour
     {
         weapon.transform.SetParent(WeaponPos.transform);
         weapon.transform.localPosition = new Vector3(0,0.12f,0);
-        weapon.transform.localRotation = Quaternion.identity;
+        weapon.transform.localRotation = Quaternion.Euler(0, 0, weapon.RotateZ);
         curWeapon = weapon;
 
         GameManager.Instance.weaponImage.sprite = curWeapon.weaponSprite;

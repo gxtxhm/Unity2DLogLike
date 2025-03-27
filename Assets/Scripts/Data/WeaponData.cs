@@ -5,7 +5,8 @@ using UnityEngine;
 public enum WeaponType
 {
     Rifle,
-    Gun
+    Gun,
+    ShotGun
 }
 
 [CreateAssetMenu(menuName = "Weapon Data")]
@@ -22,4 +23,5 @@ public class WeaponData : ScriptableObject
     public GameObject bulletPrefab;
     public WeaponType type;
 
+    public float RotateZ;
 }

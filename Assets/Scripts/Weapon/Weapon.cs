@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 
 public abstract class Weapon : MonoBehaviour
 {
     public WeaponType type;
-    // Action 으로 shoot, reload 등록
+    // TODO : Action 으로 shoot, reload 등록
     [SerializeField]
     protected WeaponData weaponData;
 
@@ -17,6 +18,8 @@ public abstract class Weapon : MonoBehaviour
     public int maxAmmo { get; protected set; }
 
     protected float reloadTime;
+
+    public float RotateZ;
 
     [SerializeField]
     protected GameObject Muzzle;
@@ -31,6 +34,8 @@ public abstract class Weapon : MonoBehaviour
 
     public bool CanShoot() { return curAmmo > 0; }
 
+    public WeaponData GetWeaponData() { return weaponData; }
+
     public virtual void Init()
     {
         Name = weaponData.Name;
@@ -41,6 +46,9 @@ public abstract class Weapon : MonoBehaviour
         weaponSprite = weaponData.weaponSprite;
         bulletPrefab = weaponData.bulletPrefab;
         type = weaponData.type;
+        RotateZ = weaponData.RotateZ;
+        Debug.Log(type);
+        PoolingManager.Instance.AddInMap(bulletPrefab.GetComponent<Bullet>().poolingType, bulletPrefab);
     }
     public abstract void Shoot();
     public abstract void Reload();
