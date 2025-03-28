@@ -1,0 +1,260 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7816165436358258235
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8876317117401930420
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "objectSprite": {
+    "m_FileID": 0,
+    "m_PathID": 1439471865212077369
+  },
+  "AdditionalChainDownAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "destroyOnFinish": 0,
+  "additionalDestroyObjects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1230232074446828728
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4094237804276095367
+    }
+  ],
+  "hasSubSprites": 1,
+  "subSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6339862875489384502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2721835497097806667
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7107770701763444946
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5136363569591368404
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7737329993079802007
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3469599651820751060
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5201555967244057584
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4576005161056549702
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7529176863010797752
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3886311265007218008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3267176834968669871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8636656515790818299
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1103663924302957956
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4369677982892887468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1893498090201966746
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -654209710154496833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2378671837831707551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6873392531330628922
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4823095328409623437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 982780937228027784
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5585971146581653938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -837934177414317774
+    }
+  ],
+  "startingHeight": 15.0,
+  "DoExplosion": 1,
+  "explosionData": {
+    "useDefaultExplosion": 0,
+    "doDamage": 1,
+    "forceUseThisRadius": 1,
+    "damageRadius": 4.0,
+    "damageToPlayer": 0.5,
+    "damage": 35.0,
+    "breakSecretWalls": 0,
+    "secretWallsRadius": 4.5,
+    "forcePreventSecretWallDamage": 0,
+    "doDestroyProjectiles": 1,
+    "doForce": 1,
+    "pushRadius": 6.0,
+    "force": 100.0,
+    "debrisForce": 50.0,
+    "preventPlayerForce": 0,
+    "explosionDelay": 0.1,
+    "usesComprehensiveDelay": 0,
+    "comprehensiveDelay": 0.0,
+    "effect": {
+      "m_FileID": 0,
+      "m_PathID": 3863975863904140992
+    },
+    "doScreenShake": 1,
+    "ss": {
+      "magnitude": 0.5,
+      "speed": 7.5,
+      "time": 0.1,
+      "falloff": 0.0,
+      "direction": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "vibrationType": 10,
+      "simpleVibrationTime": 20,
+      "simpleVibrationStrength": 20
+    },
+    "doStickyFriction": 0,
+    "doExplosionRing": 1,
+    "isFreezeExplosion": 0,
+    "freezeRadius": 5.0,
+    "freezeEffect": {
+      "AffectsPlayers": 1,
+      "AffectsEnemies": 1,
+      "effectIdentifier": "effect",
+      "resistanceType": 0,
+      "stackMode": 0,
+      "duration": 10.0,
+      "maxStackedDuration": -1.0,
+      "AppliesTint": 0,
+      "TintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5
+      },
+      "AppliesDeathTint": 0,
+      "DeathTintColor": {
+        "r": 0.388,
+        "g": 0.388,
+        "b": 0.388,
+        "a": 1.0
+      },
+      "AppliesOutlineTint": 0,
+      "OutlineTintColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "OverheadVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "PlaysVFXOnActor": 0,
+      "FreezeAmount": 10.0,
+      "UnfreezeDamagePercent": 0.333,
+      "FreezeCrystals": [],
+      "crystalRot": 8,
+      "crystalVariation": {
+        "x": 0.05,
+        "y": 0.05
+      },
+      "debrisMinForce": 5,
+      "debrisMaxForce": 5,
+      "debrisAngleVariance": 15.0,
+      "vfxExplosion": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "playDefaultSFX": 0,
+    "IsChandelierExplosion": 0,
+    "rotateEffectToNormal": 0,
+    "ignoreList": [],
+    "overrideRangeIndicatorEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "explosionOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "replacementRangeEffect": {
+    "m_FileID": 0,
+    "m_PathID": 4612157774762661040
+  },
+  "triggerObjectPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 852428682837215863
+  },
+  "DoesTriggerShake": 1,
+  "TriggerShake": {
+    "magnitude": 0.35,
+    "speed": 7.0,
+    "time": 1.4,
+    "falloff": 0.0,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "EnableRigidbodyPostFall": {
+    "m_FileID": 0,
+    "m_PathID": 6627754880271199407
+  },
+  "MakeMajorBreakableAfterwards": 1
+}

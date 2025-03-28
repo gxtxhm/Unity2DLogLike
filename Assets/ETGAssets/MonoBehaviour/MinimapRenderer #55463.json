@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2446970192959568425
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4987617061182749837
+  },
+  "m_Name": "",
+  "QuadTransform": {
+    "m_FileID": 0,
+    "m_PathID": -8563836946875816915
+  },
+  "MapMaskFullscreen": {
+    "m_FileID": 0,
+    "m_PathID": 2678978859967645019
+  },
+  "MapMaskSmallscreen": {
+    "m_FileID": 0,
+    "m_PathID": -6104870892519882091
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5869223046938811515
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -791905017395271384
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 3,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 516935941125731281
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 1,
+  "IsBodySprite": 0,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "blank",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "jump_pound",
+      "anim": {
+        "Type": 1,
+        "Prefix": "jump_pound_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "pound_left_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "pound_right_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_tell_vfx_left",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_tell_vfx_right",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_center",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_tell_vfx_middle",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "magic_circle_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "magic_circle_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "magic_circle_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "magic_circle_wizard_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "icon_stomp",
+      "anim": {
+        "Type": 1,
+        "Prefix": "icon_stomp_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "tailgun",
+      "anim": {
+        "Type": 1,
+        "Prefix": "tailgun_fire_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "destroy_radome",
+      "anim": {
+        "Type": 1,
+        "Prefix": "destroy_right_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "destroy_tailgun",
+      "anim": {
+        "Type": 1,
+        "Prefix": "destroy_left_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

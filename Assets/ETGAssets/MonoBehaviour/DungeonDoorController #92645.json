@@ -1,0 +1,136 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2847048822803947140
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9091778748497539986
+  },
+  "m_Name": "",
+  "doorMode": 0,
+  "doorClosesAfterEveryOpen": 0,
+  "doorModules": [
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": -4294993790532299394
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "castle_door_east_top_open",
+      "closeAnimationName": "castle_door_east_top_close",
+      "AOAnimatorsToDisable": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1533834739077069773
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 4903698965972144740
+        }
+      ],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": 8076551593651588969
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "castle_door_east_bottom_open",
+      "closeAnimationName": "castle_door_east_bottom_close",
+      "AOAnimatorsToDisable": [],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "hideSealAnimators": 1,
+  "sealAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 9122055050504828384
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 921863937773848824
+    }
+  ],
+  "sealChainAnimators": [],
+  "sealVFX": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3592107123862457574
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5154678618780341011
+    }
+  ],
+  "unsealDistanceMaximum": -1.0,
+  "unsealedVFXOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "sealAnimationName": "door_block_steel_side_close",
+  "unsealAnimationName": "door_block_steel_side_open",
+  "playerNearSealedAnimationName": "",
+  "SupportsSubsidiaryDoors": 1,
+  "northSouth": 0,
+  "subsidiaryBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "subsidiaryDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChainsAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "isLocked": 0,
+  "lockIsBusted": 0,
+  "isSealed": 0,
+  "usesUnsealScreenShake": 0,
+  "unsealScreenShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  }
+}

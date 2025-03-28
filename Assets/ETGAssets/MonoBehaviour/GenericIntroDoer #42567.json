@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4853418058178054943
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2437215271021469009
+  },
+  "m_Name": "",
+  "triggerType": 10,
+  "initialDelay": 1.0,
+  "cameraMoveSpeed": 12.0,
+  "specifyIntroAiAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "BossMusicEvent": "Play_MUS_Boss_Theme_Beholster",
+  "PreventBossMusic": 0,
+  "InvisibleBeforeIntroAnim": 0,
+  "preIntroAnim": "",
+  "preIntroDirectionalAnim": "",
+  "introAnim": "",
+  "introDirectionalAnim": "intro",
+  "continueAnimDuringOutro": 0,
+  "cameraFocus": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "roomPositionCameraFocus": {
+    "x": 22.0,
+    "y": 21.0
+  },
+  "restrictPlayerMotionToRoom": 0,
+  "fusebombLock": 1,
+  "AdditionalHeightOffset": 0.0,
+  "SkipBossCard": 0,
+  "portraitSlideSettings": {
+    "bossNameString": "#AGUNIM_HELI_TITLE",
+    "bossSubtitleString": "#AGUNIM_HELI_SUBTITLE",
+    "bossQuoteString": "#AGUNIM_QUOTE",
+    "bossArtSprite": {
+      "m_FileID": 0,
+      "m_PathID": -43081988248803841
+    },
+    "bossSpritePxOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "topLeftTextPxOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "bottomRightTextPxOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "bgColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  },
+  "HideGunAndHand": 0
+}

@@ -1,0 +1,45 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8221594899375339832
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2743232895048279049
+  },
+  "m_Name": "",
+  "PickupObjectId": 240,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Crutch",
+  "ForcedPositionInAmmonomicon": 142,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ActivationChance": 1.0,
+  "homingRadius": 5.0,
+  "homingAngularVelocity": 250.0,
+  "SynergyIncreasesDamageIfNotActive": 0,
+  "SynergyRequired": 0,
+  "SynergyDamageMultiplier": 1.5
+}

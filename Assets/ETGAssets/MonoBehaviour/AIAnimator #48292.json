@@ -1,0 +1,282 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9007909677547743886
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 7633357033396573661
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 3,
+    "Prefix": "idle",
+    "AnimNames": [
+      "idle_back",
+      "idle_front_no_gun"
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "piriest_idle",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "gun_out",
+      "anim": {
+        "Type": 3,
+        "Prefix": "gun_out",
+        "AnimNames": [
+          "",
+          "gun_out"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "gun_attack",
+      "anim": {
+        "Type": 4,
+        "Prefix": "attack",
+        "AnimNames": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "gun_in",
+      "anim": {
+        "Type": 3,
+        "Prefix": "gun_in",
+        "AnimNames": [
+          "",
+          "gun_in"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound",
+      "anim": {
+        "Type": 1,
+        "Prefix": "pound",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "doubledraw",
+      "anim": {
+        "Type": 1,
+        "Prefix": "doubledraw",
+        "AnimNames": [
+          "gun_quickshot_back"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "teleport",
+      "anim": {
+        "Type": 3,
+        "Prefix": "teleport",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "die",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "postdeath",
+      "anim": {
+        "Type": 1,
+        "Prefix": "death_win",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "doubledraw",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 6454170916569578357
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 4496315914771461570
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 10.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "pound",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 534566563473504960
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -2895150965479162590
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bat_transform",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 5530242294013695365
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 1,
+                "zHeight": 10.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

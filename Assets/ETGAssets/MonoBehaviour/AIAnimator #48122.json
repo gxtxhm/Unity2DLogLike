@@ -1,0 +1,167 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7187088966694404921
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 3,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": -7583315243543541678
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 1,
+  "IsBodySprite": 0,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "blank",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "vfx_player_hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "block_hit",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_player_block",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "block_break",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_player_block_break",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "get_star_one",
+      "anim": {
+        "Type": 1,
+        "Prefix": "player_star_get_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "get_star_two",
+      "anim": {
+        "Type": 1,
+        "Prefix": "player_star_get_2_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "get_star_three",
+      "anim": {
+        "Type": 1,
+        "Prefix": "player_star_get_3_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "lose_stars",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_player_starloss",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "die",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_player_knockout",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

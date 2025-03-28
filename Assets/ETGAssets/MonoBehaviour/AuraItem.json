@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4707723934825173111
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5192650715567783117
+  },
+  "m_Name": "",
+  "PickupObjectId": 253,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Gungeon Pepper",
+  "ForcedPositionInAmmonomicon": 176,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AuraRadius": 5.0,
+  "damageTypes": 4,
+  "DamagePerSecond": 5.0,
+  "DamageFallsOffInRadius": 0,
+  "AuraVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "damageMultiplierSynergies": [],
+  "rangeMultiplierSynergies": [
+    {
+      "RequiredSynergy": 212,
+      "SynergyMultiplier": 2.0
+    }
+  ]
+}

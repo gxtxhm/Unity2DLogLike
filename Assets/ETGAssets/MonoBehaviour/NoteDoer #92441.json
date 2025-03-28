@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3266792775241526031
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4164567340799876033
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "noteBackgroundType": 0,
+  "stringKey": "#TUTORIAL_KNIGHT_GUNS_NOTE_02",
+  "useAdditionalStrings": 0,
+  "additionalStrings": [],
+  "isNormalNote": 0,
+  "useItemsTable": 0,
+  "textboxSpawnPoint": {
+    "m_FileID": 0,
+    "m_PathID": 9079677244879731504
+  },
+  "DestroyedOnFinish": 0
+}

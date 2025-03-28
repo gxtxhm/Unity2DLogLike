@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1473187893869116416
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "989a7d4ef32849d58a64e365041f0ce1",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#PITCHFORK_ENCNAME",
+    "NotificationPanelDescription": "#PITCHFORK_SHORTDESC",
+    "AmmonomiconFullEntry": "#PITCHFORK_LONGDESC",
+    "AmmonomiconSprite": "pitchfork_idle_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

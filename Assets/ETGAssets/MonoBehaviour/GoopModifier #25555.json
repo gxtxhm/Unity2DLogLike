@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 142334430428238866
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1574674627172724204
+  },
+  "m_Name": "",
+  "goopDefinition": {
+    "m_FileID": 2,
+    "m_PathID": 4151654070313257355
+  },
+  "IsSynergyContingent": 1,
+  "RequiredSynergy": 227,
+  "SpawnGoopInFlight": 1,
+  "InFlightSpawnFrequency": 0.05,
+  "InFlightSpawnRadius": 0.25,
+  "SpawnGoopOnCollision": 0,
+  "OnlyGoopOnEnemyCollision": 0,
+  "CollisionSpawnRadius": 3.0,
+  "SpawnAtBeamEnd": 0,
+  "BeamEndRadius": 1.0,
+  "spawnOffset": {
+    "x": 0.0,
+    "y": -0.5
+  },
+  "UsesInitialDelay": 0,
+  "InitialDelay": 0.25
+}

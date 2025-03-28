@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8751253741152745786
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9021897427720983138
+  },
+  "m_Name": "",
+  "DistanceCutoff": 5.0,
+  "AngleCutoff": 360.0,
+  "SpeedMultiplier": 4.0,
+  "NewSlowdownCurve": {
+    "m_Curve": [
+      {
+        "time": -0.0008583691,
+        "value": 1.0,
+        "inSlope": -0.045686357,
+        "outSlope": -0.045686357
+      },
+      {
+        "time": 1.0,
+        "value": 0.099999994,
+        "inSlope": -1.2659907,
+        "outSlope": -1.2659907
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "CurveTime": 0.75,
+  "IsSynergyContingent": 0,
+  "RequiredSynergy": 123,
+  "OnlyInSpecificForm": 0,
+  "RequiredVolley": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

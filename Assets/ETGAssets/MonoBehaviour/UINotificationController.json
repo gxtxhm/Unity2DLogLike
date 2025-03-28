@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 177
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 4
+  },
+  "m_Name": "",
+  "notificationObjectSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3698
+  },
+  "notificationSynergySprite": {
+    "m_FileID": 0,
+    "m_PathID": 3198
+  },
+  "ObjectBoxSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3927
+  },
+  "CrosshairSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3488
+  },
+  "StickerSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3674
+  },
+  "BoxSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3310
+  },
+  "NameLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3415
+  },
+  "DescriptionLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3930
+  },
+  "CenterLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3184
+  },
+  "SilverAnimClip": {
+    "m_FileID": 2,
+    "m_PathID": -7803322071490673358
+  },
+  "GoldAnimClip": {
+    "m_FileID": 2,
+    "m_PathID": -3225329021635804286
+  },
+  "PurpleAnimClip": {
+    "m_FileID": 2,
+    "m_PathID": -6113859412319366476
+  },
+  "SynergyTransformClip": {
+    "m_FileID": 2,
+    "m_PathID": 4771657546765536331
+  },
+  "SynergyBoxTransformClip": {
+    "m_FileID": 2,
+    "m_PathID": -8809665727628871010
+  },
+  "SynergyCrosshairTransformClip": {
+    "m_FileID": 2,
+    "m_PathID": -7424258048492742286
+  }
+}

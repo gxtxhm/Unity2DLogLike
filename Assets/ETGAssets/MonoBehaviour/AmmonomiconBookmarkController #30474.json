@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4323735924739517077
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4211333857407220814
+  },
+  "m_Name": "",
+  "AppearClip": {
+    "m_FileID": 0,
+    "m_PathID": 2753037321303212938
+  },
+  "SelectSpriteName": "bookmark_enemies_hover_001",
+  "SelectClip": {
+    "m_FileID": 0,
+    "m_PathID": -1509141499548015423
+  },
+  "DeselectSelectedSpriteName": "bookmark_enemies_select_hover_001",
+  "TargetNewPageLeft": "Global Prefabs/Ammonomicon Pages/Enemies Page Left",
+  "LeftPageType": 7,
+  "TargetNewPageRight": "Global Prefabs/Ammonomicon Pages/Info Page Right",
+  "RightPageType": 8
+}

@@ -1,0 +1,286 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5158728493760694674
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 231938414573875713
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "displayTextKey": "#SHRINE_DICE_DISPLAY",
+  "acceptOptionKey": "#SHRINE_DICE_ACCEPT",
+  "declineOptionKey": "#SHRINE_DECLINE",
+  "spentOptionKey": "#SHRINE_GENERIC_SPENT",
+  "IsBlankShrine": 0,
+  "IsRNGShrine": 1,
+  "IsHealthArmorSwapShrine": 0,
+  "IsJunkShrine": 0,
+  "IsBloodShrine": 0,
+  "IsGlassShrine": 0,
+  "Costs": [
+    {
+      "costType": 1,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_BAD_HEALTH",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 7,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [
+        {
+          "statToBoost": 3,
+          "modifyType": 0,
+          "amount": -1.0,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_BAD_HEALTHSLOT",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 0,
+      "cost": 0,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_BAD_MONEY",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 5,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_BAD_GUN",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 7,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [
+        {
+          "statToBoost": 9,
+          "modifyType": 1,
+          "amount": 0.7,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_BAD_AMMOCAP",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 3,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_BAD_BLANK",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 7,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [
+        {
+          "statToBoost": 10,
+          "modifyType": 1,
+          "amount": 1.35,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_BAD_RELOAD",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    },
+    {
+      "costType": 7,
+      "cost": 1,
+      "AllowsArmorConversionForRobot": 0,
+      "statMods": [
+        {
+          "statToBoost": 14,
+          "modifyType": 0,
+          "amount": 5.0,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_BAD_CURSE",
+      "rngWeight": 1.0,
+      "targetItemID": 0
+    }
+  ],
+  "Benefits": [
+    {
+      "benefitType": 1,
+      "amount": 1.0,
+      "appliesToAllGuns": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_HEALTH",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 6,
+      "amount": 1.0,
+      "appliesToAllGuns": 0,
+      "statMods": [
+        {
+          "statToBoost": 3,
+          "modifyType": 0,
+          "amount": 1.0,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_GOOD_HEALTHSLOT",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 6,
+      "amount": 1.0,
+      "appliesToAllGuns": 0,
+      "statMods": [
+        {
+          "statToBoost": 0,
+          "modifyType": 0,
+          "amount": 1.0,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_GOOD_MOVESPEED",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 0,
+      "amount": 0.0,
+      "appliesToAllGuns": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_MONEY",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 2,
+      "amount": 2.0,
+      "appliesToAllGuns": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_ARMOR",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 7,
+      "amount": 10.0,
+      "appliesToAllGuns": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_CURSE",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 8,
+      "amount": 3.0,
+      "appliesToAllGuns": 0,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_CHEST",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 3,
+      "amount": 2.0,
+      "appliesToAllGuns": 1,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_BLANK",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 5,
+      "amount": 1.0,
+      "appliesToAllGuns": 1,
+      "statMods": [],
+      "rngString": "#SHRINE_DICE_GOOD_AMMO",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    },
+    {
+      "benefitType": 6,
+      "amount": 1.0,
+      "appliesToAllGuns": 1,
+      "statMods": [
+        {
+          "statToBoost": 9,
+          "modifyType": 0,
+          "amount": 1.25,
+          "isMeatBunBuff": 0
+        }
+      ],
+      "rngString": "#SHRINE_DICE_GOOD_AMMO",
+      "rngWeight": 1.0,
+      "targetItemID": 0,
+      "TurkeyCompanionForCompanionShrine": 0
+    }
+  ],
+  "CanBeReused": 0,
+  "IsCleanseShrine": 0,
+  "IsLegendaryHeroShrine": 0,
+  "IncrementMoneyCostEachUse": 0,
+  "IncrementMoneyCostAmount": 10,
+  "ShattersOnUse": 0,
+  "ShatterSystem": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShatterSpriteDisable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AlternativeOutlineTarget": {
+    "m_FileID": 0,
+    "m_PathID": -1510259850003749979
+  },
+  "talkPoint": {
+    "m_FileID": 0,
+    "m_PathID": 5309832133254227147
+  },
+  "onPlayerVFX": {
+    "m_FileID": 0,
+    "m_PathID": -3530964550194581865
+  },
+  "playerVFXOffset": {
+    "x": 0.0,
+    "y": -0.5,
+    "z": 0.0
+  },
+  "EncounterNotificationSprite": {
+    "m_FileID": 1,
+    "m_PathID": -1918502480604858666
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3188967540595131320
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6116043162237188626
+  },
+  "m_Name": "",
+  "upPixels": 3,
+  "downPixels": 2,
+  "bounceSpeed": 1.0,
+  "Quantized": 1,
+  "BobDuringBossIntros": 0
+}

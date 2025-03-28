@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8542394623116415328
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8490804861579387423
+  },
+  "m_Name": "",
+  "PostprocessSpawnedProjectiles": 1,
+  "spawnProjectilesInFlight": 0,
+  "projectileToSpawnInFlight": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "inFlightSpawnCooldown": 1.0,
+  "inFlightSpawnAngle": 90.0,
+  "InFlightSourceTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "usesComplexSpawnInFlight": 0,
+  "numToSpawnInFlight": 2,
+  "fireRandomlyInAngle": 0,
+  "inFlightAimAtEnemies": 0,
+  "inFlightSpawnAnimation": "",
+  "spawnProjectilesOnCollision": 1,
+  "collisionSpawnStyle": 1,
+  "doOverrideObjectCollisionSpawnStyle": 1,
+  "overrideObjectSpawnStyle": 0,
+  "spawnCollisionProjectilesOnBounce": 1,
+  "projectileToSpawnOnCollision": {
+    "m_FileID": 0,
+    "m_PathID": 6272023460448833790
+  },
+  "UsesMultipleCollisionSpawnProjectiles": 1,
+  "collisionSpawnProjectiles": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6272023460448833790
+    }
+  ],
+  "numberToSpawnOnCollison": 3,
+  "startAngle": 3,
+  "randomRadialStartAngle": 1,
+  "spawnOnObjectCollisions": 1,
+  "alignToSurfaceNormal": 1,
+  "spawnProjecitlesOnDieInAir": 1,
+  "SpawnedProjectilesInheritData": 0,
+  "spawnAudioEvent": "Play_WPN_shotgun_shot_01"
+}

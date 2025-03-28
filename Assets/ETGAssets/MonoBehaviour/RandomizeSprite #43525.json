@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4616112294844637400
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3437773378441611256
+  },
+  "m_Name": "",
+  "spriteNames": [
+    "bunker_shard_var_002",
+    "bunker_shard_var_003",
+    "bunker_shard_var_004",
+    "bunker_shard_var_008"
+  ],
+  "animationNames": [],
+  "UseStaticIndex": 0
+}

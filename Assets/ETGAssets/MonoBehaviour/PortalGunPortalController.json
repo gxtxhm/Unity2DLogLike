@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2524742458122592718
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4943384965455360733
+  },
+  "m_Name": "",
+  "IsAlternatePortal": 0,
+  "PortalNormal": {
+    "x": 0.0,
+    "y": -1.0
+  },
+  "pairedPortal": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FacewallCamera": {
+    "m_FileID": 0,
+    "m_PathID": 782916498469044708
+  },
+  "PortalRenderer": {
+    "m_FileID": 0,
+    "m_PathID": -8367973531174883245
+  },
+  "FacewallMaskTexture": {
+    "m_FileID": 0,
+    "m_PathID": -7416969178557694375
+  },
+  "PixelWidth": 16,
+  "PixelHeight": 32
+}

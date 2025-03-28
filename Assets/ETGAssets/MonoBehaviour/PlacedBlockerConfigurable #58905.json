@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 465898218751196140
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6382796565597558890
+  },
+  "m_Name": "",
+  "colliderSelection": 1,
+  "SpecifyPixelCollider": 0,
+  "SpecifiedPixelCollider": 0
+}

@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 654027268737388552
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "active_reload_confirm_anim_001",
+    "active_reload_confirm_anim_002",
+    "active_reload_confirm_anim_003",
+    "active_reload_confirm_anim_004",
+    "active_reload_confirm_anim_005"
+  ]
+}

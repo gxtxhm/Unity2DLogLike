@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1834345685357060473
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8006148946871396388
+  },
+  "m_Name": "",
+  "RequiredSynergy": 172,
+  "goopDefinition": {
+    "m_FileID": 2,
+    "m_PathID": 4500888693936625257
+  },
+  "goopRadius": 0.8,
+  "modifiers": [
+    {
+      "damageType": 4,
+      "damageMultiplier": 0.0
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4397596668402491801
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "attack",
+      "anim": {
+        "Type": 1,
+        "Prefix": "attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "death",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 103943177436918406
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": 5243546660362736755
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 1,
+                "zHeight": 2.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "attack",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 7430522438821315701
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -4231355592401033710
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 2.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "attack",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 3859110653057482383
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -4231355592401033710
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 2.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "attack",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -3397028532880435291
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -4231355592401033710
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 2.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

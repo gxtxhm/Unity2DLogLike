@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5227505565043456721
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2208177828379996869
+  },
+  "m_Name": "",
+  "localPosition": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "localRotation": {
+    "x": -100.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "localScale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "prefab": {
+    "m_FileID": 2,
+    "m_PathID": -5922296209664608900
+  }
+}

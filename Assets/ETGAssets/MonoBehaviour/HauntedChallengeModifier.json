@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3369370380448399385
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3235923212119870738
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_GHOSTS",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Ghost_of_the_Shell_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -420585130558581684
+    }
+  ],
+  "GhostGuid": "4db03291a12144d69fe940d5a01de376",
+  "Chance": 0.5,
+  "GhostOverrideSpawnAnimation": "challenge_intro"
+}

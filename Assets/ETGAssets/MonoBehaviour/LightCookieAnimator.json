@@ -1,0 +1,236 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5160169671173722163
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6796676015920745120
+  },
+  "m_Name": "",
+  "frames": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8036605876839311724
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1213986137227164210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5393652637192169206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6478542179730586828
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5266163468364777406
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8784495118190529838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 534398262189709388
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1480179285114480910
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5501759439145144570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -523201122059500183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6765922138380846989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4055790419829873567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 850750270873505638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3428310889154646293
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1065994654502881114
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8046387321959667163
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3320887275955024192
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8164132106218906133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8173949557317377672
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3134909066235222971
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8893776303739784190
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1816754338082140482
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5910008808312117884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5395055695240231421
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4024266068270039505
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4315006918084881896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5202330229122550463
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7254331102996222858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 629786559776989555
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -781859569489204512
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8907218639690733628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6687340790746960495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5211517313640784585
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7413471976442468705
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2987402421045722689
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2122287899008786890
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6610429261467881074
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7444139728109361962
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2982314241005738378
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5147987291022233383
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6671384590132465875
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8218339243920720115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1955163596072408859
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1554287543814614370
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -145917583975481890
+    }
+  ],
+  "duration": 4.0,
+  "initialDelay": 2.0,
+  "additionalScreenShakeDelay": 0.4,
+  "doScreenShake": 1,
+  "screenShake": {
+    "magnitude": 0.125,
+    "speed": 1.5,
+    "time": 2.6,
+    "falloff": 0.5,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "doVFX": 0,
+  "vfxs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1870894184029341949
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2976328145142405224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2832591068979818775
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2040337611863610491
+    }
+  ],
+  "vfxTimes": [
+    0.25,
+    0.75,
+    2.0,
+    1.1
+  ]
+}

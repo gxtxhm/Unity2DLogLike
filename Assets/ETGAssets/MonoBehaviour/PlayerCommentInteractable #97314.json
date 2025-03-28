@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8824441182406875763
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1420447468114459502
+  },
+  "m_Name": "",
+  "comments": [
+    {
+      "stringKey": "#PRIMERDYNE_CELL_THOUGHTS_01",
+      "duration": 3.0,
+      "target": 0,
+      "delay": 3.0
+    }
+  ],
+  "onlyTriggerOnce": 1,
+  "linkedInteractables": [],
+  "keyIsSequential": 0,
+  "usesOverrideInteractionRegion": 0,
+  "overrideRegionOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "overrideRegionDimensions": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

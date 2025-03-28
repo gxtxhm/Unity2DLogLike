@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -839949033510723912
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3827545874050458206
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "mySprite": {
+    "m_FileID": 0,
+    "m_PathID": -4860004727994741768
+  },
+  "StopsGameProjectileBounces": 0,
+  "DestroyBumperOnGameCollision": 0,
+  "diagonalDirection": 0,
+  "BumperPopVFX": {
+    "type": 0,
+    "effects": []
+  },
+  "hitAnimation": "winchester_bump_blue_bump",
+  "breakAnimation": "",
+  "idleAnimation": "winchester_bump_blue_idle"
+}

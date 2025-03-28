@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3184971455017319916
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3437773378441611256
+  },
+  "m_Name": "",
+  "spriteNames": [
+    "statue_shards_001",
+    "statue_shards_002",
+    "statue_shards_003",
+    "statue_shards_004",
+    "statue_shards_005"
+  ],
+  "animationNames": [],
+  "UseStaticIndex": 0
+}

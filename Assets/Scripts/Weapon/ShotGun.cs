@@ -11,12 +11,14 @@ public class ShotGun : Weapon
 
     public override void Reload()
     {
+        base.Reload();
         StartCoroutine("CoReload");
     }
 
     public override void Shoot()
     {
         if (IsReloading) return;
+        base.Shoot();
         curAmmo--;
 
         float spreadAngle = 10;

@@ -1,0 +1,391 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6503930376332791300
+  },
+  "m_Name": "WhichShrineWillItBe",
+  "width": 2,
+  "height": 2,
+  "isPassable": 0,
+  "roomSequential": 0,
+  "respectsEncounterableDifferentiator": 1,
+  "UsePrefabTransformOffset": 1,
+  "MarkSpawnedItemsAsRatIgnored": 0,
+  "DebugThisPlaceable": 0,
+  "IsAnnexTable": 0,
+  "variantTiers": [
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 3016319023534440071
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 0,
+          "statToCheck": 0,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 128,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 2351780477477108370
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 128,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -929916086417621573
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 3.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 8597158752801073666
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -1892137003243825606
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 31,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 4970314835555378480
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 3.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 5221065221435929580
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 4,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 3.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 150002,
+          "requireFlag": 1,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.25,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 8398283021157160294
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 30,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1875,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 7144171623300007154
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 4,
+          "prerequisiteOperation": 0,
+          "statToCheck": 0,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 171006,
+          "requireFlag": 1,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1875,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -3333458435970356263
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [
+        {
+          "prerequisiteType": 0,
+          "prerequisiteOperation": 2,
+          "statToCheck": 0,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "77246c91dbaf41498fc5605600e2701b",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 3,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 171006,
+          "requireFlag": 1,
+          "requireDemoMode": 0
+        }
+      ],
+      "materialRequirements": []
+    }
+  ]
+}

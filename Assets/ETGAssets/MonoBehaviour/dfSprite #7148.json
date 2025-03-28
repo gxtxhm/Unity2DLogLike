@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8517997204590011197
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9117554463270443878
+  },
+  "m_Name": "",
+  "anchorStyle": 261,
+  "isEnabled": 1,
+  "isVisible": 0,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 2,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 188.0,
+    "y": 340.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 261,
+    "margins": {
+      "left": 0.28333333,
+      "top": 0.13055556,
+      "right": 0.38125,
+      "bottom": 0.44537038
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": -7310388203431838443
+    }
+  },
+  "renderOrder": 23,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -9078157847827417999
+  },
+  "spriteName": "challenge_mode_ribbon_001",
+  "flip": 0,
+  "fillDirection": 0,
+  "fillAmount": 1.0,
+  "invertFill": 0
+}

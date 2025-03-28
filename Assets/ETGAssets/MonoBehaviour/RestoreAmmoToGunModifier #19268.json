@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2304088425293068896
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6931302506757084939
+  },
+  "m_Name": "",
+  "ChanceToWork": 1.0,
+  "AmmoToGain": 1,
+  "RequiresSynergy": 0,
+  "RequiredSynergy": 0,
+  "RegainAmmoAnimation": "hld_recoup"
+}

@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6281943286766153633
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":true,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"turnTime\":0.5,\"stoppedTurnMultiplier\":3.0,\"targetTolerance\":30.0,\"slither\":false,\"slitherPeriod\":0.0,\"slitherMagnitude\":0.0,\"bob\":true,\"bobPeriod\":1.0,\"bobPeriodVariance\":0.200000002980232,\"bobMagnitude\":1.0,\"pathfind\":true,\"pathInterval\":0.25,\"SpecifyRange\":false,\"MinActiveRange\":0.0,\"MaxActiveRange\":0.0,\"$type\":\"SmoothSeekTargetBehavior\"}]",
+    "[{\"GroupCooldownVariance\":0.0,\"LineOfSight\":true,\"WeaponType\":\"AIShooterProjectile\",\"OverrideBulletName\":\"default\",\"BulletScript\":null,\"FixTargetDuringAttack\":false,\"StopDuringAttack\":false,\"LeadAmount\":1.0,\"LeadChance\":0.400000005960464,\"RespectReload\":false,\"MagazineCapacity\":8.0,\"ReloadSpeed\":1.5,\"EmptiesClip\":false,\"SuppressReloadAnim\":false,\"TimeBetweenShots\":-1.0,\"PreventTargetSwitching\":false,\"OverrideAnimation\":null,\"OverrideDirectionalAnimation\":null,\"HideGun\":false,\"UseLaserSight\":false,\"UseGreenLaser\":false,\"PreFireLaserTime\":-1.0,\"AimAtFacingDirectionWhenSafe\":false,\"Cooldown\":0.300000011920929,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":30.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootGunBehavior\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.5,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

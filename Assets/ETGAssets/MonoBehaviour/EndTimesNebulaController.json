@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 956018241863999518
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5838536470601391593
+  },
+  "m_Name": "",
+  "NebulaCamera": {
+    "m_FileID": 0,
+    "m_PathID": 5314736389720398151
+  },
+  "NebulaClouds": {
+    "m_FileID": 0,
+    "m_PathID": 1491652374841513570
+  },
+  "CloudParallaxFactor": 0.1,
+  "BGQuad": {
+    "m_FileID": 0,
+    "m_PathID": -4640016577469302591
+  },
+  "NebulaRegisteredVisuals": []
+}

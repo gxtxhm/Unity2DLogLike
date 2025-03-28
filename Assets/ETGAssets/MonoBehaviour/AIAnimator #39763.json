@@ -1,0 +1,204 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8128453626384517023
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 3,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 4175025045613926745
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 1,
+  "IsBodySprite": 0,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "blank",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "hover_intro",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_hover_intro_vfx",
+        "AnimNames": [
+          "attack_hover_intro_phantom_back_vfx",
+          "attack_hover_intro_vfx",
+          "attack_hover_intro_vfx",
+          "attack_hover_intro_vfx",
+          "attack_hover_intro_vfx",
+          "attack_hover_intro_vfx"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "hover",
+      "anim": {
+        "Type": 1,
+        "Prefix": "attack_hover_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "hover_outro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "lightning",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_lightning_vfx",
+        "AnimNames": [
+          "attack_phantom_back_lightning_vfx",
+          "attack_lightning_vfx",
+          "attack_lightning_vfx",
+          "attack_lightning_vfx",
+          "attack_lightning_vfx",
+          "attack_lightning_vfx"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "arc_attack",
+      "anim": {
+        "Type": 2,
+        "Prefix": "attack",
+        "AnimNames": [
+          "attack_right_vfx",
+          "attack_left_vfx"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "arc_attack_reverse",
+      "anim": {
+        "Type": 2,
+        "Prefix": "attack",
+        "AnimNames": [
+          "attack_left_vfx",
+          "attack_right_vfx"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "deflect",
+      "anim": {
+        "Type": 1,
+        "Prefix": "attack_deflect_vfx",
+        "AnimNames": [
+          "attack_right_vfx"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "big_hit",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          "attack_right_vfx"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

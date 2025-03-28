@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -212766943367817350
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5828854281965281999
+  },
+  "m_Name": "",
+  "AuraRadius": 5.0,
+  "damageTypes": 64,
+  "DamagePerSecond": 5.0,
+  "IgnitesEnemies": 0,
+  "IgniteEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 10.0,
+    "ignitesGoops": 0,
+    "FlameVfx": [],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.0625
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 0.2,
+    "IsGreenFire": 0
+  },
+  "DoRadialIndicatorAnyway": 1,
+  "HasRadiusSynergy": 0,
+  "RadiusSynergy": 0,
+  "RadiusSynergyRadius": 10.0
+}

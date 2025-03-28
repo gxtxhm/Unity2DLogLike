@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 77
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 55
+  },
+  "m_Name": "",
+  "anchorStyle": 9,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 0,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 27.0,
+    "y": 27.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 9,
+    "margins": {
+      "left": 106.0,
+      "top": 3.0,
+      "right": -37.0,
+      "bottom": -14.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 3241
+    }
+  },
+  "renderOrder": 47,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -3892462693424714894
+  },
+  "spriteName": "Player_Rogue_001",
+  "flip": 0,
+  "fillDirection": 0,
+  "fillAmount": 1.0,
+  "invertFill": 0
+}

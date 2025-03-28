@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5825469136457944708
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3576929037775729706
+  },
+  "m_Name": "",
+  "explosionVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2652175161095520027
+    }
+  ],
+  "explosionMidDelay": 0.08,
+  "explosionCount": 25,
+  "bigExplosionVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 5243546660362736755
+    }
+  ],
+  "bigExplosionMidDelay": 0.3,
+  "bigExplosionCount": 6,
+  "debrisObjects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -301559201187696382
+    }
+  ],
+  "debrisCount": 10,
+  "debrisMinForce": 1,
+  "debrisMaxForce": 3,
+  "debrisUpForce": 8,
+  "debrisAngleVariance": 15.0,
+  "debrisLauncher": {
+    "m_FileID": 0,
+    "m_PathID": 1377246231536101903
+  }
+}

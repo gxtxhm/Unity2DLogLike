@@ -1,0 +1,133 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5941912855674477434
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7574668582490155961
+  },
+  "m_Name": "",
+  "PickupObjectId": 206,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "CharmHorn",
+  "ForcedPositionInAmmonomicon": 168,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 200.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "EffectRadius": 8.0,
+  "EffectTime": 0.0,
+  "OnUserEffectOffset": {
+    "x": 0.0,
+    "y": 1.5
+  },
+  "OnUserEffectAttached": 1,
+  "OnUserEffectVFX": {
+    "m_FileID": 0,
+    "m_PathID": 7162784025624421281
+  },
+  "OnTargetEffectVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AudioEvent": "Play_OBJ_charmhorn_use_01",
+  "AmbientVFXTime": 0.0,
+  "AmbientVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "minTimeBetweenAmbientVFX": 0.1,
+  "FlashScreen": 0,
+  "ShakeScreen": 0,
+  "ScreenShakeData": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "DoEffectDistortionWave": 1,
+  "DoCharm": 1,
+  "CharmEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "charm",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 0.8862745,
+      "g": 0.12156863,
+      "b": 0.96862745,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 793408701641037385
+    },
+    "PlaysVFXOnActor": 0
+  },
+  "HasProjectileSynergy": 1,
+  "ProjectileSynergyRequired": 219,
+  "SynergyVolley": {
+    "m_FileID": 0,
+    "m_PathID": 857244590265694273
+  }
+}

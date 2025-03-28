@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8306889510804232687
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2813809632916844434
+  },
+  "m_Name": "",
+  "trailRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "customTrailRenderer": {
+    "m_FileID": 0,
+    "m_PathID": -4394413012474894397
+  },
+  "desiredLength": 2.5
+}

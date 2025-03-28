@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 142334430428238866
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8355007099786847690
+  },
+  "m_Name": "",
+  "SynergyToCheck": 169,
+  "Mode": 0,
+  "SubBeamProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 6925739574537714809
+  },
+  "NumberBeams": 2,
+  "BeamAngle": 15.0,
+  "FromProjectileDamageModifier": 0.5
+}

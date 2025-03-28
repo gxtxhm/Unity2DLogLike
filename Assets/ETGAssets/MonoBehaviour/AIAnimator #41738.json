@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4545721809970804427
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 2,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 2,
+    "Prefix": "idle",
+    "AnimNames": [
+      "knife_left_idle",
+      "knife_right_idle"
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "move",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.5,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "shoot",
+      "anim": {
+        "Type": 2,
+        "Prefix": "shoot",
+        "AnimNames": [
+          "knife_left_fire",
+          "knife_right_fire"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 2,
+        "Prefix": "death",
+        "AnimNames": [
+          "knife_left_die",
+          "knife_right_die"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

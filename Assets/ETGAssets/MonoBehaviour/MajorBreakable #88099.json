@@ -1,0 +1,102 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5989959741257044447
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8278001065150162792
+  },
+  "m_Name": "",
+  "HitPoints": 1.0,
+  "DamageReduction": 0.0,
+  "MinHits": 0,
+  "EnemyDamageOverride": -1,
+  "ImmuneToBeastMode": 0,
+  "ScaleWithEnemyHealth": 0,
+  "OnlyExplosions": 1,
+  "IgnoreExplosions": 0,
+  "GameActorMotionBreaks": 0,
+  "PlayerRollingBreaks": 0,
+  "spawnShards": 1,
+  "distributeShards": 1,
+  "shardClusters": [
+    {
+      "minFromCluster": 6,
+      "maxFromCluster": 12,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 2,
+          "m_PathID": 5197134305565824159
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": -3389564309045800422
+        }
+      ]
+    },
+    {
+      "minFromCluster": 2,
+      "maxFromCluster": 4,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -5172388847017384926
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3953352702212297751
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5590551399595782365
+        }
+      ]
+    }
+  ],
+  "minShardPercentSpeed": 0.05,
+  "maxShardPercentSpeed": 0.3,
+  "shardBreakStyle": 0,
+  "usesTemporaryZeroHitPointsState": 0,
+  "spriteNameToUseAtZeroHP": "",
+  "destroyedOnBreak": 1,
+  "childrenToDestroy": [],
+  "playsAnimationOnNotBroken": 0,
+  "notBreakAnimation": "",
+  "handlesOwnBreakAnimation": 1,
+  "breakAnimation": "shabby_shelf_burst_001",
+  "handlesOwnPrebreakFrames": 0,
+  "prebreakFrames": [],
+  "damageVfx": {
+    "type": 0,
+    "effects": []
+  },
+  "damageVfxMinTimeBetween": 0.2,
+  "breakVfx": {
+    "type": 0,
+    "effects": []
+  },
+  "breakVfxParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "delayDamageVfx": 0,
+  "SpawnItemOnBreak": 0,
+  "ItemIdToSpawnOnBreak": -1,
+  "HandlePathBlocking": 0
+}

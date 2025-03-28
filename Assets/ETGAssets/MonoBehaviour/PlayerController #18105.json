@@ -1,0 +1,234 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5749279236342943437
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8834683009554263316
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ActorName": "",
+  "OverrideDisplayName": "",
+  "actorTypes": 0,
+  "HasShadow": 1,
+  "ShadowPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShadowObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShadowHeightOffGround": 0.0,
+  "ShadowParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ActorShadowOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "DoDustUps": 1,
+  "DustUpInterval": 0.15,
+  "OverrideDustUp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FreezeDispelFactor": 20.0,
+  "ImmuneToAllEffects": 0,
+  "EffectResistances": [],
+  "OverrideColorOverridden": 0,
+  "characterIdentity": 7,
+  "uiPortraitName": "talking_bar_character_window_cultist_001",
+  "BosscardSpriteFPS": 0.0,
+  "BosscardSprites": [],
+  "CoopBosscardOffset": {
+    "flipCoopCultist": 0,
+    "percentOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "stats": {
+    "m_FileID": 0,
+    "m_PathID": 5596838006645390991
+  },
+  "rollStats": {
+    "hasPreDodgeDelay": 0,
+    "preDodgeDelay": 0.0,
+    "time": 0.65,
+    "distance": 5.0,
+    "speed": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.003246753,
+          "inSlope": 1.2490121,
+          "outSlope": 1.3944796
+        },
+        {
+          "time": 0.4736049,
+          "value": 0.6636791,
+          "inSlope": 1.3944796,
+          "outSlope": 1.249103
+        },
+        {
+          "time": 0.68113804,
+          "value": 0.82011354,
+          "inSlope": 0.7533065,
+          "outSlope": 0.5641515
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 0.5641515,
+          "outSlope": 0.70207995
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  },
+  "pitHelpers": {
+    "PreJump": {
+      "x": 3,
+      "y": 6
+    },
+    "Landing": {
+      "x": 7,
+      "y": 10
+    }
+  },
+  "MAX_GUNS_HELD": 8,
+  "MAX_ITEMS_HELD": 1,
+  "startingGunIds": [
+    24
+  ],
+  "startingAlternateGunIds": [
+    811
+  ],
+  "finalFightGunIds": [],
+  "carriedConsumables": {
+    "StartCurrency": 0,
+    "StartKeyBullets": 1
+  },
+  "randomStartingEquipmentSettings": {
+    "D_CHANCE": 0.5,
+    "C_CHANCE": 0.4,
+    "B_CHANCE": 0.3,
+    "A_CHANCE": 0.05,
+    "S_CHANCE": 0.05,
+    "ExcludedPickups": []
+  },
+  "AllowZeroHealthState": 0,
+  "ForceZeroHealthState": 0,
+  "gunAttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": 8733178698101150247
+  },
+  "downwardAttachPointPosition": {
+    "x": 0.6875,
+    "y": 0.75,
+    "z": 0.0
+  },
+  "collisionKnockbackStrength": 10.0,
+  "primaryHand": {
+    "m_FileID": 0,
+    "m_PathID": 3777424163343159141
+  },
+  "secondaryHand": {
+    "m_FileID": 0,
+    "m_PathID": 2626519217754638332
+  },
+  "unadjustedAimPoint": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "outlineColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "minimapIconPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -315702787596591690
+  },
+  "AlternateCostumeLibrary": {
+    "m_FileID": 2,
+    "m_PathID": -8373539580716118804
+  },
+  "animationAudioEvents": [],
+  "characterAudioSpeechTag": "",
+  "usingForcedInput": 0,
+  "forcedInput": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "forceFire": 0,
+  "forceFireDown": 0,
+  "forceFireUp": 0,
+  "DrawAutoAim": 0,
+  "ForceMetalGearMenu": 0,
+  "IsTalking": 0,
+  "TalkPartner": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "startingActiveItemIds": [
+    412
+  ],
+  "startingPassiveItemIds": [
+    326
+  ],
+  "ownerlessStatModifiers": [],
+  "ForceHandless": 0,
+  "HandsOnAltCostume": 0,
+  "SwapHandsOnAltCostume": 0,
+  "altHandName": "",
+  "hasArmorlessAnimations": 0,
+  "lostAllArmorVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "lostAllArmorAltVfx": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "CustomDodgeRollEffect": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "knockbackComponent": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "immutableKnockbackComponent": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "RealtimeEnteredCurrentRoom": 0.0,
+  "previousMineCart": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PlayerIDX": -1,
+  "FlatColorOverridden": 0,
+  "IsCurrentlyCoopReviving": 0,
+  "TablesDamagedThisSlide": [],
+  "gunReloadDisplayTimer": 0.0,
+  "m_pettingTarget": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

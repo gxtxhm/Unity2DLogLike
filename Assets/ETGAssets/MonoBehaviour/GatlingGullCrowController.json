@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1036953521903313059
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4713138557937607589
+  },
+  "m_Name": "",
+  "useFacePoint": 0,
+  "facePoint": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "destroyOnArrival": 0
+}

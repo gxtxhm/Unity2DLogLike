@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4054618418405303474
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -72765074185183421
+  },
+  "m_Name": "",
+  "oilGoop": {
+    "m_FileID": 0,
+    "m_PathID": -1103573573969788261
+  },
+  "FireObject": {
+    "m_FileID": 0,
+    "m_PathID": 288769034892374668
+  },
+  "GrateRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": -532585747026558372
+  },
+  "goopMinOffset": {
+    "x": 3.0,
+    "y": 3.0
+  },
+  "goopDimensions": {
+    "x": 2.0,
+    "y": 1.0
+  },
+  "InteractPoint": {
+    "m_FileID": 0,
+    "m_PathID": 3277583182026521437
+  }
+}

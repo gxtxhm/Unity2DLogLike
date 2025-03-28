@@ -1,0 +1,1372 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1130109039773141024
+  },
+  "m_Name": "Forge_RoomTable",
+  "includedRooms": {
+    "elements": [
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6598288980003647980
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -9177110827259006060
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7317296401811636882
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7367733845746849210
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7525936930502488205
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3210549949889032176
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6491412213298743807
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6248838987088754144
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1116654524256434051
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5185706818942950396
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8652093109460016069
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 9057102801055301522
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5440270934315317790
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 4030455312472958930
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2241017566003757912
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7460726997796572710
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7021556944797170930
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1567315059352587429
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5292921361572497728
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 4617442187781332240
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6087410708610278149
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -680608354226246512
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7499027569554958769
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2784889818503650835
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5561902650396981028
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 9001825473028933261
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -291898471219131707
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6577203457034071728
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1491566510084806533
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7888576212113232955
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7231868904785282163
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5534988361988287111
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3464525674658626453
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5768918538111249591
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7214824405036880718
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -830499910839678384
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2119509541529015063
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -297083607647144867
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7818110114318906882
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1601232610633868593
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -984102603045967386
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 104267137943998647
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2189305078499806665
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1239516706706428156
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5091152009690623052
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2683328933844626033
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2012147088318154659
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6979309421929707991
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3653447561563092042
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8762338226965017049
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 823414541192981953
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -4587703365921760220
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 999096471274784872
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6970585759411899890
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1798158815266202479
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2560042316312374487
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6900565711116319315
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6569136171871544786
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3650002522905305882
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6167942352824457946
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7127567960216245869
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7728667784489938894
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7957689134967720801
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1463514082039922734
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8714584272380514373
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 117130186493617010
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7015532246151996942
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3350006565213034716
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5167707837980414390
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3163605698047543947
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6388619840125550744
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2301221012396671101
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8815410417521363260
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5461061074857839427
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8385321083434292349
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5338436860730768297
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -844192717170508953
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7704662406967659274
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3248953918016934078
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 4776828450714285210
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6784818758890305462
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8816266080449057899
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 798745619504956185
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1729322332919034086
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1166507863876490387
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3261068535223965174
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8928248967458262760
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3417842214972890284
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7818946852381153482
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2651723924241206455
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 275169709735214459
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 4491585360316472923
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5853740505765984135
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8348843326458557537
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -4532810662850954511
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7490070096870192610
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5363257858319365443
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7873218539500122119
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8963071194893130295
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6896020144617184297
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3502681333250373978
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3337178041323702463
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6341954740706269854
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 996400699895286075
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2307402046020775471
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 874381230861850129
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6819163311464699340
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5762951253871958582
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1594368922304541289
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6577449607722567596
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8179094620467786906
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -3939968867374177042
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 3015616466477729212
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5419508346462840978
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6496156723975357171
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -12131225448647645
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2978026804757931956
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7127915612343109211
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8210809817340047640
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 464692176124106411
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 2780514430094680860
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6843301719886804534
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1740029247398595483
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 9034730133908557808
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5675540964531063688
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2961470789367397454
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8342738185781799411
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -9119623367233590717
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5664384388078231773
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5363099556304597432
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1187962752416184177
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5389524045504197889
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5858037888100617332
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -1846818533491370200
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 2,
+          "m_PathID": 780263478422671536
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedRoomTables": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 4795655836136164857
+    }
+  ]
+}

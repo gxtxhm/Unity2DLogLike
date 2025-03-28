@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8668928188672603566
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2109453763520034471
+  },
+  "m_Name": "",
+  "duration": 0.7,
+  "minDuration": 0.8,
+  "maxDuration": 2.9,
+  "metaDuration": 6.0,
+  "minAlpha": 0.6,
+  "minScale": 0.9,
+  "maxScale": 1.1
+}

@@ -1,0 +1,133 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3677416501453331551
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2361071260290412152
+  },
+  "m_Name": "",
+  "placeableWidth": 4,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ChestIdentifier": 0,
+  "forceContentIds": [],
+  "lootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": -3119490351517448801
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 0.0,
+    "D_Chance": 0.0,
+    "C_Chance": 0.0,
+    "B_Chance": 0.5,
+    "A_Chance": 0.7,
+    "S_Chance": 0.2,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 1,
+    "onlyOneGunCanDrop": 0,
+    "multipleItemDropChances": {
+      "elements": [
+        {
+          "annotation": "rainbow explosion",
+          "value": 8,
+          "weight": 1.0,
+          "additionalPrerequisites": []
+        }
+      ]
+    }
+  },
+  "breakertronNothingChance": 0.1,
+  "breakertronLootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": 5090939938936364485
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 0.0,
+    "D_Chance": 0.0,
+    "C_Chance": 0.4,
+    "B_Chance": 0.5,
+    "A_Chance": 0.1,
+    "S_Chance": 0.0,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 0,
+    "onlyOneGunCanDrop": 1,
+    "multipleItemDropChances": {
+      "elements": []
+    }
+  },
+  "prefersDungeonProcContents": 1,
+  "ShadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": -1811217371661663008
+  },
+  "pickedUp": 0,
+  "spawnAnimName": "redgold_chest_appear",
+  "openAnimName": "redgold_chest_open",
+  "breakAnimName": "redgold_chest_break",
+  "overrideJunkId": -1,
+  "VFX_PreSpawn": {
+    "m_FileID": 0,
+    "m_PathID": -7023134775160944077
+  },
+  "VFX_GroundHit": {
+    "m_FileID": 0,
+    "m_PathID": -6425250430857613330
+  },
+  "groundHitDelay": 0.73,
+  "spawnTransform": {
+    "m_FileID": 0,
+    "m_PathID": -4990203496526141027
+  },
+  "spawnCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 3.5625007,
+        "outSlope": 3.5625007
+      },
+      {
+        "time": 1.0,
+        "value": 1.0124999,
+        "inSlope": 0.09380959,
+        "outSlope": 0.09380959
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockOpenAnim": "lock_open",
+  "LockBreakAnim": "lock_break",
+  "LockNoKeyAnim": "lock_nokey",
+  "SubAnimators": [],
+  "IsLocked": 1,
+  "IsSealed": 0,
+  "IsOpen": 0,
+  "IsBroken": 0,
+  "AlwaysBroadcastsOpenEvent": 0,
+  "IsRainbowChest": 1,
+  "IsMirrorChest": 0,
+  "MimicGuid": "",
+  "mimicOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "preMimicIdleAnim": "",
+  "preMimicIdleAnimDelay": 3.0,
+  "overrideMimicChance": -1.0,
+  "MinimapIconPrefab": {
+    "m_FileID": 1,
+    "m_PathID": -2404206641715506027
+  }
+}

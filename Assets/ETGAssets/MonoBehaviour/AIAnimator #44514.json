@@ -1,0 +1,218 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 77550769093750332
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -2401880091035555238
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 816894066534715163
+  },
+  "facingType": 1,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "MoveAnimation": {
+    "Type": 1,
+    "Prefix": "head_idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "open_mouth",
+      "anim": {
+        "Type": 1,
+        "Prefix": "head_rear",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "open_mouth_idle",
+      "anim": {
+        "Type": 1,
+        "Prefix": "head_rear_loop",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "close_mouth",
+      "anim": {
+        "Type": 1,
+        "Prefix": "head_unrear",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "shoot",
+      "anim": {
+        "Type": 1,
+        "Prefix": "head_shoot",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "sweep",
+      "anim": {
+        "Type": 7,
+        "Prefix": "head_sweep",
+        "AnimNames": [
+          "head_sweep_southeast",
+          "head_sweep_southeast",
+          "head_sweep_southeast",
+          "head_sweep_southeast",
+          "head_sweep_southeast",
+          "head_sweep_southeast",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "head_sweep_southwest",
+          "head_sweep_southwest",
+          "head_sweep_southwest",
+          "head_sweep_southwest",
+          "head_sweep_southwest"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "spotlight",
+      "anim": {
+        "Type": 2,
+        "Prefix": "spotlight",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "predeath",
+      "anim": {
+        "Type": 9,
+        "Prefix": "death_head",
+        "AnimNames": [
+          "death_head",
+          "death_head_right",
+          "death_head",
+          "death_head_left"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "death_head_explode",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

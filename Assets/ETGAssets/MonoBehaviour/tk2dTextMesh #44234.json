@@ -1,0 +1,85 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4191694384823884962
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7219752770330688038
+  },
+  "m_Name": "",
+  "_font": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_text": "",
+  "_color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "_color2": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "_useGradient": 0,
+  "_textureGradient": 0,
+  "_anchor": 6,
+  "_scale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "_kerning": 0,
+  "_maxChars": 16,
+  "_inlineStyling": 0,
+  "supportsWooblyText": 1,
+  "woobleStartIndices": [],
+  "woobleEndIndices": [],
+  "woobleStyles": [],
+  "visibleCharacters": 2147483647,
+  "_formatting": 0,
+  "_wordWrapWidth": 0,
+  "spacing": 0.0,
+  "lineSpacing": 0.0,
+  "data": {
+    "version": 1,
+    "font": {
+      "m_FileID": 1,
+      "m_PathID": 4754641603648816274
+    },
+    "text": ":",
+    "color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "color2": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "useGradient": 0,
+    "textureGradient": 0,
+    "anchor": 4,
+    "renderLayer": 0,
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "kerning": 1,
+    "maxChars": 1,
+    "inlineStyling": 0,
+    "formatting": 0,
+    "wordWrapWidth": 202,
+    "spacing": 0.0,
+    "lineSpacing": 0.0
+  }
+}

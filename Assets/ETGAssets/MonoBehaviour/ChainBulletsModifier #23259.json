@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2437682158536903116
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1230494478400709281
+  },
+  "m_Name": "",
+  "GuaranteedNumberOfChains": 1,
+  "ChanceToContinueChaining": 0.0,
+  "BounceRandomlyOnNoTarget": 1,
+  "EnemyDetectRadius": 10.0
+}

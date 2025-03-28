@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2230033934996255821
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8795072134096688675
+  },
+  "m_Name": "",
+  "coreIdleAnimation": "select_idle",
+  "onSelectedAnimation": "select_choose",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "phases": [],
+  "IsEevee": 0,
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AnimationLibraries": []
+}

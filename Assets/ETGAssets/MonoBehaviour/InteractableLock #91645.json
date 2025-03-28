@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7043992722246725185
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 111804288734492170
+  },
+  "m_Name": "",
+  "Suppress": 0,
+  "lockMode": 1,
+  "JailCellKeyId": -1,
+  "IdleAnimName": "",
+  "UnlockAnimName": "resourcefulrat_lock_open",
+  "NoKeyAnimName": "",
+  "SpitAnimName": "",
+  "BustedAnimName": ""
+}

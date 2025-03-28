@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5062826356284122100
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "d43d67d0092d4a479a08562861023b5a",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#DRAGONBOOTS_ENCNAME",
+    "NotificationPanelDescription": "#DRAGONBOOTS_SHORTDESC",
+    "AmmonomiconFullEntry": "#DRAGONBOOTS_LONGDESC",
+    "AmmonomiconSprite": "busted_dragon_boots_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [
+    {
+      "prerequisiteType": 1,
+      "prerequisiteOperation": 2,
+      "statToCheck": 80,
+      "maxToCheck": 0,
+      "comparisonValue": 14.0,
+      "useSessionStatValue": 0,
+      "encounteredObjectGuid": "",
+      "encounteredRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "requiredNumberOfEncounters": 0,
+      "requiredCharacter": 0,
+      "requireCharacter": 0,
+      "requiredTileset": 0,
+      "requireTileset": 0,
+      "saveFlagToCheck": 0,
+      "requireFlag": 0,
+      "requireDemoMode": 0
+    }
+  ],
+  "m_usesPurpleNotifications": 0
+}

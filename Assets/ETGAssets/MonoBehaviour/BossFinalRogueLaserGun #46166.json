@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4875343602675285062
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5443132478098290294
+  },
+  "m_Name": "",
+  "_objectReferences": [],
+  "_serializedStateKeys": [
+    "fireType",
+    "screenShake"
+  ],
+  "_serializedStateValues": [
+    "\"Triggered\"",
+    "{\"magnitude\":0.349999994039536,\"speed\":6.0,\"time\":0.0599999986588955,\"falloff\":0.0,\"direction\":{\"x\":0.0,\"y\":0.0},\"vibrationType\":\"Auto\",\"simpleVibrationTime\":\"Normal\",\"simpleVibrationStrength\":\"Medium\"}"
+  ],
+  "ship": {
+    "m_FileID": 0,
+    "m_PathID": 3741224849195432807
+  },
+  "fireType": 10,
+  "initialDelay": 0.0,
+  "delay": 0.0,
+  "beamTransform": {
+    "m_FileID": 0,
+    "m_PathID": -4150605954834569401
+  },
+  "beamProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 1726308227020557018
+  },
+  "fireTime": 10.5,
+  "doScreenShake": 0,
+  "screenShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "sweepAngle": -75.0,
+  "sweepAwayTime": 1.5,
+  "sweepBackTime": 2.5,
+  "LightToTrigger": {
+    "m_FileID": 0,
+    "m_PathID": 1259207416358647637
+  }
+}

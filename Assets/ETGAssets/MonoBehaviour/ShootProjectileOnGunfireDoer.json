@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8338488517285084376
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7493003651438546465
+  },
+  "m_Name": "",
+  "inAnimation": "amp_intro",
+  "fireAnimation": "amp_fire",
+  "idleAnimation": "amp_idle",
+  "outAnimation": "amp_outro",
+  "HasOverrideSynergy": 1,
+  "OverrideSynergy": 186,
+  "OverrideSynergyVolley": {
+    "m_FileID": 0,
+    "m_PathID": 7737549259927347402
+  }
+}

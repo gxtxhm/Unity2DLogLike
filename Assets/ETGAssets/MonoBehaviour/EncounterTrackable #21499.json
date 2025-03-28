@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4038157979613010783
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "015e02f3f48544a19f8d6705f5e8f792",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#MUSTACHE_ENCNAME",
+    "NotificationPanelDescription": "#MUSTACHE_SHORTDESC",
+    "AmmonomiconFullEntry": "#MUSTACHE_LONGDESC_V2",
+    "AmmonomiconSprite": "shopkeep_mustache_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

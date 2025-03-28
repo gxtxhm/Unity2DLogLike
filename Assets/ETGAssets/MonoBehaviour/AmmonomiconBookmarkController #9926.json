@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8679780557523870677
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4211333857407220814
+  },
+  "m_Name": "",
+  "AppearClip": {
+    "m_FileID": 0,
+    "m_PathID": -5771048009922380150
+  },
+  "SelectSpriteName": "bookmark_items_hover_001",
+  "SelectClip": {
+    "m_FileID": 0,
+    "m_PathID": -2013396065432728443
+  },
+  "DeselectSelectedSpriteName": "bookmark_items_select_hover_001",
+  "TargetNewPageLeft": "Global Prefabs/Ammonomicon Pages/Items Page Left",
+  "LeftPageType": 5,
+  "TargetNewPageRight": "Global Prefabs/Ammonomicon Pages/Info Page Right",
+  "RightPageType": 6
+}

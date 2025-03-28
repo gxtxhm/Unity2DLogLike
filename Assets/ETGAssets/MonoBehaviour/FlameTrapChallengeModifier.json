@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1755749338080352274
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7289118811858738959
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_FLAME_TRAPS",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Rat's_Revenge_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [],
+  "FlameTrap": {
+    "m_FileID": 2,
+    "m_PathID": -4110322346976447554
+  },
+  "ChanceToTrap": 0.05,
+  "TrapChanceDecrementPerFloor": 0.005
+}

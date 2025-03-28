@@ -1,0 +1,110 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1350355819069901109
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1825709797929089244
+  },
+  "m_Name": "",
+  "overrideMaterialDefinition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overrideHitEffect": {
+    "effects": []
+  },
+  "overrideHitEffectPool": {
+    "type": 0,
+    "effects": []
+  },
+  "additionalHitEffects": [
+    {
+      "hitEffect": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 6320919000905962343
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 1,
+                "zHeight": 0.2,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "chance": 0.3,
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": -8820419602031198041
+      },
+      "flipNormals": 0,
+      "radius": 0.3,
+      "delay": 0.8,
+      "angleVariance": 0.0,
+      "doForce": 0,
+      "minForce": 0.0,
+      "maxForce": 0.0,
+      "additionalVerticalForce": 0.0,
+      "spawnOnGround": 0,
+      "minDistance": 0.0,
+      "maxDistance": 0.0,
+      "specificPixelCollider": 0,
+      "pixelColliderIndex": 0
+    },
+    {
+      "hitEffect": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 5040560976967238358
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 1,
+                "zHeight": -1.1,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "chance": 0.5,
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": -8820419602031198041
+      },
+      "flipNormals": 0,
+      "radius": 0.0,
+      "delay": 0.4,
+      "angleVariance": 60.0,
+      "doForce": 0,
+      "minForce": 2.0,
+      "maxForce": 5.0,
+      "additionalVerticalForce": 0.0,
+      "spawnOnGround": 1,
+      "minDistance": 0.75,
+      "maxDistance": 1.5,
+      "specificPixelCollider": 0,
+      "pixelColliderIndex": 0
+    }
+  ],
+  "SuppressAllHitEffects": 0
+}

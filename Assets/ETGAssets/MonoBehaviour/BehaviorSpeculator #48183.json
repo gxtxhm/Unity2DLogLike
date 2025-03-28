@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7038540150268044663
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":20.0,\"LineOfSight\":false,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"startingAngles\":[90.0,270.0],\"motionType\":\"Vertical\",\"$type\":\"PingPongAroundBehavior\"}]",
+    "[{\"beamSelection\":\"All\",\"specificBeamShooter\":null,\"firingTime\":0.875,\"stopWhileFiring\":false,\"initialAimType\":\"Transform\",\"initialAimOffset\":0.0,\"randomInitialAimOffsetSign\":false,\"restrictBeamLengthToAim\":false,\"beamLengthOFfset\":0.0,\"beamLengthSinMagnitude\":0.0,\"beamLengthSinPeriod\":0.0,\"trackingType\":\"ConstantTurn\",\"maxUnitTurnRate\":0.0,\"unitTurnRateAcceleration\":0.0,\"minUnitRadius\":5.0,\"useDegreeCatchUp\":false,\"minDegreesForCatchUp\":0.0,\"degreeCatchUpSpeed\":0.0,\"useUnitCatchUp\":false,\"minUnitForCatchUp\":0.0,\"maxUnitForCatchUp\":0.0,\"unitCatchUpSpeed\":0.0,\"useUnitOvershoot\":false,\"minUnitForOvershoot\":0.0,\"unitOvershootTime\":0.0,\"unitOvershootSpeed\":0.0,\"maxDegTurnRate\":0.0,\"degTurnRateAcceleration\":0.0,\"TellAnimation\":null,\"FireAnimation\":null,\"PostFireAnimation\":null,\"Cooldown\":1.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBeamBehavior\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 1.5,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 1
+}

@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5754376166451552797
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2311160603907802198
+  },
+  "m_Name": "",
+  "RequiredSynergy": 234,
+  "OrbitalPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -7095306010053364032
+  }
+}

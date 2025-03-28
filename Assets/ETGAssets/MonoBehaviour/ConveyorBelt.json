@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4291355191531776741
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1330941519414656086
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ConveyorWidth": 4.0,
+  "ConveyorHeight": 3.0,
+  "VelocityX": 4.0,
+  "VelocityY": 0.0,
+  "IsHorizontal": 1,
+  "ShadowObjects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8107260259085955832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8050845959722532312
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3821378878089391605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4327391395562536304
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7224398682692241858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1273061124420553445
+    }
+  ],
+  "ModuleAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4196081971045943301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -417990855651556872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2921350069406174835
+    }
+  ],
+  "NegativeVelocityAnims": [
+    "conveyor_belt_horizontal_left_bot",
+    "conveyor_belt_horizontal_left_mid",
+    "conveyor_belt_horizontal_left_top"
+  ],
+  "PositiveVelocityAnims": [
+    "conveyor_belt_horizontal_right_bot",
+    "conveyor_belt_horizontal_right_mid",
+    "conveyor_belt_horizontal_right_top"
+  ]
+}

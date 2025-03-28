@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7604055662672045827
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4179307544094964369
+  },
+  "m_Name": "",
+  "FlagToCheckFor": 57003,
+  "DisableOnThisFlagValue": 0,
+  "UsesStatComparisonInstead": 0,
+  "RelevantStat": 4,
+  "minStatValue": 1,
+  "ChangeSpriteInstead": "",
+  "EnableOnGunGameMode": 0,
+  "DisableIfNotFoyer": 0
+}

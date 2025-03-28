@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6475193342637419960
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1994951580136340997
+  },
+  "m_Name": "",
+  "SynergyToCheck": 150,
+  "DoesRadialBurst": 1,
+  "RadialBurst": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 0,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -6308634651774943757
+      }
+    },
+    "MinToSpawnPerWave": 2,
+    "MaxToSpawnPerWave": 2,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 0,
+    "AlignFirstShot": 0,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  },
+  "DoesRadialSlow": 0,
+  "RadialSlow": {
+    "EffectRadius": 100.0,
+    "RadialSlowInTime": 0.0,
+    "RadialSlowHoldTime": 1.0,
+    "RadialSlowOutTime": 0.5,
+    "RadialSlowTimeModifier": 0.25,
+    "audioEvent": "",
+    "DoesSepia": 0,
+    "DoesCirclePass": 0,
+    "UpdatesForNewEnemies": 1
+  },
+  "UsesCooldown": 0,
+  "Cooldown": 0.0,
+  "AddsDroppedCurrency": 0,
+  "MinCurrency": 0,
+  "MaxCurrency": 5,
+  "TriggersEvenOnJustDamagedEnemy": 0,
+  "SpawnsObject": 0,
+  "ObjectToSpawn": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

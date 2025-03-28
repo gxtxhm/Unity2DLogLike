@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 889889918873203093
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1192790858581614595
+  },
+  "m_Name": "",
+  "usesStartAnimation": 1,
+  "startAnimation": "samusP_beam_start",
+  "usesAnimation": 1,
+  "animation": "samusP_beam_middle",
+  "usesCascadeTimer": 0,
+  "cascadeTimer": 0.1,
+  "usesSoftMaxLength": 0,
+  "softMaxLength": 0.0,
+  "usesGlobalTimer": 1,
+  "globalTimer": 0.0,
+  "destroyOnEmpty": 0,
+  "FlipUvsY": 0,
+  "rampHeight": 0,
+  "rampStartHeight": 2.0,
+  "rampTime": 1.0,
+  "boneSpawnOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UsesDispersalParticles": 0,
+  "DispersalDensity": 2.0,
+  "DispersalMinCoherency": 1.0,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

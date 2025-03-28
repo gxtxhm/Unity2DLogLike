@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6320438973705063440
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -228854200122058118
+  },
+  "m_Name": "",
+  "placeableWidth": 4,
+  "placeableHeight": 16,
+  "difficulty": 0,
+  "isPassable": 1,
+  "Size": {
+    "x": 3,
+    "y": 3
+  },
+  "UsesDwarfConfigurableSize": 0,
+  "DwarfConfigurableWidth": 3.0,
+  "DwarfConfigurableHeight": 3.0,
+  "StencilQuad": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "StaticForPitfall": 1,
+  "AllowsForGoop": 1
+}

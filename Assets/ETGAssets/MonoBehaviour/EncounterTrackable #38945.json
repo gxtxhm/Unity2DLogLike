@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9127026712936479853
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "c93fb0f6734f4c3091552d1b94a01c43",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#WIZARD_BLUE_ENCNAME",
+    "NotificationPanelDescription": "#WIZARD_BLUE_SHORTDESC",
+    "AmmonomiconFullEntry": "#WIZARD_BLUE_LONGDESC",
+    "AmmonomiconSprite": "bluewizard_spread_attack_left_010",
+    "IsEnemy": 1,
+    "enemyPortraitSprite": {
+      "m_FileID": 1,
+      "m_PathID": 4615885770025472062
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

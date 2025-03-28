@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6198008073903231786
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6903276925029816764
+  },
+  "m_Name": "",
+  "SynergyToCheck": 288,
+  "NonSynergyGunId": 504,
+  "SynergyGunId": 695
+}

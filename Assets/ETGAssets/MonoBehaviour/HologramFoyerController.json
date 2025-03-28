@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 45
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 35
+  },
+  "m_Name": "",
+  "animationCadence": [
+    "intro",
+    "quest",
+    "quest",
+    "quest",
+    "fight",
+    "fight",
+    "shield",
+    "quest",
+    "quest",
+    "evil"
+  ],
+  "ArcRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 507
+  },
+  "AttachedBraveLight": {
+    "m_FileID": 0,
+    "m_PathID": 927
+  },
+  "TargetAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 845
+  }
+}

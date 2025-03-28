@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8583309163388391375
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "34a7c15b314845c7bf6b2c70b55bca79",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#COGOFBATTLE_ENCNAME",
+    "NotificationPanelDescription": "#COGOFBATTLE_SHORTDESC",
+    "AmmonomiconFullEntry": "#COGOFBATTLE_LONGDESC",
+    "AmmonomiconSprite": "cog_of_war_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

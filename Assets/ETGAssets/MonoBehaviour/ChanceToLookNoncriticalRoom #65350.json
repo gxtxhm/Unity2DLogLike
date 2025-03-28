@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6591341696197203099
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2728485145609281433
+  },
+  "m_Name": "",
+  "chanceMin": 0.3,
+  "chanceMax": 0.5
+}

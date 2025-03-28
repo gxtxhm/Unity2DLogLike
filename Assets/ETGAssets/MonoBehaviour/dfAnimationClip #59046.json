@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5379839829208025094
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "pause_screen_blob_intro_001",
+    "pause_screen_blob_intro_002",
+    "pause_screen_blob_intro_003",
+    "pause_screen_blob_001",
+    "pause_screen_blob_002",
+    "pause_screen_blob_003",
+    "pause_screen_blob_004",
+    "pause_screen_blob_005",
+    "pause_screen_blob_006",
+    "pause_screen_blob_007",
+    "pause_screen_blob_008"
+  ]
+}

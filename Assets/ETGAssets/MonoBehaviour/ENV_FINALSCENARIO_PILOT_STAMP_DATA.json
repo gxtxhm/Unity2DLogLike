@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5257293945040329721
+  },
+  "m_Name": "ENV_FINALSCENARIO_PILOT_STAMP_DATA",
+  "tileStampWeight": 1.0,
+  "spriteStampWeight": 0.0,
+  "objectStampWeight": 1.0,
+  "stamps": [],
+  "spriteStamps": [],
+  "objectStamps": [],
+  "SymmetricFrameChance": 0.5,
+  "SymmetricCompleteChance": 0.25
+}

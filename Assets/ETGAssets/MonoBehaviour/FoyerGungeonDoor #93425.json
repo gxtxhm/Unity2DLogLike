@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6437030661319979655
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4219478469139487126
+  },
+  "m_Name": "",
+  "LoadsCustomLevel": 0,
+  "LevelNameToLoad": "",
+  "LoadsCharacterSelect": 0,
+  "ReturnToFoyerFromTutorial": 1,
+  "southernDoor": 0
+}

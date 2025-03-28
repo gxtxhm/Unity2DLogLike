@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2804154473011474706
+  },
+  "m_Name": "GoodSupplyDropTable",
+  "defaultItemDrops": {
+    "elements": [
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 78,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedLootTables": [],
+  "tablePrerequisites": []
+}

@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7898294725954332933
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 395380227742883471
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_KING_ENEMY",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Long_Live_The_King_icon_001",
+  "ValidInBossChambers": 0,
+  "MutuallyExclusive": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5944983738922584202
+    }
+  ],
+  "KingVFX": {
+    "m_FileID": 0,
+    "m_PathID": 2057099253548582620
+  }
+}

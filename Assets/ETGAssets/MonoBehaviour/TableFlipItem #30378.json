@@ -1,0 +1,353 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -45665722496240235
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2717284480438220050
+  },
+  "m_Name": "",
+  "PickupObjectId": 666,
+  "quality": 1,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 4,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Table Tech Shotgun",
+  "ForcedPositionInAmmonomicon": 215,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "TableTriggersBlankEffect": 0,
+  "TableStunsEnemies": 0,
+  "ChanceToStun": 1.0,
+  "StunDuration": 4.0,
+  "StunRadius": 10.0,
+  "StunsAllEnemiesInRoom": 1,
+  "TableGivesCurrency": 0,
+  "ChanceToGiveCurrency": 1.0,
+  "CurrencyToGiveMin": 2,
+  "CurrencyToGiveMax": 4,
+  "TableGivesRage": 0,
+  "RageDamageMultiplier": 2.0,
+  "RageDuration": 5.0,
+  "RageFlatColor": {
+    "r": 0.5,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.75
+  },
+  "RageOverheadVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AddsModuleCopies": 0,
+  "ModuleCopyDuration": 5.0,
+  "ModuleCopyCount": 1,
+  "TableBecomesProjectile": 0,
+  "ProjectileExplosionData": {
+    "useDefaultExplosion": 1,
+    "doDamage": 1,
+    "forceUseThisRadius": 0,
+    "damageRadius": 4.5,
+    "damageToPlayer": 0.0,
+    "damage": 30.0,
+    "breakSecretWalls": 0,
+    "secretWallsRadius": 4.5,
+    "forcePreventSecretWallDamage": 0,
+    "doDestroyProjectiles": 1,
+    "doForce": 1,
+    "pushRadius": 6.0,
+    "force": 100.0,
+    "debrisForce": 50.0,
+    "preventPlayerForce": 0,
+    "explosionDelay": 0.1,
+    "usesComprehensiveDelay": 0,
+    "comprehensiveDelay": 0.0,
+    "effect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "doScreenShake": 1,
+    "ss": {
+      "magnitude": 0.35,
+      "speed": 6.0,
+      "time": 0.06,
+      "falloff": 0.0,
+      "direction": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vibrationType": 10,
+      "simpleVibrationTime": 20,
+      "simpleVibrationStrength": 20
+    },
+    "doStickyFriction": 1,
+    "doExplosionRing": 1,
+    "isFreezeExplosion": 0,
+    "freezeRadius": 5.0,
+    "freezeEffect": {
+      "AffectsPlayers": 1,
+      "AffectsEnemies": 1,
+      "effectIdentifier": "effect",
+      "resistanceType": 0,
+      "stackMode": 0,
+      "duration": 10.0,
+      "maxStackedDuration": -1.0,
+      "AppliesTint": 0,
+      "TintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5
+      },
+      "AppliesDeathTint": 0,
+      "DeathTintColor": {
+        "r": 0.388,
+        "g": 0.388,
+        "b": 0.388,
+        "a": 1.0
+      },
+      "AppliesOutlineTint": 0,
+      "OutlineTintColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "OverheadVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "PlaysVFXOnActor": 0,
+      "FreezeAmount": 10.0,
+      "UnfreezeDamagePercent": 0.333,
+      "FreezeCrystals": [],
+      "crystalRot": 8,
+      "crystalVariation": {
+        "x": 0.05,
+        "y": 0.05
+      },
+      "debrisMinForce": 5,
+      "debrisMaxForce": 5,
+      "debrisAngleVariance": 15.0,
+      "vfxExplosion": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "playDefaultSFX": 1,
+    "IsChandelierExplosion": 0,
+    "rotateEffectToNormal": 0,
+    "ignoreList": [],
+    "overrideRangeIndicatorEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "DirectHitBonusDamage": 30.0,
+  "CustomAccelerationCurve": {
+    "m_Curve": [
+      {
+        "time": 0.00020330795,
+        "value": 0.19962591,
+        "inSlope": 0.32217476,
+        "outSlope": 0.32217476
+      },
+      {
+        "time": 0.205,
+        "value": 0.29999998,
+        "inSlope": 0.61392784,
+        "outSlope": 0.61392784
+      },
+      {
+        "time": 0.37551787,
+        "value": 0.61360013,
+        "inSlope": 2.0339198,
+        "outSlope": 2.0339198
+      },
+      {
+        "time": 1.0,
+        "value": 1.012987,
+        "inSlope": 0.027687425,
+        "outSlope": 0.027687425
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "CustomAccelerationCurveDuration": 0.8,
+  "TableSlowsTime": 0,
+  "SlowTimeAmount": 0.5,
+  "SlowTimeDuration": 3.0,
+  "TableProvidesInvulnerability": 0,
+  "InvulnerableTimeDuration": 3.0,
+  "TableFlocking": 0,
+  "TableFiresVolley": 0,
+  "Volley": {
+    "m_FileID": 0,
+    "m_PathID": 8773678359832797940
+  },
+  "VolleyOverrideSynergies": [
+    183
+  ],
+  "VolleyOverrides": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7837377949757279445
+    }
+  ],
+  "TableHeat": 1,
+  "TableHeatRadius": 5.0,
+  "TableHeatSynergyRadius": 20.0,
+  "TableHeatDuration": 10.0,
+  "TableHeatEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "fire",
+    "resistanceType": 1,
+    "stackMode": 0,
+    "duration": 4.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 1,
+    "DeathTintColor": {
+      "r": 0.38823533,
+      "g": 0.38823533,
+      "b": 0.38823533,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 4.0,
+    "ignitesGoops": 1,
+    "FlameVfx": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2510877616333010786
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9087034218938250477
+      }
+    ],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.3
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 1.0,
+    "IsGreenFire": 0
+  },
+  "TableHeatSynergyEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "green_fire",
+    "resistanceType": 1,
+    "stackMode": 0,
+    "duration": 120.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.048275948,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 1,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 4.0,
+    "ignitesGoops": 1,
+    "FlameVfx": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -6832757622488339521
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9087034218938250477
+      }
+    ],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.3
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 1.0,
+    "IsGreenFire": 1
+  },
+  "UsesTableTechBeesSynergy": 0,
+  "BeeProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "MinNumberOfBeesPerEnemyBullet": 1,
+  "MaxNumberOfBeesPerEnemyBullet": 1,
+  "UsesTimeSlowSynergy": 0,
+  "TimeSlowRequiredSynergy": 0,
+  "RadialSlow": {
+    "EffectRadius": 100.0,
+    "RadialSlowInTime": 0.0,
+    "RadialSlowHoldTime": 1.0,
+    "RadialSlowOutTime": 0.5,
+    "RadialSlowTimeModifier": 0.25,
+    "audioEvent": "",
+    "DoesSepia": 0,
+    "DoesCirclePass": 0,
+    "UpdatesForNewEnemies": 1
+  }
+}

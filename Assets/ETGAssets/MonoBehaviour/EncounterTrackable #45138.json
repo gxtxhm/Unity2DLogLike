@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2477934755211843843
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "1851f1f78f114df2b67f4caf57e44a7a",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 1,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#SHOTGUNMAN_ENCNAME",
+    "NotificationPanelDescription": "#SHOTGUNMAN_SHORTDESC",
+    "AmmonomiconFullEntry": "#SHOTGUNMAN_LONGDESC",
+    "AmmonomiconSprite": "shotgunguy_idle_front_001",
+    "IsEnemy": 1,
+    "enemyPortraitSprite": {
+      "m_FileID": 1,
+      "m_PathID": -2602249916578242125
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

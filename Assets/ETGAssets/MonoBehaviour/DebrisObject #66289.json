@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6404407451451323728
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4444361206932915367
+  },
+  "m_Name": "",
+  "Priority": 4,
+  "audioEventName": "",
+  "playAnimationOnTrigger": 0,
+  "usesDirectionalFallAnimations": 0,
+  "directionalAnimationData": {
+    "fallUp": "",
+    "fallRight": "",
+    "fallDown": "",
+    "fallLeft": ""
+  },
+  "breaksOnFall": 1,
+  "breakOnFallChance": 1.0,
+  "changesCollisionLayer": 0,
+  "groundedCollisionLayer": 5,
+  "followupBehavior": 0,
+  "followupIdentifier": "",
+  "collisionStopsBullets": 0,
+  "animatePitFall": 0,
+  "pitFallSplash": 0,
+  "inertialMass": 1.0,
+  "motionMultiplier": 1.0,
+  "canRotate": 1,
+  "angularVelocity": 360.0,
+  "angularVelocityVariance": 0.0,
+  "bounceCount": 1,
+  "additionalBounceEnglish": 0.0,
+  "decayOnBounce": 0.5,
+  "optionalBounceVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "killTranslationOnBounce": 0,
+  "usesLifespan": 0,
+  "lifespanMin": 1.0,
+  "lifespanMax": 1.0,
+  "shouldUseSRBMotion": 0,
+  "removeSRBOnGrounded": 0,
+  "placementOptions": {
+    "canBeRotated": 0,
+    "canBeFlippedHorizontally": 0,
+    "canBeFlippedVertically": 0
+  },
+  "DoesGoopOnRest": 0,
+  "AssignedGoop": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "GoopRadius": 1.0,
+  "groupManager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "additionalHeightBoost": 0.0,
+  "detachedParticleSystems": [],
+  "m_finalWorldDepth": -1.5,
+  "ForceUpdateIfDisabled": 0
+}

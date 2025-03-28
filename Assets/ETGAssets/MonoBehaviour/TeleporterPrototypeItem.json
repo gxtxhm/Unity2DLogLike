@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5603162138676593854
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6319965906175998653
+  },
+  "m_Name": "",
+  "PickupObjectId": 449,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 2,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Teleporter Prototype",
+  "ForcedPositionInAmmonomicon": 268,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 0,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 450.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "ChanceToGoToSpecialRoom": 0.1,
+  "ChanceToGoToEyeballRoom": 0.01,
+  "ChanceToGoToNextFloor": 0.01,
+  "ChanceToGoToSecretFloor": 0.01,
+  "ChanceToGoToBossFoyer": 0.05,
+  "TelefragVFXPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 144733329691834691
+  }
+}

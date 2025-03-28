@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6254203623856621033
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5511053737075527530
+  },
+  "m_Name": "",
+  "placeableWidth": 3,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "IsHorizontal": 1,
+  "NumTiles": 3.0,
+  "spriteSources": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2808977968566878208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4190574169039921246
+    }
+  ]
+}

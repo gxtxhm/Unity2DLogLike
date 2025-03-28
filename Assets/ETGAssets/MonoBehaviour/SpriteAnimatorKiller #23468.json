@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 670756363180956703
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1817387437762740503
+  },
+  "m_Name": "",
+  "onlyDisable": 0,
+  "deparentOnStart": 0,
+  "childObjectToDisable": [],
+  "animator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "dfAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hasChildAnimators": 0,
+  "deparentAllChildren": 0,
+  "disableRendererOnDelay": 0,
+  "delayDestructionTime": 0.0,
+  "fadeTime": 0.0
+}

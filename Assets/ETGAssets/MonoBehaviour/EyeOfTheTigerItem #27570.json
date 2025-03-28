@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4456519010417288039
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4612699141520836085
+  },
+  "m_Name": "",
+  "PickupObjectId": 258,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Broccoli",
+  "ForcedPositionInAmmonomicon": 141,
+  "UsesCustomCost": 0,
+  "CustomCost": 120,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 0,
+      "modifyType": 0,
+      "amount": 1.0,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "HealthThreshold": 100.0,
+  "ChanceToIgnoreDamage": 0.1,
+  "DamageMultiplier": 1.1,
+  "ModifiesDodgeRoll": 0,
+  "DodgeRollTimeMultiplier": 1.0,
+  "DodgeRollDistanceMultiplier": 1.0,
+  "DoesFullHeal": 0,
+  "OnIgnoredDamageVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "HasTimedStatSynergyBuffOnKill": 0,
+  "KillTimedSynergyBuff": {
+    "RequiredSynergy": 0,
+    "statToBoost": 0,
+    "modifyType": 0,
+    "amount": 0.0,
+    "duration": 0.0
+  }
+}

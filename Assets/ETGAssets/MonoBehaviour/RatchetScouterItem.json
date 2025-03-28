@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -339791273813110871
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9030187507992252968
+  },
+  "m_Name": "",
+  "PickupObjectId": 821,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 4,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Scouter",
+  "ForcedPositionInAmmonomicon": 42,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 14,
+      "modifyType": 0,
+      "amount": 1.0,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 2,
+      "modifyType": 1,
+      "amount": 0.9,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 5,
+      "modifyType": 1,
+      "amount": 1.1,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "VFXHealthBar": {
+    "m_FileID": 0,
+    "m_PathID": -6959506597360621650
+  }
+}

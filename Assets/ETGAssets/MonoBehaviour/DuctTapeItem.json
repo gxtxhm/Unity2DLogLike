@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2526041498718096425
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6920397291505154545
+  },
+  "m_Name": "",
+  "PickupObjectId": 239,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Duct Tape",
+  "ForcedPositionInAmmonomicon": 175,
+  "UsesCustomCost": 0,
+  "CustomCost": 90,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 1,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 1,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 0.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "duct_tape_used_001",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": []
+}

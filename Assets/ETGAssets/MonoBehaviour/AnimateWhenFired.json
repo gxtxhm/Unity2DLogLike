@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 868369213248479390
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 167585360014847617
+  },
+  "m_Name": "",
+  "trigger": 0,
+  "specifyBulletBank": {
+    "m_FileID": 0,
+    "m_PathID": -6836813498493942968
+  },
+  "transformName": "bar gun 5",
+  "specifyAiAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -1591710143614724798
+  },
+  "fireAnim": "fire"
+}

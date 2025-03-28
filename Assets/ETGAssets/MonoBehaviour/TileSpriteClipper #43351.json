@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2539890575259816263
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4412973784087798596
+  },
+  "m_Name": "",
+  "doOptimize": 1,
+  "updateEveryFrame": 1,
+  "clipMode": 3,
+  "clipY": 0.0
+}

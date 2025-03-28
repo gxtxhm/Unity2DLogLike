@@ -1,0 +1,124 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6558093724922131415
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 6935644480377054613
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 5,
+    "Prefix": "idle",
+    "AnimNames": [
+      "idle_north",
+      "idle_north_east",
+      "idle_south_east",
+      "idle_south",
+      "idle_south_west",
+      "idle_north_west"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 4,
+    "Prefix": "move",
+    "AnimNames": [
+      "move_north_east",
+      "move_south_east",
+      "move_south_west",
+      "move_north_west"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "attack",
+      "anim": {
+        "Type": 1,
+        "Prefix": "attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 2,
+        "Prefix": "die",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

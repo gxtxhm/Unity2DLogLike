@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5799614877891025228
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4302209816454125687
+  },
+  "m_Name": "",
+  "SynergyToCheck": 131,
+  "ProjectileToFire": {
+    "m_FileID": 0,
+    "m_PathID": -5988045936041815119
+  },
+  "Source": 0
+}

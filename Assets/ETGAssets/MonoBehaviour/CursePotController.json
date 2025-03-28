@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7653739635636234367
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1832540456196507446
+  },
+  "m_Name": "",
+  "IdleAnim": "curse_pot_idle",
+  "AnimToPlayWhenExcited": "curse_pot_curse",
+  "TimeToCursePoint": 1.5,
+  "CircleSprite": {
+    "m_FileID": 0,
+    "m_PathID": 772488665253991253
+  },
+  "ShadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3678688901398663264
+  }
+}

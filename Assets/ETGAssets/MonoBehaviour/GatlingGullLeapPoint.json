@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7516561944558876651
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 109014407895557885
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ForRockets": 1,
+  "ForReposition": 0
+}

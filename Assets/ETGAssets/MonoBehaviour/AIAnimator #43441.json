@@ -1,0 +1,379 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -73565926604741740
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "righthand_idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "mac10_fire",
+      "anim": {
+        "Type": 7,
+        "Prefix": "righthand_mac10_fire",
+        "AnimNames": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "mac10_draw",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_mac10_draw",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "mac10_putaway",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_mac10_putaway",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "knife",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_knife_throw",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "rpg",
+      "anim": {
+        "Type": 1,
+        "Prefix": "rpg_full",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_draw",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_draw",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_flip_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_flip_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_flip_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_flip_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_fire_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_fire_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_fire_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_fire_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "glock_putaway",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_glock_putaway",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "weak_idle",
+      "anim": {
+        "Type": 1,
+        "Prefix": "righthand_weak",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "rpg",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -6570827121772518875
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -1752928678188361077
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 10.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "rpg",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 6395029469602819659
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -8090469160327550854
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 0,
+                "zHeight": 8.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "glock_in",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -1304053986345668690
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 631539336488191331
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 4.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "glock_out",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -1304053986345668690
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -4005609919341681675
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 10.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

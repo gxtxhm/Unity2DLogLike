@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7877090109846181880
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -9078157847827417999
+  },
+  "sprites": [
+    "bookmark_guns_001",
+    "bookmark_guns_002",
+    "bookmark_guns_003",
+    "bookmark_guns_004"
+  ]
+}

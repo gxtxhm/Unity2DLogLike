@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2850947427600437257
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6624801263274694761
+  },
+  "m_Name": "",
+  "specRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": 8243769318549755014
+  },
+  "material": {
+    "m_FileID": 2,
+    "m_PathID": 4584669880974750213
+  },
+  "emit": 1,
+  "lifeTime": 0.3,
+  "colors": [
+    {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    {
+      "r": 1.0,
+      "g": 0.72156864,
+      "b": 0.72156864,
+      "a": 0.6862745
+    },
+    {
+      "r": 1.0,
+      "g": 0.29411766,
+      "b": 0.29411766,
+      "a": 0.39215687
+    },
+    {
+      "r": 1.0,
+      "g": 0.14117648,
+      "b": 0.14117648,
+      "a": 0.19607843
+    },
+    {
+      "r": 1.0,
+      "g": 0.03137255,
+      "b": 0.03137255,
+      "a": 0.0
+    }
+  ],
+  "widths": [
+    0.5,
+    0.4,
+    0.3,
+    0.2,
+    0.1
+  ],
+  "maxAngle": 2.0,
+  "minVertexDistance": 0.1,
+  "maxVertexDistance": 0.5,
+  "optimizeAngleInterval": 0.1,
+  "optimizeDistanceInterval": 0.05,
+  "optimizeCount": 30
+}

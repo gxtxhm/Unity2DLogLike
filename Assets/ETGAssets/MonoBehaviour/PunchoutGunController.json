@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7852091629581622786
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2720419346285095018
+  },
+  "m_Name": "",
+  "UIStarSpriteName": "chamber_flash_star_001",
+  "BaseProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 178515048267628902
+  },
+  "OverrideProjectile": {
+    "m_FileID": 0,
+    "m_PathID": -43258070431954118
+  },
+  "ChargeTimeNormal": 0.0,
+  "ChargeTimeStar": 0.5,
+  "OverrideFireAnimation": "boxing_glove_fire_super",
+  "OverrideChargeAnimation": "boxing_glove_charge_super"
+}

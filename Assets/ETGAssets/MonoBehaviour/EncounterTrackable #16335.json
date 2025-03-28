@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2019808662180627872
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "6504125fa07a4dde8fd586b4b058a1e6",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#RELODESTONE_ENCNAME",
+    "NotificationPanelDescription": "#RELODESTONE_SHORTDESC",
+    "AmmonomiconFullEntry": "#RELODESTONE_LONGDESC",
+    "AmmonomiconSprite": "relodestone_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

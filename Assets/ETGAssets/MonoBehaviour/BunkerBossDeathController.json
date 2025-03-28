@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2215134527146285003
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1643748566048796002
+  },
+  "m_Name": "",
+  "explosionVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 3353223766572002562
+    }
+  ],
+  "explosionMidDelay": 0.3,
+  "explosionCount": 10,
+  "debrisObjects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4616112294844637400
+    }
+  ],
+  "debrisMidDelay": 0.2,
+  "debrisCount": 15,
+  "debrisMinForce": 3,
+  "debrisMaxForce": 3,
+  "debrisAngleVariance": 15.0,
+  "deathAnimation": "death",
+  "deathAnimationDelay": 1.0,
+  "dustVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -6606847564986200187
+    }
+  ],
+  "dustTime": 2.0,
+  "dustMidDelay": 0.05,
+  "dustOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "dustDimensions": {
+    "x": 7.0,
+    "y": 2.0
+  },
+  "shakeMidDelay": 0.15,
+  "flagAnimation": "flag"
+}

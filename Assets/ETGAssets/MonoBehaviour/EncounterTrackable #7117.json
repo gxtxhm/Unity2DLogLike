@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2538969609153608829
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "64ed592840bc41c086e752047d1f06d0",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#HEARTLOCKET_ENCNAME",
+    "NotificationPanelDescription": "#HEARTLOCKET_SHORTDESC",
+    "AmmonomiconFullEntry": "#HEARTLOCKET_LONGDESC",
+    "AmmonomiconSprite": "heart_locket_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [
+    {
+      "prerequisiteType": 4,
+      "prerequisiteOperation": 0,
+      "statToCheck": 0,
+      "maxToCheck": 0,
+      "comparisonValue": 0.0,
+      "useSessionStatValue": 0,
+      "encounteredObjectGuid": "",
+      "encounteredRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "requiredNumberOfEncounters": 0,
+      "requiredCharacter": 0,
+      "requireCharacter": 0,
+      "requiredTileset": 0,
+      "requireTileset": 0,
+      "saveFlagToCheck": 200007,
+      "requireFlag": 1,
+      "requireDemoMode": 0
+    }
+  ],
+  "m_usesPurpleNotifications": 0
+}

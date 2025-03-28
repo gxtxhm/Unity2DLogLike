@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2261306884087734269
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2253440855756760477
+  },
+  "m_Name": "",
+  "specifyActor": {
+    "m_FileID": 0,
+    "m_PathID": 3352746430133808843
+  },
+  "hasOutlines": 0,
+  "faceTarget": 0,
+  "faceTargetTurnSpeed": -1.0,
+  "aimFrom": 10,
+  "autoDepth": 0,
+  "redirectHealthHaver": 0,
+  "independentFlashOnDamage": 0,
+  "myPixelCollider": -1
+}

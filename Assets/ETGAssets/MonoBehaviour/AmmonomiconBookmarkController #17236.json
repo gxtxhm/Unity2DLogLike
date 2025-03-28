@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1419993021616974877
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4211333857407220814
+  },
+  "m_Name": "",
+  "AppearClip": {
+    "m_FileID": 0,
+    "m_PathID": 8303344202237274910
+  },
+  "SelectSpriteName": "bookmark_bosses_hover_001",
+  "SelectClip": {
+    "m_FileID": 0,
+    "m_PathID": 590018768364879652
+  },
+  "DeselectSelectedSpriteName": "bookmark_bosses_select_hover_001",
+  "TargetNewPageLeft": "Global Prefabs/Ammonomicon Pages/Bosses Page Left",
+  "LeftPageType": 9,
+  "TargetNewPageRight": "Global Prefabs/Ammonomicon Pages/Info Page Right",
+  "RightPageType": 10
+}

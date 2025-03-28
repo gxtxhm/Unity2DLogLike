@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7705163348245643194
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7627864716538005107
+  },
+  "m_Name": "",
+  "RequiredSynergy": 177,
+  "TargetGunID": 60,
+  "UsesMultipleGuns": 0,
+  "TargetGunIDs": [],
+  "PositionType": 0,
+  "AimType": 0,
+  "FireType": 0,
+  "FireCooldown": 1.0,
+  "FireDuration": 2.0,
+  "OnlyOnEmptyReload": 0,
+  "ShootAudioEvent": "Play_WPN_demonhead_shot_01",
+  "OnEveryShotAudioEvent": "",
+  "FinishedShootingAudioEvent": "Stop_WPN_Gun_Loop_01",
+  "Trigger": 0,
+  "NumToTrigger": 1,
+  "TriggerDuration": -1.0,
+  "ConsumesTargetGunAmmo": 0,
+  "ChanceToConsumeTargetGunAmmo": 0.5
+}

@@ -1,0 +1,225 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3172380553259275269
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5973158158598803328
+  },
+  "m_Name": "",
+  "deathType": 1,
+  "preDeathDelay": 0.0,
+  "triggerName": "",
+  "explosionData": {
+    "useDefaultExplosion": 0,
+    "doDamage": 1,
+    "forceUseThisRadius": 0,
+    "damageRadius": 2.0,
+    "damageToPlayer": 0.5,
+    "damage": 15.0,
+    "breakSecretWalls": 0,
+    "secretWallsRadius": 4.5,
+    "forcePreventSecretWallDamage": 0,
+    "doDestroyProjectiles": 1,
+    "doForce": 1,
+    "pushRadius": 3.0,
+    "force": 15.0,
+    "debrisForce": 15.0,
+    "preventPlayerForce": 0,
+    "explosionDelay": 0.1,
+    "usesComprehensiveDelay": 0,
+    "comprehensiveDelay": 0.0,
+    "effect": {
+      "m_FileID": 1,
+      "m_PathID": -8669730613473064652
+    },
+    "doScreenShake": 1,
+    "ss": {
+      "magnitude": 1.4,
+      "speed": 6.5,
+      "time": 0.22,
+      "falloff": 0.0,
+      "direction": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vibrationType": 10,
+      "simpleVibrationTime": 20,
+      "simpleVibrationStrength": 20
+    },
+    "doStickyFriction": 0,
+    "doExplosionRing": 1,
+    "isFreezeExplosion": 0,
+    "freezeRadius": 5.0,
+    "freezeEffect": {
+      "AffectsPlayers": 1,
+      "AffectsEnemies": 1,
+      "effectIdentifier": "effect",
+      "resistanceType": 0,
+      "stackMode": 0,
+      "duration": 10.0,
+      "maxStackedDuration": -1.0,
+      "AppliesTint": 0,
+      "TintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5
+      },
+      "AppliesDeathTint": 0,
+      "DeathTintColor": {
+        "r": 0.388,
+        "g": 0.388,
+        "b": 0.388,
+        "a": 1.0
+      },
+      "AppliesOutlineTint": 0,
+      "OutlineTintColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "OverheadVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "PlaysVFXOnActor": 0,
+      "FreezeAmount": 10.0,
+      "UnfreezeDamagePercent": 0.333,
+      "FreezeCrystals": [],
+      "crystalRot": 8,
+      "crystalVariation": {
+        "x": 0.05,
+        "y": 0.05
+      },
+      "debrisMinForce": 5,
+      "debrisMaxForce": 5,
+      "debrisAngleVariance": 15.0,
+      "vfxExplosion": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "playDefaultSFX": 1,
+    "IsChandelierExplosion": 0,
+    "rotateEffectToNormal": 0,
+    "ignoreList": [],
+    "overrideRangeIndicatorEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "immuneToIBombApp": 0,
+  "LinearChainExplosion": 0,
+  "ChainDuration": 1.0,
+  "ChainDistance": 10.0,
+  "ChainNumExplosions": 5,
+  "ChainIsReversed": 0,
+  "ChainTargetSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LinearChainExplosionData": {
+    "useDefaultExplosion": 0,
+    "doDamage": 1,
+    "forceUseThisRadius": 0,
+    "damageRadius": 4.5,
+    "damageToPlayer": 0.5,
+    "damage": 25.0,
+    "breakSecretWalls": 0,
+    "secretWallsRadius": 4.5,
+    "forcePreventSecretWallDamage": 0,
+    "doDestroyProjectiles": 1,
+    "doForce": 1,
+    "pushRadius": 6.0,
+    "force": 100.0,
+    "debrisForce": 50.0,
+    "preventPlayerForce": 0,
+    "explosionDelay": 0.1,
+    "usesComprehensiveDelay": 0,
+    "comprehensiveDelay": 0.0,
+    "effect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "doScreenShake": 1,
+    "ss": {
+      "magnitude": 0.35,
+      "speed": 6.0,
+      "time": 0.06,
+      "falloff": 0.0,
+      "direction": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vibrationType": 10,
+      "simpleVibrationTime": 20,
+      "simpleVibrationStrength": 20
+    },
+    "doStickyFriction": 1,
+    "doExplosionRing": 1,
+    "isFreezeExplosion": 0,
+    "freezeRadius": 5.0,
+    "freezeEffect": {
+      "AffectsPlayers": 1,
+      "AffectsEnemies": 1,
+      "effectIdentifier": "effect",
+      "resistanceType": 0,
+      "stackMode": 0,
+      "duration": 10.0,
+      "maxStackedDuration": -1.0,
+      "AppliesTint": 0,
+      "TintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5
+      },
+      "AppliesDeathTint": 0,
+      "DeathTintColor": {
+        "r": 0.388,
+        "g": 0.388,
+        "b": 0.388,
+        "a": 1.0
+      },
+      "AppliesOutlineTint": 0,
+      "OutlineTintColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "OverheadVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "PlaysVFXOnActor": 0,
+      "FreezeAmount": 10.0,
+      "UnfreezeDamagePercent": 0.333,
+      "FreezeCrystals": [],
+      "crystalRot": 8,
+      "crystalVariation": {
+        "x": 0.05,
+        "y": 0.05
+      },
+      "debrisMinForce": 5,
+      "debrisMaxForce": 5,
+      "debrisAngleVariance": 15.0,
+      "vfxExplosion": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "playDefaultSFX": 1,
+    "IsChandelierExplosion": 0,
+    "rotateEffectToNormal": 0,
+    "ignoreList": [],
+    "overrideRangeIndicatorEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  }
+}

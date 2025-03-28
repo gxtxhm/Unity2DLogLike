@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7205864846305091189
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5218563379482415861
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "CagedBabyDragun": {
+    "m_FileID": 0,
+    "m_PathID": 5630805878577865592
+  },
+  "CagedBabyDragunTalkPoint": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SellRegionRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": 5364696982712623837
+  },
+  "RequiredItems": 4,
+  "ItemID": 735
+}

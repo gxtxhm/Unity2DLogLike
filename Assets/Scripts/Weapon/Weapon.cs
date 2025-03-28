@@ -8,6 +8,13 @@ using UnityEngine.UIElements;
 public abstract class Weapon : MonoBehaviour
 {
     public WeaponType type;
+
+    [SerializeField]
+    AudioClip shotClip;
+    [SerializeField]
+    AudioClip reloadClip;
+    [SerializeField]
+    protected AudioSource audioSource;
     // TODO : Action 으로 shoot, reload 등록
     [SerializeField]
     protected WeaponData weaponData;
@@ -47,11 +54,14 @@ public abstract class Weapon : MonoBehaviour
         bulletPrefab = weaponData.bulletPrefab;
         type = weaponData.type;
         RotateZ = weaponData.RotateZ;
-        Debug.Log(type);
+        shotClip = weaponData.shotClip;
+        reloadClip = weaponData.reloadClip;
+        //Debug.Log(type);
         PoolingManager.Instance.AddInMap(bulletPrefab.GetComponent<Bullet>().poolingType, bulletPrefab);
+        audioSource = GetComponentInParent<AudioSource>();
     }
-    public abstract void Shoot();
-    public abstract void Reload();
+    public virtual void Shoot() { audioSource.PlayOneShot(shotClip); }
+    public virtual void Reload() { audioSource.PlayOneShot(reloadClip); }
 
     protected IEnumerator CoReload()
     {

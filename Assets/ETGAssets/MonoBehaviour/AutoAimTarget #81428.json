@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5805381928569789131
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2417075107806306099
+  },
+  "m_Name": "",
+  "ForceUseTransform": 0,
+  "IgnoreForSuperAutoAim": 1,
+  "MinDistForSuperAutoAim": 0.0
+}

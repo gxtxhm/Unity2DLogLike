@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3053981641036511570
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7557238163363191811
+  },
+  "m_Name": "",
+  "ForceRenderersOff": 0,
+  "attachPoint": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "handHeightFromGun": 0.05
+}

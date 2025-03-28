@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1681348868956036081
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "b4d68fb84f0049a9bbb173b77a1b7710",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 1,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#BIRD_ENCNAME",
+    "NotificationPanelDescription": "#BIRD_SHORTDESC",
+    "AmmonomiconFullEntry": "#BIRD_LONGDESC",
+    "AmmonomiconSprite": "bird_attack_004",
+    "IsEnemy": 1,
+    "enemyPortraitSprite": {
+      "m_FileID": 1,
+      "m_PathID": 3777757231108299562
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

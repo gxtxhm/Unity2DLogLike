@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4120331754585285749
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8779430116788983352
+  },
+  "m_Name": "",
+  "EmissivePower": 200.0,
+  "EmissiveColorPower": 7.0
+}

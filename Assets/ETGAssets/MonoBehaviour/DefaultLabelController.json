@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6310449499367935163
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5120850253980354585
+  },
+  "m_Name": "",
+  "label": {
+    "m_FileID": 0,
+    "m_PathID": 285551500710595466
+  },
+  "panel": {
+    "m_FileID": 0,
+    "m_PathID": -2110734933231889697
+  },
+  "targetObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

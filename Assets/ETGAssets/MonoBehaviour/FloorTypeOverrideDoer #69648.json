@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4054618418405303474
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6374253181077443962
+  },
+  "m_Name": "",
+  "overrideMode": 10,
+  "xStartOffset": 0,
+  "yStartOffset": 0,
+  "width": 8,
+  "height": 4,
+  "overrideCellFloorType": 0,
+  "cellFloorType": 2,
+  "overrideTileIndex": 0,
+  "TilesetsToOverrideFloorTile": [],
+  "OverrideFloorTiles": [],
+  "preventsOtherFloorDecoration": 1,
+  "allowWallDecorationTho": 0
+}

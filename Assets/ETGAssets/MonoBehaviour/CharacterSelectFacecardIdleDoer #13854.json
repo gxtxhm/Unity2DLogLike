@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3435672748968847623
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6222636618951456449
+  },
+  "m_Name": "",
+  "appearAnimation": "robot_facecard_appear",
+  "coreIdleAnimation": "robot_facecard_idle",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "usesMultipleIdleAnimations": 0,
+  "multipleIdleAnimations": [],
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

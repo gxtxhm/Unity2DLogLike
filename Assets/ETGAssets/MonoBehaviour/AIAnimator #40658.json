@@ -1,0 +1,308 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3854699995989675557
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 2796519807017923684
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "throne_throned",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "move_fire",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "throne_awaken",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_liftoff",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throne_flying_idle",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_idle",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "quick",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_fire",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "slow",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_fire",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound_tell",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_pound",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_idle",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "spin_begin",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_spin_begin",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "spin",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_spin",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "spin_end",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_spin_end",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throne_fall",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_death",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throne_throned",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_throned",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "crosshair",
+      "anim": {
+        "Type": 1,
+        "Prefix": "throne_pound_pattern",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "pound",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -5108063283117487809
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 4757349329981699624
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -1.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "crosshair",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 6018055442366249003
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -3069442053290811187
+                },
+                "orphaned": 0,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -1.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [
+    {
+      "name": "pound",
+      "screenShake": {
+        "magnitude": 2.0,
+        "speed": 5.0,
+        "time": 0.1,
+        "falloff": 0.3,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    }
+  ],
+  "IdleFidgetAnimations": []
+}

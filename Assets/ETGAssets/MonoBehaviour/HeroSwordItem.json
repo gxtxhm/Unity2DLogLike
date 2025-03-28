@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5297734513729841112
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5149488737948742395
+  },
+  "m_Name": "",
+  "PickupObjectId": 413,
+  "quality": -100,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 0,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Hero's Sword",
+  "ForcedPositionInAmmonomicon": 183,
+  "UsesCustomCost": 0,
+  "CustomCost": 35,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 0,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.5,
+  "damageCooldown": 0.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "Damage": 100.0,
+  "MaxHealthDamage": 200.0,
+  "DamageLength": 1.25,
+  "MaxHealthDamageLength": 2.5,
+  "NormalSwordVFX": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -7419849373451533852
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "MaxHealthSwordVFX": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -7419849373451533852
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  }
+}

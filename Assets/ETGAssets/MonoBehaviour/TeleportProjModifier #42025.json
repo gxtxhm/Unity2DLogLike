@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3509215284949231328
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8171831803867467021
+  },
+  "m_Name": "",
+  "trigger": 10,
+  "minAngleToTeleport": 100.0,
+  "distToTeleport": 3.0,
+  "type": 10,
+  "behindTargetDistance": 5.0,
+  "numTeleports": 2,
+  "teleportPauseTime": 0.3,
+  "leadAmount": 1.0,
+  "teleportCooldown": 0.0,
+  "teleportVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -3895716928100613665
+            },
+            "orphaned": 1,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  }
+}

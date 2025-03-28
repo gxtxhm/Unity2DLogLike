@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4060396355179796748
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8630674436150415493
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "usesOverrideInteractionRegion": 0,
+  "overrideRegionOffset": {
+    "x": 0.0,
+    "y": -32.0
+  },
+  "overrideRegionDimensions": {
+    "x": 40.0,
+    "y": 32.0
+  },
+  "overrideInteractionRadius": -1.0,
+  "PreventInteraction": 0,
+  "AllowPlayerToPassEventually": 1,
+  "speakPoint": {
+    "m_FileID": 0,
+    "m_PathID": 2351418445462048241
+  },
+  "SpeaksGleepGlorpenese": 0,
+  "audioCharacterSpeechTag": "golem",
+  "playerApproachRadius": 5.0,
+  "conversationBreakRadius": 5.0,
+  "echo1": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "echo2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PreventCoopInteraction": 0,
+  "IsPaletteSwapped": 0,
+  "PaletteTexture": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "teleportInSettings": {
+    "anim": "",
+    "animDelay": 0.0,
+    "vfx": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxDelay": 0.0,
+    "timing": 0,
+    "vfxAnchor": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "teleportOutSettings": {
+    "anim": "",
+    "animDelay": 0.0,
+    "vfx": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxDelay": 0.0,
+    "timing": 0,
+    "vfxAnchor": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "itemsToLeaveBehind": [],
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -6260546844912574159
+  },
+  "DisableOnShortcutRun": 0,
+  "OptionalMinimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OverheadUIElementDelay": 1.0,
+  "OverheadUIElementOnPreInteract": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OptionalCustomNotificationSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OutlineDepth": 0.4,
+  "OutlineLuminanceCutoff": 0.05,
+  "ReassignPrefabReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8731099271264104654
+    }
+  ],
+  "MovementSpeed": 3.0,
+  "PathableTiles": 2,
+  "IsDoingForcedSpeech": 0
+}

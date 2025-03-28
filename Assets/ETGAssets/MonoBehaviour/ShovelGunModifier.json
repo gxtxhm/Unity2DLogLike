@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6126137272319549188
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4029130307120433740
+  },
+  "m_Name": "",
+  "HoleVFX": {
+    "m_FileID": 0,
+    "m_PathID": 6680389880248643878
+  },
+  "GoodDigLootTable": {
+    "m_FileID": 0,
+    "m_PathID": -546018838468047864
+  },
+  "SynergyGoodDigLootTable": {
+    "m_FileID": 0,
+    "m_PathID": -9066832446523927558
+  },
+  "BadDigLootTable": {
+    "m_FileID": 0,
+    "m_PathID": -7950607414090817920
+  },
+  "SynergyBadDigLootTable": {
+    "m_FileID": 0,
+    "m_PathID": -4420915438185018336
+  },
+  "NumberOfGoodDigs": 5,
+  "NumberOfGoodDigsAddedBySynergy": 5,
+  "WeightedByShotsRemaining": 1,
+  "OnlyOnEmptyReload": 1
+}

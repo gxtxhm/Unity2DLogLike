@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8850060335749648075
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2993532331062791951
+  },
+  "m_Name": "",
+  "PickupObjectId": 193,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Bug Boots",
+  "ForcedPositionInAmmonomicon": 158,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "condition": 0,
+  "IsDegooperator": 0,
+  "TranslatesGleepGlorp": 0,
+  "goopType": {
+    "m_FileID": 2,
+    "m_PathID": 4151654070313257355
+  },
+  "goopRadius": 1.0,
+  "modifiers": [
+    {
+      "damageType": 16,
+      "damageMultiplier": 0.0
+    }
+  ],
+  "Synergies": [
+    {
+      "RequiredSynergy": 120,
+      "overrideGoopType": {
+        "m_FileID": 2,
+        "m_PathID": -6986448845679542125
+      },
+      "AdditionalDamageModifier": {
+        "damageType": 4,
+        "damageMultiplier": 0.0
+      }
+    }
+  ],
+  "AirSoftSynergyAmmoGainRate": 0.05
+}

@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6621643260593430986
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5670838451708956896
+  },
+  "m_Name": "",
+  "PickupObjectId": 311,
+  "quality": 5,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Clone",
+  "ForcedPositionInAmmonomicon": 233,
+  "UsesCustomCost": 0,
+  "CustomCost": 120,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "extraLifeMode": 2,
+  "consumedOnUse": 1,
+  "DropDarkSoulsItems": 0,
+  "DarkSoulsCursedHealthMax": -1,
+  "ExcludedPickupIDs": [],
+  "DoesBonfireSynergy": 0,
+  "BonfireSynergyBonfire": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

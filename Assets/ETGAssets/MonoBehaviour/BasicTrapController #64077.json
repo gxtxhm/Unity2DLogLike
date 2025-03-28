@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6706197601181481171
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1705086652024274308
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "TrapSwitchState": "spikes",
+  "triggerMethod": 1,
+  "triggerTimerDelay": 1.0,
+  "triggerTimerDelay1": 0.0,
+  "triggerTimerOffset": 0.0,
+  "footprintBuffer": {
+    "left": 2,
+    "bottom": 3,
+    "right": 3,
+    "top": 2
+  },
+  "damagesFlyingPlayers": 0,
+  "triggerOnBlank": 0,
+  "triggerOnExplosion": 0,
+  "animateChildren": 1,
+  "triggerAnimName": "Spike_Traps_Spikes_Clean_Prime",
+  "triggerDelay": 0.5,
+  "activeAnimName": "Spike_Traps_Spikes_Clean_Up",
+  "activeVfx": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ],
+  "activeTime": 1.0,
+  "resetAnimName": "Spike_Traps_Spikes_Clean_Down",
+  "resetDelay": 0.5,
+  "damageMethod": 1,
+  "damage": 0.5,
+  "damageTypes": 0,
+  "IgnitesGoop": 0
+}

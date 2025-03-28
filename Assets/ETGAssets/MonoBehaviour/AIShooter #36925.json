@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7250397952970228711
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2188314785986957131
+  },
+  "m_Name": "",
+  "volley": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "equippedGunId": 347,
+  "shouldUseGunReload": 1,
+  "volleyShootPosition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "volleyShellCasing": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "volleyShellTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "volleyShootVfx": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "usesOctantShootVFX": 1,
+  "bulletName": "default",
+  "customShootCooldownPeriod": 2.5,
+  "doesScreenShake": 0,
+  "rampBullets": 0,
+  "rampStartHeight": 2.0,
+  "rampTime": 1.0,
+  "gunAttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": 5454254982766893790
+  },
+  "bulletScriptAttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overallGunAttachOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "flippedGunAttachOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "handObject": {
+    "m_FileID": 0,
+    "m_PathID": 216743316342993020
+  },
+  "AllowTwoHands": 0,
+  "ForceGunOnTop": 0,
+  "IsReallyBigBoy": 0,
+  "BackupAimInMoveDirection": 0
+}

@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -675424103471056011
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2658888850069183882
+  },
+  "m_Name": "",
+  "InstantBossFight": 0,
+  "FriendTalker": {
+    "m_FileID": 0,
+    "m_PathID": -400501620436941227
+  },
+  "HegemonyShip": {
+    "m_FileID": 0,
+    "m_PathID": 1663369528591520934
+  },
+  "AdditionalHegemonyShips": [],
+  "FloatingCrap": {
+    "m_FileID": 0,
+    "m_PathID": -3178300919054464510
+  },
+  "TheRock": {
+    "m_FileID": 0,
+    "m_PathID": -939170584855298626
+  },
+  "Quad": {
+    "m_FileID": 0,
+    "m_PathID": -584009653197993308
+  },
+  "BackgroundScrollSpeed": {
+    "x": 0.0,
+    "y": 0.005
+  }
+}

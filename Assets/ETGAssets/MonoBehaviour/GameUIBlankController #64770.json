@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 224999641162815070
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5320433965105146463
+  },
+  "m_Name": "",
+  "blankSpritePrefab": {
+    "m_FileID": 0,
+    "m_PathID": -6871965940877394766
+  },
+  "extantBlanks": [],
+  "IsRightAligned": 0
+}

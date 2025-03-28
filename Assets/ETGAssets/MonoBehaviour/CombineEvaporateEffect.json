@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -180671745773439580
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7063476701430264943
+  },
+  "m_Name": "",
+  "ParticleSystemToSpawn": {
+    "m_FileID": 0,
+    "m_PathID": 3747890241606134772
+  },
+  "FallbackShader": {
+    "m_FileID": 2,
+    "m_PathID": 5508484369724970488
+  }
+}

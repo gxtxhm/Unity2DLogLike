@@ -1,0 +1,68 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6365187640692720611
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8126627881637891524
+  },
+  "m_Name": "",
+  "textures": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 221512627260249561
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -134755767067405988
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2242395487887405500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4312187199524392601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9009664517797389601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6917505616088231135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3367588638834825627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7769343372007541638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6663349245633644538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7132656361799874531
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8940141703539691389
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3089420724286531850
+    }
+  ],
+  "fps": 10.0,
+  "IsOneShot": 0,
+  "OneShotDelayTime": 0.0,
+  "randomLoop": 0,
+  "timeless": 1,
+  "arbitraryLoopTarget": -1
+}

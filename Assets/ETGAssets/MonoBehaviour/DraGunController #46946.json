@@ -1,0 +1,63 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6569883211255261181
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3806089847261552433
+  },
+  "m_Name": "",
+  "isAdvanced": 1,
+  "head": {
+    "m_FileID": 0,
+    "m_PathID": 3814587093259966825
+  },
+  "neck": {
+    "m_FileID": 0,
+    "m_PathID": -8137056207993373148
+  },
+  "wings": {
+    "m_FileID": 0,
+    "m_PathID": -2539890575259816263
+  },
+  "headShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": 7114445543081837812
+  },
+  "leftArm": {
+    "m_FileID": 0,
+    "m_PathID": -7759784842842816926
+  },
+  "rightArm": {
+    "m_FileID": 0,
+    "m_PathID": 7985409679794247914
+  },
+  "NearDeathTriggerHealth": 500.0,
+  "skyRocket": {
+    "m_FileID": 0,
+    "m_PathID": -1944836714606011284
+  },
+  "skyBoulder": {
+    "m_FileID": 0,
+    "m_PathID": 5793372056491849682
+  },
+  "AdvancedDraGunPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpotlightShrink": 0.0,
+  "SpotlightSprite": {
+    "m_FileID": 0,
+    "m_PathID": 1502777899657326488
+  },
+  "SpotlightMaterial": {
+    "m_FileID": 2,
+    "m_PathID": -6932247873490456384
+  },
+  "PitCausticsMaterial": {
+    "m_FileID": 1,
+    "m_PathID": -7588803669139794496
+  }
+}

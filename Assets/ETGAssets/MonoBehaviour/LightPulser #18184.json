@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4583077194393376839
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7850701696988754031
+  },
+  "m_Name": "",
+  "flicker": 0,
+  "pulseSpeed": 0.5,
+  "waitTime": 0.05,
+  "normalRange": 2.0,
+  "flickerRange": 1.5
+}

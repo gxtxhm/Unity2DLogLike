@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1122874423491492324
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4648027362655450618
+  },
+  "m_Name": "",
+  "resolution": 1000,
+  "maxDistance": 10.0,
+  "distortionMax": 1.0,
+  "shadowMaterial": {
+    "m_FileID": 2,
+    "m_PathID": -5485666045110149092
+  }
+}

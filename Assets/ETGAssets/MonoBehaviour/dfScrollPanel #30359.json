@@ -1,0 +1,116 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6135453906414163717
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4009728750384134479
+  },
+  "m_Name": "",
+  "anchorStyle": 271,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 3,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 112.0,
+    "y": 528.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 271,
+    "margins": {
+      "left": 0.07083333,
+      "top": 0.09259259,
+      "right": 0.12916666,
+      "bottom": 0.58148146
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 8953600826298576518
+    }
+  },
+  "renderOrder": 5,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "backgroundSprite": "",
+  "backgroundColor": {
+    "rgba": 4294967295
+  },
+  "autoReset": 1,
+  "autoLayout": 1,
+  "scrollPadding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "autoScrollPadding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "flowPadding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "flowDirection": 1,
+  "wrapLayout": 0,
+  "scrollPosition": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "scrollWheelAmount": 10,
+  "horzScroll": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "vertScroll": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "wheelDirection": 0,
+  "scrollWithArrowKeys": 0,
+  "useScrollMomentum": 0,
+  "useVirtualScrolling": 0,
+  "autoFitVirtualTiles": 1,
+  "virtualScrollingTile": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockScrollPanelToZero": 0
+}

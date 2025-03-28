@@ -1,0 +1,301 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 894887943820234873
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8004463764496719270
+  },
+  "m_Name": "",
+  "flipStyle": 2,
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 2828013417084251592
+  },
+  "DamageReceivedOnSlide": 30.0,
+  "unflippedBreakAnimation": "coffin_tall_idle_break",
+  "flipAnimation": "coffin_tall_flip_{0}",
+  "shadowFlipAnimation": "coffin_tall_flip_{0}_shadow",
+  "pitfallAnimation": "vertical_flipped_{0}_pitfall",
+  "breakAnimation": "coffin_tall_flippped_{0}_break",
+  "prebreakFrames": [
+    {
+      "healthPercentage": 40.0,
+      "sprite": "coffin_vertical_north_flip_{0}_break_001"
+    },
+    {
+      "healthPercentage": 20.0,
+      "sprite": "coffin_vertical_north_flip_{0}_break_002"
+    }
+  ],
+  "prebreakFramesUnflipped": [
+    {
+      "healthPercentage": 70.0,
+      "sprite": "coffin_vertical_idle_break_north_001"
+    },
+    {
+      "healthPercentage": 40.0,
+      "sprite": "coffin_vertical_idle_break_north_002"
+    }
+  ],
+  "BreaksOnBreakAnimation": 0,
+  "flipSubElements": [
+    {
+      "elementStyle": 0,
+      "isMandatory": 1,
+      "onlyOneOfThese": 0,
+      "spawnChance": 1.0,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 2,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": -9179791864202508923
+      },
+      "northAnimation": "",
+      "eastAnimation": "coffin_tall_lid_flip_east",
+      "southAnimation": "",
+      "westAnimation": "",
+      "additionalHeightModification": -0.25,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    },
+    {
+      "elementStyle": 0,
+      "isMandatory": 1,
+      "onlyOneOfThese": 0,
+      "spawnChance": 1.0,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 6,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": -1126255976057773328
+      },
+      "northAnimation": "",
+      "eastAnimation": "",
+      "southAnimation": "",
+      "westAnimation": "coffin_tall_lid_flip_west",
+      "additionalHeightModification": -0.25,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    },
+    {
+      "elementStyle": 0,
+      "isMandatory": 1,
+      "onlyOneOfThese": 0,
+      "spawnChance": 1.0,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 2,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 340609627272555744
+      },
+      "northAnimation": "",
+      "eastAnimation": "coffin_dust_flip_east",
+      "southAnimation": "",
+      "westAnimation": "",
+      "additionalHeightModification": -0.25,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    },
+    {
+      "elementStyle": 0,
+      "isMandatory": 1,
+      "onlyOneOfThese": 0,
+      "spawnChance": 1.0,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 6,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": -7104339472656084288
+      },
+      "northAnimation": "",
+      "eastAnimation": "",
+      "southAnimation": "",
+      "westAnimation": "coffin_dust_flip_west",
+      "additionalHeightModification": -0.25,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    },
+    {
+      "elementStyle": 1,
+      "isMandatory": 0,
+      "onlyOneOfThese": 1,
+      "spawnChance": 0.5,
+      "flipDelay": 0.4,
+      "requiresDirection": 1,
+      "requiredDirection": 6,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 1425510284128905885
+      },
+      "northAnimation": "",
+      "eastAnimation": "",
+      "southAnimation": "",
+      "westAnimation": "coffin_skeleton_flip_west",
+      "additionalHeightModification": 0.0,
+      "goopToUse": {
+        "m_FileID": 1,
+        "m_PathID": 4151654070313257355
+      },
+      "goopConeLength": 5.5,
+      "goopConeArc": 60.0,
+      "goopCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 2.0,
+            "outSlope": 2.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 1.25
+    },
+    {
+      "elementStyle": 0,
+      "isMandatory": 0,
+      "onlyOneOfThese": 1,
+      "spawnChance": 0.5,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 2,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": -5552792578049300169
+      },
+      "northAnimation": "",
+      "eastAnimation": "coffin_skeleton_flip_east",
+      "southAnimation": "",
+      "westAnimation": "",
+      "additionalHeightModification": 0.0,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    },
+    {
+      "elementStyle": 0,
+      "isMandatory": 0,
+      "onlyOneOfThese": 1,
+      "spawnChance": 0.5,
+      "flipDelay": 0.3,
+      "requiresDirection": 1,
+      "requiredDirection": 6,
+      "targetAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 1425510284128905885
+      },
+      "northAnimation": "",
+      "eastAnimation": "",
+      "southAnimation": "",
+      "westAnimation": "coffin_skeleton_flip_west",
+      "additionalHeightModification": 0.0,
+      "goopToUse": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "goopConeLength": 0.0,
+      "goopConeArc": 0.0,
+      "goopCurve": {
+        "m_Curve": [],
+        "m_PreInfinity": 0,
+        "m_PostInfinity": 0,
+        "m_RotationOrder": 4
+      },
+      "goopDuration": 0.0
+    }
+  ],
+  "outlineNorth": {
+    "m_FileID": 0,
+    "m_PathID": 6686134434040533809
+  },
+  "outlineEast": {
+    "m_FileID": 0,
+    "m_PathID": 7291526881569944264
+  },
+  "outlineSouth": {
+    "m_FileID": 0,
+    "m_PathID": -8965447750019840547
+  },
+  "outlineWest": {
+    "m_FileID": 0,
+    "m_PathID": 4899516660295911330
+  },
+  "UsesCustomHeightsOffGround": 0,
+  "CustomStartHeightOffGround": 0.0,
+  "CustomNorthFlippedHeightOffGround": -1.5,
+  "CustomEastFlippedHeightOffGround": -1.5,
+  "CustomSouthFlippedHeightOffGround": -1.5,
+  "CustomWestFlippedHeightOffGround": -1.5,
+  "DelayMoveable": 1,
+  "MoveableDelay": 1.0,
+  "VibrationDelay": 0.25
+}

@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 676
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 54
+  },
+  "m_Name": "",
+  "levelNameLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3315
+  },
+  "levelNumberLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3693
+  },
+  "levelNameShadow": {
+    "m_FileID": 0,
+    "m_PathID": 3182
+  },
+  "levelNumberShadow": {
+    "m_FileID": 0,
+    "m_PathID": 3609
+  },
+  "hyphen": {
+    "m_FileID": 0,
+    "m_PathID": 3680
+  },
+  "initialDelay": 0.5,
+  "fadeInTime": 1.0,
+  "displayTime": 3.0,
+  "fadeOutTime": 1.0
+}

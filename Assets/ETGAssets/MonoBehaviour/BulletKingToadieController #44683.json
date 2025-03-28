@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6312999756310818554
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8172650761463766571
+  },
+  "m_Name": "",
+  "ShouldCry": 0,
+  "CanReturnAngry": 0,
+  "AutoCrazeTime": 5.0,
+  "PostCrazeHealth": 20.0,
+  "scepterAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "hatPoint": {
+    "m_FileID": 0,
+    "m_PathID": -8974771051746235964
+  },
+  "hatVfx": {
+    "m_FileID": 0,
+    "m_PathID": -3039651239427172734
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6273005272177962972
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 2,
+    "Prefix": "move",
+    "AnimNames": [
+      "",
+      ""
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "grenade",
+      "anim": {
+        "Type": 1,
+        "Prefix": "grenade_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "uzi_start",
+      "anim": {
+        "Type": 1,
+        "Prefix": "uzi_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "uzi_shoot",
+      "anim": {
+        "Type": 1,
+        "Prefix": "uzi_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "uzi_end",
+      "anim": {
+        "Type": 1,
+        "Prefix": "uzi_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "summon",
+      "anim": {
+        "Type": 1,
+        "Prefix": "torch_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "summon_end",
+      "anim": {
+        "Type": 1,
+        "Prefix": "torch_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "poison_attack",
+      "anim": {
+        "Type": 1,
+        "Prefix": "poison_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "m16_attack",
+      "anim": {
+        "Type": 1,
+        "Prefix": "m16_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "teleport_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "teleport_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "teleport_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "teleport_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "torch",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 4746745283017126595
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 3455450561792476729
+                },
+                "orphaned": 0,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "torch_intro",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 4746745283017126595
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 1668134528434167316
+                },
+                "orphaned": 0,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "uzi",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 2395759480617758306
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 4692981533792518267
+                },
+                "orphaned": 0,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "teleport",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 8695214333654645608
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -8559291764202822341
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "spawn",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -1911636825839275333
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

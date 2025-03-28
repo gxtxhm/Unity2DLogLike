@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 655492364298937342
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7084107051065261627
+  },
+  "m_Name": "",
+  "overrideClearFlags": 3,
+  "uiScale": 1.0,
+  "InputOffsetScreenPercent": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "uiScaleLegacy": 0,
+  "inputManager": {
+    "m_FileID": 0,
+    "m_PathID": 6425259962657830914
+  },
+  "fixedWidth": 1440,
+  "fixedHeight": 810,
+  "FixedAspect": 0,
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -4906217653346313397
+  },
+  "defaultFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "mergeMaterials": 0,
+  "pixelPerfectMode": 1,
+  "renderCamera": {
+    "m_FileID": 0,
+    "m_PathID": 2809590662038950992
+  },
+  "generateNormals": 0,
+  "consumeMouseEvents": 0,
+  "overrideCamera": 0,
+  "renderQueueBase": 3001,
+  "renderQueueSecondDraw": -1,
+  "guides": []
+}

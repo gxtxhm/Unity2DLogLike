@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7070132859369223828
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8106630309109283680
+  },
+  "m_Name": "",
+  "PickupObjectId": 662,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 3,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 171010,
+  "itemName": "Cheese Wheel",
+  "ForcedPositionInAmmonomicon": 72,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 300.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "Resourceful_Rat_pac_cheese",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "duration": 10.0,
+  "BossContactDamage": 30.0,
+  "TransformationVFX": {
+    "m_FileID": 0,
+    "m_PathID": -4129020883346362943
+  }
+}

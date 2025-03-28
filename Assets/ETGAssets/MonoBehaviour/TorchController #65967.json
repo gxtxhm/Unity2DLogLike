@@ -1,0 +1,85 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6203666226824380773
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8050056441413279651
+  },
+  "m_Name": "",
+  "sparkVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": 3437040191989987121
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "douseVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -5325416932177548373
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "douseOffset": {
+    "m_FileID": 0,
+    "m_PathID": 3299090396140497671
+  },
+  "flameAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -2426911891836862202
+  },
+  "flameAnim": "torch_flame_orange_01",
+  "dousedAnim": "default_torch_doused",
+  "renderers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5369229188563516144
+    }
+  ],
+  "canBeRelit": 1,
+  "anyProjectileBreaks": 0,
+  "disappearAfterDouse": 0,
+  "igniteGoop": 1,
+  "igniteRadius": 0.5,
+  "deployGoop": 0,
+  "goopToDeploy": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "goopRadius": 3.0,
+  "createsShardsOnDouse": 0,
+  "douseShards": []
+}

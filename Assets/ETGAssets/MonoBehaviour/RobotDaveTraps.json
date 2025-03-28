@@ -1,0 +1,261 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6503930376332791300
+  },
+  "m_Name": "RobotDaveTraps",
+  "width": 2,
+  "height": 2,
+  "isPassable": 1,
+  "roomSequential": 0,
+  "respectsEncounterableDifferentiator": 0,
+  "UsePrefabTransformOffset": 0,
+  "MarkSpawnedItemsAsRatIgnored": 0,
+  "DebugThisPlaceable": 0,
+  "IsAnnexTable": 0,
+  "variantTiers": [
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": 591150273901706451
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": 6909512879150621480
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": -6706197601181481171
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": -3953742343658693521
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": -4407687063883129565
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": -4444812481322270527
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 3,
+        "m_PathID": 766503871485178699
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 3,
+        "m_PathID": 7816165436358258235
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": 6183305817303784255
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": -4291355191531776741
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 2,
+        "m_PathID": 3429757652285690843
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 3,
+        "m_PathID": -5374968570046878211
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 3,
+        "m_PathID": 4187544660309398031
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 3,
+        "m_PathID": 1092331079093011534
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    }
+  ]
+}

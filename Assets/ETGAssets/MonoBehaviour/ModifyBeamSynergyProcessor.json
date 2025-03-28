@@ -1,0 +1,77 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5318944282460442027
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5869921104096472189
+  },
+  "m_Name": "",
+  "SynergyToCheck": 23,
+  "AddsFreezeEffect": 1,
+  "FreezeEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "freeze",
+    "resistanceType": 3,
+    "stackMode": 3,
+    "duration": 3.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 0.1764706,
+      "g": 0.39607847,
+      "b": 1.0,
+      "a": 0.809
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "FreezeAmount": 200.0,
+    "UnfreezeDamagePercent": 0.3333,
+    "FreezeCrystals": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3369505155429604301
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3543666294422957965
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1010100247736497092
+      }
+    ],
+    "crystalRot": 8,
+    "crystalVariation": {
+      "x": 0.05,
+      "y": 0.05
+    },
+    "debrisMinForce": 5,
+    "debrisMaxForce": 5,
+    "debrisAngleVariance": 15.0,
+    "vfxExplosion": {
+      "m_FileID": 2,
+      "m_PathID": -6643735740938926415
+    }
+  }
+}

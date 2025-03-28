@@ -15,7 +15,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float speed = 5.0f;
 
+    AudioSource audioSource;
+    [SerializeField]
     
+
 
     public GameObject WeaponPos;
     Weapon curWeapon;
@@ -51,7 +54,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         WeaponPos = GameObject.Find("WeaponPos");
         curWeapon = WeaponPos.GetComponentInChildren<Weapon>();
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -184,7 +187,7 @@ public class PlayerController : MonoBehaviour
         weapon.transform.localPosition = new Vector3(0,0.12f,0);
         weapon.transform.localRotation = Quaternion.Euler(0, 0, weapon.RotateZ);
         curWeapon = weapon;
-
+        curWeapon.Init();
         GameManager.Instance.weaponImage.sprite = curWeapon.weaponSprite;
         GameManager.Instance.bulletText.text = $"{curWeapon.curAmmo}/{curWeapon.maxAmmo}";
 

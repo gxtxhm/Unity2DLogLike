@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6690364633749321381
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9106024208872756058
+  },
+  "m_Name": "",
+  "knocksShooterBack": 0,
+  "knockbackStrength": 10.0,
+  "usesChargeDelay": 1,
+  "chargeDelay": 0.2,
+  "statusEffectChance": 1.0,
+  "statusEffectAccumulateMultiplier": 1.0,
+  "beamAnimation": "life_orb_beam_middle",
+  "usesStartAnimation": 0,
+  "startAnimation": "",
+  "ImpactRenderer": {
+    "m_FileID": 0,
+    "m_PathID": -5481427616753792966
+  },
+  "EnemyImpactAnimation": "life_orb_beam_end",
+  "BossImpactAnimation": "",
+  "OtherImpactAnimation": "",
+  "targetType": 10,
+  "endRampHeight": 0.0,
+  "endRampSteps": 0,
+  "FlipUvsY": 0,
+  "UsesDispersalParticles": 1,
+  "OnlyParticlesOnDestruction": 1,
+  "DispersalDensity": 0.1,
+  "DispersalMinCoherency": 1.0,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 2236648688064425656
+  },
+  "DispersalExtraImpactFactor": 1.0,
+  "ParticleSkipCount": 5
+}

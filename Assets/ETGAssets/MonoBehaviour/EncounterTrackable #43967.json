@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9180879276562949864
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "0dcef380e17d409684da9787b04994bf",
+  "m_encounterGuid": "0dff7b822c5e43a1aebca39456c8d424",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 1,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#MIMICWOOD_ENCNAME",
+    "NotificationPanelDescription": "#BLACKMIMIC_SHORTDESC",
+    "AmmonomiconFullEntry": "#BLACKMIMIC_LONGDESC",
+    "AmmonomiconSprite": "blackbone_chest_mimic_idle_001",
+    "IsEnemy": 1,
+    "enemyPortraitSprite": {
+      "m_FileID": 1,
+      "m_PathID": -4820970141808137141
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

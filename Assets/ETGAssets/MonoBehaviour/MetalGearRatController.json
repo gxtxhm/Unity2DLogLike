@@ -1,0 +1,45 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7351504717110166094
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 550905672148364477
+  },
+  "m_Name": "",
+  "Tailgun": {
+    "AIAnimator": {
+      "m_FileID": 0,
+      "m_PathID": 8728885052281992554
+    },
+    "HealthPercentage": 0.18,
+    "PixelCollider": 5,
+    "DeathPixelCollider": 3,
+    "AttackName": "Tailgun",
+    "AutoAimer": {
+      "m_FileID": 0,
+      "m_PathID": 3131486753755848271
+    },
+    "BodyDamageOnDeath": 0.075
+  },
+  "Radome": {
+    "AIAnimator": {
+      "m_FileID": 0,
+      "m_PathID": 1733849967745978509
+    },
+    "HealthPercentage": 0.18,
+    "PixelCollider": 6,
+    "DeathPixelCollider": 4,
+    "AttackName": "Missiles",
+    "AutoAimer": {
+      "m_FileID": 0,
+      "m_PathID": 4250448103736517649
+    },
+    "BodyDamageOnDeath": 0.075
+  },
+  "MinBodyDamageHealth": 0.2,
+  "IconAttackName": "Icon Stomp",
+  "IconAttackProbability": 4.0
+}

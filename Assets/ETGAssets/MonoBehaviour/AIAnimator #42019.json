@@ -1,0 +1,475 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7351504717110166094
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 8728885052281992554
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "piriest_idle",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "intro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "intro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "intro_idle",
+      "anim": {
+        "Type": 1,
+        "Prefix": "intro_idle",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "jump_pound",
+      "anim": {
+        "Type": 1,
+        "Prefix": "jump_pound",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "pound_left",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "pound_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "pound_right",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_in_center",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "laser_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "laser_face_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "roar",
+      "anim": {
+        "Type": 1,
+        "Prefix": "roar",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "tailgun",
+      "anim": {
+        "Type": 1,
+        "Prefix": "tailgun_body",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "missile_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "missile_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "missile_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "missile_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "magic_circle_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "magic_circle_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "magic_circle_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "magic_circle_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "destroy_radome",
+      "anim": {
+        "Type": 1,
+        "Prefix": "destroy_right",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "destroy_tailgun",
+      "anim": {
+        "Type": 1,
+        "Prefix": "destroy_left",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "move_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "move_left",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "move_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "move_right",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "icon_stomp",
+      "anim": {
+        "Type": 1,
+        "Prefix": "icon_stomp",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "death",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "blank",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [
+    {
+      "name": "intro_roar",
+      "screenShake": {
+        "magnitude": 0.2,
+        "speed": 3.0,
+        "time": 1.0,
+        "falloff": 0.0,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "move_stomp",
+      "screenShake": {
+        "magnitude": 0.5,
+        "speed": 2.0,
+        "time": 0.3,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 0,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "stomp",
+      "screenShake": {
+        "magnitude": 0.25,
+        "speed": 3.0,
+        "time": 0.6,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "jump_pound",
+      "screenShake": {
+        "magnitude": 0.4,
+        "speed": 3.0,
+        "time": 0.6,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "destroy_part",
+      "screenShake": {
+        "magnitude": 0.4,
+        "speed": 3.0,
+        "time": 0.6,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "intro_stomp",
+      "screenShake": {
+        "magnitude": 0.4,
+        "speed": 3.0,
+        "time": 0.4,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    },
+    {
+      "name": "death",
+      "screenShake": {
+        "magnitude": 0.2,
+        "speed": 3.0,
+        "time": 3.0,
+        "falloff": 0.0,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    }
+  ],
+  "IdleFidgetAnimations": []
+}

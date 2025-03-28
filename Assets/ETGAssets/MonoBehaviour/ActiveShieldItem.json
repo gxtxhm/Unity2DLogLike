@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9013221094846765966
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 468412783910818184
+  },
+  "m_Name": "",
+  "PickupObjectId": 447,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Shield",
+  "ForcedPositionInAmmonomicon": 68,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 0,
+  "roomCooldown": 0,
+  "timeCooldown": 1.5,
+  "damageCooldown": 0.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "prefabToAttachToPlayer": {
+    "m_FileID": 0,
+    "m_PathID": -8327524420300117154
+  },
+  "MaxShieldTime": 4.0,
+  "DurationPortionToFlicker": 1.223
+}

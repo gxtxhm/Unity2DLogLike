@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4442574689631403985
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9195189716239532138
+  },
+  "m_Name": "",
+  "weight": 10000.0,
+  "deathMultiplier": 4.0,
+  "knockbackWhileReflecting": 0,
+  "shouldBounce": 1,
+  "collisionDecay": 0.5
+}

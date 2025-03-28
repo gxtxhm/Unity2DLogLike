@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2016838432172236386
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5974091517139180419
+  },
+  "m_Name": "",
+  "newHealth": 80.0,
+  "transformAnim": "tranform",
+  "enrageAnim": "move_hot",
+  "overrideMoveSpeed": 10.0,
+  "overrideWeight": 100.0,
+  "onFireDamageTypeModifiers": [
+    {
+      "damageType": 32,
+      "damageMultiplier": 2.0
+    },
+    {
+      "damageType": 8,
+      "damageMultiplier": 1.5
+    }
+  ]
+}

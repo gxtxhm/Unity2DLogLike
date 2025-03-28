@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5108917829171883805
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5904816265401343851
+  },
+  "m_Name": "",
+  "goopDefinition": {
+    "m_FileID": 0,
+    "m_PathID": -4684772358342865583
+  },
+  "positionSource": 0,
+  "goopCenter": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "updateTiming": 2,
+  "updateFrequency": 0.05,
+  "isTimed": 0,
+  "goopTime": 1.0,
+  "updateOnPreDeath": 0,
+  "updateOnDeath": 0,
+  "updateOnAnimFrames": 0,
+  "updateOnCollision": 0,
+  "updateOnGrounded": 0,
+  "updateOnDestroy": 0,
+  "defaultGoopRadius": 1.0,
+  "suppressSplashes": 0,
+  "goopSizeVaries": 0,
+  "varyCycleTime": 1.0,
+  "radiusMin": 0.5,
+  "radiusMax": 1.0,
+  "goopSizeRandom": 0,
+  "UsesDispersalParticles": 0,
+  "DispersalDensity": 3.0,
+  "DispersalMinCoherency": 0.2,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

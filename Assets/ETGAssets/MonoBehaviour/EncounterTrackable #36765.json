@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -999861766907219579
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "86ed8ebee3ce45c5a58bcf681976cf47",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#BULLETRIFLEPROFESSIONAL_ENCNAME",
+    "NotificationPanelDescription": "#BULLETRIFLEPROFESSIONAL_SHORTDESC",
+    "AmmonomiconFullEntry": "#BULLETRIFLEPROFESSIONAL_LONGDESC",
+    "AmmonomiconSprite": "prof_rifle_hit_right_001",
+    "IsEnemy": 1,
+    "enemyPortraitSprite": {
+      "m_FileID": 1,
+      "m_PathID": -3642247525873393514
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [],
+  "m_usesPurpleNotifications": 0
+}

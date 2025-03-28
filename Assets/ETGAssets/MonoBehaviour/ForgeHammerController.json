@@ -1,0 +1,73 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5173005840341777719
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1897121264242632573
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "TracksPlayer": 1,
+  "DeactivateOnEnemiesCleared": 1,
+  "ForceLeft": 0,
+  "ForceRight": 0,
+  "FlashDurationBeforeAttack": 0.75,
+  "AdditionalTrackingTime": 0.5,
+  "DamageToEnemies": 30.0,
+  "KnockbackForcePlayers": 50.0,
+  "KnockbackForceEnemies": 50.0,
+  "InitialDelay": 1.0,
+  "MinTimeBetweenAttacks": 1.0,
+  "MaxTimeBetweenAttacks": 2.5,
+  "MinTimeToRestOnGround": 0.75,
+  "MaxTimeToRestOnGround": 0.75,
+  "DoScreenShake": 1,
+  "ScreenShake": {
+    "magnitude": 0.48,
+    "speed": 6.0,
+    "time": 0.08,
+    "falloff": 0.1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "Hammer_Anim_In_Left": "hammer_left_slam",
+  "Hammer_Anim_Out_Left": "hammer_left_out",
+  "Hammer_Anim_In_Right": "hammer_right_slam",
+  "Hammer_Anim_Out_Right": "hammer_right_out",
+  "HitEffectAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -6101002500701897050
+  },
+  "TargetAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -7803228530068627352
+  },
+  "ShadowAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 3456528673227437128
+  },
+  "DoGoopOnImpact": 1,
+  "GoopToDo": {
+    "m_FileID": 0,
+    "m_PathID": 4500888693936625257
+  },
+  "DoesBulletsOnImpact": 1,
+  "BulletScript": {
+    "scriptTypeName": "ForgeHammerCircle1"
+  },
+  "ShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": -7268706139775336590
+  }
+}

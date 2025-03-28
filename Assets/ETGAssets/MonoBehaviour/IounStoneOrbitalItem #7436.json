@@ -1,0 +1,164 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 232856041348640934
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6609075860686943606
+  },
+  "m_Name": "",
+  "PickupObjectId": 466,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Guon Stone (Green)",
+  "ForcedPositionInAmmonomicon": 182,
+  "UsesCustomCost": 0,
+  "CustomCost": 120,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OrbitalPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 7535056895737261659
+  },
+  "OrbitalFollowerPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "HasUpgradeSynergy": 1,
+  "UpgradeSynergy": 310,
+  "UpgradeOrbitalPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 6442324489087870667
+  },
+  "UpgradeOrbitalFollowerPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "CanBeMimicked": 0,
+  "modifiers": [],
+  "synergyModifiers": [],
+  "BreaksUponContact": 0,
+  "BreaksUponOwnerDamage": 0,
+  "BreakVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SlowBulletsOnDamage": 0,
+  "SlowBulletsDuration": 15.0,
+  "SlowBulletsMultiplier": 0.5,
+  "ChanceToHealOnDamage": 1,
+  "HealChanceNormal": 0.2,
+  "HealChanceCritical": 0.5,
+  "GreenerSynergyMoneyGain": 20,
+  "GreenerChanceCritical": 0.7,
+  "ModifiesDodgeRoll": 0,
+  "DodgeRollTimeMultiplier": 0.9,
+  "DodgeRollDistanceMultiplier": 1.25,
+  "SynergyCharmsEnemiesOnDamage": 0,
+  "CharmEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0
+  },
+  "DefaultFreezeEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "FreezeAmount": 10.0,
+    "UnfreezeDamagePercent": 0.333,
+    "FreezeCrystals": [],
+    "crystalRot": 8,
+    "crystalVariation": {
+      "x": 0.05,
+      "y": 0.05
+    },
+    "debrisMinForce": 5,
+    "debrisMaxForce": 5,
+    "debrisAngleVariance": 15.0,
+    "vfxExplosion": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "Identifier": 0
+}

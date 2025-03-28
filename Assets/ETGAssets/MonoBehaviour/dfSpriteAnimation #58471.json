@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4436183643726526877
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3905541811410153116
+  },
+  "m_Name": "",
+  "animationName": "ArmorShatter",
+  "clip": {
+    "m_FileID": 0,
+    "m_PathID": 6562929402770777448
+  },
+  "alternativeLoopClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "percentChanceToPlayAlternative": 0.05,
+  "memberInfo": {
+    "Component": {
+      "m_FileID": 0,
+      "m_PathID": 3588265462806116623
+    },
+    "MemberName": "SpriteName"
+  },
+  "loopType": 0,
+  "LoopSectionFrameTarget": 7,
+  "LoopSectionFirstLength": -1.0,
+  "LoopDelayMin": 0.0,
+  "LoopDelayMax": 0.0,
+  "maxOneFrameDelta": 0,
+  "length": 0.1375,
+  "autoStart": 1,
+  "skipToEndOnStop": 0,
+  "playDirection": 0,
+  "UseDefaultSpriteNameProperty": 1
+}

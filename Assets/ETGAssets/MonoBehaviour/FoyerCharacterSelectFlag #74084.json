@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4187063762167669791
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6238301416017524764
+  },
+  "m_Name": "",
+  "OverheadElement": {
+    "m_FileID": 2,
+    "m_PathID": 1753280583048630136
+  },
+  "CharacterPrefabPath": "PlayerMarine",
+  "IsCoopCharacter": 0,
+  "IsEevee": 0,
+  "IsGunslinger": 0,
+  "prerequisites": [],
+  "AltCostumeLibrary": {
+    "m_FileID": 1,
+    "m_PathID": 3583173976966497066
+  },
+  "AltCostumeClipName": "idle_twohands"
+}

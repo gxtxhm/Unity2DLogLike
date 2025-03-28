@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8007129434415850781
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6278225998805947155
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "WorldLocks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3701141757770132219
+    }
+  ],
+  "OpensAutomaticallyOnUnlocked": 1
+}

@@ -1,0 +1,73 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7485665542209869410
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1506804609650279923
+  },
+  "m_Name": "",
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 6779824511363177276
+  },
+  "items": [
+    {
+      "name": "Controls_Temp_BG",
+      "region": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.8535156,
+        "height": 0.46875
+      },
+      "border": {
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0,
+        "m_Bottom": 0
+      },
+      "rotated": 0,
+      "sizeInPixels": {
+        "x": 437.0,
+        "y": 240.0
+      },
+      "textureGUID": "975f80f9168ad8a47b84c56479ceb4bf",
+      "deleted": 0,
+      "texture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "name": "Controls_Temp_BG_controller",
+      "region": {
+        "x": 0.0,
+        "y": 0.47265625,
+        "width": 0.8535156,
+        "height": 0.46875
+      },
+      "border": {
+        "m_Left": 0,
+        "m_Right": 0,
+        "m_Top": 0,
+        "m_Bottom": 0
+      },
+      "rotated": 0,
+      "sizeInPixels": {
+        "x": 437.0,
+        "y": 240.0
+      },
+      "textureGUID": "91d30a1254f665742a5b4080b74ebece",
+      "deleted": 0,
+      "texture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "generator": 0,
+  "imageFileGUID": "",
+  "dataFileGUID": ""
+}

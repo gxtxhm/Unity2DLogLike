@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1350170881742498608
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4164567340799876033
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "noteBackgroundType": 3,
+  "stringKey": "#RESOURCEFULRAT_CONSOLATION_NOTE_01",
+  "useAdditionalStrings": 1,
+  "additionalStrings": [
+    "#RESOURCEFULRAT_CONSOLATION_NOTE_01",
+    "#RESOURCEFULRAT_CONSOLATION_NOTE_02",
+    "#RESOURCEFULRAT_CONSOLATION_NOTE_03"
+  ],
+  "isNormalNote": 0,
+  "useItemsTable": 0,
+  "textboxSpawnPoint": {
+    "m_FileID": 0,
+    "m_PathID": 9113346881906255620
+  },
+  "DestroyedOnFinish": 1
+}

@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6853345782115952920
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6175093386656120785
+  },
+  "m_Name": "",
+  "shootProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "shootCooldown": 2.0,
+  "shouldRotate": 0,
+  "rotationOffset": -90.0,
+  "maxRotationDegreesPerSecond": 360.0,
+  "BlanksOnProjectileRadius": 0,
+  "BlankRadius": 4.0,
+  "BlankFrequency": 3.0,
+  "BlankAnimationName": "",
+  "BlankIdleName": "",
+  "IdleAnimation": "",
+  "synergies": [],
+  "PredictsChests": 1
+}

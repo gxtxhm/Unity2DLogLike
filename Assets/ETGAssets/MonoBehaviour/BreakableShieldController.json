@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3874779027206386765
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6353454862088545278
+  },
+  "m_Name": "",
+  "introAnimation": "blockner_shield_intro",
+  "idleAnimation": "blockner_shield_idle",
+  "idleBreak1Animation": "blockner_shield_break1",
+  "idleBreak2Animation": "blockner_shield_break2",
+  "idleBreak3Animation": "blockner_shield_break3",
+  "maxDuration": 3.0
+}

@@ -1,0 +1,386 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1241135558991758993
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1931842972182129318
+  },
+  "m_Name": "",
+  "fsm": {
+    "dataVersion": 0,
+    "usedInTemplate": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "name": "collider listener",
+    "startState": "waiting for collision",
+    "states": [
+      {
+        "name": "waiting for collision",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 50.0,
+          "y": 100.0,
+          "width": 245.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "playerExitedRoomViaColliderHack",
+              "isSystemEvent": 0,
+              "isGlobal": 1
+            },
+            "toState": "State 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.SpecTriggerEvent"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            1698681445
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            112,
+            108,
+            97,
+            121,
+            101,
+            114,
+            69,
+            120,
+            105,
+            116,
+            101,
+            100,
+            82,
+            111,
+            111,
+            109,
+            86,
+            105,
+            97,
+            67,
+            111,
+            108,
+            108,
+            105,
+            100,
+            101,
+            114,
+            72,
+            97,
+            99,
+            107
+          ],
+          "arrayParamSizes": [
+            1,
+            1
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmInt",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            12,
+            16,
+            12,
+            23
+          ],
+          "paramName": [
+            "triggerIndices",
+            "",
+            "events",
+            ""
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            1,
+            5
+          ],
+          "paramByteDataSize": [
+            0,
+            5,
+            0,
+            31
+          ]
+        }
+      },
+      {
+        "name": "State 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 443.0,
+          "y": 111.0,
+          "width": 100.0,
+          "height": 16.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.SendEventByName"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            -1772786049
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [
+            {
+              "target": 2,
+              "excludeSelf": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": 0
+              },
+              "gameObject": {
+                "ownerOption": 0,
+                "gameObject": {
+                  "useVariable": 0,
+                  "name": "",
+                  "tooltip": "",
+                  "showInInspector": 0,
+                  "networkSync": 0,
+                  "value": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  }
+                }
+              },
+              "fsmName": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": "Tutorial Knight Dodge Bullets"
+              },
+              "sendToChildren": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": 0
+              },
+              "fsmComponent": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            }
+          ],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "playerExitedRoom"
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            31,
+            18,
+            15,
+            1
+          ],
+          "paramName": [
+            "eventTarget",
+            "sendEvent",
+            "delay",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "paramByteDataSize": [
+            0,
+            0,
+            5,
+            1
+          ]
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "playerExitedRoomViaColliderHack",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      }
+    ],
+    "globalTransitions": [],
+    "variables": {
+      "floatVariables": [],
+      "intVariables": [],
+      "boolVariables": [],
+      "stringVariables": [],
+      "vector2Variables": [],
+      "vector3Variables": [],
+      "colorVariables": [],
+      "rectVariables": [],
+      "quaternionVariables": [],
+      "gameObjectVariables": [],
+      "objectVariables": [],
+      "materialVariables": [],
+      "textureVariables": [],
+      "arrayVariables": [],
+      "enumVariables": [],
+      "categories": [
+        ""
+      ],
+      "variableCategoryIDs": []
+    },
+    "description": "",
+    "docUrl": "",
+    "showStateLabel": 1,
+    "maxLoopCount": 0,
+    "watermark": "",
+    "password": "",
+    "locked": 0,
+    "manualUpdate": 0,
+    "keepDelayedEventsOnStateExit": 0,
+    "preprocessed": 0,
+    "ExposedEvents": [],
+    "RestartOnEnable": 1,
+    "EnableDebugFlow": 0,
+    "EnableBreakpoints": 1,
+    "editorFlags": 3,
+    "activeStateName": "",
+    "mouseEvents": 0,
+    "handleTriggerEnter2D": 0,
+    "handleTriggerExit2D": 0,
+    "handleTriggerStay2D": 0,
+    "handleCollisionEnter2D": 0,
+    "handleCollisionExit2D": 0,
+    "handleCollisionStay2D": 0,
+    "handleTriggerEnter": 0,
+    "handleTriggerExit": 0,
+    "handleTriggerStay": 0,
+    "handleCollisionEnter": 0,
+    "handleCollisionExit": 0,
+    "handleCollisionStay": 0,
+    "handleParticleCollision": 0,
+    "handleControllerColliderHit": 0,
+    "handleJointBreak": 0,
+    "handleJointBreak2D": 0,
+    "handleOnGUI": 0,
+    "handleFixedUpdate": 0,
+    "handleApplicationEvents": 0,
+    "handleAnimatorMove": 0,
+    "handleAnimatorIK": 0
+  },
+  "fsmTemplate": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "eventHandlerComponentsAdded": 0
+}

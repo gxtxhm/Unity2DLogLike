@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 847
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 54
+  },
+  "m_Name": "",
+  "TileMap": {
+    "m_FileID": 0,
+    "m_PathID": 3538
+  },
+  "PixelsPerUnit": 16,
+  "DebugDraw": 0,
+  "DebugColors": [
+    {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    }
+  ]
+}

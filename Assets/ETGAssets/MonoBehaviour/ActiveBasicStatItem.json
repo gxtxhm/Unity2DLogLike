@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5233479212329084987
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3814088508516111258
+  },
+  "m_Name": "",
+  "PickupObjectId": 174,
+  "quality": 1,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Potion of Gun Friendship",
+  "ForcedPositionInAmmonomicon": 62,
+  "UsesCustomCost": 0,
+  "CustomCost": 35,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 1,
+  "customDestroyTime": 10.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 400.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "duration": 10.0,
+  "modifiers": [
+    {
+      "statToBoost": 1,
+      "modifyType": 1,
+      "amount": 2.0,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 12,
+      "modifyType": 1,
+      "amount": 10.0,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 10,
+      "modifyType": 1,
+      "amount": 0.3,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 5,
+      "modifyType": 1,
+      "amount": 1.3,
+      "isMeatBunBuff": 0
+    }
+  ]
+}

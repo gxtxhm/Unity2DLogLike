@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1618134847893588961
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7627864716538005107
+  },
+  "m_Name": "",
+  "RequiredSynergy": 244,
+  "TargetGunID": 18,
+  "UsesMultipleGuns": 0,
+  "TargetGunIDs": [],
+  "PositionType": 1,
+  "AimType": 0,
+  "FireType": 1,
+  "FireCooldown": 0.5,
+  "FireDuration": -1.0,
+  "OnlyOnEmptyReload": 0,
+  "ShootAudioEvent": "",
+  "OnEveryShotAudioEvent": "Play_WPN_looper_shot_01",
+  "FinishedShootingAudioEvent": "",
+  "Trigger": 2,
+  "NumToTrigger": 1,
+  "TriggerDuration": 3.0,
+  "ConsumesTargetGunAmmo": 0,
+  "ChanceToConsumeTargetGunAmmo": 0.5
+}

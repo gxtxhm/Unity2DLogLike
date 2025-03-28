@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5448040779464967821
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4766481194654491805
+  },
+  "m_Name": "",
+  "events": [
+    {
+      "eventIndex": 0,
+      "playmakerEvent": "playerAcrossPit_01"
+    },
+    {
+      "eventIndex": 4,
+      "playmakerEvent": "playerAcrossPit_02"
+    },
+    {
+      "eventIndex": 2,
+      "playmakerEvent": "playerAcrossPit_03"
+    },
+    {
+      "eventIndex": 3,
+      "playmakerEvent": "playerEnteredRoomCustom"
+    }
+  ]
+}

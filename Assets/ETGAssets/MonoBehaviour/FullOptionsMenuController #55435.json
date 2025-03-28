@@ -1,0 +1,60 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 733508675014088250
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 905065054958426165
+  },
+  "m_Name": "",
+  "PrimaryCancelButton": {
+    "m_FileID": 0,
+    "m_PathID": 6591992226948981104
+  },
+  "PrimaryResetDefaultsButton": {
+    "m_FileID": 0,
+    "m_PathID": -9043008148158371007
+  },
+  "PrimaryConfirmButton": {
+    "m_FileID": 0,
+    "m_PathID": -1722932325724502099
+  },
+  "TabAudio": {
+    "m_FileID": 0,
+    "m_PathID": -857344896594906547
+  },
+  "TabVideo": {
+    "m_FileID": 0,
+    "m_PathID": 4650832416396147162
+  },
+  "TabGameplay": {
+    "m_FileID": 0,
+    "m_PathID": -533476999530763664
+  },
+  "TabControls": {
+    "m_FileID": 0,
+    "m_PathID": 7043534244632126966
+  },
+  "TabKeyboardBindings": {
+    "m_FileID": 0,
+    "m_PathID": -5532623468248697831
+  },
+  "TabCredits": {
+    "m_FileID": 0,
+    "m_PathID": 6188386114842942492
+  },
+  "TabHowToPlay": {
+    "m_FileID": 0,
+    "m_PathID": -5613197899195724553
+  },
+  "ModalKeyBindingDialog": {
+    "m_FileID": 0,
+    "m_PathID": -8137774895261998364
+  },
+  "PreOptionsMenu": {
+    "m_FileID": 0,
+    "m_PathID": -4977956374773666305
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8789714555138457970
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8004463764496719270
+  },
+  "m_Name": "",
+  "flipStyle": 0,
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 4609499921570750504
+  },
+  "DamageReceivedOnSlide": 30.0,
+  "unflippedBreakAnimation": "horizontal_stone_idle_break",
+  "flipAnimation": "horizontal_stone_flip_{0}",
+  "shadowFlipAnimation": "horizontal_stone_flip_{0}_shadow",
+  "pitfallAnimation": "horizontal_stone_flipped_{0}_pitfall",
+  "breakAnimation": "horizontal_stone_flipped_{0}_break",
+  "prebreakFrames": [
+    {
+      "healthPercentage": 83.0,
+      "sprite": "stone_table_horizontal_break_{0}_001"
+    },
+    {
+      "healthPercentage": 66.0,
+      "sprite": "stone_table_horizontal_break_{0}_002"
+    },
+    {
+      "healthPercentage": 49.0,
+      "sprite": "stone_table_horizontal_break_{0}_003"
+    },
+    {
+      "healthPercentage": 31.0,
+      "sprite": "stone_table_horizontal_break_{0}_004"
+    },
+    {
+      "healthPercentage": 15.0,
+      "sprite": "stone_table_horizontal_break_{0}_005"
+    }
+  ],
+  "prebreakFramesUnflipped": [
+    {
+      "healthPercentage": 66.0,
+      "sprite": "stone_table_horizontal_idle_crack_001"
+    },
+    {
+      "healthPercentage": 33.0,
+      "sprite": "stone_table_horizontal_idle_crack_002"
+    }
+  ],
+  "BreaksOnBreakAnimation": 0,
+  "flipSubElements": [],
+  "outlineNorth": {
+    "m_FileID": 0,
+    "m_PathID": 7772465635488258975
+  },
+  "outlineEast": {
+    "m_FileID": 0,
+    "m_PathID": 2255604505972846586
+  },
+  "outlineSouth": {
+    "m_FileID": 0,
+    "m_PathID": 6418658732691972736
+  },
+  "outlineWest": {
+    "m_FileID": 0,
+    "m_PathID": -2001827506656651355
+  },
+  "UsesCustomHeightsOffGround": 0,
+  "CustomStartHeightOffGround": 0.0,
+  "CustomNorthFlippedHeightOffGround": -1.5,
+  "CustomEastFlippedHeightOffGround": -1.5,
+  "CustomSouthFlippedHeightOffGround": -1.5,
+  "CustomWestFlippedHeightOffGround": -1.5,
+  "DelayMoveable": 0,
+  "MoveableDelay": 1.0,
+  "VibrationDelay": 0.25
+}

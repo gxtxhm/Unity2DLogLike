@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1859006052029269055
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8567012076057146631
+    }
+  ],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":true,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"StopWhenInRange\":true,\"CustomRange\":-1.0,\"LineOfSight\":true,\"ReturnToSpawn\":true,\"SpawnTetherDistance\":0.0,\"PathInterval\":0.25,\"SpecifyRange\":false,\"MinActiveRange\":0.0,\"MaxActiveRange\":0.0,\"$type\":\"SeekTargetBehavior\"}]",
+    "[{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Teleport\",\"Probability\":1.0,\"Behavior\":{\"AttackableDuringAnimation\":true,\"AvoidWalls\":true,\"StayOnScreen\":true,\"MinDistanceFromPlayer\":4.0,\"MaxDistanceFromPlayer\":-1.0,\"GoneTime\":1.0,\"OnlyTeleportIfPlayerUnreachable\":false,\"teleportOutBulletScript\":null,\"teleportInBulletScript\":null,\"goneAttackBehavior\":null,\"AllowCrossRoomTeleportation\":false,\"teleportOutAnim\":\"teleport_out\",\"teleportInAnim\":\"teleport_in\",\"teleportRequiresTransparency\":false,\"hasOutlinesDuringAnim\":true,\"shadowSupport\":\"None\",\"shadowOutAnim\":null,\"shadowInAnim\":null,\"ManuallyDefineRoom\":false,\"roomMin\":{\"x\":0.0,\"y\":0.0},\"roomMax\":{\"x\":0.0,\"y\":0.0},\"Cooldown\":5.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.5,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"TeleportBehavior\"}},{\"NickName\":\"Spin Shoot\",\"Probability\":1.0,\"Behavior\":{\"LineOfSight\":true,\"OverrideBulletName\":null,\"CanHitEnemies\":false,\"ShootPoint\":0,\"NumBullets\":6,\"BulletCircleSpeed\":270,\"BulletCircleRadius\":1.29999995231628,\"FirstSpawnDelay\":0.300000011920929,\"SpawnDelay\":0.300000011920929,\"PrefireUseAnimTime\":true,\"PrefireDelay\":-0.649999976158142,\"FirstFireDelay\":0.150000005960464,\"FireDelay\":0.150000005960464,\"LeadAmount\":0.699999988079071,\"CastVfx\":\"cast\",\"CastLights\":[],\"Cooldown\":1.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":1.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":1.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"WizardSpinShootBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.0,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

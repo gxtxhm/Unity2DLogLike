@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6789529876815675511
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5355646275683947928
+  },
+  "m_Name": "",
+  "StartWidth": 0.0625,
+  "EndWidth": 0.125,
+  "AnimationSpeed": 2.0,
+  "ScarfLength": 1.5,
+  "AngleLerpSpeed": 5.0,
+  "ForwardZOffset": 0.0,
+  "BackwardZOffset": -2.25,
+  "MinOffset": {
+    "x": 0.0,
+    "y": 0.5
+  },
+  "MaxOffset": {
+    "x": 0.0,
+    "y": -0.125
+  },
+  "CatchUpScale": 2.0,
+  "AttachTarget": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ScarfMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 7108909222918733571
+  },
+  "SinSpeed": 5.0,
+  "AmplitudeMod": 0.125,
+  "WavelengthMod": 1.0
+}

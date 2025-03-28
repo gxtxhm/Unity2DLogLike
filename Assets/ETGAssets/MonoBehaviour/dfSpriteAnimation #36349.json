@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5102614812850221551
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3905541811410153116
+  },
+  "m_Name": "",
+  "animationName": "HeartFullToEmpty",
+  "clip": {
+    "m_FileID": 0,
+    "m_PathID": 179208636657849137
+  },
+  "alternativeLoopClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "percentChanceToPlayAlternative": 0.0,
+  "memberInfo": {
+    "Component": {
+      "m_FileID": 0,
+      "m_PathID": -826361257594871100
+    },
+    "MemberName": "SpriteName"
+  },
+  "loopType": 0,
+  "LoopSectionFrameTarget": 7,
+  "LoopSectionFirstLength": -1.0,
+  "LoopDelayMin": 0.0,
+  "LoopDelayMax": 0.0,
+  "maxOneFrameDelta": 0,
+  "length": 0.275,
+  "autoStart": 1,
+  "skipToEndOnStop": 0,
+  "playDirection": 0,
+  "UseDefaultSpriteNameProperty": 1
+}

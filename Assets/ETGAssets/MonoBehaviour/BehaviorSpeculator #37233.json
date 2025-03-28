@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2490337260956557700
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[{\"TargetAnimations\":[\"portable_turret_deploy\"],\"ExtraDelay\":0.0,\"$type\":\"WaitForAnimationComplete\"}]",
+    "[{\"LineOfSight\":false,\"ObjectPermanence\":false,\"SearchInterval\":0.25,\"$type\":\"TargetEnemiesBehavior\"}]",
+    "[]",
+    "[{\"GroupCooldownVariance\":0.200000002980232,\"LineOfSight\":true,\"WeaponType\":\"AIShooterProjectile\",\"OverrideBulletName\":null,\"BulletScript\":null,\"FixTargetDuringAttack\":false,\"StopDuringAttack\":false,\"LeadAmount\":0.0,\"LeadChance\":1.0,\"RespectReload\":false,\"MagazineCapacity\":1.0,\"ReloadSpeed\":1.0,\"EmptiesClip\":true,\"SuppressReloadAnim\":false,\"TimeBetweenShots\":-1.0,\"PreventTargetSwitching\":false,\"OverrideAnimation\":null,\"OverrideDirectionalAnimation\":null,\"HideGun\":false,\"UseLaserSight\":false,\"UseGreenLaser\":false,\"PreFireLaserTime\":-1.0,\"AimAtFacingDirectionWhenSafe\":false,\"Cooldown\":0.100000001490116,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":40.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootGunBehavior\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.0,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

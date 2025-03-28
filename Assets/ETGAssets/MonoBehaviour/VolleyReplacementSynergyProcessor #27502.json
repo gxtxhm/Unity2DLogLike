@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1268604614535799919
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8793165151689929064
+  },
+  "m_Name": "",
+  "RequiredSynergy": 252,
+  "SynergyVolley": {
+    "m_FileID": 0,
+    "m_PathID": 3124139009818177283
+  }
+}

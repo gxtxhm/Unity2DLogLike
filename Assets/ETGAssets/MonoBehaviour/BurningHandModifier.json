@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5351527318581691810
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1260711495356911284
+  },
+  "m_Name": "",
+  "MinDamageMultiplier": 1.0,
+  "MaxDamageMultiplier": 10.0,
+  "MinScale": 0.5,
+  "MaxScale": 2.75,
+  "MaxRoll": 13.0
+}

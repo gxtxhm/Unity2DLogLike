@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3591183459550892941
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4164567340799876033
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "noteBackgroundType": 0,
+  "stringKey": "#RAINBOWCHESTGUY_BOSS_PEDESTAL_NOTE",
+  "useAdditionalStrings": 0,
+  "additionalStrings": [],
+  "isNormalNote": 0,
+  "useItemsTable": 0,
+  "textboxSpawnPoint": {
+    "m_FileID": 0,
+    "m_PathID": -1801383895725109297
+  },
+  "DestroyedOnFinish": 1
+}

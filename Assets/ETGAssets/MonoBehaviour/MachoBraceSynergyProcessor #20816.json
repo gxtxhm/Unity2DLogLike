@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1818130474466444699
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7481174636440467049
+  },
+  "m_Name": "",
+  "RequiredSynergy": 262,
+  "DamageMultiplier": 1.5,
+  "DustUpVFX": {
+    "m_FileID": 0,
+    "m_PathID": -6342963364945322228
+  },
+  "BurstVFX": {
+    "m_FileID": 0,
+    "m_PathID": -2523093910005125524
+  },
+  "OverheadVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "TriggersOnStandingStill": 0,
+  "StandStillTimer": 3.0,
+  "TriggersOnTableFlip": 0,
+  "FlipDuration": 3.0,
+  "TriggersOnAimRotation": 1
+}

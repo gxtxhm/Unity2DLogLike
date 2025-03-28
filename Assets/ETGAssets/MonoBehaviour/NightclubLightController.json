@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3593628309594130901
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6778749530287283719
+  },
+  "m_Name": "",
+  "LightChangePeriod": 1.0,
+  "MotionMaxSpeed": 5.0,
+  "ValidMotionRect": {
+    "x": 3.0,
+    "y": 20.0,
+    "width": 37.0,
+    "height": 22.0
+  }
+}

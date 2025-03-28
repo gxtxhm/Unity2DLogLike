@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8806619410181479832
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -660846302270169197
+  },
+  "m_Name": "",
+  "ItemBoxSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3720124224130552051
+  },
+  "ItemBoxFillSprite": {
+    "m_FileID": 0,
+    "m_PathID": 2421133872777471021
+  },
+  "ItemBoxFGSprite": {
+    "m_FileID": 0,
+    "m_PathID": -8317392053818936167
+  },
+  "itemSprite": {
+    "m_FileID": 0,
+    "m_PathID": -5369699073721915272
+  },
+  "ExtraItemCardPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -5156430419567105775
+  },
+  "AdditionalItemBoxSprites": [],
+  "ItemCountLabel": {
+    "m_FileID": 0,
+    "m_PathID": 7341848645432122228
+  },
+  "IsRightAligned": 0
+}

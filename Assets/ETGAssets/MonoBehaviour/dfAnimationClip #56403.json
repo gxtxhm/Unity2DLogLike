@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6425562084794644847
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "chamber_burst_001",
+    "chamber_burst_002",
+    "chamber_burst_003",
+    "chamber_burst_004"
+  ]
+}

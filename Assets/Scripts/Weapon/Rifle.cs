@@ -14,6 +14,7 @@ public class Rifle : Weapon
     public override void Shoot()
     {
         if (IsReloading) return;
+        base.Shoot();
         curAmmo--;
         GameObject bullet = PoolingManager.Instance.GetItem(PoolingType.RifleBullet);
         bullet.transform.position = Muzzle.transform.position;
@@ -28,6 +29,7 @@ public class Rifle : Weapon
 
     public override void Reload()
     {
+        base .Reload();
         StartCoroutine(CoReload());
     }
 }

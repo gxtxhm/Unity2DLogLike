@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 946
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 67
+  },
+  "m_Name": "",
+  "SonySpriteName": "Controller_Icon_DPad_updown",
+  "XboxSpriteName": "Controller_Icon_DPad_updown",
+  "SwitchSpriteName": "switch_dpad_ud",
+  "SwitchSingleJoyConSpriteName": "switch_single_r",
+  "InteractOverride": 0,
+  "DoResize": 1,
+  "ResizeScale": 3.0
+}

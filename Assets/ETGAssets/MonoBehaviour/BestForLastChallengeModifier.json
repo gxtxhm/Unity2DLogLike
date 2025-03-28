@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -243900015006322943
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 758075555989927480
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_BEST_FOR_LAST",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Last_Man_Standing_icon_001",
+  "ValidInBossChambers": 0,
+  "MutuallyExclusive": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2754099488834093646
+    }
+  ],
+  "KingVFX": {
+    "m_FileID": 0,
+    "m_PathID": -7316329767061809364
+  }
+}

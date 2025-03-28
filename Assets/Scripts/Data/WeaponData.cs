@@ -24,4 +24,7 @@ public class WeaponData : ScriptableObject
     public WeaponType type;
 
     public float RotateZ;
+
+    public AudioClip shotClip;
+    public AudioClip reloadClip;
 }

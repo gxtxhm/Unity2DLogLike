@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4788690792229891206
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7461656924029284177
+  },
+  "m_Name": "",
+  "lightNorthVFX": {
+    "m_FileID": 0,
+    "m_PathID": 4219716722470153261
+  },
+  "lightEastVFX": {
+    "m_FileID": 0,
+    "m_PathID": -257896183834915728
+  },
+  "lightSouthVFX": {
+    "m_FileID": 0,
+    "m_PathID": -5507799419114999330
+  },
+  "lightWestVFX": {
+    "m_FileID": 0,
+    "m_PathID": 2580200996630970813
+  },
+  "maxActiveLightTrails": 10
+}

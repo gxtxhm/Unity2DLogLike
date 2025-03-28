@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -73361815972561288
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3100090821094910753
+  },
+  "m_Name": "",
+  "anchorStyle": 192,
+  "isEnabled": 1,
+  "isVisible": 0,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 2,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 1443.0,
+    "y": 822.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 192,
+    "margins": {
+      "left": -3.0,
+      "top": -6.0,
+      "right": 0.0,
+      "bottom": -6.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 877280778541518835
+    }
+  },
+  "renderOrder": 10,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "texture": {
+    "m_FileID": 0,
+    "m_PathID": -8976193919489191649
+  },
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "flip": 0,
+  "fillDirection": 1,
+  "fillAmount": 1.0,
+  "invertFill": 0,
+  "cropRect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0
+  },
+  "cropImage": 0
+}

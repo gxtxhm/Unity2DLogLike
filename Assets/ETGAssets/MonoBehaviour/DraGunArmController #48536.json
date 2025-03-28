@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2237009388422568079
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4589965576143187936
+  },
+  "m_Name": "",
+  "shoulder": {
+    "m_FileID": 0,
+    "m_PathID": -1013851746880293649
+  },
+  "balls": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7227050563233907701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2004111559271061033
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3207438083677295281
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6580553424198232707
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3749655953987070099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2098141837502575436
+    }
+  ],
+  "hand": {
+    "m_FileID": 0,
+    "m_PathID": 5506158316542042539
+  }
+}

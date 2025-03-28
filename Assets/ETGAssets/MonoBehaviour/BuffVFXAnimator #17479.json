@@ -1,0 +1,33 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5710897184448397045
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5937043211809155610
+  },
+  "m_Name": "",
+  "animationStyle": 1,
+  "motionPeriod": 1.0,
+  "ChanceOfApplication": 1.0,
+  "persistsOnDeath": 1,
+  "AdditionalPierceDepth": 0.0,
+  "UsesVFXToSpawnOnDeath": 0,
+  "VFXToSpawnOnDeath": {
+    "type": 0,
+    "effects": []
+  },
+  "NonPoolVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DoesSparks": 0,
+  "SparksModule": {
+    "sparksType": 0,
+    "emitType": 0,
+    "RatePerSecond": 10.0
+  },
+  "tetrominoType": 0
+}

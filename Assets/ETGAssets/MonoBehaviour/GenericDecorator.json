@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1404943088069680711
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2160363483433430218
+  },
+  "m_Name": "",
+  "tableTable": {
+    "m_FileID": 0,
+    "m_PathID": -3076538623948870650
+  },
+  "localPixelSurfaceOrigin": {
+    "x": 3,
+    "y": 1
+  },
+  "localPixelSurfaceDimensions": {
+    "x": 13,
+    "y": 6
+  },
+  "heightOffGround": 0.1,
+  "disableRigidbodies": 1,
+  "rigidbodyTrigger": {
+    "m_FileID": 0,
+    "m_PathID": 4449429493566323752
+  },
+  "parentSprite": {
+    "m_FileID": 0,
+    "m_PathID": 168175805277707828
+  },
+  "parentSurface": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -251222575741072660
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9216921075348943002
+  },
+  "m_Name": "",
+  "AltarRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": -8705772648649427334
+  },
+  "SarcoRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": 2734381954800663341
+  },
+  "SlideShake": {
+    "magnitude": 0.175,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "displayTextKey": "#CATHEDRAL_PROMPT",
+  "acceptOptionKey": "#CATHEDRAL_YES",
+  "declineOptionKey": "#CATHEDRAL_NO",
+  "CrestSprite": {
+    "m_FileID": 0,
+    "m_PathID": -8325615252087630150
+  },
+  "talkPoint": {
+    "m_FileID": 0,
+    "m_PathID": 1790559835373080381
+  },
+  "cryoAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 1627616768009509087
+  },
+  "cryoArriveAnimation": "cathedral_exit_ice",
+  "cyroDepartAnimation": "cathedral_exit_ice_reverse"
+}

@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5094097452224653238
+  },
+  "m_Name": "Base Shared Injection Data",
+  "InjectionData": [
+    {
+      "annotation": "Secret Rooms",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 4795655836136164857
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.0,
+      "chanceToSpawn": 0.9,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "Loot Cell",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        4
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 4356213340561546150
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.0,
+      "chanceToSpawn": 0.1,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 0,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    }
+  ],
+  "UseInvalidWeightAsNoInjection": 0,
+  "PreventInjectionOfFailedPrerequisites": 0,
+  "IsNPCCell": 0,
+  "IgnoreUnmetPrerequisiteEntries": 0,
+  "OnlyOne": 0,
+  "ChanceToSpawnOne": 0.3,
+  "AttachedInjectionData": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4838983545429021028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 375749178553456638
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8887628345408739614
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9051380698213828741
+    }
+  ]
+}

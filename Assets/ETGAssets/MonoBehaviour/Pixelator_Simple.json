@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7663380585315051100
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7588037676269077114
+  },
+  "m_Name": "",
+  "renderShader": {
+    "m_FileID": 0,
+    "m_PathID": 1603713340376635257
+  },
+  "upsideDownShader": {
+    "m_FileID": 0,
+    "m_PathID": 6727654405594817336
+  },
+  "slaveCamera": {
+    "m_FileID": 0,
+    "m_PathID": 4386962456024893858
+  }
+}

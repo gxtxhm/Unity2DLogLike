@@ -1,0 +1,45 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5374968570046878211
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1812708795723636664
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "IsOnlyPlayerMinecart": 0,
+  "AlwaysMoving": 0,
+  "childAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -4975668689161976218
+  },
+  "attachTransform": {
+    "m_FileID": 0,
+    "m_PathID": 2364291241070758963
+  },
+  "carriedCargo": {
+    "m_FileID": 0,
+    "m_PathID": 6498131729389041222
+  },
+  "MoveCarriedCargoIntoCart": 0,
+  "HorizontalAnimationName": "minecart_idle_horizontal_A",
+  "VerticalAnimationName": "minecart_idle_vertical_A",
+  "KnockbackStrengthPlayer": 3.0,
+  "KnockbackStrengthEnemy": 10.0,
+  "MaxSpeed": 7.0,
+  "TimeToMaxSpeed": 2.0,
+  "Sparks_A": {
+    "m_FileID": 0,
+    "m_PathID": -6733534847344051222
+  },
+  "Sparks_B": {
+    "m_FileID": 0,
+    "m_PathID": -7725187429624494670
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3642815948901984544
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9091778748497539986
+  },
+  "m_Name": "",
+  "doorMode": 4,
+  "doorClosesAfterEveryOpen": 0,
+  "doorModules": [],
+  "hideSealAnimators": 0,
+  "sealAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -452427584662241503
+    }
+  ],
+  "sealChainAnimators": [],
+  "sealVFX": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8362945142046806407
+    }
+  ],
+  "unsealDistanceMaximum": 6.0,
+  "unsealedVFXOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "sealAnimationName": "fboss_door_close",
+  "unsealAnimationName": "fboss_door_open",
+  "playerNearSealedAnimationName": "",
+  "SupportsSubsidiaryDoors": 0,
+  "northSouth": 1,
+  "subsidiaryBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "subsidiaryDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChainsAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "isLocked": 0,
+  "lockIsBusted": 0,
+  "isSealed": 1,
+  "usesUnsealScreenShake": 1,
+  "unsealScreenShake": {
+    "magnitude": 0.125,
+    "speed": 3.0,
+    "time": 0.8,
+    "falloff": 0.5,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  }
+}

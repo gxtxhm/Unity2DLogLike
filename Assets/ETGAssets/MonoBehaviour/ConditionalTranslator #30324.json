@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3660775986792710439
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8717659722456509144
+  },
+  "m_Name": "",
+  "EnglishText": "Guns",
+  "NonEnglishItemsKey": "#AMMONOMICON_HEADERGUNS_LC",
+  "useUiTable": 1
+}

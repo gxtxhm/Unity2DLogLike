@@ -1,0 +1,55 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8222762618449003094
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5710433150194547005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5710433150194547005
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2850398711571746223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2850398711571746223
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5257436594167187478
+    }
+  ],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":false,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"minPoint\":{\"x\":7.0,\"y\":13.0},\"maxPoint\":{\"x\":23.0,\"y\":16.0},\"period\":{\"x\":2.64000010490417,\"y\":1.10000002384186},\"MaxSpeed\":9.0,\"$type\":\"FusebombFloatBehavior\"}]",
+    "[{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Quick Fire\",\"Probability\":2.0,\"Behavior\":{\"ShootPoint\":0,\"BulletScript\":{\"scriptTypeName\":\"FusebombRandomSimple1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"None\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":0.699999988079071,\"CooldownVariance\":0.300000011920929,\"AttackCooldown\":0.25,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Parabola Swoop\",\"Probability\":1.0,\"Behavior\":{\"positionType\":\"RelativeToRoomCenter\",\"Positions\":[{\"x\":13.0,\"y\":11.0},{\"x\":11.0,\"y\":8.14999961853027},{\"x\":9.19999980926514,\"y\":6.0},{\"x\":6.0,\"y\":3.20000004768372},{\"x\":3.0,\"y\":1.5},{\"x\":0.0,\"y\":1.0},{\"x\":-3.0,\"y\":1.5},{\"x\":-6.0,\"y\":3.20000004768372},{\"x\":-9.19999980926514,\"y\":6.0},{\"x\":-11.0,\"y\":8.14999961853027},{\"x\":-13.0,\"y\":11.0}],\"selectType\":\"InSequence\",\"N\":0,\"DisallowNearest\":false,\"SmoothStep\":false,\"MoveTime\":1.0,\"MinSpeed\":3.0,\"MaxSpeed\":8.0,\"SubsequentMoveSpeed\":15.0,\"MirrorIfCloser\":true,\"DisableCollisionDuringMove\":false,\"ShootPoint\":1,\"bulletScript\":{\"scriptTypeName\":\"FusebombRandomRapid1\"},\"preMoveAnimation\":null,\"moveAnimation\":\"swoop\",\"disableGoops\":false,\"updateFacingDirectionDuringMove\":false,\"biasFacingRoomCenter\":false,\"faceBottomCenter\":false,\"enableShadowTrail\":false,\"HideGun\":false,\"animateShadow\":false,\"shadowInAnim\":null,\"shadowOutAnim\":null,\"Cooldown\":10.0,\"CooldownVariance\":0.0,\"AttackCooldown\":1.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":4.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"bigattack\",\"GroupCooldown\":4.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"AttackMoveBehavior\"}},{\"NickName\":\"Spawn Bots (Arc)\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":2,\"BulletScript\":{\"scriptTypeName\":\"FusebombBots1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":true,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"spawn_enemies\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":10.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":4.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"bigattack\",\"GroupCooldown\":4.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Shoot Flames (arc)\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":3,\"BulletScript\":{\"scriptTypeName\":\"FusebombFlames1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":true,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"spawn_flames\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":10.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":4.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"bigattack\",\"GroupCooldown\":4.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Shoot Bouncy Ball\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":4,\"BulletScript\":{\"scriptTypeName\":\"FusebombBall1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":true,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"ball\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":10.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":4.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"bigattack\",\"GroupCooldown\":4.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.75,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

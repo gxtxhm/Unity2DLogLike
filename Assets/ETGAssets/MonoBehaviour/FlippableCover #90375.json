@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4737065599407691548
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8004463764496719270
+  },
+  "m_Name": "",
+  "flipStyle": 0,
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 4669200283813867820
+  },
+  "DamageReceivedOnSlide": 15.0,
+  "unflippedBreakAnimation": "vertical_steel_idle_break",
+  "flipAnimation": "vertical_steel_flip_{0}",
+  "shadowFlipAnimation": "vertical_flip_{0}_shadow",
+  "pitfallAnimation": "vertical_flipped_{0}_pitfall",
+  "breakAnimation": "vertical_steel_flipped_{0}_break",
+  "prebreakFrames": [
+    {
+      "healthPercentage": 40.0,
+      "sprite": "steel_table_vertical_flipped_{0}_break_001"
+    },
+    {
+      "healthPercentage": 20.0,
+      "sprite": "steel_table_vertical_flipped_{0}_break_002"
+    }
+  ],
+  "prebreakFramesUnflipped": [
+    {
+      "healthPercentage": 50.0,
+      "sprite": "steel_table_vertical_idle_crack_001"
+    },
+    {
+      "healthPercentage": 20.0,
+      "sprite": "steel_table_vertical_idle_crack_002"
+    }
+  ],
+  "BreaksOnBreakAnimation": 0,
+  "flipSubElements": [],
+  "outlineNorth": {
+    "m_FileID": 0,
+    "m_PathID": -1702034875623297083
+  },
+  "outlineEast": {
+    "m_FileID": 0,
+    "m_PathID": 6321864579934905123
+  },
+  "outlineSouth": {
+    "m_FileID": 0,
+    "m_PathID": -4042251849784261822
+  },
+  "outlineWest": {
+    "m_FileID": 0,
+    "m_PathID": 5113729065456511622
+  },
+  "UsesCustomHeightsOffGround": 0,
+  "CustomStartHeightOffGround": 0.0,
+  "CustomNorthFlippedHeightOffGround": -1.5,
+  "CustomEastFlippedHeightOffGround": -1.5,
+  "CustomSouthFlippedHeightOffGround": -1.5,
+  "CustomWestFlippedHeightOffGround": -1.5,
+  "DelayMoveable": 0,
+  "MoveableDelay": 1.0,
+  "VibrationDelay": 0.25
+}

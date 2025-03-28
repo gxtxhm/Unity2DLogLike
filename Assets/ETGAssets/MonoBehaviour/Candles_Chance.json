@@ -1,0 +1,91 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6503930376332791300
+  },
+  "m_Name": "Candles_Chance",
+  "width": 1,
+  "height": 1,
+  "isPassable": 1,
+  "roomSequential": 0,
+  "respectsEncounterableDifferentiator": 0,
+  "UsePrefabTransformOffset": 0,
+  "MarkSpawnedItemsAsRatIgnored": 0,
+  "DebugThisPlaceable": 0,
+  "IsAnnexTable": 0,
+  "variantTiers": [
+    {
+      "percentChance": 0.3,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -6194432301616732033
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.2,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -4105517104557807960
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.1,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": -4462091620352996520
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 0.5,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    }
+  ]
+}

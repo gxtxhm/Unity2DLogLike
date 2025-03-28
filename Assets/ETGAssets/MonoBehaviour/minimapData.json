@@ -1,0 +1,1078 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5283918645703857125
+  },
+  "m_Name": "minimapData",
+  "tileSize": {
+    "x": 0.125,
+    "y": 0.125,
+    "z": 0.0
+  },
+  "tileOrigin": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "tileType": 0,
+  "sortMethod": 0,
+  "layersFixedZ": 0,
+  "useSortingLayers": 0,
+  "tilePrefabs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ],
+  "tileInfo": [
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    },
+    {
+      "stringVal": "",
+      "intVal": 0,
+      "floatVal": 0.0,
+      "enablePrefabOffset": 0
+    }
+  ],
+  "tileMapLayers": [
+    {
+      "name": "Minimap",
+      "hash": 1892887448,
+      "useColor": 1,
+      "generateCollider": 0,
+      "z": 0.0,
+      "unityLayer": 0,
+      "renderQueueOffset": 0,
+      "sortingLayerName": "",
+      "sortingOrder": 0,
+      "overrideChunkable": 0,
+      "overrideChunkXOffset": 0,
+      "overrideChunkYOffset": 0,
+      "skipMeshGeneration": 0,
+      "physicMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "physicsMaterial2D": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "name": "Minimap Hallways",
+      "hash": 1786397087,
+      "useColor": 1,
+      "generateCollider": 1,
+      "z": 0.1,
+      "unityLayer": 0,
+      "renderQueueOffset": 0,
+      "sortingLayerName": "",
+      "sortingOrder": 0,
+      "overrideChunkable": 0,
+      "overrideChunkXOffset": 0,
+      "overrideChunkYOffset": 0,
+      "skipMeshGeneration": 0,
+      "physicMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "physicsMaterial2D": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

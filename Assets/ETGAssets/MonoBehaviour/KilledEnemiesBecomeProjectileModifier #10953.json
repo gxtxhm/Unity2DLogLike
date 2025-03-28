@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8522359288325585476
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1067400690014559411
+  },
+  "m_Name": "",
+  "CompletelyBecomeProjectile": 0,
+  "BaseProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

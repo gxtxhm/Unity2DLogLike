@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9052349532656734676
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3450824617753839996
+  },
+  "m_Name": "",
+  "Holopoint": {
+    "m_FileID": 0,
+    "m_PathID": 4076263342663717738
+  },
+  "Glower": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ArcRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 415821554402884225
+  },
+  "Automatic": 1,
+  "TargetAutomaticSprite": {
+    "m_FileID": 0,
+    "m_PathID": -9018249727583239736
+  },
+  "AttachedBraveLight": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentHologram": 0,
+  "NotAHologram": 0
+}

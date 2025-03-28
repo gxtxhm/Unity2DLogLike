@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7887418125265183538
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1087262801527844254
+  },
+  "m_Name": "",
+  "NumRisers": 3,
+  "RiserHeight": 1.0,
+  "RiseTime": 1.5
+}

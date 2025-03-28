@@ -1,0 +1,206 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7836828161019017222
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 2,
+    "Prefix": "idle_front",
+    "AnimNames": [
+      "",
+      ""
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 4,
+    "Prefix": "move",
+    "AnimNames": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 2,
+    "Prefix": "hit",
+    "AnimNames": [
+      "hit_left",
+      "hit_right"
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "met_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "met_in",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "met_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "met_out",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 6,
+        "Prefix": "die",
+        "AnimNames": [
+          "",
+          "",
+          "die_side_right",
+          "",
+          "",
+          "",
+          "die_side_left",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "jump_poof",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 293324343820203429
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -2758259187148594500
+                },
+                "orphaned": 0,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -0.05,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "dirt_poof",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 293324343820203429
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -3228810076038967330
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

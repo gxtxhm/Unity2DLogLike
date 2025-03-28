@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7531783550161930438
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2981580134431770099
+  },
+  "m_Name": "",
+  "RequiredSynergy": 272,
+  "RequiresNoSynergy": 0,
+  "PersistsOnDisable": 0,
+  "CompanionGuid": "ab4a779d6e8f429baafa4bf9e5dca3a9"
+}

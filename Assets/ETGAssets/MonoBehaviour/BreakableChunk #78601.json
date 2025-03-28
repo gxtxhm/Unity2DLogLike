@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4636373020165533320
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8126845914672442398
+  },
+  "m_Name": "",
+  "subchunks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6083721239257968008
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6339622139954530990
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -9107740949698839616
+    }
+  ],
+  "puff": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 2,
+              "m_PathID": 6233229968479331910
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "puffCount": 1,
+  "puffAreaWidth": 0.15,
+  "puffAreaHeight": 0.15,
+  "puffSpawnDuration": 0.15,
+  "startingHeight": 0.5,
+  "minForce": 2.0,
+  "maxForce": 3.0,
+  "upwardForce": 0.5,
+  "angleVariance": 30.0,
+  "angularVelocity": 90.0,
+  "gravityOverride": 0.0,
+  "minDirectionalForce": 0.0,
+  "maxDirectionalForce": 0.0,
+  "directionalAngleVariance": 30.0,
+  "randomDeletions": 0,
+  "slideMode": 1,
+  "useOverrideVelocityDir": 0,
+  "overrideVelocityDir": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

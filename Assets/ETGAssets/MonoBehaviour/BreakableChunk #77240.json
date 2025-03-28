@@ -1,0 +1,90 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2115748733701941470
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8126845914672442398
+  },
+  "m_Name": "",
+  "subchunks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -9051281842364070183
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8923985765852142532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4316437630628476940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 307095601705727865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5227960259389556515
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5368272256411918593
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3883148288541795753
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9073856657780508676
+    }
+  ],
+  "puff": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 2,
+              "m_PathID": 6737433343243429861
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "puffCount": 14,
+  "puffAreaWidth": 3.5,
+  "puffAreaHeight": 3.5,
+  "puffSpawnDuration": 0.25,
+  "startingHeight": 1.5,
+  "minForce": 0.5,
+  "maxForce": 1.5,
+  "upwardForce": 1.5,
+  "angleVariance": 30.0,
+  "angularVelocity": 80.0,
+  "gravityOverride": 40.0,
+  "minDirectionalForce": 6.5,
+  "maxDirectionalForce": 7.5,
+  "directionalAngleVariance": 15.0,
+  "randomDeletions": 0,
+  "slideMode": 0,
+  "useOverrideVelocityDir": 0,
+  "overrideVelocityDir": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

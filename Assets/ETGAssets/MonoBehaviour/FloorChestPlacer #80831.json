@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8037061014011251246
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1348147874782556325
+  },
+  "m_Name": "",
+  "placeableWidth": 4,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 0,
+  "OverrideItemQuality": 0,
+  "ItemQuality": 0,
+  "OverrideMimicChance": -1.0,
+  "xPixelOffset": 0,
+  "yPixelOffset": 0,
+  "CenterChestInRegion": 1,
+  "OverrideLockChance": 0,
+  "ForceUnlockedIfWooden": 0,
+  "LockChance": 0.5,
+  "UseOverrideChest": 1,
+  "OverrideChestPrereq": {
+    "prerequisiteType": 4,
+    "prerequisiteOperation": 0,
+    "statToCheck": 0,
+    "maxToCheck": 0,
+    "comparisonValue": 0.0,
+    "useSessionStatValue": 0,
+    "encounteredObjectGuid": "",
+    "encounteredRoom": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "requiredNumberOfEncounters": 1,
+    "requiredCharacter": 0,
+    "requireCharacter": 1,
+    "requiredTileset": 0,
+    "requireTileset": 1,
+    "saveFlagToCheck": 171001,
+    "requireFlag": 0,
+    "requireDemoMode": 0
+  },
+  "OverrideChestPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 6206221919506656425
+  }
+}

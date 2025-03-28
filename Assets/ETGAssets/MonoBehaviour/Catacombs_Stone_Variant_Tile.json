@@ -1,0 +1,393 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5933446913231348968
+  },
+  "m_Name": "Catacombs_Stone_Variant_Tile",
+  "wallShards": {
+    "elements": [
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": 7608516191255132714
+        },
+        "pickupId": -1,
+        "weight": 0.1,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": 6604086078481114733
+        },
+        "pickupId": -1,
+        "weight": 0.1,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": 40173127123002999
+        },
+        "pickupId": -1,
+        "weight": 0.2,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": -6404407451451323728
+        },
+        "pickupId": -1,
+        "weight": 0.2,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": 2414096117845118186
+        },
+        "pickupId": -1,
+        "weight": 0.2,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 1,
+          "m_PathID": 2414096117845118186
+        },
+        "pickupId": -1,
+        "weight": 0.2,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "bigWallShards": {
+    "elements": []
+  },
+  "bigWallShardDamageThreshold": 10.0,
+  "fallbackVerticalTileMapEffects": [
+    {
+      "effects": [
+        {
+          "effect": {
+            "m_FileID": 1,
+            "m_PathID": 7420861872350630514
+          },
+          "orphaned": 0,
+          "attached": 1,
+          "persistsOnDeath": 0,
+          "usesZHeight": 0,
+          "zHeight": 0.0,
+          "alignment": 1,
+          "destructible": 0
+        }
+      ]
+    }
+  ],
+  "fallbackHorizontalTileMapEffects": [
+    {
+      "effects": [
+        {
+          "effect": {
+            "m_FileID": 1,
+            "m_PathID": 9183394810861533301
+          },
+          "orphaned": 0,
+          "attached": 1,
+          "persistsOnDeath": 0,
+          "usesZHeight": 0,
+          "zHeight": 0.0,
+          "alignment": 1,
+          "destructible": 0
+        }
+      ]
+    }
+  ],
+  "pitfallVFXPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UsePitAmbientVFX": 0,
+  "AmbientPitVFX": [],
+  "PitVFXMinCooldown": 5.0,
+  "PitVFXMaxCooldown": 30.0,
+  "ChanceToSpawnPitVFXOnCooldown": 1.0,
+  "UseChannelAmbientVFX": 0,
+  "ChannelVFXMinCooldown": 1.0,
+  "ChannelVFXMaxCooldown": 15.0,
+  "AmbientChannelVFX": [],
+  "stampFailChance": 0.2,
+  "overrideTableTable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "supportsPits": 1,
+  "doPitAO": 0,
+  "pitsAreOneDeep": 0,
+  "supportsDiagonalWalls": 0,
+  "supportsUpholstery": 1,
+  "carpetIsMainFloor": 0,
+  "carpetGrids": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2934877344664752921
+    }
+  ],
+  "supportsChannels": 0,
+  "minChannelPools": 0,
+  "maxChannelPools": 3,
+  "channelTenacity": 0.75,
+  "channelGrids": [],
+  "supportsLavaOrLavalikeSquares": 0,
+  "lavaGrids": [],
+  "supportsIceSquares": 1,
+  "iceGrids": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1721375700820412086
+    }
+  ],
+  "roomFloorBorderGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "roomCeilingBorderGrid": {
+    "m_FileID": 0,
+    "m_PathID": 2152503485943737958
+  },
+  "pitLayoutGrid": {
+    "m_FileID": 0,
+    "m_PathID": -8378952881105482277
+  },
+  "pitBorderFlatGrid": {
+    "m_FileID": 0,
+    "m_PathID": -3953259467924435648
+  },
+  "pitBorderRaisedGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "additionalPitBorderFlatGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "outerCeilingBorderGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "floorSquareDensity": 0.0,
+  "floorSquares": [],
+  "usesFacewallGrids": 1,
+  "facewallGrids": [
+    {
+      "grid": {
+        "m_FileID": 0,
+        "m_PathID": -3398529324347666675
+      },
+      "minWidth": 3,
+      "maxWidth": 20,
+      "hasIntermediaries": 1,
+      "minIntermediaryBuffer": 4,
+      "maxIntermediaryBuffer": 6,
+      "minIntermediaryLength": 1,
+      "maxIntermediaryLength": 1,
+      "topsMatchBottoms": 1,
+      "middleSectionSequential": 0,
+      "canExistInCorners": 1,
+      "forceEdgesInCorners": 1,
+      "canAcceptWallDecoration": 0,
+      "canAcceptFloorDecoration": 1,
+      "forcedStampMatchingStyle": 0,
+      "canBePlacedInExits": 1,
+      "chanceToPlaceIfPossible": 0.1,
+      "perTileFailureRate": 0.05
+    },
+    {
+      "grid": {
+        "m_FileID": 0,
+        "m_PathID": 3141363750112305751
+      },
+      "minWidth": 4,
+      "maxWidth": 20,
+      "hasIntermediaries": 1,
+      "minIntermediaryBuffer": 4,
+      "maxIntermediaryBuffer": 6,
+      "minIntermediaryLength": 1,
+      "maxIntermediaryLength": 1,
+      "topsMatchBottoms": 1,
+      "middleSectionSequential": 0,
+      "canExistInCorners": 1,
+      "forceEdgesInCorners": 1,
+      "canAcceptWallDecoration": 1,
+      "canAcceptFloorDecoration": 1,
+      "forcedStampMatchingStyle": 5,
+      "canBePlacedInExits": 1,
+      "chanceToPlaceIfPossible": 0.2,
+      "perTileFailureRate": 0.025
+    }
+  ],
+  "usesInternalMaterialTransitions": 0,
+  "usesProceduralMaterialTransitions": 0,
+  "internalMaterialTransitions": [],
+  "secretRoomWallShardCollections": [],
+  "overrideStoneFloorType": 0,
+  "overrideFloorType": 0,
+  "useLighting": 1,
+  "lightPrefabs": {
+    "elements": [
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": -6224554935271991365
+        },
+        "pickupId": -1,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": -2309860481318753050
+        },
+        "pickupId": -1,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "facewallLightStamps": [
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 1.0,
+      "placementRule": 0,
+      "occupySpace": 1,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 2,
+        "m_PathID": 8708525069764741280
+      },
+      "CanBeTopWallLight": 1,
+      "CanBeCenterLight": 1,
+      "FallbackIndex": 0
+    },
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 1.0,
+      "placementRule": 0,
+      "occupySpace": 1,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": -1629546968334978047
+      },
+      "CanBeTopWallLight": 1,
+      "CanBeCenterLight": 1,
+      "FallbackIndex": 0
+    }
+  ],
+  "sidewallLightStamps": [
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 1.0,
+      "placementRule": 3,
+      "occupySpace": 1,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 2,
+        "m_PathID": -2243384575081158611
+      },
+      "CanBeTopWallLight": 1,
+      "CanBeCenterLight": 1,
+      "FallbackIndex": 0
+    },
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 1.0,
+      "placementRule": 3,
+      "occupySpace": 1,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": -6082430220212955977
+      },
+      "CanBeTopWallLight": 1,
+      "CanBeCenterLight": 1,
+      "FallbackIndex": 0
+    }
+  ],
+  "usesDecalLayer": 0,
+  "decalIndexGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "decalLayerStyle": 0,
+  "decalSize": 1,
+  "decalSpacing": 1,
+  "usesPatternLayer": 0,
+  "patternIndexGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "patternLayerStyle": 0,
+  "patternSize": 1,
+  "patternSpacing": 1,
+  "forceEdgesDiagonal": 0,
+  "exteriorFacadeBorderGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facadeTopGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "bridgeGrid": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

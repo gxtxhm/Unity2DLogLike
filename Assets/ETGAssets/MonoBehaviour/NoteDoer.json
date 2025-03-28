@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8622595325162778155
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4164567340799876033
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "noteBackgroundType": 0,
+  "stringKey": "#IRONCOIN_SHORTDESC",
+  "useAdditionalStrings": 0,
+  "additionalStrings": [],
+  "isNormalNote": 0,
+  "useItemsTable": 1,
+  "textboxSpawnPoint": {
+    "m_FileID": 0,
+    "m_PathID": 823194307158467885
+  },
+  "DestroyedOnFinish": 1
+}

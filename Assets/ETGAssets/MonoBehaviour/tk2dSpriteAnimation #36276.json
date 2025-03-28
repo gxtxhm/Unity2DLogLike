@@ -1,0 +1,820 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1729211691907986626
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -742676797405591695
+  },
+  "m_Name": "",
+  "clips": [
+    {
+      "name": "idle",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 9,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 21,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 16,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 0,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 6.0,
+      "loopStart": 0,
+      "wrapMode": 0,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "move",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 8,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 3,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 4,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "Play_FS_ENM",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 19,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 27,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 28,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "Play_FS_ENM",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 8.0,
+      "loopStart": 0,
+      "wrapMode": 0,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "spawn",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 2,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 14,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 15,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 20,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 1,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 10.0,
+      "loopStart": 0,
+      "wrapMode": 2,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "pitfall",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 12,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 23,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 22,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 11,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 1,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 12.0,
+      "loopStart": 0,
+      "wrapMode": 2,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "die",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 13,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 20
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 10,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 24,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 7,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 17,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 9.0,
+      "loopStart": 0,
+      "wrapMode": 2,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "hot_move",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 29,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 30,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "Play_FS_ENM",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 31,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 32,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "Play_FS_ENM",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 1,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 10.0,
+      "loopStart": 0,
+      "wrapMode": 0,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    },
+    {
+      "name": "hot_move_eyes",
+      "frames": [
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 33,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 35,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 36,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        },
+        {
+          "spriteCollection": {
+            "m_FileID": 0,
+            "m_PathID": -4277464558798343710
+          },
+          "spriteId": 34,
+          "invulnerableFrame": 0,
+          "groundedFrame": 1,
+          "requiresOffscreenUpdate": 0,
+          "eventAudio": "",
+          "eventVfx": "",
+          "eventStopVfx": "",
+          "eventLerpEmissive": 0,
+          "eventLerpEmissiveTime": 0.5,
+          "eventLerpEmissivePower": 30.0,
+          "forceMaterialUpdate": 0,
+          "finishedSpawning": 0,
+          "triggerEvent": 0,
+          "eventInfo": "",
+          "eventInt": 0,
+          "eventFloat": 0.0,
+          "eventOutline": 0
+        }
+      ],
+      "fps": 10.0,
+      "loopStart": 0,
+      "wrapMode": 0,
+      "minFidgetDuration": 1.0,
+      "maxFidgetDuration": 2.0
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2027345394238906751
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8795072134096688675
+  },
+  "m_Name": "",
+  "coreIdleAnimation": "select_idle",
+  "onSelectedAnimation": "select_choose",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "phases": [
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_crossarms",
+      "holdAnimation": "select_crossarms_idle",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "select_crossarms_idle_kick",
+      "outAnimation": "select_crossarms_out",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_light",
+      "holdAnimation": "select_smoke_idle",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "",
+      "outAnimation": "select_trash",
+      "vfxTrigger": 2,
+      "vfxHoldPeriod": 3.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 259468156714308974
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 7924810696983528265
+      }
+    },
+    {
+      "holdMin": 1.0,
+      "holdMax": 3.0,
+      "inAnimation": "select_wind",
+      "holdAnimation": "",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "",
+      "outAnimation": "select_wind_hair",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "IsEevee": 0,
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AnimationLibraries": []
+}

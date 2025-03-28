@@ -1,0 +1,89 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5148421683303063611
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7738046956434033777
+  },
+  "m_Name": "",
+  "Player": {
+    "m_FileID": 0,
+    "m_PathID": -7119119474033143819
+  },
+  "Opponent": {
+    "m_FileID": 0,
+    "m_PathID": -937503750317556755
+  },
+  "CoopCultist": {
+    "m_FileID": 0,
+    "m_PathID": -4094470682701796485
+  },
+  "TimerAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -6587686832129529606
+  },
+  "TimerTextMin1": {
+    "m_FileID": 0,
+    "m_PathID": 2582975940992994735
+  },
+  "TimerTextMin2": {
+    "m_FileID": 0,
+    "m_PathID": 2314494891381695825
+  },
+  "TimerColon": {
+    "m_FileID": 0,
+    "m_PathID": 3455189259456652828
+  },
+  "TimerTextSec1": {
+    "m_FileID": 0,
+    "m_PathID": -599351043835001915
+  },
+  "TimerTextSec2": {
+    "m_FileID": 0,
+    "m_PathID": -4636532745996969352
+  },
+  "UiManager": {
+    "m_FileID": 0,
+    "m_PathID": 1339527935794450340
+  },
+  "UiPanel": {
+    "m_FileID": 0,
+    "m_PathID": 772895087220114785
+  },
+  "PlayerHealthBarBase": {
+    "m_FileID": 0,
+    "m_PathID": -8652401968390078233
+  },
+  "RatHealthBarBase": {
+    "m_FileID": 0,
+    "m_PathID": -431538247964997159
+  },
+  "ControlsLabel": {
+    "m_FileID": 0,
+    "m_PathID": -5695858782325952881
+  },
+  "TutorialLabel": {
+    "m_FileID": 0,
+    "m_PathID": 1102848796558625500
+  },
+  "NormalHitRewardChance": 0.15,
+  "NormalHitRewards": [
+    73,
+    85,
+    120,
+    565
+  ],
+  "MaxGlassGuonStones": 2,
+  "PlayerLostNotePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 5554644982500177861
+  },
+  "PlayerWonRatNPC": {
+    "m_FileID": 0,
+    "m_PathID": 4596556885259437574
+  },
+  "TimerStartTime": 120.0
+}

@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2098596620777779331
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5103639433287066746
+  },
+  "m_Name": "",
+  "IsSynergyContingent": 1,
+  "SynergyToTest": 220,
+  "PercentGainPerUnit": 4.0,
+  "MaximumDamageMultiplier": -1.0
+}

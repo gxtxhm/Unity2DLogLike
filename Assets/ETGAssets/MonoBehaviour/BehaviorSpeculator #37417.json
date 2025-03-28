@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6932365784559014082
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2892415641971917425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 294893713083907434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 294893713083907434
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4757349329981699624
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1385949508015519586
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2913272790610506849
+    }
+  ],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":true,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":true,\"PauseTime\":0.300000011920929,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"StopWhenInRange\":false,\"CustomRange\":6.0,\"LineOfSight\":false,\"ReturnToSpawn\":true,\"SpawnTetherDistance\":0.0,\"PathInterval\":0.5,\"SpecifyRange\":false,\"MinActiveRange\":0.0,\"MaxActiveRange\":0.0,\"$type\":\"SeekTargetBehavior\"}]",
+    "[{\"Time\":2.0,\"PlayDirectionalAnimation\":\"full_idle\",\"SetDefaultDirectionalAnimation\":null,\"EndOnDamage\":true,\"$type\":\"InitialAttackDelayBehavior\"},{\"LostSightTime\":5.0,\"MinDistanceToPlayer\":3.0,\"LeapSpeedMultiplier\":1.5,\"Cooldown\":5.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullRepositionBehavior\"},{\"TriggerDistance\":4.0,\"Damage\":0.5,\"KnockbackForce\":100.0,\"CenterPoint\":0,\"DamageDistance\":2.59999990463257,\"StickyFriction\":0.100000001490116,\"Cooldown\":2.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.25,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullMelee\"},{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Walk and Shoot\",\"Probability\":3.0,\"Behavior\":{\"Duration\":6.0,\"AngleVariance\":27.0,\"ContinuesOnPathComplete\":false,\"OverrideBulletName\":null,\"Cooldown\":1.0,\"CooldownVariance\":0.0,\"AttackCooldown\":1.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullWalkAndShoot\"}},{\"NickName\":\"Fan Spray\",\"Probability\":2.0,\"Behavior\":{\"SprayAngle\":90.0,\"SpraySpeed\":150.0,\"SprayIterations\":4,\"OverrideBulletName\":null,\"Cooldown\":1.0,\"CooldownVariance\":0.0,\"AttackCooldown\":1.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullFanSpray\"}},{\"NickName\":\"Big Shot\",\"Probability\":1.5,\"Behavior\":{\"ShootPoint\":1,\"BulletScript\":{\"scriptTypeName\":\"GatlingGullBigShot1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":-1.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":\"\",\"ChargeTime\":1.0,\"TellAnimation\":\"charge\",\"FireAnimation\":\"\",\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":8.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.75,\"GlobalCooldown\":0.0,\"InitialCooldown\":5.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Waves\",\"Probability\":1.5,\"Behavior\":{\"ShootPoint\":2,\"BulletScript\":{\"scriptTypeName\":\"GatlingGullFanBursts1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":-1.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"charge\",\"FireAnimation\":\"idle_shoot\",\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":8.0,\"CooldownVariance\":0.0,\"AttackCooldown\":1.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":5.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Leap\",\"Probability\":1.0,\"Behavior\":{\"AirSpeed\":22.0,\"MinAirtime\":0.600000023841858,\"DamageRadius\":1.0,\"Damage\":1.0,\"Force\":60.0,\"HitScreenShake\":{\"magnitude\":2.5,\"speed\":6.0,\"time\":0.0599999986588955,\"falloff\":0.0,\"direction\":{\"x\":0.0,\"y\":0.0},\"vibrationType\":\"Auto\",\"simpleVibrationTime\":\"Normal\",\"simpleVibrationStrength\":\"Medium\"},\"MissScreenShake\":{\"magnitude\":1.0,\"speed\":6.0,\"time\":0.0599999986588955,\"falloff\":0.0,\"direction\":{\"x\":0.0,\"y\":0.0},\"vibrationType\":\"Auto\",\"simpleVibrationTime\":\"Normal\",\"simpleVibrationStrength\":\"Medium\"},\"ImpactDustUp\":3,\"SmugTime\":0.300000011920929,\"Cooldown\":5.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullLeapBehavior\"}},{\"NickName\":\"Rockets\",\"Probability\":3.0,\"Behavior\":{\"RocketOrigin\":4,\"Rocket\":5,\"MaxRockets\":16,\"DamageToHalt\":75.0,\"PerRocketCooldown\":0.620000004768372,\"Cooldown\":20.0,\"CooldownVariance\":0.0,\"AttackCooldown\":1.5,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"GatlingGullRocketBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.0,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

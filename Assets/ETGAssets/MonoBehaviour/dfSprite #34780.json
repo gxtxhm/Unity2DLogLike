@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 969
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 55
+  },
+  "m_Name": "",
+  "anchorStyle": 5,
+  "isEnabled": 1,
+  "isVisible": 0,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 0,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 60.0,
+    "y": 135.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 5,
+    "margins": {
+      "left": 399.0,
+      "top": 216.0,
+      "right": 984.0,
+      "bottom": 471.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 3974
+    }
+  },
+  "renderOrder": 12,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -3892462693424714894
+  },
+  "spriteName": "pause_screen_candles_001",
+  "flip": 0,
+  "fillDirection": 0,
+  "fillAmount": 1.0,
+  "invertFill": 0
+}

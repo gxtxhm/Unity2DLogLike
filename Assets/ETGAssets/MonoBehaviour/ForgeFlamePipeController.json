@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2461462691999861626
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5587318470579353513
+  },
+  "m_Name": "",
+  "DamageToEnemies": 6.0,
+  "TimeToSpew": 10.0,
+  "ConeAngle": 0.0,
+  "TimeBetweenBullets": 0.25,
+  "DirectionToSpew": 2,
+  "ShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": -5114827295010122649
+  },
+  "EndSpriteName": "pipe_horizontal_left_broke_001",
+  "LoopAnimationName": "flamepipe_spew",
+  "OutAnimationName": "flamepipe_out",
+  "vfxAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1462684907155079574
+    }
+  ]
+}

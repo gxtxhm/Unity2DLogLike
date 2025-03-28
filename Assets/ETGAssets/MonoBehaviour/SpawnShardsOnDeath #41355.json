@@ -1,0 +1,166 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6007985659337919888
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4003240238805309214
+  },
+  "m_Name": "",
+  "deathType": 1,
+  "preDeathDelay": 0.0,
+  "triggerName": "",
+  "breakStyle": 1,
+  "direction": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minAngle": 0.0,
+  "maxAngle": 0.0,
+  "verticalSpeed": 0.0,
+  "minMagnitude": 0.0,
+  "maxMagnitude": 0.0,
+  "shardClusters": [
+    {
+      "minFromCluster": 1,
+      "maxFromCluster": 2,
+      "forceMultiplier": 0.5,
+      "forceAxialMultiplier": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.0
+      },
+      "rotationMultiplier": 0.1,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": -4682680622460976900
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": 7945428971591830779
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -2619440401215158631
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -7390240179459201241
+        }
+      ]
+    },
+    {
+      "minFromCluster": 1,
+      "maxFromCluster": 2,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": 2900127492221487728
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -1352666186221709984
+        }
+      ]
+    },
+    {
+      "minFromCluster": 1,
+      "maxFromCluster": 3,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": 1769835106537864395
+        }
+      ]
+    },
+    {
+      "minFromCluster": 1,
+      "maxFromCluster": 4,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": 467764776846441486
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -5938731077986898385
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": 7656011132244346352
+        }
+      ]
+    },
+    {
+      "minFromCluster": 1,
+      "maxFromCluster": 3,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": 731315755224697385
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": 935293788559360591
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -20350924038176368
+        }
+      ]
+    },
+    {
+      "minFromCluster": 0,
+      "maxFromCluster": 2,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 1,
+          "m_PathID": -444544609429347488
+        },
+        {
+          "m_FileID": 1,
+          "m_PathID": -2373257943382282380
+        }
+      ]
+    }
+  ],
+  "heightOffGround": 0.1
+}

@@ -1,0 +1,255 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3217873207989024211
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -7228670720341323557
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 3,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 5915121993818600135
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 1,
+  "IsBodySprite": 0,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "blank",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 2,
+    "Prefix": "vfx_rat_hit",
+    "AnimNames": [
+      "",
+      ""
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "cheese_taunt",
+      "anim": {
+        "Type": 1,
+        "Prefix": "rat_cheese_cheese",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "cheese_taunt_hit",
+      "anim": {
+        "Type": 1,
+        "Prefix": "rat_cheese_drop",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "cheese_taunt_counter",
+      "anim": {
+        "Type": 1,
+        "Prefix": "rat_cheese_block_eat_cheese",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "daze",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_rat_weak",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "knockdown_cheat",
+      "anim": {
+        "Type": 2,
+        "Prefix": "rat_knockdown_cheat_vfx",
+        "AnimNames": [
+          "rat_knockdown_cheat_right_vfx",
+          "rat_knockdown_cheat_left_vfx"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "knockdown",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_rat_super_hit",
+        "AnimNames": [
+          "rat_knockdown_cheat_right_vfx"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "transition",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          "rat_knockdown_cheat_right_vfx"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throw",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throw_laugh",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "throw_return",
+      "anim": {
+        "Type": 2,
+        "Prefix": "rat_throw_box_return",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "hit_super",
+      "anim": {
+        "Type": 1,
+        "Prefix": "vfx_rat_super_hit",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "die",
+      "anim": {
+        "Type": 1,
+        "Prefix": "rat_reg_die_vfx",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "die_super",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

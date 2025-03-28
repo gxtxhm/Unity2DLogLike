@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2211130186901083449
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1437942444854585234
+  },
+  "m_Name": "",
+  "tiers": [
+    {
+      "GunID": 732,
+      "IdleVFX": ""
+    },
+    {
+      "GunID": 733,
+      "IdleVFX": ""
+    },
+    {
+      "GunID": 731,
+      "IdleVFX": ""
+    },
+    {
+      "GunID": 730,
+      "IdleVFX": "gunderfury_LV40_idle_vfx"
+    },
+    {
+      "GunID": 728,
+      "IdleVFX": "gunderfury_LV50_idle_vfx"
+    },
+    {
+      "GunID": 729,
+      "IdleVFX": "gunderfury_LV60_idle_vfx"
+    }
+  ],
+  "idleVFX": {
+    "m_FileID": 0,
+    "m_PathID": -4065556690986427858
+  }
+}

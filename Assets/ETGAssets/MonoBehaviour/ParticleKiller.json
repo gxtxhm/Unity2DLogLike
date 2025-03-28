@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8371693386837194033
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1366414637287062177
+  },
+  "m_Name": "",
+  "deparent": 1,
+  "parentPosition": 1,
+  "parentRotation": 1,
+  "parentScale": 0,
+  "parentPositionYDepth": 0,
+  "destroyAfterTimer": 0,
+  "destroyTimer": 5.0,
+  "disableEmitterOnParentDeath": 1,
+  "destroyOnNoParticlesRemaining": 1,
+  "destroyAfterStartLifetime": 0,
+  "disableEmitterOnParentGrounded": 0,
+  "overrideXRotation": 0,
+  "xRotation": 0.0,
+  "transferToSubEmitter": 0,
+  "transferToSubEmitterTimer": 0.0,
+  "subEmitter": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

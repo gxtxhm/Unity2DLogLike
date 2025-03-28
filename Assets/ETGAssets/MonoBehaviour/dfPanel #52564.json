@@ -1,0 +1,77 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 249
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 42
+  },
+  "m_Name": "",
+  "anchorStyle": 5,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 0,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": -1,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 762.0,
+    "y": 220.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 5,
+    "margins": {
+      "left": -500.0,
+      "top": 22.0,
+      "right": 1178.0,
+      "bottom": 568.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 3733
+    }
+  },
+  "renderOrder": 4,
+  "isLocalized": 1,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "backgroundSprite": "",
+  "backgroundColor": {
+    "rgba": 4294967295
+  },
+  "padding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  }
+}

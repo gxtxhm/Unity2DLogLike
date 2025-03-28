@@ -1,0 +1,68 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4267525243493424375
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1825709797929089244
+  },
+  "m_Name": "",
+  "overrideMaterialDefinition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overrideHitEffect": {
+    "effects": []
+  },
+  "overrideHitEffectPool": {
+    "type": 0,
+    "effects": []
+  },
+  "additionalHitEffects": [
+    {
+      "hitEffect": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -1985720042766686863
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 1,
+                "zHeight": 0.2,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "chance": 0.7,
+      "transform": {
+        "m_FileID": 0,
+        "m_PathID": -5710330374017972460
+      },
+      "flipNormals": 0,
+      "radius": 0.3,
+      "delay": 0.8,
+      "angleVariance": 0.0,
+      "doForce": 1,
+      "minForce": 1.0,
+      "maxForce": 3.0,
+      "additionalVerticalForce": 0.75,
+      "spawnOnGround": 0,
+      "minDistance": 0.0,
+      "maxDistance": 0.0,
+      "specificPixelCollider": 0,
+      "pixelColliderIndex": 0
+    }
+  ],
+  "SuppressAllHitEffects": 0
+}

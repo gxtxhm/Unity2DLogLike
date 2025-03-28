@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1662607101964781276
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "4c4232bc355e4e14ba08cc8e077e1943",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#SST_ENCNAME",
+    "NotificationPanelDescription": "#SST_SHORTDESC",
+    "AmmonomiconFullEntry": "#SST_LONGDESC",
+    "AmmonomiconSprite": "sst_shell_002",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [
+    {
+      "prerequisiteType": 1,
+      "prerequisiteOperation": 2,
+      "statToCheck": 71,
+      "maxToCheck": 0,
+      "comparisonValue": 0.0,
+      "useSessionStatValue": 0,
+      "encounteredObjectGuid": "",
+      "encounteredRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "requiredNumberOfEncounters": 0,
+      "requiredCharacter": 0,
+      "requireCharacter": 0,
+      "requiredTileset": 0,
+      "requireTileset": 0,
+      "saveFlagToCheck": 0,
+      "requireFlag": 0,
+      "requireDemoMode": 0
+    }
+  ],
+  "m_usesPurpleNotifications": 0
+}

@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8338944533719484212
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8647230651415636846
+  },
+  "m_Name": "",
+  "placeableWidth": 3,
+  "placeableHeight": 3,
+  "difficulty": 0,
+  "isPassable": 1,
+  "SellValueModifier": 0.45,
+  "SellPitDweller": {
+    "m_FileID": 0,
+    "m_PathID": 193547663616566265
+  },
+  "SellExplosionVFX": {
+    "m_FileID": 0,
+    "m_PathID": -4382676681451921716
+  },
+  "CellTopSprite": {
+    "m_FileID": 0,
+    "m_PathID": 1061974369516068182
+  },
+  "ExplodedSellSpriteName": "sell_creep_gate_open_001"
+}

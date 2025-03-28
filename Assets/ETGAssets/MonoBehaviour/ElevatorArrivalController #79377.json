@@ -1,0 +1,170 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8308214213280197732
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6083585139143389316
+  },
+  "m_Name": "",
+  "placeableWidth": 6,
+  "placeableHeight": 4,
+  "difficulty": 0,
+  "isPassable": 1,
+  "elevatorAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 3497152281965706697
+  },
+  "floorAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -3121646870576038517
+  },
+  "elevatorCollider": {
+    "m_FileID": 0,
+    "m_PathID": 5265036574781404580
+  },
+  "priorSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1785319014140689966
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5087806770585340422
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8494439954506113748
+    }
+  ],
+  "postSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2651525365016804680
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4271230459600511906
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3210498476839519290
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7596138930376544553
+    }
+  ],
+  "chunker": {
+    "m_FileID": 0,
+    "m_PathID": 6174683600015196847
+  },
+  "poofObjects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6877190187696542918
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5299064269107123457
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5005387492608188481
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5453821315340097777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7147587049209736506
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7959365539403675261
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5100241337984457490
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4816146051313832026
+    }
+  ],
+  "spawnTransform": {
+    "m_FileID": 0,
+    "m_PathID": -8496164247463494528
+  },
+  "elevatorFloor": {
+    "m_FileID": 0,
+    "m_PathID": 2197524370182720646
+  },
+  "crumblyBumblyAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 2478029357801222278
+  },
+  "smokeAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -1205187271426938387
+  },
+  "elevatorDescendAnimName": "bullet_elevator_arrive",
+  "elevatorOpenAnimName": "bullet_elevator_open",
+  "elevatorCloseAnimName": "bullet_elevator_close",
+  "elevatorDepartAnimName": "bullet_elevator_depart",
+  "arrivalShake": {
+    "magnitude": 0.8,
+    "speed": 8.0,
+    "time": 0.15,
+    "falloff": 0.1,
+    "direction": {
+      "x": 0.0,
+      "y": -1.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "doorOpenShake": {
+    "magnitude": 0.0,
+    "speed": 0.0,
+    "time": 0.1,
+    "falloff": 0.0,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "doorCloseShake": {
+    "magnitude": 0.0,
+    "speed": 0.0,
+    "time": 0.1,
+    "falloff": 0.0,
+    "direction": {
+      "x": -1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "departureShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.2,
+    "falloff": 0.4,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  }
+}

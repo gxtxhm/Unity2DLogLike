@@ -1,0 +1,115 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5718529450392410317
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8050056441413279651
+  },
+  "m_Name": "",
+  "sparkVfx": {
+    "type": 0,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -815388486121393797
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "douseVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": -815388486121393797
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "douseOffset": {
+    "m_FileID": 0,
+    "m_PathID": -4099185173136214188
+  },
+  "flameAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 7195012981797918483
+  },
+  "flameAnim": "sconce_side",
+  "dousedAnim": "sconce_side_burst",
+  "renderers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4204001773077520202
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1885635782129278555
+    }
+  ],
+  "canBeRelit": 0,
+  "anyProjectileBreaks": 1,
+  "disappearAfterDouse": 0,
+  "igniteGoop": 0,
+  "igniteRadius": 3.0,
+  "deployGoop": 0,
+  "goopToDeploy": {
+    "m_FileID": 0,
+    "m_PathID": -955699967027924875
+  },
+  "goopRadius": 2.0,
+  "createsShardsOnDouse": 0,
+  "douseShards": [
+    {
+      "minFromCluster": 2,
+      "maxFromCluster": 4,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 965033514908115918
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -3303474006846005638
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8627626013944531781
+        }
+      ]
+    }
+  ]
+}

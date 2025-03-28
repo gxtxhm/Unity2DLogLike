@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 363
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 51
+  },
+  "m_Name": "",
+  "cameraPositionOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "MaintainCameraAspect": 1,
+  "ForceToSixteenNine": 0,
+  "ForceNoHalfPixelOffset": 0
+}

@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4751157829189246719
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8401650457737759319
+  },
+  "m_Name": "",
+  "controlToPlace": {
+    "m_FileID": 0,
+    "m_PathID": -7024880361069254065
+  },
+  "targetControlToEncrosshair": {
+    "m_FileID": 0,
+    "m_PathID": -2821956942193584122
+  },
+  "leftCrosshairPixelOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "rightCrosshairPixelOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "mouseFocusable": 0
+}

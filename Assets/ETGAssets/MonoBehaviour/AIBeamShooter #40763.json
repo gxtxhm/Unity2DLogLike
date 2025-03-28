@@ -1,0 +1,106 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6750460571186116827
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6108833496553707683
+  },
+  "m_Name": "",
+  "shootAnim": "attack",
+  "specifyAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "beamTransform": {
+    "m_FileID": 0,
+    "m_PathID": -2962876517111104258
+  },
+  "chargeVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": 3518066710262373651
+            },
+            "orphaned": 0,
+            "attached": 1,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "beamProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 9095315027730236067
+  },
+  "beamModule": {
+    "shootStyle": 0,
+    "ammoType": 0,
+    "customAmmoType": "",
+    "projectiles": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 9095315027730236067
+      }
+    ],
+    "sequenceStyle": 0,
+    "orderedGroupCounts": [],
+    "chargeProjectiles": [],
+    "maxChargeTime": 0.0,
+    "triggerCooldownForAnyChargeAmount": 0,
+    "isFinalVolley": 0,
+    "usesOptionalFinalProjectile": 0,
+    "finalProjectile": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "finalVolley": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "numberOfFinalProjectiles": 1,
+    "finalAmmoType": 0,
+    "finalCustomAmmoType": "",
+    "angleFromAim": 0.0,
+    "alternateAngle": 0,
+    "angleVariance": 0.0,
+    "positionOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "mirror": 0,
+    "inverted": 0,
+    "ammoCost": 1,
+    "burstShotCount": 3,
+    "burstCooldownTime": 0.2,
+    "cooldownTime": 0.5,
+    "numberOfShotsInClip": -1,
+    "ignoredForReloadPurposes": 0,
+    "preventFiringDuringCharge": 0
+  },
+  "TurnDuringDissipation": 1,
+  "PreventBeamContinuation": 0,
+  "heightOffset": 1.9,
+  "northAngleTolerance": 90.0,
+  "northRampHeight": 0.0,
+  "otherRampHeight": 0.0,
+  "firingEllipseCenter": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "firingEllipseA": 0.0,
+  "firingEllipseB": 0.0,
+  "eyeballFudgeAngle": 0.0
+}

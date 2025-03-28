@@ -1,0 +1,168 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2804154473011474706
+  },
+  "m_Name": "Shop_Blank_Items_01",
+  "defaultItemDrops": {
+    "elements": [
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 224,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 321,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 322,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 249,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 120,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 344,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 343,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 342,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 400,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 346,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 325,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 499,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 536,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 564,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 631,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedLootTables": [],
+  "tablePrerequisites": []
+}

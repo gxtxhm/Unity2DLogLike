@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3412065063163593805
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6152584552984320895
+  },
+  "m_Name": "",
+  "CircleParticles": {
+    "m_FileID": 0,
+    "m_PathID": -2758918712443831178
+  },
+  "CircleStartVal": 0.75,
+  "EmissiveColorPower": 5.0,
+  "minBrightness": 0.5,
+  "maxBrightness": 2.0,
+  "minEmissivePower": 1.0,
+  "maxEmissivePower": 5.0,
+  "pulsePeriod": 0.5,
+  "fadeInTime": 0.5
+}

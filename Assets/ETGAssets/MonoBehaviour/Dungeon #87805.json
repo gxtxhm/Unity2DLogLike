@@ -1,0 +1,388 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3078652943461934138
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7308223789583632610
+  },
+  "m_Name": "",
+  "contentSource": 0,
+  "DungeonSeed": 0,
+  "DungeonShortName": "",
+  "DungeonFloorName": "#FOYER_NAME",
+  "DungeonFloorLevelTextOverride": "#FOYER_DESC",
+  "LevelOverrideType": 1,
+  "debugSettings": {
+    "RAPID_DEBUG_DUNGEON_ITERATION_SEEKER": 0,
+    "RAPID_DEBUG_DUNGEON_ITERATION": 0,
+    "RAPID_DEBUG_DUNGEON_COUNT": 25,
+    "GENERATION_VIEWER_MODE": 0,
+    "FULL_MINIMAP_VISIBILITY": 0,
+    "COOP_TEST": 0,
+    "DISABLE_ENEMIES": 0,
+    "DISABLE_LOOPS": 0,
+    "DISABLE_SECRET_ROOM_COVERS": 0,
+    "DISABLE_OUTLINES": 0,
+    "WALLS_ARE_PITS": 0
+  },
+  "PatternSettings": {
+    "flows": [
+      {
+        "m_FileID": 1,
+        "m_PathID": -6024420225943237757
+      }
+    ],
+    "mandatoryExtraRooms": [],
+    "optionalExtraRooms": [],
+    "MAX_GENERATION_ATTEMPTS": 250,
+    "DEBUG_RENDER_CANVASES_SEPARATELY": 0
+  },
+  "ForceRegenerationOfCharacters": 0,
+  "ActuallyGenerateTilemap": 1,
+  "decoSettings": {
+    "standardRoomVisualSubtypes": {
+      "elements": [
+        {
+          "annotation": "stone",
+          "value": 0,
+          "weight": 0.9,
+          "additionalPrerequisites": []
+        },
+        {
+          "annotation": "wooden",
+          "value": 1,
+          "weight": 0.1,
+          "additionalPrerequisites": []
+        },
+        {
+          "annotation": "shop",
+          "value": 2,
+          "weight": 0.0,
+          "additionalPrerequisites": []
+        },
+        {
+          "annotation": "metal",
+          "value": 3,
+          "weight": 0.0,
+          "additionalPrerequisites": []
+        }
+      ]
+    },
+    "decalLayerStyle": 4,
+    "decalSize": 3,
+    "decalSpacing": 1,
+    "decalExpansion": 0,
+    "patternLayerStyle": 99,
+    "patternSize": 3,
+    "patternSpacing": 3,
+    "patternExpansion": 0,
+    "decoPatchFrequency": 0.01,
+    "ambientLightColor": {
+      "r": 0.7254902,
+      "g": 0.6862745,
+      "b": 0.78431374,
+      "a": 1.0
+    },
+    "ambientLightColorTwo": {
+      "r": 0.63529414,
+      "g": 0.6,
+      "b": 0.6862745,
+      "a": 1.0
+    },
+    "lowQualityAmbientLightColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "lowQualityAmbientLightColorTwo": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "lowQualityCheapLightVector": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -1.0,
+      "w": 0.0
+    },
+    "UsesAlienFXFloorColor": 1,
+    "AlienFXFloorColor": {
+      "r": 0.89705884,
+      "g": 0.7413928,
+      "b": 0.5078936,
+      "a": 1.0
+    },
+    "generateLights": 1,
+    "lightCullingPercentage": 0.2,
+    "lightOverlapRadius": 8,
+    "nearestAllowedLight": 12.0,
+    "minLightExpanseWidth": 2,
+    "lightHeight": -2.0,
+    "lightCookies": [],
+    "debug_view": 0
+  },
+  "tileIndices": {
+    "tilesetId": 1,
+    "dungeonCollection": {
+      "m_FileID": 3,
+      "m_PathID": 4141976451159424308
+    },
+    "dungeonCollectionSupportsDiagonalWalls": 0,
+    "aoTileIndices": {
+      "AOFloorTileIndex": 0,
+      "AOBottomWallBaseTileIndex": 1,
+      "AOBottomWallTileRightIndex": 2,
+      "AOBottomWallTileLeftIndex": 3,
+      "AOBottomWallTileBothIndex": 4,
+      "AOTopFacewallRightIndex": 6,
+      "AOTopFacewallLeftIndex": 5,
+      "AOTopFacewallBothIndex": 7,
+      "AOFloorWallLeft": 5,
+      "AOFloorWallRight": 6,
+      "AOFloorWallBoth": 7,
+      "AOFloorPizzaSliceLeft": 8,
+      "AOFloorPizzaSliceRight": 9,
+      "AOFloorPizzaSliceBoth": 10,
+      "AOFloorPizzaSliceLeftWallRight": 11,
+      "AOFloorPizzaSliceRightWallLeft": 12,
+      "AOFloorWallUpAndLeft": 13,
+      "AOFloorWallUpAndRight": 14,
+      "AOFloorWallUpAndBoth": 15,
+      "AOFloorDiagonalWallNortheast": 1192,
+      "AOFloorDiagonalWallNortheastLower": 1194,
+      "AOFloorDiagonalWallNortheastLowerJoint": 1196,
+      "AOFloorDiagonalWallNorthwest": 1193,
+      "AOFloorDiagonalWallNorthwestLower": 1195,
+      "AOFloorDiagonalWallNorthwestLowerJoint": 1197,
+      "AOBottomWallDiagonalNortheast": -1,
+      "AOBottomWallDiagonalNorthwest": -1
+    },
+    "placeBorders": 1,
+    "placePits": 0,
+    "chestHighWallIndices": [
+      {
+        "index": 41,
+        "likelihood": 0.5,
+        "overrideLayerIndex": 0,
+        "overrideIndex": 0
+      }
+    ],
+    "decalIndexGrid": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "patternIndexGrid": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "globalSecondBorderTiles": [
+      405,
+      406,
+      407,
+      425,
+      426,
+      427
+    ],
+    "edgeDecorationTiles": {
+      "m_FileID": 1,
+      "m_PathID": -1186317524764865935
+    }
+  },
+  "roomMaterialDefinitions": [
+    {
+      "m_FileID": 3,
+      "m_PathID": -1809090187446339498
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": -9085600822337000802
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5819425142749781785
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": -8975038390226086647
+    },
+    {
+      "m_FileID": 1,
+      "m_PathID": 5420033446758848893
+    }
+  ],
+  "dungeonWingDefinitions": [],
+  "pathGridDefinitions": [],
+  "dungeonDustups": {
+    "runDustup": {
+      "m_FileID": 1,
+      "m_PathID": -6153322112070528405
+    },
+    "waterDustup": {
+      "m_FileID": 1,
+      "m_PathID": -3841551850150223722
+    },
+    "additionalWaterDustup": {
+      "m_FileID": 3,
+      "m_PathID": 2337832957517466865
+    },
+    "rollNorthDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollNorthEastDustup": {
+      "m_FileID": 1,
+      "m_PathID": 969010270415358311
+    },
+    "rollEastDustup": {
+      "m_FileID": 1,
+      "m_PathID": 4230881288371159507
+    },
+    "rollSouthEastDustup": {
+      "m_FileID": 1,
+      "m_PathID": 2784138954288912344
+    },
+    "rollSouthDustup": {
+      "m_FileID": 1,
+      "m_PathID": -7553737111083548375
+    },
+    "rollSouthWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollNorthWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollLandDustup": {
+      "m_FileID": 1,
+      "m_PathID": 8257744222429916424
+    }
+  },
+  "damageTypeEffectMatrix": {
+    "m_FileID": 1,
+    "m_PathID": 7255180833153675081
+  },
+  "stampData": {
+    "m_FileID": 1,
+    "m_PathID": 489278310794427703
+  },
+  "UsesCustomFloorIdea": 0,
+  "FloorIdea": {
+    "ValidEasyEnemyPlaceables": [],
+    "ValidHardEnemyPlaceables": [],
+    "UseWallSawblades": 0,
+    "UseRollingLogsVertical": 0,
+    "UseRollingLogsHorizontal": 0,
+    "UseFloorPitTraps": 0,
+    "UseFloorFlameTraps": 0,
+    "UseFloorSpikeTraps": 0,
+    "UseFloorConveyorBelts": 0,
+    "UseCaveIns": 0,
+    "UseAlarmMushrooms": 0,
+    "UseMineCarts": 0,
+    "UseChandeliers": 0,
+    "CanIncludePits": 1
+  },
+  "PlaceDoors": 1,
+  "doorObjects": {
+    "m_FileID": 1,
+    "m_PathID": -5585289062627548278
+  },
+  "lockedDoorObjects": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "oneWayDoorObjects": {
+    "m_FileID": 1,
+    "m_PathID": 3568730190406587653
+  },
+  "oneWayDoorPressurePlate": {
+    "m_FileID": 2,
+    "m_PathID": -6687512074454403569
+  },
+  "phantomBlockerDoorObjects": {
+    "m_FileID": 1,
+    "m_PathID": -2978133155552623911
+  },
+  "alternateDoorObjectsNakatomi": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UsesWallWarpWingDoors": 0,
+  "WarpWingDoorPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "baseChestContents": {
+    "m_FileID": 3,
+    "m_PathID": 1860315736558313657
+  },
+  "SecretRoomSimpleTriggersFacewall": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 7130933749106675069
+    }
+  ],
+  "SecretRoomSimpleTriggersSidewall": [
+    {
+      "m_FileID": 1,
+      "m_PathID": 1889738009006630156
+    }
+  ],
+  "SecretRoomComplexTriggers": [],
+  "SecretRoomDoorSparkVFX": {
+    "m_FileID": 1,
+    "m_PathID": -7925762178754920400
+  },
+  "SecretRoomHorizontalPoofVFX": {
+    "m_FileID": 1,
+    "m_PathID": 3151688407611872210
+  },
+  "SecretRoomVerticalPoofVFX": {
+    "m_FileID": 1,
+    "m_PathID": -4970224119828901946
+  },
+  "RatTrapdoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "NormalRatGUID": "",
+  "sharedSettingsPrefab": {
+    "m_FileID": 1,
+    "m_PathID": 1056171823026138583
+  },
+  "BossMasteryTokenItemId": -1,
+  "UsesOverrideTertiaryBossSets": 0,
+  "OverrideTertiaryRewardSets": [],
+  "defaultPlayerPrefab": {
+    "m_FileID": 2,
+    "m_PathID": 1468925536577331552
+  },
+  "StripPlayerOnArrival": 0,
+  "SuppressEmergencyCrates": 0,
+  "SetTutorialFlag": 0,
+  "PlayerIsLight": 0,
+  "PlayerLightColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "PlayerLightIntensity": 3.0,
+  "PlayerLightRadius": 5.0,
+  "PrefabsToAutoSpawn": [],
+  "musicEventName": "Play_MUS_Foyer_Theme_01"
+}

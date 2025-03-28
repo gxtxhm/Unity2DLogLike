@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -992563750343345317
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4239777570808289180
+  },
+  "m_Name": "",
+  "pageType": 5,
+  "targetRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "guiManager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "offsetIndex": -1,
+  "HeaderBGSprite": {
+    "m_FileID": 0,
+    "m_PathID": -8426909385793747524
+  }
+}

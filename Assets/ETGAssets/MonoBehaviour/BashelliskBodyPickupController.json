@@ -1,0 +1,55 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5103501358238683056
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3076524157356100867
+  },
+  "m_Name": "",
+  "center": {
+    "m_FileID": 0,
+    "m_PathID": -5313999138182076884
+  },
+  "buffEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "bashelliskBuff",
+    "resistanceType": 0,
+    "stackMode": 2,
+    "duration": 8.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 2,
+      "m_PathID": -4965953925713460218
+    },
+    "PlaysVFXOnActor": 0,
+    "SpeedMultiplier": 1.333,
+    "CooldownMultiplier": 0.75,
+    "HealthMultiplier": 2.0,
+    "KeepHealthPercentage": 1
+  }
+}

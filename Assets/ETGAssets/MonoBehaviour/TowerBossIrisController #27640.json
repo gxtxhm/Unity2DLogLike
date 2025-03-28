@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -133812970375620606
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3821640671224892475
+  },
+  "m_Name": "",
+  "tower": {
+    "m_FileID": 0,
+    "m_PathID": 2261463384376690762
+  },
+  "fuseAlive": 1,
+  "openDuration": 10.0
+}

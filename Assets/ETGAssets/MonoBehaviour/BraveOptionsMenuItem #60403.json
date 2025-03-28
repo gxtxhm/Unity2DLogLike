@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1684632855481113621
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1792472461036325818
+  },
+  "m_Name": "",
+  "optionType": 8,
+  "itemType": 0,
+  "labelControl": {
+    "m_FileID": 0,
+    "m_PathID": -8715444269393032667
+  },
+  "selectedLabelControl": {
+    "m_FileID": 0,
+    "m_PathID": 81953122250059204
+  },
+  "infoControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "fillbarControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "buttonControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxChecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxUnchecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "labelOptions": [
+    "#OPTIONS_FULLSCREEN",
+    "#OPTIONS_WINDOWED"
+  ],
+  "infoOptions": [],
+  "up": {
+    "m_FileID": 0,
+    "m_PathID": -4143430333209923765
+  },
+  "down": {
+    "m_FileID": 0,
+    "m_PathID": 1282070617942380322
+  },
+  "left": {
+    "m_FileID": 0,
+    "m_PathID": 5008379806987408694
+  },
+  "right": {
+    "m_FileID": 0,
+    "m_PathID": 4931461059042525652
+  },
+  "selectOnAction": 0
+}

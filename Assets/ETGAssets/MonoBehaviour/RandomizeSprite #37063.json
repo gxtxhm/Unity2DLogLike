@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5040560976967238358
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3437773378441611256
+  },
+  "m_Name": "",
+  "spriteNames": [],
+  "animationNames": [
+    "blood_stain_002",
+    "blood_stain_003",
+    "blood_stain_004"
+  ],
+  "UseStaticIndex": 0
+}

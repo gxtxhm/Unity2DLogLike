@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9158130215558214930
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6563489404517364002
+  },
+  "m_Name": "",
+  "delayTime": 0.4,
+  "additionalDestroyTime": 0.1,
+  "damageToDeal": 5.0,
+  "AppliesFire": 1,
+  "FireEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "fire",
+    "resistanceType": 1,
+    "stackMode": 0,
+    "duration": 4.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 1,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 4.0,
+    "ignitesGoops": 1,
+    "FlameVfx": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2510877616333010786
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4066334418742256460
+      }
+    ],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.3
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 1.0,
+    "IsGreenFire": 0
+  }
+}

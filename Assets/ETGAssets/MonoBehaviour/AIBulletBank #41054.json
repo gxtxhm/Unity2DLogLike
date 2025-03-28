@@ -1,0 +1,1080 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6490297512836448476
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6949743339884284451
+  },
+  "m_Name": "",
+  "Bullets": [
+    {
+      "Name": "default",
+      "BulletObject": {
+        "m_FileID": 1,
+        "m_PathID": 2621574352450402402
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 1,
+      "rampStartHeight": 15.0,
+      "rampTime": 1.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheese",
+      "BulletObject": {
+        "m_FileID": 1,
+        "m_PathID": -5132960279604973475
+      },
+      "OverrideProjectile": 1,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 16.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 1,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_earthwormgun_shot_01 ",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 1.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "mousetrap",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 3532645021718927583
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 1,
+      "rampStartHeight": 15.0,
+      "rampTime": 1.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "dagger",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -1506206696984538518
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 1,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_BOSS_lichC_zap_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 1,
+      "rampStartHeight": 15.0,
+      "rampTime": 1.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "tail",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -9023103865898279502
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 1,
+      "rampStartHeight": 15.0,
+      "rampTime": 100.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge0",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 7591089943387841187
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge1",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -797196068977411368
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge2",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -8381259801542826034
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge3",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -4068170334905297422
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge4",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 7648387936514798422
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge5",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 3112816931548900528
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge6",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 1209247374024821089
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 17.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWedge7",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": 788599705223128059
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 15.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    },
+    {
+      "Name": "cheeseWheel",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -2625579689715644857
+      },
+      "OverrideProjectile": 0,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 9.0,
+        "range": 100.0,
+        "force": 10.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 1.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "Play_WPN_Magnum_shot_01",
+      "AudioLimitOncePerFrame": 1,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 1,
+                  "m_PathID": -182243967534024447
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 7.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 1,
+      "rampStartHeight": 16.0,
+      "rampTime": 10.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 0,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    }
+  ],
+  "useDefaultBulletIfMissing": 1,
+  "transforms": []
+}

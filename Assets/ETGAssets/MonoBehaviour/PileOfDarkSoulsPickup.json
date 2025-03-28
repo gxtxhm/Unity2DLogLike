@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8841746104576195276
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8022164937624095803
+  },
+  "m_Name": "",
+  "PickupObjectId": 173,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Pile Of Souls",
+  "ForcedPositionInAmmonomicon": -1,
+  "UsesCustomCost": 0,
+  "CustomCost": -1,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "containedCurrency": 0,
+  "pickupVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 3205379259036681479
+  }
+}

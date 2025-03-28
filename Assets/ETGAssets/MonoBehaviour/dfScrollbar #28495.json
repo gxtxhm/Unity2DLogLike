@@ -1,0 +1,98 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -702064182561152748
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1609681601211690207
+  },
+  "m_Name": "",
+  "anchorStyle": 10,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 1,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 20.0,
+    "y": 128.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 10,
+    "margins": {
+      "left": 660.0078,
+      "top": -5.0,
+      "right": -12.0078125,
+      "bottom": -67.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 7682608343690027286
+    }
+  },
+  "renderOrder": 14,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "ControlledByRightStick": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -9078157847827417999
+  },
+  "orientation": 1,
+  "rawValue": 0.0,
+  "minValue": 0.0,
+  "maxValue": 776.0,
+  "stepSize": 1.0,
+  "scrollSize": 724.0,
+  "increment": 100.0,
+  "thumb": {
+    "m_FileID": 0,
+    "m_PathID": 9007872820394399469
+  },
+  "track": {
+    "m_FileID": 0,
+    "m_PathID": 3024985436773317689
+  },
+  "incButton": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "decButton": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "thumbPadding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "autoHide": 1
+}

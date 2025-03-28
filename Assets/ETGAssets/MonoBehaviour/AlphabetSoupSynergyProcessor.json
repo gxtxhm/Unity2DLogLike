@@ -1,0 +1,222 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8534070794024184531
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1208720398506015315
+  },
+  "m_Name": "",
+  "Entries": [
+    {
+      "RequiredSynergy": 99,
+      "Words": [
+        "BULLET+1"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Synergy_BulletPlus_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    },
+    {
+      "RequiredSynergy": 100,
+      "Words": [
+        "aBULLET"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Alpha_BulletAlpha_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    },
+    {
+      "RequiredSynergy": 101,
+      "Words": [
+        "BULLETo"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Omega_BulletOmega_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    },
+    {
+      "RequiredSynergy": 102,
+      "Words": [
+        "CUTE",
+        "HANDSOME",
+        "CHARM"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Scary_Cute_01",
+        "Play_WPN_LowerCaseR_Scary_Handsome_01",
+        "Play_WPN_LowerCaseR_Scary_Charm_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -394999053377485651
+      }
+    },
+    {
+      "RequiredSynergy": 103,
+      "Words": [
+        "CHUMP",
+        "LOSER",
+        "DORK",
+        "NOODLE",
+        "TAFFER"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Angry_Chump_01",
+        "Play_WPN_LowerCaseR_Angry_Loser_01",
+        "Play_WPN_LowerCaseR_Angry_Dork_01",
+        "Play_WPN_LowerCaseR_Angry_Noodle_01",
+        "Play_WPN_LowerCaseR_Angry_Taffer_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 443656334339598217
+      }
+    },
+    {
+      "RequiredSynergy": 153,
+      "Words": [
+        "GOLD",
+        "CASH",
+        "SHELLS",
+        "COINS"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Wealth_Gold_01",
+        "Play_WPN_LowerCaseR_Wealth_Cash_01",
+        "Play_WPN_LowerCaseR_Wealth_Shells_01",
+        "Play_WPN_LowerCaseR_Wealth_Coins_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    },
+    {
+      "RequiredSynergy": 154,
+      "Words": [
+        "SILVER",
+        "BLESSED",
+        "WEREWOLF"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Slayer_Silver_01",
+        "Play_WPN_LowerCaseR_Slayer_Blessed_01",
+        "Play_WPN_LowerCaseR_Slayer_Werewolf_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    },
+    {
+      "RequiredSynergy": 155,
+      "Words": [
+        "ABRA",
+        "KADABRA"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Magical_Abra_01",
+        "Play_WPN_LowerCaseR_Magical_Kadabra_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -6321557548713871635
+      }
+    },
+    {
+      "RequiredSynergy": 156,
+      "Words": [
+        "BOOM",
+        "POW",
+        "KABOOM",
+        "ROCKET"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Bomb_boom_01",
+        "Play_WPN_LowerCaseR_Bomb_Pow_01",
+        "Play_WPN_LowerCaseR_Bomb_Kaboom_01",
+        "Play_WPN_LowerCaseR_Bomb_Rocket_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -3337876836039133765
+      }
+    },
+    {
+      "RequiredSynergy": 157,
+      "Words": [
+        "SPOOKY",
+        "BOO",
+        "GHOST"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Scary_Spooky_01",
+        "Play_WPN_LowerCaseR_Scary_Boo_01",
+        "Play_WPN_LowerCaseR_Scary_Ghost_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 620029123487260822
+      }
+    },
+    {
+      "RequiredSynergy": 158,
+      "Words": [
+        "CHEST",
+        "MIMIC"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Chest_Chest_01",
+        "Play_WPN_LowerCaseR_Chest_Mimic_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -5307812402564476145
+      }
+    },
+    {
+      "RequiredSynergy": 364,
+      "Words": [
+        "THANKS",
+        "THANKYOU",
+        "TOODLES",
+        "GOODBYE",
+        "GAMEOVER",
+        "BOOYAKASHA",
+        "COWABUNGA",
+        "FAREWELL",
+        "HASTALAVISTA"
+      ],
+      "AudioEvents": [
+        "Play_WPN_LowerCaseR_Bye_Thanks_01",
+        "Play_WPN_LowerCaseR_Bye_ThankYou_01",
+        "Play_WPN_LowerCaseR_Bye_Toodles_01",
+        "Play_WPN_LowerCaseR_Bye_Goodbye_01",
+        "Play_WPN_LowerCaseR_Bye_GameOver_01",
+        "Play_WPN_LowerCaseR_Bye_Booyakasha_01",
+        "Play_WPN_LowerCaseR_Bye_Cowabunga_01",
+        "Play_WPN_LowerCaseR_Bye_Farewell_01",
+        "Play_WPN_LowerCaseR_Bye_Hastalavista_01"
+      ],
+      "BaseProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 3612972013897300452
+      }
+    }
+  ]
+}

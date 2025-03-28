@@ -1,0 +1,137 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1130109039773141024
+  },
+  "m_Name": "Resourceful Rat Maze Rooms",
+  "includedRooms": {
+    "elements": [
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8201703420104268412
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -4158558612711696997
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 4344930647821039798
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 1714781853984417366
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8561409396388794365
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -8533866687930754354
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -6633972284338617189
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -4273003556479385745
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -7723359785377461747
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 8062523551844282272
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 6134942236203462994
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2463286382912496112
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedRoomTables": []
+}

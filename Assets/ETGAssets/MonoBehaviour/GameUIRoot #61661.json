@@ -1,0 +1,219 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8093281877683897181
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 563123571770236102
+  },
+  "m_Name": "",
+  "p_playerAmmoLabel": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FoyerAmmonomiconLabel": {
+    "m_FileID": 0,
+    "m_PathID": 2488655963965417257
+  },
+  "heartControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6210704411609036863
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6366881622407326726
+    }
+  ],
+  "ammoControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5580486724560558708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6378000456735263363
+    }
+  ],
+  "itemControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5258200237129130641
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1864462878411758920
+    }
+  ],
+  "blankControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3448490438285293170
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4360520436944269001
+    }
+  ],
+  "bossController": {
+    "m_FileID": 0,
+    "m_PathID": 2780108057777233598
+  },
+  "bossController2": {
+    "m_FileID": 0,
+    "m_PathID": -5269311779099958405
+  },
+  "bossControllerSide": {
+    "m_FileID": 0,
+    "m_PathID": 9026596893903932517
+  },
+  "notificationController": {
+    "m_FileID": 0,
+    "m_PathID": 5424575389212144018
+  },
+  "AreYouSurePanel": {
+    "m_FileID": 0,
+    "m_PathID": -1574197683140887885
+  },
+  "KeepMetasIsVisible": 0,
+  "p_playerCoinLabel": {
+    "m_FileID": 0,
+    "m_PathID": -6438555088894032116
+  },
+  "p_playerKeyLabel": {
+    "m_FileID": 0,
+    "m_PathID": -8175451989490794936
+  },
+  "p_specialKeySprite": {
+    "m_FileID": 0,
+    "m_PathID": -5192228356419630178
+  },
+  "p_needsReloadLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3771010849284521029
+  },
+  "gunNameLabels": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6789263921374870348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7716591570220536425
+    }
+  ],
+  "itemNameLabels": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8806343168642622755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4228264865624461084
+    }
+  ],
+  "levelNameUI": {
+    "m_FileID": 0,
+    "m_PathID": 744935431677379642
+  },
+  "p_playerReloadBar": {
+    "m_FileID": 0,
+    "m_PathID": 7559784559834535014
+  },
+  "p_secondaryPlayerReloadBar": {
+    "m_FileID": 0,
+    "m_PathID": -269390882600867653
+  },
+  "undiePanel": {
+    "m_FileID": 0,
+    "m_PathID": -2948533491890878816
+  },
+  "motionGroups": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4871807214311555513
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3818188367915759374
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6789263921374870348
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8806343168642622755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2312867784227035793
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7716591570220536425
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4228264865624461084
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2743282569927906253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -591786279381552256
+    }
+  ],
+  "motionDirections": [
+    6,
+    6,
+    4,
+    4,
+    4,
+    4,
+    4,
+    6,
+    2
+  ],
+  "demoTutorialPanels_Keyboard": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1934747060167268895
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5187401150604511426
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 551511634200240659
+    }
+  ],
+  "demoTutorialPanels_Controller": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 90231737507962907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7568154509839320381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1502302936120309708
+    }
+  ],
+  "GunventoryFolded": 1,
+  "PauseMenuPanel": {
+    "m_FileID": 0,
+    "m_PathID": -2806517382265365971
+  },
+  "ConversationBar": {
+    "m_FileID": 0,
+    "m_PathID": -2854307935369027488
+  }
+}

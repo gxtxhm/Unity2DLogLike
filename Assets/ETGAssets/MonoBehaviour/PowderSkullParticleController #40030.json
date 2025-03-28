@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3933651180361338955
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 582812027025502456
+  },
+  "m_Name": "",
+  "ParentAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 6743284880550655142
+  },
+  "RotationChild": {
+    "m_FileID": 0,
+    "m_PathID": -7898766432571925175
+  },
+  "VelocityFraction": 0.6
+}

@@ -1,0 +1,63 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -856103610662802320
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1792472461036325818
+  },
+  "m_Name": "",
+  "optionType": 20,
+  "itemType": 0,
+  "labelControl": {
+    "m_FileID": 0,
+    "m_PathID": 2461065246926341346
+  },
+  "selectedLabelControl": {
+    "m_FileID": 0,
+    "m_PathID": -2793643007582245044
+  },
+  "infoControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "fillbarControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "buttonControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxChecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxUnchecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "labelOptions": [
+    "PS4"
+  ],
+  "infoOptions": [],
+  "up": {
+    "m_FileID": 0,
+    "m_PathID": 4049332969551353557
+  },
+  "down": {
+    "m_FileID": 0,
+    "m_PathID": 4367472736262388124
+  },
+  "left": {
+    "m_FileID": 0,
+    "m_PathID": 3060991535225778942
+  },
+  "right": {
+    "m_FileID": 0,
+    "m_PathID": 2465207356300513054
+  },
+  "selectOnAction": 0
+}

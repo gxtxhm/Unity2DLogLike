@@ -1,0 +1,179 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7155502477259497011
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2319691157901082252
+  },
+  "m_Name": "",
+  "breakStyle": 0,
+  "shardClusters": [],
+  "stainObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShardSpawnOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "destroyOnBreak": 1,
+  "ForcedDestroyDelay": 0.0,
+  "makeParallelOnBreak": 1,
+  "resistsExplosions": 0,
+  "stopsBullets": 1,
+  "canSpawnFairy": 0,
+  "dropCoins": 0,
+  "amountToRain": 0.0,
+  "chanceToRain": 0.0,
+  "explodesOnBreak": 0,
+  "explosionData": {
+    "useDefaultExplosion": 0,
+    "doDamage": 1,
+    "forceUseThisRadius": 0,
+    "damageRadius": 4.5,
+    "damageToPlayer": 0.5,
+    "damage": 25.0,
+    "breakSecretWalls": 0,
+    "secretWallsRadius": 4.5,
+    "forcePreventSecretWallDamage": 0,
+    "doDestroyProjectiles": 1,
+    "doForce": 1,
+    "pushRadius": 6.0,
+    "force": 100.0,
+    "debrisForce": 50.0,
+    "preventPlayerForce": 0,
+    "explosionDelay": 0.1,
+    "usesComprehensiveDelay": 0,
+    "comprehensiveDelay": 0.0,
+    "effect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "doScreenShake": 1,
+    "ss": {
+      "magnitude": 0.35,
+      "speed": 6.0,
+      "time": 0.06,
+      "falloff": 0.0,
+      "direction": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "vibrationType": 10,
+      "simpleVibrationTime": 20,
+      "simpleVibrationStrength": 20
+    },
+    "doStickyFriction": 1,
+    "doExplosionRing": 1,
+    "isFreezeExplosion": 0,
+    "freezeRadius": 5.0,
+    "freezeEffect": {
+      "AffectsPlayers": 1,
+      "AffectsEnemies": 1,
+      "effectIdentifier": "effect",
+      "resistanceType": 0,
+      "stackMode": 0,
+      "duration": 10.0,
+      "maxStackedDuration": -1.0,
+      "AppliesTint": 0,
+      "TintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.5
+      },
+      "AppliesDeathTint": 0,
+      "DeathTintColor": {
+        "r": 0.388,
+        "g": 0.388,
+        "b": 0.388,
+        "a": 1.0
+      },
+      "AppliesOutlineTint": 0,
+      "OutlineTintColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "OverheadVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "PlaysVFXOnActor": 0,
+      "FreezeAmount": 10.0,
+      "UnfreezeDamagePercent": 0.333,
+      "FreezeCrystals": [],
+      "crystalRot": 8,
+      "crystalVariation": {
+        "x": 0.05,
+        "y": 0.05
+      },
+      "debrisMinForce": 5,
+      "debrisMaxForce": 5,
+      "debrisAngleVariance": 15.0,
+      "vfxExplosion": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "playDefaultSFX": 1,
+    "IsChandelierExplosion": 0,
+    "rotateEffectToNormal": 0,
+    "ignoreList": [],
+    "overrideRangeIndicatorEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "goopsOnBreak": 0,
+  "goopType": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "goopRadius": 3.0,
+  "hasParticulates": 0,
+  "MinParticlesOnBurst": 0,
+  "MaxParticlesOnBurst": 0,
+  "ParticleSize": 0.0625,
+  "ParticleLifespan": 0.25,
+  "ParticleMagnitude": 1.0,
+  "ParticleMagnitudeVariance": 0.5,
+  "ParticleColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "EmitStyle": 1,
+  "ParticleType": 0,
+  "breakAnimName": "writhing_bulletman_burst",
+  "breakAnimFrame": "",
+  "breakAudioEventName": "Play_OBJ_bullet_stomp_01",
+  "AdditionalSpawnedObjectHeight": 0.0,
+  "SpawnedObjectOffsetVector": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "AdditionalVFXObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnlyBrokenByCode": 0,
+  "isInvulnerableToGameActors": 0,
+  "CastleReplacedWithWaterDrum": 0,
+  "isImpermeableToGameActors": 0,
+  "onlyVulnerableToGunfire": 0,
+  "OnlyPlayerProjectilesCanBreak": 0,
+  "parentSurface": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AdditionalDestabilizedObjects": [],
+  "ForceSmallForCollisions": 0,
+  "IgnoredForPotShotsModifier": 0,
+  "IsDecorativeOnly": 0
+}

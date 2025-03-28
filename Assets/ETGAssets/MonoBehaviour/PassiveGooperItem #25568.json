@@ -1,0 +1,55 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5267911594342671891
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2993532331062791951
+  },
+  "m_Name": "",
+  "PickupObjectId": 452,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Magic Mop",
+  "ForcedPositionInAmmonomicon": 234,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 0,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "condition": 1,
+  "IsDegooperator": 1,
+  "TranslatesGleepGlorp": 1,
+  "goopType": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "goopRadius": 2.0,
+  "modifiers": [
+    {
+      "damageType": 16,
+      "damageMultiplier": 0.0
+    }
+  ],
+  "Synergies": [],
+  "AirSoftSynergyAmmoGainRate": 0.05
+}

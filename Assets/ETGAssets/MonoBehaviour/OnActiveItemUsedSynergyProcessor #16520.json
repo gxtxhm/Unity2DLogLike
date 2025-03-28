@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7146758132715318449
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3896401167316067475
+  },
+  "m_Name": "",
+  "SynergyToCheck": 50,
+  "FiresOnActivation": 1,
+  "ActivationBurst": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 0,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 618349979732860292
+      }
+    },
+    "MinToSpawnPerWave": 1,
+    "MaxToSpawnPerWave": 1,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 0,
+    "AlignFirstShot": 1,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  },
+  "ActivationBurstCooldown": 5.0,
+  "CreatesHoveringGun": 0,
+  "PositionType": 0,
+  "AimType": 0,
+  "FireType": 0,
+  "HoverDuration": 5.0
+}

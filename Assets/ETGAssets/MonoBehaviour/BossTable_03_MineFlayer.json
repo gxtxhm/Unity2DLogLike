@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1130109039773141024
+  },
+  "m_Name": "BossTable_03_MineFlayer",
+  "includedRooms": {
+    "elements": [
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 5318413969644310614
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": 7830789245089332329
+        },
+        "weight": 0.5,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedRoomTables": []
+}

@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4000024445854461459
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6800047427775124013
+  },
+  "m_Name": "",
+  "SonySpriteName": "ps4_cross",
+  "XboxSpriteName": "xbone_a",
+  "SwitchSpriteName": "switch_b",
+  "SwitchSingleJoyConSpriteName": "switch_single_d",
+  "InteractOverride": 1,
+  "DoResize": 0,
+  "ResizeScale": 3.0
+}

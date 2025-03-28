@@ -1,0 +1,219 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 816
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 26
+  },
+  "m_Name": "",
+  "p_playerAmmoLabel": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FoyerAmmonomiconLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3762
+  },
+  "heartControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3766
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3796
+    }
+  ],
+  "ammoControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3783
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3411
+    }
+  ],
+  "itemControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3961
+    }
+  ],
+  "blankControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3647
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4022
+    }
+  ],
+  "bossController": {
+    "m_FileID": 0,
+    "m_PathID": 4004
+  },
+  "bossController2": {
+    "m_FileID": 0,
+    "m_PathID": 3470
+  },
+  "bossControllerSide": {
+    "m_FileID": 0,
+    "m_PathID": 3774
+  },
+  "notificationController": {
+    "m_FileID": 0,
+    "m_PathID": 3316
+  },
+  "AreYouSurePanel": {
+    "m_FileID": 0,
+    "m_PathID": 3883
+  },
+  "KeepMetasIsVisible": 0,
+  "p_playerCoinLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3290
+  },
+  "p_playerKeyLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3908
+  },
+  "p_specialKeySprite": {
+    "m_FileID": 0,
+    "m_PathID": 3347
+  },
+  "p_needsReloadLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3976
+  },
+  "gunNameLabels": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3195
+    }
+  ],
+  "itemNameLabels": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3739
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3902
+    }
+  ],
+  "levelNameUI": {
+    "m_FileID": 0,
+    "m_PathID": 3720
+  },
+  "p_playerReloadBar": {
+    "m_FileID": 0,
+    "m_PathID": 4035
+  },
+  "p_secondaryPlayerReloadBar": {
+    "m_FileID": 0,
+    "m_PathID": 4036
+  },
+  "undiePanel": {
+    "m_FileID": 0,
+    "m_PathID": 785
+  },
+  "motionGroups": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3739
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3195
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3529
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3217
+    }
+  ],
+  "motionDirections": [
+    6,
+    6,
+    4,
+    4,
+    4,
+    4,
+    4,
+    6,
+    2
+  ],
+  "demoTutorialPanels_Keyboard": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3642
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3460
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3632
+    }
+  ],
+  "demoTutorialPanels_Controller": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3877
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3938
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3958
+    }
+  ],
+  "GunventoryFolded": 1,
+  "PauseMenuPanel": {
+    "m_FileID": 0,
+    "m_PathID": 3334
+  },
+  "ConversationBar": {
+    "m_FileID": 0,
+    "m_PathID": 3737
+  }
+}

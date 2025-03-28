@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 144
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 21
+  },
+  "m_Name": "",
+  "talkPoint": {
+    "m_FileID": 0,
+    "m_PathID": 240
+  },
+  "displayTextKey": "#SHRINE_ALTGUN_DISPLAY",
+  "acceptOptionKey": "#SHRINE_ALTGUN_ACCEPT",
+  "declineOptionKey": "#SHRINE_DECLINE",
+  "Flame": {
+    "m_FileID": 0,
+    "m_PathID": 831
+  },
+  "AlternativeOutlineTarget": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

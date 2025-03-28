@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7210453917393850238
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1607183520345177925
+  },
+  "m_Name": "",
+  "MinRadius": 2.0,
+  "MaxRadius": 5.0,
+  "OrbitGroup": -1,
+  "SpawnVFXElapsedTimer": 0.25,
+  "RespawnVFX": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": 2019959610219692588
+            },
+            "orphaned": 1,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "TriggerOnBounce": 1
+}

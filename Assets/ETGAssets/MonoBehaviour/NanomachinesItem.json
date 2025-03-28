@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2202070690961266335
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6823922603166762801
+  },
+  "m_Name": "",
+  "PickupObjectId": 314,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Nanomachines",
+  "ForcedPositionInAmmonomicon": 202,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "initialArmorBoost": 2,
+  "DamagePerArmor": 2.0,
+  "RageSynergyDuration": 10.0,
+  "RageFlatColor": {
+    "r": 0.5019608,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.7490196
+  },
+  "RageDamageMultiplier": 2.0,
+  "RageOverheadVFX": {
+    "m_FileID": 3,
+    "m_PathID": 2851210042008772492
+  }
+}

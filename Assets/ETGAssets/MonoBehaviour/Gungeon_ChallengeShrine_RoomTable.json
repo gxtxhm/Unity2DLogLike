@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1130109039773141024
+  },
+  "m_Name": "Gungeon_ChallengeShrine_RoomTable",
+  "includedRooms": {
+    "elements": [
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -2576733784520109660
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      },
+      {
+        "room": {
+          "m_FileID": 0,
+          "m_PathID": -5705734080184396682
+        },
+        "weight": 1.0,
+        "limitedCopies": 1,
+        "maxCopies": 1,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedRoomTables": []
+}

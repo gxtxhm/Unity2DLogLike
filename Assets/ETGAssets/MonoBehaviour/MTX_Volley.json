@@ -1,0 +1,114 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6691573398292001635
+  },
+  "m_Name": "MTX_Volley",
+  "projectiles": [
+    {
+      "shootStyle": 0,
+      "ammoType": 14,
+      "customAmmoType": "mtx",
+      "projectiles": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7118503150047489536
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8892328383196179103
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 9003948007373118471
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5977296189021333638
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2786208785326322519
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1203290872318388263
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 9003948007373118471
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7118503150047489536
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8892328383196179103
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -2786208785326322519
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -1203290872318388263
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6734806033819649907
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -6734806033819649907
+        }
+      ],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 0.0,
+      "alternateAngle": 0,
+      "angleVariance": 8.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 1,
+      "burstShotCount": 6,
+      "burstCooldownTime": 0.08,
+      "cooldownTime": 0.2,
+      "numberOfShotsInClip": 30,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    }
+  ],
+  "UsesBeamRotationLimiter": 0,
+  "BeamRotationDegreesPerSecond": 30.0,
+  "ModulesAreTiers": 0,
+  "UsesShotgunStyleVelocityRandomizer": 0,
+  "DecreaseFinalSpeedPercentMin": -5.0,
+  "IncreaseFinalSpeedPercentMax": 5.0
+}

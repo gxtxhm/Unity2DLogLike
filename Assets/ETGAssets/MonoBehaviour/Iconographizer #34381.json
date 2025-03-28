@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 502
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 27
+  },
+  "m_Name": "",
+  "SonySpriteName": "ps4_triangle",
+  "XboxSpriteName": "xbone_y",
+  "SwitchSpriteName": "switch_x",
+  "SwitchSingleJoyConSpriteName": "switch_single_u",
+  "InteractOverride": 0,
+  "DoResize": 0,
+  "ResizeScale": 3.0
+}

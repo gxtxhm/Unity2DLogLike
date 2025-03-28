@@ -1,0 +1,154 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6062896507911515272
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1606093679257332457
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": 4777331060700458978
+    },
+    {
+      "m_FileID": 2,
+      "m_PathID": -4318625088673336249
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2756661881394031982
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3366621543016163856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6300790440613548360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2780626930903969921
+    }
+  ],
+  "_serializedStateKeys": [
+    "levelData",
+    "transformVfx",
+    "transformPoints"
+  ],
+  "_serializedStateValues": [
+    "[{\"idleSprite\":\"shotgun_statue_idle_001\",\"idleAnim\":\"\",\"fireAnim\":\"statue_shotgun_land\",\"deathAnim\":\"statue_shotgun_die\",\"EyeTrailVFX\":0},{\"idleSprite\":\"shotgun_statue_eye_idle_001\",\"idleAnim\":\"\",\"fireAnim\":\"statue_shotgun_3_land\",\"deathAnim\":\"statue_shotgun_3_die\",\"EyeTrailVFX\":1},{\"idleSprite\":\"shotgun_statue_3eye_idle_001\",\"idleAnim\":\"\",\"fireAnim\":\"statue_shotgun_2_land\",\"deathAnim\":\"statue_shotgun_2_die\",\"EyeTrailVFX\":2},{\"idleSprite\":\"\",\"idleAnim\":\"statue_kali_idle\",\"fireAnim\":\"statue_kali_fire\",\"deathAnim\":\"statue_kali_die\",\"EyeTrailVFX\":3}]",
+    "[4]",
+    "[5,6,7]"
+  ],
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 9129754468290968420
+  },
+  "landVfx": {
+    "m_FileID": 0,
+    "m_PathID": 7045695397984327352
+  },
+  "attackVfx": {
+    "m_FileID": 0,
+    "m_PathID": 5556313612346203327
+  },
+  "shootPoint": {
+    "m_FileID": 0,
+    "m_PathID": -7164442460184944779
+  },
+  "levelData": [
+    {
+      "idleSprite": "shotgun_statue_idle_001",
+      "idleAnim": "",
+      "fireAnim": "statue_shotgun_land",
+      "deathAnim": "statue_shotgun_die",
+      "EyeTrailVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "idleSprite": "shotgun_statue_eye_idle_001",
+      "idleAnim": "",
+      "fireAnim": "statue_shotgun_3_land",
+      "deathAnim": "statue_shotgun_3_die",
+      "EyeTrailVFX": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "idleSprite": "shotgun_statue_3eye_idle_001",
+      "idleAnim": "",
+      "fireAnim": "statue_shotgun_2_land",
+      "deathAnim": "statue_shotgun_2_die",
+      "EyeTrailVFX": {
+        "m_FileID": 2,
+        "m_PathID": 4777331060700458978
+      }
+    },
+    {
+      "idleSprite": "",
+      "idleAnim": "statue_kali_idle",
+      "fireAnim": "statue_kali_fire",
+      "deathAnim": "statue_kali_die",
+      "EyeTrailVFX": {
+        "m_FileID": 2,
+        "m_PathID": -4318625088673336249
+      }
+    }
+  ],
+  "transformVfx": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2756661881394031982
+    }
+  ],
+  "transformPoints": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -3366621543016163856
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6300790440613548360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2780626930903969921
+    }
+  ],
+  "transformDelay": 0.5,
+  "transformMidDelay": 0.75,
+  "kaliTransformAnim": "statue_AK-47_final_burst",
+  "kaliExplosionTransform": {
+    "m_FileID": 0,
+    "m_PathID": -1192093671994102468
+  },
+  "kaliExplosionVfx": {
+    "m_FileID": 0,
+    "m_PathID": 3592253463373431449
+  },
+  "kaliFireworksTransform": {
+    "m_FileID": 0,
+    "m_PathID": -1192093671994102468
+  },
+  "kaliFireworkdsVfx": {
+    "m_FileID": 1,
+    "m_PathID": -5383773894951500853
+  },
+  "kaliPostTransformDelay": 1.0
+}

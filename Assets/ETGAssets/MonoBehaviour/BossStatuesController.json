@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3781080039924384096
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5532065860110863941
+  },
+  "m_Name": "",
+  "allStatues": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4318854649240857206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 805649863531703098
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4525481982755073141
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2589990991684932717
+    }
+  ],
+  "groundedTime": 0.15,
+  "moveSpeed": 5.0,
+  "transitionMoveSpeed": 10.0,
+  "moveHopHeight": 2.0,
+  "moveHopTime": 0.5,
+  "attackHopHeight": 4.0,
+  "attackHopTime": 0.75
+}

@@ -1,0 +1,136 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8342272416376007984
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9091778748497539986
+  },
+  "m_Name": "",
+  "doorMode": 0,
+  "doorClosesAfterEveryOpen": 0,
+  "doorModules": [
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": -5455475809084276326
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "nakatomi_door_east_top_open",
+      "closeAnimationName": "nakatomi_door_east_top_close",
+      "AOAnimatorsToDisable": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -9014846500593290188
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7325968689234122920
+        }
+      ],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": -7105180984624648270
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "nakatomi_door_east_bottom_open",
+      "closeAnimationName": "nakatomi_door_east_bottom_close",
+      "AOAnimatorsToDisable": [],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "hideSealAnimators": 1,
+  "sealAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8354140655253893388
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4390606043831068896
+    }
+  ],
+  "sealChainAnimators": [],
+  "sealVFX": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 544551660313940094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8055636249911582426
+    }
+  ],
+  "unsealDistanceMaximum": -1.0,
+  "unsealedVFXOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "sealAnimationName": "door_block_steel_side_close",
+  "unsealAnimationName": "door_block_steel_side_open",
+  "playerNearSealedAnimationName": "",
+  "SupportsSubsidiaryDoors": 1,
+  "northSouth": 0,
+  "subsidiaryBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "subsidiaryDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChainsAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "isLocked": 0,
+  "lockIsBusted": 0,
+  "isSealed": 0,
+  "usesUnsealScreenShake": 0,
+  "unsealScreenShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 528
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 61
+  },
+  "m_Name": "",
+  "controllerCamera": {
+    "VisibleBorder": 4.0,
+    "BorderBumperCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 2.0,
+          "outSlope": 2.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 0
+    },
+    "ToHallwayTime": 1.5,
+    "ToRoomTime": 1.5,
+    "ToRoomLockTime": 1.0,
+    "EndRoomLockTime": 2.0,
+    "AimContribution": 5.0,
+    "AimContributionTime": 0.6,
+    "AimContributionFastTime": 0.6,
+    "AimContributionSlowTime": 1.0
+  },
+  "screenShakeDist": 20.0,
+  "screenShakeCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0
+      },
+      {
+        "time": 0.74901086,
+        "value": 0.8937343,
+        "inSlope": -0.4354821,
+        "outSlope": -0.4354821
+      },
+      {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": -3.2686672,
+        "outSlope": -3.2686672
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "z_Offset": -10.0,
+  "IsPerspectiveMode": 0,
+  "CurrentStickyFriction": 1.0,
+  "OverridePosition": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "UseOverridePlayerOnePosition": 0,
+  "OverridePlayerOnePosition": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UseOverridePlayerTwoPosition": 0,
+  "OverridePlayerTwoPosition": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

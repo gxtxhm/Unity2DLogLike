@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8222762618449003094
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9052681936712226665
+  },
+  "m_Name": "",
+  "Trap": {
+    "m_FileID": 1,
+    "m_PathID": -6706197601181481171
+  },
+  "PoofVfx": {
+    "m_FileID": 1,
+    "m_PathID": 7813952294447216592
+  },
+  "RoomPositionOffsets": [
+    {
+      "x": 13.0,
+      "y": 0.0
+    },
+    {
+      "x": 15.0,
+      "y": 0.0
+    },
+    {
+      "x": 13.0,
+      "y": 2.0
+    },
+    {
+      "x": 15.0,
+      "y": 2.0
+    }
+  ],
+  "SpawnDelays": [
+    1.0,
+    0.1,
+    2.0,
+    0.1
+  ],
+  "VfxOffset": {
+    "x": 1.0,
+    "y": 1.75
+  },
+  "VfxLeadTime": 0.1,
+  "AdditionalTriggerDelayTime": 1.0,
+  "SpawnOnIntroFinished": 1,
+  "DestroyOnDeath": 1
+}

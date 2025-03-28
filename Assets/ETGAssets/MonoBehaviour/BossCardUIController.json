@@ -1,0 +1,181 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2073615743377400631
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8770295461978689938
+  },
+  "m_Name": "",
+  "FLASH_DURATION": 0.05,
+  "FLASHBAR_CROSS_DURATION": 0.12,
+  "FLASHBAR_WAIT_DURATION": 0.05,
+  "FLASHBAR_EXPAND_DURATION": 0.2,
+  "TEXT_IN_DURATION": 0.2,
+  "CHARACTER_INITIAL_MOVE_DURATION": 0.18,
+  "CHARACTER_SLIDE_DURATION": 2.5,
+  "CHARACTER_SLIDE_SPEED": 0.01,
+  "BOSS_SLIDE_SPEED": 0.01,
+  "PARALLAX_QUANTIZATION_STEP": 0.2,
+  "uiCamera": {
+    "m_FileID": 0,
+    "m_PathID": -7384516054066713857
+  },
+  "topTriangle": {
+    "m_FileID": 0,
+    "m_PathID": -2585607554541702655
+  },
+  "bottomTriangle": {
+    "m_FileID": 0,
+    "m_PathID": 2602048619805995819
+  },
+  "womboBar": {
+    "m_FileID": 0,
+    "m_PathID": 2692056444917518522
+  },
+  "womboBG": {
+    "m_FileID": 0,
+    "m_PathID": 6324080890073105063
+  },
+  "bossSprite": {
+    "m_FileID": 0,
+    "m_PathID": 4000970427900761392
+  },
+  "bossStart": {
+    "m_FileID": 0,
+    "m_PathID": 2927420826337974835
+  },
+  "bossTarget": {
+    "m_FileID": 0,
+    "m_PathID": 2095934919964177873
+  },
+  "playerSprite": {
+    "m_FileID": 0,
+    "m_PathID": 5677042306489357449
+  },
+  "playerStart": {
+    "m_FileID": 0,
+    "m_PathID": 3765504691023613971
+  },
+  "playerTarget": {
+    "m_FileID": 0,
+    "m_PathID": 2017980662491459850
+  },
+  "coopSprite": {
+    "m_FileID": 0,
+    "m_PathID": -196230260004841553
+  },
+  "parallaxSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8907612667535595475
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7701076839803323932
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 884976915946929552
+    }
+  ],
+  "parallaxSpeeds": [
+    0.45,
+    0.3,
+    0.15
+  ],
+  "parallaxStarts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7861096358310299075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7861096358310299075
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7861096358310299075
+    }
+  ],
+  "parallaxEnds": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2461921961678000028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2461921961678000028
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2461921961678000028
+    }
+  ],
+  "lightStreaksSprite": {
+    "m_FileID": 0,
+    "m_PathID": 5119377908751384557
+  },
+  "lightStreakSpriteNames": [
+    "lightstreaks_001",
+    "lightstreaks_003",
+    "lightstreaks_004",
+    "lightstreaks_002"
+  ],
+  "floatingTexts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3435838005234222205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5368723780124936403
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2642483173509847216
+    }
+  ],
+  "floatingTextStarts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5425598916422921483
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1036033871200943472
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8423140010173499591
+    }
+  ],
+  "floatingTextTargets": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -847663955583014869
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 611597892282203802
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5082770325637445274
+    }
+  ],
+  "nameLabel": {
+    "m_FileID": 0,
+    "m_PathID": -6318057577055850382
+  },
+  "subtitleLabel": {
+    "m_FileID": 0,
+    "m_PathID": -6264156345443860383
+  },
+  "quoteLabel": {
+    "m_FileID": 0,
+    "m_PathID": 5826490476377919748
+  }
+}

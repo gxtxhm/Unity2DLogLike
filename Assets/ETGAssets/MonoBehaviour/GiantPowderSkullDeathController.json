@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2378767490298003649
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8796514733868474576
+  },
+  "m_Name": "",
+  "explosionVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2652175161095520027
+    }
+  ],
+  "explosionMidDelay": 0.15,
+  "explosionCount": 15,
+  "bigExplosionVfx": {
+    "m_FileID": 1,
+    "m_PathID": 5243546660362736755
+  }
+}

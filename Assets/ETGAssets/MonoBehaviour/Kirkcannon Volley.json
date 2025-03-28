@@ -1,0 +1,476 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6691573398292001635
+  },
+  "m_Name": "Kirkcannon Volley",
+  "projectiles": [
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "kirkcannon",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": 5032546981802297532
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 0.0,
+      "alternateAngle": 0,
+      "angleVariance": 15.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 1,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    },
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "musketball",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": -6945449119172287105
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 0.0,
+      "alternateAngle": 0,
+      "angleVariance": 0.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 0,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    },
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "musketball",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": -4411895815583799211
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 10.0,
+      "alternateAngle": 0,
+      "angleVariance": 0.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 0,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    },
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "musketball",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": 4591737353148504363
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 20.0,
+      "alternateAngle": 0,
+      "angleVariance": 0.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 0,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    },
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "musketball",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": 7489082486094575356
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 25.0,
+      "alternateAngle": 0,
+      "angleVariance": 0.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 0,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    },
+    {
+      "shootStyle": 3,
+      "ammoType": 14,
+      "customAmmoType": "musketball",
+      "projectiles": [],
+      "sequenceStyle": 0,
+      "orderedGroupCounts": [],
+      "chargeProjectiles": [
+        {
+          "ChargeTime": 0.3,
+          "Projectile": {
+            "m_FileID": 0,
+            "m_PathID": 5032546981802297532
+          },
+          "UsedProperties": 0,
+          "AmmoCost": 0,
+          "VfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "LightIntensity": 0.0,
+          "ScreenShake": {
+            "magnitude": 0.0,
+            "speed": 0.0,
+            "time": 0.0,
+            "falloff": 0.0,
+            "direction": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vibrationType": 10,
+            "simpleVibrationTime": 20,
+            "simpleVibrationStrength": 20
+          },
+          "OverrideShootAnimation": "",
+          "OverrideMuzzleFlashVfxPool": {
+            "type": 0,
+            "effects": []
+          },
+          "MegaReflection": 0,
+          "AdditionalWwiseEvent": ""
+        }
+      ],
+      "maxChargeTime": 0.0,
+      "triggerCooldownForAnyChargeAmount": 0,
+      "isFinalVolley": 0,
+      "usesOptionalFinalProjectile": 0,
+      "finalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "finalVolley": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "numberOfFinalProjectiles": 1,
+      "finalAmmoType": 0,
+      "finalCustomAmmoType": "",
+      "angleFromAim": 30.0,
+      "alternateAngle": 0,
+      "angleVariance": 0.0,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mirror": 0,
+      "inverted": 0,
+      "ammoCost": 0,
+      "burstShotCount": 3,
+      "burstCooldownTime": 0.2,
+      "cooldownTime": 0.5,
+      "numberOfShotsInClip": 1,
+      "ignoredForReloadPurposes": 0,
+      "preventFiringDuringCharge": 0
+    }
+  ],
+  "UsesBeamRotationLimiter": 0,
+  "BeamRotationDegreesPerSecond": 30.0,
+  "ModulesAreTiers": 0,
+  "UsesShotgunStyleVelocityRandomizer": 0,
+  "DecreaseFinalSpeedPercentMin": -5.0,
+  "IncreaseFinalSpeedPercentMax": 5.0
+}

@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4297760252784901535
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6032341579217542678
+  },
+  "m_Name": "",
+  "ProxyEncounterGuid": "",
+  "m_encounterGuid": "8f22900b96fc4dd2b2264bb74d0b3769",
+  "m_doNotificationOnEncounter": 1,
+  "SuppressInInventory": 0,
+  "m_journalData": {
+    "SuppressInAmmonomicon": 0,
+    "SuppressKnownState": 0,
+    "DisplayOnLoadingScreen": 0,
+    "RequiresLightBackgroundInLoadingScreen": 0,
+    "PrimaryDisplayName": "#MESHOTGUN_ENCNAME",
+    "NotificationPanelDescription": "#MESHOTGUN_SHORTDESC",
+    "AmmonomiconFullEntry": "#MESHOTGUN_LONGDESC",
+    "AmmonomiconSprite": "me_shotgun_idle_001",
+    "IsEnemy": 0,
+    "enemyPortraitSprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "SpecialIdentifier": 0
+  },
+  "m_ignoreDifferentiator": 0,
+  "m_prerequisites": [
+    {
+      "prerequisiteType": 4,
+      "prerequisiteOperation": 0,
+      "statToCheck": 0,
+      "maxToCheck": 0,
+      "comparisonValue": 0.0,
+      "useSessionStatValue": 0,
+      "encounteredObjectGuid": "",
+      "encounteredRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "requiredNumberOfEncounters": 0,
+      "requiredCharacter": 0,
+      "requireCharacter": 0,
+      "requiredTileset": 0,
+      "requireTileset": 0,
+      "saveFlagToCheck": 200035,
+      "requireFlag": 1,
+      "requireDemoMode": 0
+    }
+  ],
+  "m_usesPurpleNotifications": 0
+}

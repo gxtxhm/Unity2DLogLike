@@ -1,0 +1,113 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 477557104486741998
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1102340207310196952
+  },
+  "m_Name": "",
+  "PickupObjectId": 457,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Thorny Mail",
+  "ForcedPositionInAmmonomicon": 154,
+  "UsesCustomCost": 0,
+  "CustomCost": 45,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "modifiers": [
+    {
+      "statToBoost": 21,
+      "modifyType": 1,
+      "amount": 7.0,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGive": 1,
+  "ModifiesDodgeRoll": 0,
+  "DodgeRollTimeMultiplier": 0.9,
+  "DodgeRollDistanceMultiplier": 1.25,
+  "AdditionalInvulnerabilityFrames": 0,
+  "IsJunk": 0,
+  "GivesCurrency": 0,
+  "CurrencyToGive": 0,
+  "IsMasteryToken": 0,
+  "HasIgniteSynergy": 1,
+  "RequiredSynergy": 85,
+  "IgniteEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "fire",
+    "resistanceType": 1,
+    "stackMode": 0,
+    "duration": 4.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 1,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 4.0,
+    "ignitesGoops": 1,
+    "FlameVfx": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2510877616333010786
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4066334418742256460
+      }
+    ],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.3
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 1.0,
+    "IsGreenFire": 0
+  }
+}

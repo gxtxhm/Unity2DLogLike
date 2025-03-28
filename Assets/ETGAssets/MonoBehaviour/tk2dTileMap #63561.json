@@ -1,0 +1,1691 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6590287218329471854
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4455411324111205205
+  },
+  "m_Name": "",
+  "editorDataGUID": "7b6165c352ad89047bd5ce45082899e6",
+  "data": {
+    "m_FileID": 0,
+    "m_PathID": 6880993975118730326
+  },
+  "renderData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spriteCollection": {
+    "m_FileID": 0,
+    "m_PathID": 4141976451159424308
+  },
+  "spriteCollectionKey": 320610226,
+  "width": 64,
+  "height": 64,
+  "partitionSizeX": 32,
+  "partitionSizeY": 32,
+  "isGungeonTilemap": 1,
+  "layers": [
+    {
+      "hash": 346065303,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 32,
+            "endY": 32,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 32,
+            "startY": 0,
+            "endX": 64,
+            "endY": 32,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 32,
+            "endX": 32,
+            "endY": 64,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 32,
+            "startY": 32,
+            "endX": 64,
+            "endY": 64,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1236987040,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1892887448,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1281702752,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 163061123,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 2116102551,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 156027363,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1370055331,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1380663790,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 2014113695,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 138499806,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1296941821,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 1460976512,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "hash": 650427292,
+      "spriteChannel": {
+        "chunks": [
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          },
+          {
+            "startX": 0,
+            "startY": 0,
+            "endX": 0,
+            "endY": 0,
+            "spriteIds": [],
+            "chunkPreprocessFlags": [],
+            "gameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "mesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "meshCollider": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "colliderMesh": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "edgeColliders": []
+          }
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "numColumns": 2,
+      "numRows": 2,
+      "divX": 32,
+      "divY": 32,
+      "gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "colorChannel": {
+    "clearColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "chunks": [],
+    "numColumns": 2,
+    "numRows": 2,
+    "divX": 32,
+    "divY": 32
+  },
+  "prefabsRoot": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "tilePrefabsList": [],
+  "_inEditMode": 0,
+  "serializedMeshPath": ""
+}

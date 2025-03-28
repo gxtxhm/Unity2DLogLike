@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 154986887053103434
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7499334178451721270
+  },
+  "m_Name": "",
+  "NumBounces": [
+    1,
+    3,
+    5
+  ],
+  "SpeedIncreases": [
+    5.0,
+    4.0,
+    3.0,
+    5.0,
+    0.0
+  ],
+  "AnimSpeedMultipliers": [
+    1.5,
+    1.4,
+    1.3,
+    1.5,
+    1.0
+  ],
+  "BossReflectSpreads": [
+    30.0,
+    20.0,
+    10.0,
+    10.0
+  ],
+  "PlayerReflectFriction": [
+    0.25,
+    0.2,
+    0.15,
+    0.1,
+    0.1
+  ],
+  "BossReflectFriction": [
+    0.25,
+    0.2,
+    0.15,
+    0.1
+  ],
+  "PlayerReflectVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 0,
+              "m_PathID": 1348925059804798187
+            },
+            "orphaned": 1,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 1,
+            "zHeight": 10.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  }
+}

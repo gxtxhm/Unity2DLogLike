@@ -1,0 +1,278 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -671643135306276690
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4012067122369566151
+  },
+  "m_Name": "",
+  "PickupObjectId": 204,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Poison Shot",
+  "ForcedPositionInAmmonomicon": 87,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "chanceOfActivating": 0.5,
+  "chanceFromBeamPerSecond": 0.25,
+  "TintBullets": 1,
+  "TintBeams": 1,
+  "TintColor": {
+    "r": 0.0,
+    "g": 0.99215686,
+    "b": 0.21568628,
+    "a": 1.0
+  },
+  "TintPriority": 5,
+  "ParticlesToAdd": {
+    "m_FileID": 0,
+    "m_PathID": 2141085958030115577
+  },
+  "AddsDamageType": 0,
+  "DamageTypesToAdd": 0,
+  "AppliesSpeedModifier": 0,
+  "SpeedModifierEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "SpeedMultiplier": 1.0,
+    "CooldownMultiplier": 1.0,
+    "OnlyAffectPlayerWhenGrounded": 0
+  },
+  "AppliesDamageOverTime": 1,
+  "HealthModifierEffect": {
+    "AffectsPlayers": 0,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "poison",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 2.5,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 1,
+    "TintColor": {
+      "r": 0.0,
+      "g": 0.99607843,
+      "b": 0.21568628,
+      "a": 1.0
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": -7059757152134289191
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 3.0,
+    "ignitesGoops": 0
+  },
+  "AppliesCharm": 0,
+  "CharmModifierEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0
+  },
+  "AppliesFreeze": 0,
+  "FreezeModifierEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "FreezeAmount": 10.0,
+    "UnfreezeDamagePercent": 0.333,
+    "FreezeCrystals": [],
+    "crystalRot": 8,
+    "crystalVariation": {
+      "x": 0.05,
+      "y": 0.05
+    },
+    "debrisMinForce": 5,
+    "debrisMaxForce": 5,
+    "debrisAngleVariance": 15.0,
+    "vfxExplosion": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "FreezeScalesWithDamage": 0,
+  "FreezeAmountPerDamage": 1.0,
+  "AppliesFire": 0,
+  "FireModifierEffect": {
+    "AffectsPlayers": 1,
+    "AffectsEnemies": 1,
+    "effectIdentifier": "effect",
+    "resistanceType": 0,
+    "stackMode": 0,
+    "duration": 10.0,
+    "maxStackedDuration": -1.0,
+    "AppliesTint": 0,
+    "TintColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.5
+    },
+    "AppliesDeathTint": 0,
+    "DeathTintColor": {
+      "r": 0.388,
+      "g": 0.388,
+      "b": 0.388,
+      "a": 1.0
+    },
+    "AppliesOutlineTint": 0,
+    "OutlineTintColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "OverheadVFX": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PlaysVFXOnActor": 0,
+    "DamagePerSecondToEnemies": 10.0,
+    "ignitesGoops": 0,
+    "FlameVfx": [],
+    "flameNumPerSquareUnit": 10,
+    "flameBuffer": {
+      "x": 0.0625,
+      "y": 0.0625
+    },
+    "flameFpsVariation": 0.5,
+    "flameMoveChance": 0.2,
+    "IsGreenFire": 0
+  },
+  "ConfersElectricityImmunity": 0,
+  "AppliesTransmog": 0,
+  "TransmogTargetGuid": "",
+  "Synergies": [
+    {
+      "RequiredSynergy": 119,
+      "ChanceMultiplier": 3.0
+    }
+  ]
+}

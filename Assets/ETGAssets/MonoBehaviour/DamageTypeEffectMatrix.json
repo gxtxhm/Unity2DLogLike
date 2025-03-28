@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1392139568489407792
+  },
+  "m_Name": "DamageTypeEffectMatrix",
+  "definitions": [
+    {
+      "name": "Fire",
+      "damageType": 2,
+      "wallDecals": {
+        "type": 0,
+        "effects": []
+      }
+    },
+    {
+      "name": "Ice",
+      "damageType": 4,
+      "wallDecals": {
+        "type": 0,
+        "effects": []
+      }
+    },
+    {
+      "name": "Rubel",
+      "damageType": 8,
+      "wallDecals": {
+        "type": 0,
+        "effects": []
+      }
+    },
+    {
+      "name": "Water",
+      "damageType": 16,
+      "wallDecals": {
+        "type": 0,
+        "effects": []
+      }
+    }
+  ]
+}

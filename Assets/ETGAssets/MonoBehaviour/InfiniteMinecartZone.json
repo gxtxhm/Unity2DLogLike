@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3005370364144471782
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3444640184310695601
+  },
+  "m_Name": "",
+  "placeableWidth": 30,
+  "placeableHeight": 3,
+  "difficulty": 0,
+  "isPassable": 1,
+  "RegionWidth": 16,
+  "RegionHeight": 3
+}

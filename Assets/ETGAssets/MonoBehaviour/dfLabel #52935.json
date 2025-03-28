@@ -1,0 +1,120 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 719
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 62
+  },
+  "m_Name": "",
+  "anchorStyle": 5,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 1,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 252.0,
+    "y": 42.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 5,
+    "margins": {
+      "left": 0.0,
+      "top": 46.0,
+      "right": 0.0,
+      "bottom": 102.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": 4104
+    }
+  },
+  "renderOrder": 24,
+  "isLocalized": 1,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "PerCharacterOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "PreventFontChanges": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -3892462693424714894
+  },
+  "font": {
+    "m_FileID": 2,
+    "m_PathID": 3066675278115927914
+  },
+  "backgroundSprite": "",
+  "backgroundColor": {
+    "rgba": 4294967295
+  },
+  "autoSize": 0,
+  "autoHeight": 1,
+  "wordWrap": 1,
+  "text": "#SELECTITEM",
+  "bottomColor": {
+    "rgba": 4294967295
+  },
+  "align": 1,
+  "vertAlign": 1,
+  "textScale": 3.0,
+  "textScaleMode": 0,
+  "charSpacing": 0,
+  "colorizeSymbols": 0,
+  "processMarkup": 0,
+  "outline": 0,
+  "outlineWidth": 1,
+  "enableGradient": 0,
+  "outlineColor": {
+    "rgba": 4278190080
+  },
+  "shadow": 0,
+  "shadowColor": {
+    "rgba": 4278190080
+  },
+  "shadowOffset": {
+    "x": 1.0,
+    "y": -1.0
+  },
+  "padding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "tabSize": 48,
+  "tabStops": [],
+  "MaintainJapaneseFont": 0,
+  "MaintainKoreanFont": 0,
+  "MaintainRussianFont": 0
+}

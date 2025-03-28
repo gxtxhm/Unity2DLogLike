@@ -1,0 +1,1399 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 745
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 64
+  },
+  "m_Name": "",
+  "ammoTypes": [
+    {
+      "ammoType": 0,
+      "customAmmoType": "Small Bullet",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4154346354627293908
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7702603778993438441
+      }
+    },
+    {
+      "ammoType": 1,
+      "customAmmoType": "Medium Bullet",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4522143370357965012
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4819022276196166705
+      }
+    },
+    {
+      "ammoType": 2,
+      "customAmmoType": "Beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1894232725559552849
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8584981221213490944
+      }
+    },
+    {
+      "ammoType": 3,
+      "customAmmoType": "Grenade",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 7084943471191152658
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 7011879368980567557
+      }
+    },
+    {
+      "ammoType": 4,
+      "customAmmoType": "Shotgun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1324692846559520142
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7016917022652522882
+      }
+    },
+    {
+      "ammoType": 5,
+      "customAmmoType": "Small Blaster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1947780238694361086
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7702603778993438441
+      }
+    },
+    {
+      "ammoType": 6,
+      "customAmmoType": "Medium Blaster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 5908693146445842326
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4819022276196166705
+      }
+    },
+    {
+      "ammoType": 7,
+      "customAmmoType": "Nail",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 9161933447946421727
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7702603778993438441
+      }
+    },
+    {
+      "ammoType": 8,
+      "customAmmoType": "Musketball",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3666595391121099208
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4229323055948864609
+      }
+    },
+    {
+      "ammoType": 9,
+      "customAmmoType": "Arrow",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2719352390976832642
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2603468959827884784
+      }
+    },
+    {
+      "ammoType": 10,
+      "customAmmoType": "Magic",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 5326763838868773225
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4819022276196166705
+      }
+    },
+    {
+      "ammoType": 13,
+      "customAmmoType": "Fish",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 2711455777845012491
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -510137467214890240
+      }
+    },
+    {
+      "ammoType": 11,
+      "customAmmoType": "Blue Shotgun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -8543015516101785079
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7016917022652522882
+      }
+    },
+    {
+      "ammoType": 12,
+      "customAmmoType": "Skull",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 950614420555063251
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -9067617290621911709
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "Tear",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1589148104868117681
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5291004738573512672
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "Letter",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1612167138263702855
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 3259039337255244338
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "Nerf Dart",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -8310040306887021328
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1195123360848868664
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "Rifle",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3340216644522112170
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2092177110542163554
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "Star",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -7236376850750438048
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6486793742735543672
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "bee",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4415806751932500751
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6739046823951807492
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "genie",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -8271879391131145034
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 5184698083316685017
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "pulse",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5166294230517916658
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6341564033044595022
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "ghost_small",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4124592892267188053
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6059455817308183324
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "golden_gun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 3512774053691215654
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7157964159744328313
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "duck",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3474135707333606296
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4449707632788899444
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "samus",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -594535791653659222
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8696168200373320731
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "mega",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2975778436906306547
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -848433478767092442
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "green_small",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 3226720291205525091
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5297581342374006617
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "red_beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -7859713287768868633
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4581261124116877751
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "yellow_beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 8678008730428152900
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7487786683661778777
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "hate",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -9047315270119007772
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6728319733605677133
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "rainbow",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5661134238423320540
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7358118109819438428
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shotgunarrow",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 5557543435675136479
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -8150929396857266143
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "rocket",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -7780587056287067093
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2165926470852118634
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "yellow blaster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 7665303893426748903
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2531141525923389869
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "green blaster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6102984130680117641
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 583559307811854843
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "purple blaster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5980760962554946028
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -51749696956312200
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "burning hand",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6905207775189129487
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6323774334204190727
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "oil",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4953330843911398955
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 920560712413808178
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "poison_blob",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -9152987963189010533
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6262969890682166040
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "t_shirt",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1191160693596892421
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3832637627733322680
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "black_hole",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1714839937451399676
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8151892473054635143
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "green_beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 342807588057440298
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7876683935029338592
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "big_shotgun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 7934818576008864800
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 9037815278441412061
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shark",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -333239408727287339
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2824600207369318300
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "meat",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 318542399514891111
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 7159491508084370821
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "package",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -7395716500981206905
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1732498544231038766
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "white",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 7918739260005301089
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -959210860188963258
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "pot",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5893043198724734161
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1819034784932101994
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "flare",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -7536358356945609893
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5074409106811000176
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "purple beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 2007028552913087421
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 1623309390657650442
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "rock",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 312519321723174767
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6042251401945782870
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shotlove",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2932113352313410519
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3669377009875909149
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "molotov",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3760501638305429617
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 5378090324935427208
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shotgun green",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 6636642696789318837
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 1581963669213886060
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "meatboy",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4707779246601532040
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8524827860983012317
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "camera",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 5421514908794982487
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 495435211961617967
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "bomb",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -810101268046758100
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 3589886637624621522
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "rail",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1741340801668956838
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2909677425289621515
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "wand",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2317741014703735574
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -217900624229051561
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "tetris",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 2986344902708054807
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2395183505428244034
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "kirkcannon",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4964468323291528718
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5556005179157219421
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "bore",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5810769705801898680
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6471470836236972140
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "block",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1157341563732120601
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -8924573792199054171
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "crate",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4416341839436901111
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 1065495240761955717
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "banana",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 2185632324497322609
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 7130607894064302561
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "leaf",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -1283088121820679952
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4715343915175137582
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "sail",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -594099071216004588
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 5484113453128823592
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "gem",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4469817812518976161
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1778615650230904093
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "feather",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5312521768344065610
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3700465002880183439
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "urn",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 8065875361297088502
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8981459798712906395
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "beholster",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 5273342233951037622
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6760132104589544157
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "slow_arrow",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2071671259886812259
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -873763904430325818
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "rocketarm",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6482794911396543449
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 9078608308705491954
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "red button",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6167602682024456246
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 5090167842656642089
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "hammer",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4598634433652664933
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 5460891188264806963
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "mtx",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1094568429354433340
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6152755775901161533
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "hld",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2647410756736120277
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 1398685562121143705
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "gun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3597359081255939186
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2462207952265647657
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shotgun_gun",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6042561616129072981
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 4866699905067063987
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "poxcannon",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3112291209939485991
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1578694089318332061
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "devolver",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -186131607542496101
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 144550846319577963
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "black_revolver_small",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2403405805269070095
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5583828009118124476
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "black_revolver_big",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 8513836087622929582
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -8593031891105397900
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "tachyon",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 2774327667792580724
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -8035748366767028206
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "glass_cannon",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 4022276295002800418
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3403397532049220189
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "exotic",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 3666092872600492260
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2478816781400934855
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "combine",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 8194734441249654247
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2642602600888076983
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "shovel",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -9095508659649098647
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -7226738713949255531
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "teapot",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4310826105250118451
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -4659772640037717309
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "ak_island",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -6712895704475046287
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3573628148343064518
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "cheese",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5414747872163051567
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 1007709243755296606
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "wood_beam",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5980731939914146686
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1190747719149138612
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "planet",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 7166193012257838699
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -4122357962730494519
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "recharge",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1756980967799740554
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6091930378844879281
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "banana green",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 139389555031598901
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6417417034356254387
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "pulse blue",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -5815572440904968899
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2461382799252137381
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "cabinet",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4504064841146829931
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 246942992158522230
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "bomb gold",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 85938831777162807
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -3252947406533204917
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "noxin",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 6959222506203563900
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -1129481616316718875
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "burning hand green",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2933857214867205359
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -2096248726234652335
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "nerfworm",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -3049945658188376917
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -4965922234572758536
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "unrusty",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -2563298344647420318
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6802397447643089331
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "spma2",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -9211337993770690328
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -8458884348358701368
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "finished small",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 540526735527340524
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6320368082563661934
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "finished big",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1604987798020714756
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -6945122809293159794
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "evo1",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 3644574382342970646
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -4339051659024182953
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "evo2",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -4793370351288454712
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 8628372680417764033
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "evo3",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": -40739104500819476
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 2817572899192328075
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "evo4",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 3075427758433559207
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": -5645218728711124451
+      }
+    },
+    {
+      "ammoType": 14,
+      "customAmmoType": "teapot final",
+      "ammoBarFG": {
+        "m_FileID": 2,
+        "m_PathID": 1692379333584762947
+      },
+      "ammoBarBG": {
+        "m_FileID": 2,
+        "m_PathID": 6441356074100417721
+      }
+    }
+  ],
+  "InitialBottomCapSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3266
+  },
+  "InitialTopCapSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3340
+  },
+  "GunBoxSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3772
+  },
+  "GunQuickSwitchIcon": {
+    "m_FileID": 0,
+    "m_PathID": 3626
+  },
+  "ExtraGunCardPrefab": {
+    "m_FileID": 2,
+    "m_PathID": -5156430419567105775
+  },
+  "AdditionalGunBoxSprites": [],
+  "GunClipCountLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3601
+  },
+  "GunAmmoCountLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3418
+  },
+  "GunCooldownForegroundSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3284
+  },
+  "GunCooldownFillSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3711
+  },
+  "AmmoBurstVFX": {
+    "m_FileID": 2,
+    "m_PathID": -471050766852187419
+  },
+  "gunSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3888
+    }
+  ],
+  "IsLeftAligned": 0,
+  "SuppressNextGunFlip": 0
+}

@@ -1,0 +1,141 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1552544681370803215
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2361071260290412152
+  },
+  "m_Name": "",
+  "placeableWidth": 3,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ChestIdentifier": 0,
+  "forceContentIds": [
+    197
+  ],
+  "lootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 1.0,
+    "D_Chance": 0.1,
+    "C_Chance": 0.7,
+    "B_Chance": 0.01,
+    "A_Chance": 0.0,
+    "S_Chance": 0.0,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 0,
+    "onlyOneGunCanDrop": 1,
+    "multipleItemDropChances": {
+      "elements": [
+        {
+          "annotation": "",
+          "value": 1,
+          "weight": 0.95,
+          "additionalPrerequisites": []
+        },
+        {
+          "annotation": "",
+          "value": 2,
+          "weight": 0.05,
+          "additionalPrerequisites": []
+        }
+      ]
+    }
+  },
+  "breakertronNothingChance": 0.1,
+  "breakertronLootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 0.0,
+    "D_Chance": 0.0,
+    "C_Chance": 0.0,
+    "B_Chance": 0.0,
+    "A_Chance": 0.0,
+    "S_Chance": 0.0,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 0,
+    "onlyOneGunCanDrop": 1,
+    "multipleItemDropChances": {
+      "elements": []
+    }
+  },
+  "prefersDungeonProcContents": 1,
+  "ShadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pickedUp": 0,
+  "spawnAnimName": "wood_chest_appear",
+  "openAnimName": "wood_chest_open",
+  "breakAnimName": "wood_chest_break",
+  "overrideJunkId": -1,
+  "VFX_PreSpawn": {
+    "m_FileID": 0,
+    "m_PathID": 8124585874178638067
+  },
+  "VFX_GroundHit": {
+    "m_FileID": 0,
+    "m_PathID": 3988300220561052552
+  },
+  "groundHitDelay": 0.73,
+  "spawnTransform": {
+    "m_FileID": 0,
+    "m_PathID": 8372840638538982323
+  },
+  "spawnCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 3.5625007,
+        "outSlope": 3.5625007
+      },
+      {
+        "time": 1.0,
+        "value": 1.0124999,
+        "inSlope": 0.09380959,
+        "outSlope": 0.09380959
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockOpenAnim": "lock_open",
+  "LockBreakAnim": "lock_break",
+  "LockNoKeyAnim": "lock_nokey",
+  "SubAnimators": [],
+  "IsLocked": 0,
+  "IsSealed": 0,
+  "IsOpen": 0,
+  "IsBroken": 0,
+  "AlwaysBroadcastsOpenEvent": 0,
+  "IsRainbowChest": 0,
+  "IsMirrorChest": 0,
+  "MimicGuid": "",
+  "mimicOffset": {
+    "x": 0,
+    "y": 0
+  },
+  "preMimicIdleAnim": "",
+  "preMimicIdleAnimDelay": 3.0,
+  "overrideMimicChance": -1.0,
+  "MinimapIconPrefab": {
+    "m_FileID": 3,
+    "m_PathID": -8741479099523193979
+  }
+}

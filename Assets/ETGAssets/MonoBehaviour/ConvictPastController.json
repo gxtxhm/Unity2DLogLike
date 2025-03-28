@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6395628811396335986
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7924466275396843691
+  },
+  "m_Name": "",
+  "InstantBossFight": 0,
+  "InitialTalkDoer": {
+    "m_FileID": 0,
+    "m_PathID": -7921201191534156625
+  },
+  "BaldoTalkDoer": {
+    "m_FileID": 0,
+    "m_PathID": 9041546567479101193
+  },
+  "BaldoBossTalkDoer": {
+    "m_FileID": 0,
+    "m_PathID": -2034448340521499259
+  },
+  "crowdController": {
+    "m_FileID": 0,
+    "m_PathID": 8901144767228095989
+  },
+  "HmonSoldiers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1646927991546311777
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6288611262150442439
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5714509247026302556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4326190943885550389
+    }
+  ],
+  "DeskAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -3349916612582145037
+  },
+  "DeskAnimatorPoof": {
+    "m_FileID": 0,
+    "m_PathID": -4919724654564582122
+  },
+  "PhantomEndTalkDoer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Car": {
+    "m_FileID": 0,
+    "m_PathID": -4271606861544144349
+  },
+  "CarHeadlightsRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 85743140422309892
+  },
+  "ExitDoorRigidbody": {
+    "m_FileID": 0,
+    "m_PathID": -6554910835103382710
+  },
+  "MainDoorBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 5556334930171821506
+  }
+}

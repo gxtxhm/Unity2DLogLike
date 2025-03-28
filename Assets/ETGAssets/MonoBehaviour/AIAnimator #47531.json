@@ -1,0 +1,198 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2714251911002277483
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 6105527292786675017
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 2,
+    "Prefix": "idle",
+    "AnimNames": [
+      "idle_right",
+      "idle_left"
+    ],
+    "Flipped": [
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 4,
+    "Prefix": "move",
+    "AnimNames": [
+      "move_back_right",
+      "move_front_right",
+      "move_front_left",
+      "move_back_left"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "selffire_charge",
+      "anim": {
+        "Type": 1,
+        "Prefix": "attack_tell_begin",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "selffire_fire",
+      "anim": {
+        "Type": 10,
+        "Prefix": "attack_projectile",
+        "AnimNames": [
+          "attack_projectile_northeast",
+          "attack_projectile_northeast",
+          "attack_projectile_southeast",
+          "attack_projectile_southeast",
+          "attack_projectile_southeast",
+          "attack_projectile_southwest",
+          "attack_projectile_southwest",
+          "attack_projectile_northwest"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "selffire_hit",
+      "anim": {
+        "Type": 10,
+        "Prefix": "attack_tell",
+        "AnimNames": [
+          "attack_tell_north",
+          "attack_tell_northeast",
+          "",
+          "attack_tell_southeast",
+          "attack_tell_south",
+          "attack_tell_southwest",
+          "",
+          "attack_tell_northwest"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "die",
+        "AnimNames": [
+          "attack_tell_north"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "launch_vfx",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -68573248690629740
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 4790733897466914155
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

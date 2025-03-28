@@ -1,0 +1,68 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2804154473011474706
+  },
+  "m_Name": "Emergency Supply Crate Table",
+  "defaultItemDrops": {
+    "elements": [
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 56,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 89,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 80,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 79,
+        "weight": 1.0,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      },
+      {
+        "rawGameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "pickupId": 31,
+        "weight": 0.05,
+        "forceDuplicatesPossible": 0,
+        "additionalPrerequisites": []
+      }
+    ]
+  },
+  "includedLootTables": [],
+  "tablePrerequisites": []
+}

@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8406769219037985401
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2846743072102894389
+  },
+  "m_Name": "",
+  "chests": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8714877480717919706
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3310828508808558357
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6521373989498485800
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6723376628071275441
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4494316142554204128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4186041009362410542
+    }
+  ],
+  "pedestals": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2726650319959585956
+    }
+  ],
+  "memoryTester": {
+    "m_FileID": 0,
+    "m_PathID": 8750387986715226012
+  }
+}

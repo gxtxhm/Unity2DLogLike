@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6503930376332791300
+  },
+  "m_Name": "ProceduralTable_01_Castle",
+  "width": 1,
+  "height": 1,
+  "isPassable": 1,
+  "roomSequential": 0,
+  "respectsEncounterableDifferentiator": 0,
+  "UsePrefabTransformOffset": 0,
+  "MarkSpawnedItemsAsRatIgnored": 0,
+  "DebugThisPlaceable": 0,
+  "IsAnnexTable": 0,
+  "variantTiers": [
+    {
+      "percentChance": 50.0,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "01972dee89fc4404a5c408d50007dad5",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 8.0,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "128db2f0781141bcb505d8f00f9e4d47",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 1.0,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "db35531e66ce41cbb81d507a34366dfe",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 3.0,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "70216cae6c1346309d86d4a0b4603045",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    },
+    {
+      "percentChance": 3.0,
+      "unitOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "nonDatabasePlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyPlaceableGuid": "88b6b6a93d4b4234a67844ef4728382c",
+      "pickupObjectPlaceableId": -1,
+      "forceBlackPhantom": 0,
+      "addDebrisObject": 0,
+      "prerequisites": [],
+      "materialRequirements": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1277181578529044964
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -152410371590656048
+  },
+  "m_Name": "",
+  "TabAudioSelector": {
+    "m_FileID": 0,
+    "m_PathID": -84429310070270305
+  },
+  "TabVideoSelector": {
+    "m_FileID": 0,
+    "m_PathID": -8713153122327079730
+  },
+  "TabGameplaySelector": {
+    "m_FileID": 0,
+    "m_PathID": -7645236988387477120
+  },
+  "TabControlsSelector": {
+    "m_FileID": 0,
+    "m_PathID": -1443350376584509541
+  },
+  "HeaderLabel": {
+    "m_FileID": 0,
+    "m_PathID": -2002319346849179645
+  },
+  "FullOptionsMenu": {
+    "m_FileID": 0,
+    "m_PathID": -8538280781421249583
+  }
+}

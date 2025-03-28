@@ -1,0 +1,98 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6214117988718863197
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7069003179687154561
+  },
+  "m_Name": "",
+  "definedShortcuts": [
+    {
+      "targetLevelName": "tt5",
+      "requiredFlag": 30100,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_GUNGEON",
+      "elevatorFloorSpriteName": "elevator_bottom_floor_002",
+      "IsBossRush": 0,
+      "IsSuperBossRush": 0
+    },
+    {
+      "targetLevelName": "tt_mines",
+      "requiredFlag": 30200,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_MINES",
+      "elevatorFloorSpriteName": "elevator_bottom_floor_003",
+      "IsBossRush": 0,
+      "IsSuperBossRush": 0
+    },
+    {
+      "targetLevelName": "tt_catacombs",
+      "requiredFlag": 30300,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_CATACOMBS",
+      "elevatorFloorSpriteName": "elevator_bottom_floor_004",
+      "IsBossRush": 0,
+      "IsSuperBossRush": 0
+    },
+    {
+      "targetLevelName": "tt_forge",
+      "requiredFlag": 30400,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_FORGE",
+      "elevatorFloorSpriteName": "elevator_bottom_floor_005",
+      "IsBossRush": 0,
+      "IsSuperBossRush": 0
+    },
+    {
+      "targetLevelName": "bossrush!",
+      "requiredFlag": 30400,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_BOSSRUSH",
+      "elevatorFloorSpriteName": "elevator_bottom_bossrush_001",
+      "IsBossRush": 1,
+      "IsSuperBossRush": 0
+    },
+    {
+      "targetLevelName": "superbossrush",
+      "requiredFlag": 30021,
+      "sherpaTextKey": "#SHERPA_SHORTCUT_SUPERBOSSRUSH",
+      "elevatorFloorSpriteName": "elevator_bottom_bossrush_001",
+      "IsBossRush": 0,
+      "IsSuperBossRush": 1
+    }
+  ],
+  "elevatorFloorSprite": {
+    "m_FileID": 0,
+    "m_PathID": -258837044339730244
+  },
+  "RotateLeftPlate": {
+    "m_FileID": 0,
+    "m_PathID": 3740724454370108083
+  },
+  "RotateRightPlate": {
+    "m_FileID": 0,
+    "m_PathID": 9217005504368976147
+  },
+  "PlayerBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 7253910965728099128
+  },
+  "BossRushTriggerZone": {
+    "m_FileID": 0,
+    "m_PathID": 7339022258485074342
+  },
+  "RotatorBase": {
+    "m_FileID": 0,
+    "m_PathID": -4059657539283493721
+  },
+  "RotatorShells": {
+    "m_FileID": 0,
+    "m_PathID": -5258619063326846055
+  },
+  "Elevator": {
+    "m_FileID": 0,
+    "m_PathID": -960673926665406902
+  },
+  "ElevatorFloor": {
+    "m_FileID": 0,
+    "m_PathID": -3030070680145857957
+  }
+}

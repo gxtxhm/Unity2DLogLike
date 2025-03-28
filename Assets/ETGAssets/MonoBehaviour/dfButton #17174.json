@@ -1,0 +1,135 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6310664939004465889
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1076613819489180604
+  },
+  "m_Name": "",
+  "anchorStyle": 5,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 0,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 16777215
+  },
+  "size": {
+    "x": 160.0,
+    "y": 84.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 5,
+    "margins": {
+      "left": 904.0,
+      "top": 425.0,
+      "right": 216.0,
+      "bottom": 211.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": -307269380213835442
+    }
+  },
+  "renderOrder": 1,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -9078157847827417999
+  },
+  "backgroundSprite": "big_box_page_flat_001",
+  "hoverSprite": "",
+  "disabledSprite": "",
+  "focusSprite": "",
+  "font": {
+    "m_FileID": 2,
+    "m_PathID": -6931025088354460422
+  },
+  "pressedSprite": "",
+  "state": 0,
+  "group": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "text": "",
+  "textPixelOffset": 0,
+  "hoverTextPixelOffset": 0,
+  "downTextPixelOffset": 0,
+  "textAlign": 1,
+  "vertAlign": 1,
+  "normalColor": {
+    "rgba": 16777215
+  },
+  "textColor": {
+    "rgba": 4294967295
+  },
+  "hoverText": {
+    "rgba": 4294967295
+  },
+  "pressedText": {
+    "rgba": 4294967295
+  },
+  "focusText": {
+    "rgba": 4294967295
+  },
+  "disabledText": {
+    "rgba": 4294967295
+  },
+  "hoverColor": {
+    "rgba": 16777215
+  },
+  "pressedColor": {
+    "rgba": 16777215
+  },
+  "focusColor": {
+    "rgba": 16777215
+  },
+  "textScale": 1.0,
+  "textScaleMode": 0,
+  "wordWrap": 0,
+  "padding": {
+    "m_Left": 0,
+    "m_Right": 0,
+    "m_Top": 0,
+    "m_Bottom": 0
+  },
+  "textShadow": 0,
+  "shadowColor": {
+    "rgba": 4278190080
+  },
+  "shadowOffset": {
+    "x": 1.0,
+    "y": -1.0
+  },
+  "autoSize": 0,
+  "clickWhenSpacePressed": 1,
+  "forceUpperCase": 0,
+  "manualStateControl": 0
+}

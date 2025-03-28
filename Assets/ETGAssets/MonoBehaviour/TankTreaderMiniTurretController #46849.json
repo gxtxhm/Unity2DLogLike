@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1888817589526394095
+  },
+  "m_Enabled": 0,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1604133769422694064
+  },
+  "m_Name": "",
+  "specifyActor": {
+    "m_FileID": 0,
+    "m_PathID": -8746665879641962590
+  },
+  "hasOutlines": 0,
+  "faceTarget": 1,
+  "faceTargetTurnSpeed": 180.0,
+  "aimFrom": 10,
+  "autoDepth": 0,
+  "redirectHealthHaver": 0,
+  "independentFlashOnDamage": 0,
+  "myPixelCollider": -1,
+  "ShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": 1740104237704643491
+  },
+  "BulletName": "tinyBullet",
+  "FireTime": 1.5,
+  "ShotCooldown": 0.25,
+  "MinCooldown": 3.0,
+  "MaxCooldown": 7.0,
+  "StartAngle": -145.0,
+  "SweepAngle": 200.0
+}

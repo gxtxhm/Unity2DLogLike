@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1188368570505794626
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5491511441329679369
+  },
+  "m_Name": "",
+  "tankSprite": {
+    "m_FileID": 0,
+    "m_PathID": -7056699119771037387
+  },
+  "barSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7781539349459975583
+    }
+  ],
+  "bossNameLabel": {
+    "m_FileID": 0,
+    "m_PathID": -4615175324160443092
+  },
+  "fillTime": 1.5,
+  "damagedVFX": {
+    "m_FileID": 0,
+    "m_PathID": 2712664469411439552
+  },
+  "bossCardUIPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 800208612229977966
+  },
+  "IsVertical": 1
+}

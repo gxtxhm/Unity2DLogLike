@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2864688720496432742
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5138423555151052492
+  },
+  "m_Name": "",
+  "CanInterceptBullets": 0,
+  "IsCopDead": 0,
+  "IsCop": 0,
+  "CopDeathStatModifier": {
+    "statToBoost": 0,
+    "modifyType": 0,
+    "amount": 0.0,
+    "isMeatBunBuff": 0
+  },
+  "CurseOnCopDeath": 2,
+  "CanCrossPits": 0,
+  "BlanksOnActiveItemUsed": 1,
+  "InternalBlankCooldown": 10.0,
+  "HasStealthMode": 0,
+  "PredictsChests": 0,
+  "PredictsChestSynergy": 0,
+  "CanBePet": 0,
+  "companionID": 0,
+  "TeaSynergyHeatRing": {},
+  "m_pettingDoer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_petOffset": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

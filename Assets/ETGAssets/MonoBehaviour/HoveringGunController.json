@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7186207128093163779
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1371238402810167028
+  },
+  "m_Name": "",
+  "Position": 0,
+  "Trigger": 0,
+  "Aim": 0,
+  "AimRotationAngularSpeed": 360.0,
+  "ShootDuration": 2.0,
+  "CooldownTime": 1.0,
+  "OnlyOnEmptyReload": 0,
+  "ConsumesTargetGunAmmo": 0,
+  "ChanceToConsumeTargetGunAmmo": 1.0,
+  "ShootAudioEvent": "",
+  "OnEveryShotAudioEvent": "",
+  "FinishedShootingAudioEvent": ""
+}

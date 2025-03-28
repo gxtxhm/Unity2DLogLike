@@ -1,0 +1,126 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6723376628071275441
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2361071260290412152
+  },
+  "m_Name": "",
+  "placeableWidth": 3,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ChestIdentifier": 0,
+  "forceContentIds": [],
+  "lootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": -3119490351517448801
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 0.0,
+    "D_Chance": 0.0,
+    "C_Chance": 0.0,
+    "B_Chance": 0.0,
+    "A_Chance": 0.0,
+    "S_Chance": 1.0,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 0,
+    "onlyOneGunCanDrop": 1,
+    "multipleItemDropChances": {
+      "elements": []
+    }
+  },
+  "breakertronNothingChance": 0.1,
+  "breakertronLootTable": {
+    "lootTable": {
+      "m_FileID": 0,
+      "m_PathID": -3119490351517448801
+    },
+    "overrideItemLootTables": [],
+    "Common_Chance": 0.0,
+    "D_Chance": 0.0,
+    "C_Chance": 0.4,
+    "B_Chance": 0.5,
+    "A_Chance": 0.1,
+    "S_Chance": 0.0,
+    "CompletesSynergy": 0,
+    "canDropMultipleItems": 0,
+    "onlyOneGunCanDrop": 1,
+    "multipleItemDropChances": {
+      "elements": []
+    }
+  },
+  "prefersDungeonProcContents": 1,
+  "ShadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": -7974220528914606631
+  },
+  "pickedUp": 0,
+  "spawnAnimName": "blackbone_chest_appear",
+  "openAnimName": "blackbone_chest_open",
+  "breakAnimName": "blackbone_chest_break",
+  "overrideJunkId": -1,
+  "VFX_PreSpawn": {
+    "m_FileID": 0,
+    "m_PathID": -4307964487045246968
+  },
+  "VFX_GroundHit": {
+    "m_FileID": 0,
+    "m_PathID": -776273688699373827
+  },
+  "groundHitDelay": 0.73,
+  "spawnTransform": {
+    "m_FileID": 0,
+    "m_PathID": 4718599105544344996
+  },
+  "spawnCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 3.5625007,
+        "outSlope": 3.5625007
+      },
+      {
+        "time": 1.0,
+        "value": 1.0124999,
+        "inSlope": 0.09380959,
+        "outSlope": 0.09380959
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 5249040710406114848
+  },
+  "LockOpenAnim": "lock_bone_open",
+  "LockBreakAnim": "lock_bone_break",
+  "LockNoKeyAnim": "lock_bone_nokey",
+  "SubAnimators": [],
+  "IsLocked": 1,
+  "IsSealed": 0,
+  "IsOpen": 0,
+  "IsBroken": 0,
+  "AlwaysBroadcastsOpenEvent": 0,
+  "IsRainbowChest": 0,
+  "IsMirrorChest": 0,
+  "MimicGuid": "6450d20137994881aff0ddd13e3d40c8",
+  "mimicOffset": {
+    "x": 3,
+    "y": 0
+  },
+  "preMimicIdleAnim": "blackbone_chest_mimic_idle",
+  "preMimicIdleAnimDelay": 3.0,
+  "overrideMimicChance": -1.0,
+  "MinimapIconPrefab": {
+    "m_FileID": 1,
+    "m_PathID": -2404206641715506027
+  }
+}

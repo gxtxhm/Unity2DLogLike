@@ -1,0 +1,198 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2212666034382089537
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2627051719104164527
+  },
+  "m_Name": "",
+  "knocksShooterBack": 1,
+  "knockbackStrength": 0.35,
+  "usesChargeDelay": 0,
+  "chargeDelay": 0.0,
+  "statusEffectChance": 1.0,
+  "statusEffectAccumulateMultiplier": 1.0,
+  "usesTelegraph": 0,
+  "telegraphTime": 0.0,
+  "telegraphAnimations": {
+    "beamAnimation": "",
+    "beamStartAnimation": "",
+    "beamEndAnimation": ""
+  },
+  "boneType": 0,
+  "interpolateStretchedBones": 0,
+  "penetration": 100,
+  "reflections": 0,
+  "PenetratesCover": 0,
+  "angularKnockback": 1,
+  "angularSpeedAvgWindow": 0.1,
+  "angularKnockbackTiers": [
+    {
+      "minAngularSpeed": 0.0,
+      "damageMultiplier": 2.0,
+      "knockbackMultiplier": 10.0,
+      "ignoreHitRigidbodyTime": 0.3,
+      "hitRigidbodyVFX": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -9175659134260627486
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "additionalAmmoCost": 0
+    },
+    {
+      "minAngularSpeed": 60.0,
+      "damageMultiplier": 8.0,
+      "knockbackMultiplier": 40.0,
+      "ignoreHitRigidbodyTime": 0.35,
+      "hitRigidbodyVFX": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -4307782179371586941
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "additionalAmmoCost": 2
+    },
+    {
+      "minAngularSpeed": 225.0,
+      "damageMultiplier": 16.0,
+      "knockbackMultiplier": 80.0,
+      "ignoreHitRigidbodyTime": 0.57,
+      "hitRigidbodyVFX": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 8556848527733622925
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "additionalAmmoCost": 4
+    },
+    {
+      "minAngularSpeed": 400.0,
+      "damageMultiplier": 26.0,
+      "knockbackMultiplier": 120.0,
+      "ignoreHitRigidbodyTime": 0.666,
+      "hitRigidbodyVFX": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 8865856112710489257
+                },
+                "orphaned": 1,
+                "attached": 0,
+                "persistsOnDeath": 1,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "additionalAmmoCost": 6
+    }
+  ],
+  "homingRadius": 0.0,
+  "homingAngularVelocity": 0.0,
+  "TimeToStatus": 0.0,
+  "TileType": 0,
+  "beamAnimation": "chamber_office_pencil_middle",
+  "beamStartAnimation": "chamber_office_pencil_start",
+  "beamEndAnimation": "chamber_office_pencil_end",
+  "muzzleAnimation": "",
+  "chargeAnimation": "",
+  "rotateChargeAnimation": 0,
+  "impactAnimation": "",
+  "endType": 0,
+  "decayNear": 0.0,
+  "decayFar": 0.0,
+  "collisionSeparation": 0,
+  "breakAimAngle": 0.0,
+  "dissipateTime": 0.0,
+  "dissipateAnimations": {
+    "beamAnimation": "",
+    "beamStartAnimation": "",
+    "beamEndAnimation": ""
+  },
+  "collisionType": 0,
+  "collisionRadius": 1.5,
+  "collisionLength": 320,
+  "collisionWidth": 64,
+  "UsesDispersalParticles": 0,
+  "DispersalDensity": 1.0,
+  "DispersalMinCoherency": 1.0,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -3088825360218627232
+  },
+  "DispersalExtraImpactFactor": 5.0,
+  "doesScreenDistortion": 0,
+  "startDistortionRadius": 0.3,
+  "endDistortionRadius": 0.2,
+  "startDistortionPower": 0.7,
+  "endDistortionPower": 0.5,
+  "distortionPulseSpeed": 25.0,
+  "minDistortionOffset": 0.0,
+  "distortionOffsetIncrease": 0.02,
+  "overrideBeamQuadPixelWidth": -1,
+  "FlipBeamSpriteLocal": 1,
+  "startAudioEvent": "Play_WPN_woodbeam_extend_01",
+  "endAudioEvent": "",
+  "IgnoreTilesDistance": -1.0
+}

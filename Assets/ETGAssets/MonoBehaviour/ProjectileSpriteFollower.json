@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7217872918257074757
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5676519254180454562
+  },
+  "m_Name": "",
+  "TargetSprite": {
+    "m_FileID": 0,
+    "m_PathID": -8314937190049943629
+  },
+  "SmoothTime": 0.05
+}

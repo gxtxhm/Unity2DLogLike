@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2294859388904153520
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8795072134096688675
+  },
+  "m_Name": "",
+  "coreIdleAnimation": "select_idle",
+  "onSelectedAnimation": "select_choose",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "phases": [
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_look_in",
+      "holdAnimation": "select_look_idle",
+      "optionalHoldChance": 0.0,
+      "optionalHoldIdleAnimation": "",
+      "outAnimation": "select_look_out",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_observe_in",
+      "holdAnimation": "select_observe_idle",
+      "optionalHoldChance": 0.0,
+      "optionalHoldIdleAnimation": "",
+      "outAnimation": "select_obersve_out",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 3.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "IsEevee": 0,
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AnimationLibraries": []
+}

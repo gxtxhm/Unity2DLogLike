@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6184646283845907519
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3085387445205583448
+  },
+  "m_Name": "",
+  "localMin": {
+    "x": 0.5,
+    "y": 2.99,
+    "z": 0.0
+  },
+  "localMax": {
+    "x": 2.21,
+    "y": 2.03,
+    "z": 0.0
+  },
+  "sparksType": 4,
+  "baseDirection": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "magnitudeVariance": 0.1,
+  "angleVariance": 5.0,
+  "LifespanMin": 0.5,
+  "LifespanMax": 10.0,
+  "SparksPerSecond": 15,
+  "DefineColor": 0,
+  "Color1": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "Color2": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  }
+}

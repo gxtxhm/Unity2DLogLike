@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5826888849023482893
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3733991889688230901
+  },
+  "m_Name": "",
+  "InputLifetime": 2.0,
+  "HadoukenProjectile": {
+    "m_FileID": 0,
+    "m_PathID": -4536018912683444661
+  },
+  "grappleModule": {
+    "GrapplePrefab": {
+      "m_FileID": 0,
+      "m_PathID": -4773992216109569486
+    },
+    "GrappleSpeed": 50.0,
+    "GrappleRetractSpeed": 25.0,
+    "DamageToEnemies": 10.0,
+    "EnemyKnockbackForce": 10.0,
+    "sourceGameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4633259509309663807
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9117554463270443878
+  },
+  "m_Name": "",
+  "anchorStyle": 192,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 0,
+  "zindex": 1,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 496.0,
+    "y": 324.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 192,
+    "margins": {
+      "left": 85.0,
+      "top": 4.0,
+      "right": 85.0,
+      "bottom": 4.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": -806398068394844835
+    }
+  },
+  "renderOrder": 9,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 2,
+    "m_PathID": -9078157847827417999
+  },
+  "spriteName": "Tape_Photo_001",
+  "flip": 0,
+  "fillDirection": 0,
+  "fillAmount": 1.0,
+  "invertFill": 0
+}

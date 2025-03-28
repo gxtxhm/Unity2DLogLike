@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5380117259031445002
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8344033445308968319
+  },
+  "m_Name": "",
+  "minShards": 1,
+  "maxShards": 1,
+  "minExpulsionForce": 4.0,
+  "maxExpulsionForce": 6.0,
+  "specifyArcDegrees": 0,
+  "arcDegrees": 0.0,
+  "angleVariance": 20.0,
+  "debrisSources": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1160664335738168554
+    }
+  ],
+  "UsesCustomAxialVelocity": 0,
+  "CustomAxialVelocity": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "SpecifyActor": {
+    "m_FileID": 0,
+    "m_PathID": 4028004073891329729
+  },
+  "LaunchOnActorPreDeath": 0,
+  "LaunchOnActorDeath": 0,
+  "LaunchOnAnimationEvent": 1,
+  "SpecifyAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -880889736076493811
+  },
+  "EventName": "debris",
+  "UseDeathDir": 1
+}

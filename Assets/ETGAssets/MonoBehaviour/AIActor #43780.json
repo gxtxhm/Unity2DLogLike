@@ -1,0 +1,190 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2247452346243211963
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3640717069243525064
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "ActorName": "Taser Bullet Man",
+  "OverrideDisplayName": "",
+  "actorTypes": 0,
+  "HasShadow": 1,
+  "ShadowPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShadowObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ShadowHeightOffGround": 0.0,
+  "ShadowParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ActorShadowOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "DoDustUps": 1,
+  "DustUpInterval": 0.2,
+  "OverrideDustUp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FreezeDispelFactor": 20.0,
+  "ImmuneToAllEffects": 0,
+  "EffectResistances": [],
+  "OverrideColorOverridden": 0,
+  "EnemyId": 69,
+  "EnemyGuid": "98fdf153a4dd4d51bf0bafe43f3c77ff",
+  "ForcedPositionInAmmonomicon": 30,
+  "SetsFlagOnDeath": 0,
+  "FlagToSetOnDeath": 0,
+  "SetsFlagOnActivation": 0,
+  "FlagToSetOnActivation": 0,
+  "SetsCharacterSpecificFlagOnDeath": 0,
+  "CharacterSpecificFlagToSetOnDeath": 0,
+  "IsNormalEnemy": 1,
+  "IsSignatureEnemy": 0,
+  "IsHarmlessEnemy": 0,
+  "CompanionSettings": {
+    "WarpsToRandomPoint": 0
+  },
+  "MovementSpeed": 5.0,
+  "PathableTiles": 2,
+  "LosPoint": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DiesOnCollison": 0,
+  "CollisionDamage": 0.0,
+  "CollisionKnockbackStrength": 5.0,
+  "CollisionDamageTypes": 0,
+  "EnemyCollisionKnockbackStrengthOverride": -1.0,
+  "CollisionVFX": {
+    "type": 0,
+    "effects": []
+  },
+  "NonActorCollisionVFX": {
+    "type": 0,
+    "effects": []
+  },
+  "CollisionSetsPlayerOnFire": 0,
+  "TryDodgeBullets": 0,
+  "AvoidRadius": 4.0,
+  "ReflectsProjectilesWhileInvulnerable": 0,
+  "HitByEnemyBullets": 0,
+  "HasOverrideDodgeRollDeath": 0,
+  "OverrideDodgeRollDeath": "",
+  "CanDropCurrency": 1,
+  "AdditionalSingleCoinDropChance": 0.0,
+  "CanDropItems": 1,
+  "CustomLootTable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "CanDropDuplicateItems": 0,
+  "CustomLootTableMinDrops": 1,
+  "CustomLootTableMaxDrops": 1,
+  "CustomChestTable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChanceToDropCustomChest": 0.0,
+  "IgnoreForRoomClear": 0,
+  "SpawnLootAtRewardChestPos": 0,
+  "CorpseObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "CorpseShadow": 1,
+  "TransferShadowToCorpse": 0,
+  "shadowDeathType": 10,
+  "PreventDeathKnockback": 0,
+  "OnCorpseVFX": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 1,
+              "m_PathID": -8158646686222554390
+            },
+            "orphaned": 0,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "OnEngagedVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnEngagedVFXAnchor": 0,
+  "shadowHeightOffset": 0.0,
+  "invisibleUntilAwaken": 0,
+  "procedurallyOutlined": 1,
+  "forceUsesTrimmedBounds": 1,
+  "reinforceType": 0,
+  "optionalPalette": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UsesVaryingEmissiveShaderPropertyBlock": 1,
+  "OverrideBuffEffectPosition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "EnemySwitchState": "Rubber_Bullet_Man",
+  "OverrideSpawnReticleAudio": "",
+  "OverrideSpawnAppearAudio": "",
+  "UseMovementAudio": 0,
+  "StartMovingEvent": "",
+  "StopMovingEvent": "",
+  "animationAudioEvents": [
+    {
+      "eventTag": "footstep",
+      "eventName": "Play_CHR_metalBullet_step_01"
+    }
+  ],
+  "HealthOverrides": [],
+  "IdentifierForEffects": 0,
+  "BehaviorOverridesVelocity": 0,
+  "BehaviorVelocity": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "AlwaysShowOffscreenArrow": 0,
+  "BlackPhantomProperties": {
+    "BonusHealthPercentIncrease": 2.2,
+    "BonusHealthFlatIncrease": 0.0,
+    "MaxTotalHealth": 175.0,
+    "CooldownMultiplier": 0.66,
+    "MovementSpeedMultiplier": 1.5,
+    "LocalTimeScaleMultiplier": 1.0,
+    "BulletSpeedMultiplier": 1.0,
+    "GradientScale": 0.75,
+    "ContrastPower": 1.3
+  },
+  "ForceBlackPhantomParticles": 0,
+  "OverrideBlackPhantomParticlesCollider": 0,
+  "BlackPhantomParticlesCollider": 0,
+  "PreventFallingInPitsEver": 0
+}

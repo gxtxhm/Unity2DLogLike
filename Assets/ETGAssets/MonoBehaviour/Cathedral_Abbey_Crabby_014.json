@@ -1,0 +1,4096 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4475381324394667189
+  },
+  "m_Name": "Cathedral_Abbey_Crabby_014",
+  "RoomId": -1,
+  "QAID": "An0033",
+  "GUID": "55947a61-0331-42d4-8916-7c277d188e49",
+  "PreventMirroring": 0,
+  "category": 2,
+  "subCategoryNormal": 0,
+  "subCategoryBoss": 0,
+  "subCategorySpecial": 1,
+  "subCategorySecret": 0,
+  "exitData": {
+    "exits": [
+      {
+        "exitDirection": 6,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 0.0,
+            "y": 3.0
+          },
+          {
+            "x": 0.0,
+            "y": 4.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 6,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 0.0,
+            "y": 17.0
+          },
+          {
+            "x": 0.0,
+            "y": 18.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 4,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 3.0,
+            "y": 0.0
+          },
+          {
+            "x": 4.0,
+            "y": 0.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 0,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 3.0,
+            "y": 21.0
+          },
+          {
+            "x": 4.0,
+            "y": 21.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 4,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 21.0,
+            "y": 0.0
+          },
+          {
+            "x": 22.0,
+            "y": 0.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 0,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 21.0,
+            "y": 21.0
+          },
+          {
+            "x": 22.0,
+            "y": 21.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 2,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 25.0,
+            "y": 3.0
+          },
+          {
+            "x": 25.0,
+            "y": 4.0
+          }
+        ]
+      },
+      {
+        "exitDirection": 2,
+        "exitType": 0,
+        "exitGroup": 0,
+        "containsDoor": 1,
+        "specifiedDoor": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "exitLength": 1,
+        "containedCells": [
+          {
+            "x": 25.0,
+            "y": 17.0
+          },
+          {
+            "x": 25.0,
+            "y": 18.0
+          }
+        ]
+      }
+    ]
+  },
+  "pits": [
+    {
+      "containedCells": [
+        {
+          "x": 1.0,
+          "y": 10.0
+        },
+        {
+          "x": 1.0,
+          "y": 9.0
+        },
+        {
+          "x": 2.0,
+          "y": 9.0
+        },
+        {
+          "x": 2.0,
+          "y": 10.0
+        },
+        {
+          "x": 1.0,
+          "y": 11.0
+        },
+        {
+          "x": 2.0,
+          "y": 11.0
+        },
+        {
+          "x": 3.0,
+          "y": 9.0
+        },
+        {
+          "x": 3.0,
+          "y": 10.0
+        },
+        {
+          "x": 3.0,
+          "y": 11.0
+        }
+      ],
+      "borderType": 0
+    },
+    {
+      "containedCells": [
+        {
+          "x": 24.0,
+          "y": 11.0
+        },
+        {
+          "x": 24.0,
+          "y": 10.0
+        },
+        {
+          "x": 23.0,
+          "y": 10.0
+        },
+        {
+          "x": 23.0,
+          "y": 11.0
+        },
+        {
+          "x": 22.0,
+          "y": 10.0
+        },
+        {
+          "x": 22.0,
+          "y": 11.0
+        },
+        {
+          "x": 24.0,
+          "y": 9.0
+        },
+        {
+          "x": 22.0,
+          "y": 9.0
+        },
+        {
+          "x": 23.0,
+          "y": 9.0
+        }
+      ],
+      "borderType": 0
+    }
+  ],
+  "placedObjects": [
+    {
+      "placeableContents": {
+        "m_FileID": 2,
+        "m_PathID": 7328308199517063344
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 11.0,
+        "y": 7.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 2,
+        "m_PathID": -1112787488654704081
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 12.0,
+        "y": 12.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 1,
+        "m_PathID": 6563954896156446207
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 13.0,
+        "y": 7.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 1,
+        "m_PathID": 4015939131129481236
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 4.0,
+        "y": 4.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 1,
+        "m_PathID": 4015939131129481236
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 4.0,
+        "y": 15.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 1,
+        "m_PathID": 4015939131129481236
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 18.0,
+        "y": 15.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    },
+    {
+      "placeableContents": {
+        "m_FileID": 1,
+        "m_PathID": 4015939131129481236
+      },
+      "nonenemyBehaviour": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "enemyBehaviourGuid": "",
+      "unspecifiedContents": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "contentsBasePosition": {
+        "x": 18.0,
+        "y": 4.0
+      },
+      "layer": 0,
+      "spawnChance": 1.0,
+      "xMPxOffset": 0,
+      "yMPxOffset": 0,
+      "fieldData": [],
+      "instancePrerequisites": [],
+      "linkedTriggerAreaIDs": [],
+      "assignedPathIDx": -1,
+      "assignedPathStartNode": 0
+    }
+  ],
+  "placedObjectPositions": [
+    {
+      "x": 11.0,
+      "y": 7.0
+    },
+    {
+      "x": 12.0,
+      "y": 12.0
+    },
+    {
+      "x": 13.0,
+      "y": 7.0
+    },
+    {
+      "x": 4.0,
+      "y": 4.0
+    },
+    {
+      "x": 4.0,
+      "y": 15.0
+    },
+    {
+      "x": 18.0,
+      "y": 15.0
+    },
+    {
+      "x": 18.0,
+      "y": 4.0
+    }
+  ],
+  "additionalObjectLayers": [
+    {
+      "placedObjects": [
+        {
+          "placeableContents": {
+            "m_FileID": 2,
+            "m_PathID": 944756452080613486
+          },
+          "nonenemyBehaviour": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "enemyBehaviourGuid": "",
+          "unspecifiedContents": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "contentsBasePosition": {
+            "x": 8.0,
+            "y": 12.0
+          },
+          "layer": 0,
+          "spawnChance": 1.0,
+          "xMPxOffset": 0,
+          "yMPxOffset": 0,
+          "fieldData": [],
+          "instancePrerequisites": [],
+          "linkedTriggerAreaIDs": [],
+          "assignedPathIDx": -1,
+          "assignedPathStartNode": 0
+        },
+        {
+          "placeableContents": {
+            "m_FileID": 2,
+            "m_PathID": 944756452080613486
+          },
+          "nonenemyBehaviour": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "enemyBehaviourGuid": "",
+          "unspecifiedContents": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "contentsBasePosition": {
+            "x": 16.0,
+            "y": 6.0
+          },
+          "layer": 0,
+          "spawnChance": 1.0,
+          "xMPxOffset": 0,
+          "yMPxOffset": 0,
+          "fieldData": [],
+          "instancePrerequisites": [],
+          "linkedTriggerAreaIDs": [],
+          "assignedPathIDx": -1,
+          "assignedPathStartNode": 0
+        }
+      ],
+      "placedObjectBasePositions": [
+        {
+          "x": 8.0,
+          "y": 12.0
+        },
+        {
+          "x": 16.0,
+          "y": 6.0
+        }
+      ],
+      "layerIsReinforcementLayer": 1,
+      "shuffle": 1,
+      "randomize": 2,
+      "suppressPlayerChecks": 0,
+      "delayTime": 15.0,
+      "reinforcementTriggerCondition": 2,
+      "probability": 1.0,
+      "numberTimesEncounteredRequired": 0
+    }
+  ],
+  "eventTriggerAreas": [],
+  "roomEvents": [
+    {
+      "condition": 3,
+      "action": 0
+    },
+    {
+      "condition": 2,
+      "action": 1
+    }
+  ],
+  "paths": [],
+  "overriddenTilesets": 0,
+  "prerequisites": [],
+  "RequiredCurseLevel": -1,
+  "InvalidInCoop": 0,
+  "excludedOtherRooms": [],
+  "rectangularFeatures": [],
+  "usesProceduralLighting": 1,
+  "usesProceduralDecoration": 1,
+  "cullProceduralDecorationOnWeakPlatforms": 0,
+  "allowFloorDecoration": 1,
+  "allowWallDecoration": 1,
+  "preventAddedDecoLayering": 0,
+  "precludeAllTilemapDrawing": 0,
+  "drawPrecludedCeilingTiles": 0,
+  "preventFacewallAO": 0,
+  "preventBorders": 0,
+  "usesCustomAmbientLight": 0,
+  "customAmbientLight": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "ForceAllowDuplicates": 0,
+  "doorTopDecorable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "requiredInjectionData": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "injectionFlags": {
+    "ShopAnnexed": 0,
+    "CastleFireplace": 0
+  },
+  "IsLostWoodsRoom": 0,
+  "UseCustomMusicState": 0,
+  "OverrideMusicState": 30,
+  "UseCustomMusic": 0,
+  "CustomMusicEvent": "",
+  "UseCustomMusicSwitch": 0,
+  "CustomMusicSwitch": "",
+  "overrideRoomVisualType": -1,
+  "overrideRoomVisualTypeForSecretRooms": 0,
+  "rewardChestSpawnPosition": {
+    "x": -1,
+    "y": -1
+  },
+  "associatedMinimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_width": 24,
+  "m_height": 20,
+  "m_OLDcellData": [],
+  "m_serializedCellType": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "m_serializedCellDataIndices": [
+    100,
+    114,
+    124,
+    138,
+    160,
+    179,
+    181,
+    296,
+    300,
+    364,
+    378,
+    388,
+    402
+  ],
+  "m_serializedCellDataData": [
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 3,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 6,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 3,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 6,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": -1,
+      "additionalPlacedObjectIndices": [
+        1
+      ],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 0,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 2,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": -1,
+      "additionalPlacedObjectIndices": [
+        0
+      ],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 1,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 4,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 5,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 4,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    },
+    {
+      "state": 2,
+      "diagonalWallType": 0,
+      "breakable": 0,
+      "str": "",
+      "conditionalOnParentExit": 0,
+      "conditionalCellIsPit": 0,
+      "parentExitIndex": -1,
+      "containsManuallyPlacedLight": 0,
+      "lightStampIndex": 0,
+      "lightPixelsOffsetY": 0,
+      "doesDamage": 0,
+      "damageDefinition": {
+        "damageTypes": 0,
+        "damageToPlayersPerTick": 0.0,
+        "damageToEnemiesPerTick": 0.0,
+        "tickFrequency": 0.0,
+        "respectsFlying": 0,
+        "isPoison": 0
+      },
+      "placedObjectRUBELIndex": 5,
+      "additionalPlacedObjectIndices": [],
+      "appearance": {
+        "overrideDungeonMaterialIndex": -1,
+        "IsPhantomCarpet": 0,
+        "ForceDisallowGoop": 0,
+        "OverrideFloorType": 0,
+        "globalOverrideIndices": {
+          "indices": []
+        },
+        "m_overrideIndices": []
+      },
+      "ForceTileNonDecorated": 0
+    }
+  ],
+  "m_cachedRepresentationIncFacewalls": [
+    {
+      "x": 5,
+      "y": 1
+    },
+    {
+      "x": 22,
+      "y": 8
+    },
+    {
+      "x": 0,
+      "y": 12
+    },
+    {
+      "x": 10,
+      "y": 8
+    },
+    {
+      "x": 2,
+      "y": 20
+    },
+    {
+      "x": 5,
+      "y": 12
+    },
+    {
+      "x": 17,
+      "y": 21
+    },
+    {
+      "x": 22,
+      "y": 13
+    },
+    {
+      "x": 9,
+      "y": 16
+    },
+    {
+      "x": 0,
+      "y": 16
+    },
+    {
+      "x": 15,
+      "y": 21
+    },
+    {
+      "x": 20,
+      "y": 3
+    },
+    {
+      "x": 15,
+      "y": 7
+    },
+    {
+      "x": 15,
+      "y": 9
+    },
+    {
+      "x": 7,
+      "y": 16
+    },
+    {
+      "x": 19,
+      "y": 3
+    },
+    {
+      "x": 1,
+      "y": 0
+    },
+    {
+      "x": 13,
+      "y": 15
+    },
+    {
+      "x": 16,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": -1
+    },
+    {
+      "x": 22,
+      "y": 1
+    },
+    {
+      "x": 1,
+      "y": 16
+    },
+    {
+      "x": 17,
+      "y": 17
+    },
+    {
+      "x": 11,
+      "y": 5
+    },
+    {
+      "x": 24,
+      "y": 18
+    },
+    {
+      "x": 12,
+      "y": 0
+    },
+    {
+      "x": 16,
+      "y": 5
+    },
+    {
+      "x": 24,
+      "y": 11
+    },
+    {
+      "x": 7,
+      "y": 6
+    },
+    {
+      "x": 18,
+      "y": 9
+    },
+    {
+      "x": -1,
+      "y": 11
+    },
+    {
+      "x": 10,
+      "y": -1
+    },
+    {
+      "x": -1,
+      "y": 14
+    },
+    {
+      "x": 6,
+      "y": 5
+    },
+    {
+      "x": 1,
+      "y": 13
+    },
+    {
+      "x": 19,
+      "y": 21
+    },
+    {
+      "x": 0,
+      "y": 19
+    },
+    {
+      "x": 13,
+      "y": 19
+    },
+    {
+      "x": 9,
+      "y": 21
+    },
+    {
+      "x": 20,
+      "y": 11
+    },
+    {
+      "x": 4,
+      "y": 1
+    },
+    {
+      "x": 24,
+      "y": 0
+    },
+    {
+      "x": 4,
+      "y": 5
+    },
+    {
+      "x": 13,
+      "y": 17
+    },
+    {
+      "x": 14,
+      "y": 2
+    },
+    {
+      "x": 4,
+      "y": 4
+    },
+    {
+      "x": 1,
+      "y": 8
+    },
+    {
+      "x": 19,
+      "y": 5
+    },
+    {
+      "x": 17,
+      "y": 6
+    },
+    {
+      "x": 0,
+      "y": 15
+    },
+    {
+      "x": 8,
+      "y": 4
+    },
+    {
+      "x": 20,
+      "y": 15
+    },
+    {
+      "x": 14,
+      "y": 7
+    },
+    {
+      "x": 11,
+      "y": -1
+    },
+    {
+      "x": 9,
+      "y": -1
+    },
+    {
+      "x": 7,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 18
+    },
+    {
+      "x": 14,
+      "y": 11
+    },
+    {
+      "x": 22,
+      "y": 4
+    },
+    {
+      "x": 15,
+      "y": 22
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 12,
+      "y": 15
+    },
+    {
+      "x": 22,
+      "y": 0
+    },
+    {
+      "x": 15,
+      "y": -1
+    },
+    {
+      "x": 21,
+      "y": 17
+    },
+    {
+      "x": 21,
+      "y": 1
+    },
+    {
+      "x": 18,
+      "y": 17
+    },
+    {
+      "x": 23,
+      "y": 21
+    },
+    {
+      "x": 7,
+      "y": 21
+    },
+    {
+      "x": 18,
+      "y": 20
+    },
+    {
+      "x": 23,
+      "y": 16
+    },
+    {
+      "x": 1,
+      "y": 22
+    },
+    {
+      "x": 6,
+      "y": -1
+    },
+    {
+      "x": 24,
+      "y": -1
+    },
+    {
+      "x": -1,
+      "y": 2
+    },
+    {
+      "x": 8,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 17
+    },
+    {
+      "x": 19,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 16
+    },
+    {
+      "x": 16,
+      "y": 12
+    },
+    {
+      "x": 5,
+      "y": 16
+    },
+    {
+      "x": 7,
+      "y": 22
+    },
+    {
+      "x": 12,
+      "y": 21
+    },
+    {
+      "x": 3,
+      "y": 18
+    },
+    {
+      "x": 19,
+      "y": 16
+    },
+    {
+      "x": 9,
+      "y": 12
+    },
+    {
+      "x": 6,
+      "y": 1
+    },
+    {
+      "x": 24,
+      "y": 7
+    },
+    {
+      "x": 21,
+      "y": 20
+    },
+    {
+      "x": 20,
+      "y": 9
+    },
+    {
+      "x": 23,
+      "y": 22
+    },
+    {
+      "x": 1,
+      "y": 18
+    },
+    {
+      "x": 8,
+      "y": 13
+    },
+    {
+      "x": 15,
+      "y": 16
+    },
+    {
+      "x": 7,
+      "y": 20
+    },
+    {
+      "x": 6,
+      "y": 16
+    },
+    {
+      "x": 10,
+      "y": 9
+    },
+    {
+      "x": 20,
+      "y": 0
+    },
+    {
+      "x": 20,
+      "y": 2
+    },
+    {
+      "x": 12,
+      "y": 14
+    },
+    {
+      "x": 15,
+      "y": 19
+    },
+    {
+      "x": 0,
+      "y": 6
+    },
+    {
+      "x": 1,
+      "y": 5
+    },
+    {
+      "x": 16,
+      "y": 18
+    },
+    {
+      "x": 7,
+      "y": 11
+    },
+    {
+      "x": 6,
+      "y": 2
+    },
+    {
+      "x": 6,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": 4
+    },
+    {
+      "x": 9,
+      "y": 7
+    },
+    {
+      "x": 15,
+      "y": 11
+    },
+    {
+      "x": 17,
+      "y": 20
+    },
+    {
+      "x": 4,
+      "y": 8
+    },
+    {
+      "x": 11,
+      "y": 19
+    },
+    {
+      "x": 11,
+      "y": 11
+    },
+    {
+      "x": 21,
+      "y": 0
+    },
+    {
+      "x": 11,
+      "y": 17
+    },
+    {
+      "x": 4,
+      "y": 21
+    },
+    {
+      "x": 6,
+      "y": 21
+    },
+    {
+      "x": 1,
+      "y": 2
+    },
+    {
+      "x": -1,
+      "y": 18
+    },
+    {
+      "x": -1,
+      "y": 6
+    },
+    {
+      "x": 2,
+      "y": 6
+    },
+    {
+      "x": 0,
+      "y": 4
+    },
+    {
+      "x": 10,
+      "y": 14
+    },
+    {
+      "x": 7,
+      "y": 9
+    },
+    {
+      "x": 22,
+      "y": 6
+    },
+    {
+      "x": 23,
+      "y": 19
+    },
+    {
+      "x": 16,
+      "y": 19
+    },
+    {
+      "x": 8,
+      "y": 8
+    },
+    {
+      "x": 23,
+      "y": 1
+    },
+    {
+      "x": 16,
+      "y": -1
+    },
+    {
+      "x": 3,
+      "y": 11
+    },
+    {
+      "x": 1,
+      "y": 11
+    },
+    {
+      "x": 14,
+      "y": 15
+    },
+    {
+      "x": 9,
+      "y": 19
+    },
+    {
+      "x": 10,
+      "y": 20
+    },
+    {
+      "x": 21,
+      "y": 11
+    },
+    {
+      "x": 5,
+      "y": 14
+    },
+    {
+      "x": 24,
+      "y": 4
+    },
+    {
+      "x": 19,
+      "y": 20
+    },
+    {
+      "x": 8,
+      "y": 12
+    },
+    {
+      "x": 23,
+      "y": 14
+    },
+    {
+      "x": 10,
+      "y": 13
+    },
+    {
+      "x": -1,
+      "y": 17
+    },
+    {
+      "x": 12,
+      "y": 20
+    },
+    {
+      "x": 9,
+      "y": 14
+    },
+    {
+      "x": 14,
+      "y": 5
+    },
+    {
+      "x": 19,
+      "y": 15
+    },
+    {
+      "x": 21,
+      "y": 21
+    },
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 4,
+      "y": 10
+    },
+    {
+      "x": 1,
+      "y": 3
+    },
+    {
+      "x": 7,
+      "y": 17
+    },
+    {
+      "x": -1,
+      "y": 20
+    },
+    {
+      "x": 5,
+      "y": 0
+    },
+    {
+      "x": 14,
+      "y": 20
+    },
+    {
+      "x": 11,
+      "y": 21
+    },
+    {
+      "x": 24,
+      "y": 6
+    },
+    {
+      "x": 24,
+      "y": 16
+    },
+    {
+      "x": 10,
+      "y": 2
+    },
+    {
+      "x": 0,
+      "y": 14
+    },
+    {
+      "x": 20,
+      "y": 1
+    },
+    {
+      "x": 24,
+      "y": 14
+    },
+    {
+      "x": 1,
+      "y": 15
+    },
+    {
+      "x": 13,
+      "y": 10
+    },
+    {
+      "x": 2,
+      "y": 10
+    },
+    {
+      "x": -1,
+      "y": 5
+    },
+    {
+      "x": 1,
+      "y": -1
+    },
+    {
+      "x": 17,
+      "y": 3
+    },
+    {
+      "x": 16,
+      "y": 11
+    },
+    {
+      "x": 24,
+      "y": 1
+    },
+    {
+      "x": 18,
+      "y": 19
+    },
+    {
+      "x": 11,
+      "y": 22
+    },
+    {
+      "x": 20,
+      "y": 21
+    },
+    {
+      "x": 6,
+      "y": 13
+    },
+    {
+      "x": 3,
+      "y": 5
+    },
+    {
+      "x": 6,
+      "y": 10
+    },
+    {
+      "x": 22,
+      "y": 16
+    },
+    {
+      "x": 15,
+      "y": 18
+    },
+    {
+      "x": 5,
+      "y": 4
+    },
+    {
+      "x": -1,
+      "y": 9
+    },
+    {
+      "x": 4,
+      "y": 2
+    },
+    {
+      "x": 6,
+      "y": 9
+    },
+    {
+      "x": 23,
+      "y": -1
+    },
+    {
+      "x": 16,
+      "y": 13
+    },
+    {
+      "x": 13,
+      "y": 14
+    },
+    {
+      "x": 11,
+      "y": 13
+    },
+    {
+      "x": 12,
+      "y": 1
+    },
+    {
+      "x": 0,
+      "y": 1
+    },
+    {
+      "x": 6,
+      "y": 15
+    },
+    {
+      "x": 3,
+      "y": 9
+    },
+    {
+      "x": 5,
+      "y": 21
+    },
+    {
+      "x": 14,
+      "y": 6
+    },
+    {
+      "x": 9,
+      "y": 13
+    },
+    {
+      "x": 5,
+      "y": -1
+    },
+    {
+      "x": 13,
+      "y": 22
+    },
+    {
+      "x": 3,
+      "y": 22
+    },
+    {
+      "x": 19,
+      "y": 8
+    },
+    {
+      "x": 3,
+      "y": 16
+    },
+    {
+      "x": 19,
+      "y": 6
+    },
+    {
+      "x": 19,
+      "y": 4
+    },
+    {
+      "x": -1,
+      "y": 1
+    },
+    {
+      "x": -1,
+      "y": 16
+    },
+    {
+      "x": 0,
+      "y": 13
+    },
+    {
+      "x": 10,
+      "y": 4
+    },
+    {
+      "x": 14,
+      "y": 12
+    },
+    {
+      "x": 16,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": -1
+    },
+    {
+      "x": 0,
+      "y": 10
+    },
+    {
+      "x": 12,
+      "y": 19
+    },
+    {
+      "x": 4,
+      "y": 20
+    },
+    {
+      "x": 22,
+      "y": 21
+    },
+    {
+      "x": 15,
+      "y": 6
+    },
+    {
+      "x": 8,
+      "y": 16
+    },
+    {
+      "x": 16,
+      "y": 7
+    },
+    {
+      "x": 14,
+      "y": 18
+    },
+    {
+      "x": 3,
+      "y": 10
+    },
+    {
+      "x": 0,
+      "y": 9
+    },
+    {
+      "x": 2,
+      "y": 21
+    },
+    {
+      "x": 20,
+      "y": -1
+    },
+    {
+      "x": 21,
+      "y": 13
+    },
+    {
+      "x": 12,
+      "y": -1
+    },
+    {
+      "x": 5,
+      "y": 8
+    },
+    {
+      "x": 23,
+      "y": 12
+    },
+    {
+      "x": -1,
+      "y": 13
+    },
+    {
+      "x": 4,
+      "y": 11
+    },
+    {
+      "x": 17,
+      "y": 11
+    },
+    {
+      "x": 23,
+      "y": 17
+    },
+    {
+      "x": 14,
+      "y": 17
+    },
+    {
+      "x": 18,
+      "y": 18
+    },
+    {
+      "x": 20,
+      "y": 13
+    },
+    {
+      "x": 16,
+      "y": 9
+    },
+    {
+      "x": 15,
+      "y": 1
+    },
+    {
+      "x": 18,
+      "y": 5
+    },
+    {
+      "x": 5,
+      "y": 10
+    },
+    {
+      "x": -1,
+      "y": 0
+    },
+    {
+      "x": 21,
+      "y": 4
+    },
+    {
+      "x": 4,
+      "y": 15
+    },
+    {
+      "x": 8,
+      "y": 14
+    },
+    {
+      "x": 4,
+      "y": 18
+    },
+    {
+      "x": 20,
+      "y": 17
+    },
+    {
+      "x": 14,
+      "y": 13
+    },
+    {
+      "x": 20,
+      "y": 19
+    },
+    {
+      "x": 17,
+      "y": 5
+    },
+    {
+      "x": 8,
+      "y": 3
+    },
+    {
+      "x": 3,
+      "y": 4
+    },
+    {
+      "x": 1,
+      "y": 6
+    },
+    {
+      "x": 20,
+      "y": 10
+    },
+    {
+      "x": 20,
+      "y": 22
+    },
+    {
+      "x": 3,
+      "y": 15
+    },
+    {
+      "x": 20,
+      "y": 12
+    },
+    {
+      "x": 13,
+      "y": 8
+    },
+    {
+      "x": 7,
+      "y": 5
+    },
+    {
+      "x": 13,
+      "y": 1
+    },
+    {
+      "x": 4,
+      "y": 12
+    },
+    {
+      "x": 19,
+      "y": 2
+    },
+    {
+      "x": 0,
+      "y": 18
+    },
+    {
+      "x": -1,
+      "y": 19
+    },
+    {
+      "x": 1,
+      "y": 4
+    },
+    {
+      "x": 19,
+      "y": 18
+    },
+    {
+      "x": 15,
+      "y": 8
+    },
+    {
+      "x": 20,
+      "y": 5
+    },
+    {
+      "x": 18,
+      "y": 22
+    },
+    {
+      "x": 2,
+      "y": 5
+    },
+    {
+      "x": 13,
+      "y": 0
+    },
+    {
+      "x": 21,
+      "y": 18
+    },
+    {
+      "x": 11,
+      "y": 20
+    },
+    {
+      "x": 19,
+      "y": 11
+    },
+    {
+      "x": 15,
+      "y": 14
+    },
+    {
+      "x": 9,
+      "y": 3
+    },
+    {
+      "x": 8,
+      "y": 18
+    },
+    {
+      "x": 22,
+      "y": 2
+    },
+    {
+      "x": 11,
+      "y": 14
+    },
+    {
+      "x": 23,
+      "y": 10
+    },
+    {
+      "x": 17,
+      "y": 10
+    },
+    {
+      "x": 4,
+      "y": 17
+    },
+    {
+      "x": 10,
+      "y": 17
+    },
+    {
+      "x": 5,
+      "y": 20
+    },
+    {
+      "x": 17,
+      "y": 19
+    },
+    {
+      "x": 24,
+      "y": 12
+    },
+    {
+      "x": 21,
+      "y": 15
+    },
+    {
+      "x": 16,
+      "y": 20
+    },
+    {
+      "x": 2,
+      "y": 15
+    },
+    {
+      "x": 23,
+      "y": 0
+    },
+    {
+      "x": 10,
+      "y": 0
+    },
+    {
+      "x": 12,
+      "y": 5
+    },
+    {
+      "x": 3,
+      "y": 2
+    },
+    {
+      "x": 20,
+      "y": 18
+    },
+    {
+      "x": 6,
+      "y": 14
+    },
+    {
+      "x": 12,
+      "y": 22
+    },
+    {
+      "x": 3,
+      "y": 7
+    },
+    {
+      "x": 19,
+      "y": 9
+    },
+    {
+      "x": 20,
+      "y": 4
+    },
+    {
+      "x": 16,
+      "y": 2
+    },
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 17,
+      "y": 16
+    },
+    {
+      "x": 0,
+      "y": 7
+    },
+    {
+      "x": 16,
+      "y": 15
+    },
+    {
+      "x": 15,
+      "y": 13
+    },
+    {
+      "x": 20,
+      "y": 14
+    },
+    {
+      "x": 10,
+      "y": 3
+    },
+    {
+      "x": 12,
+      "y": 3
+    },
+    {
+      "x": 18,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": 8
+    },
+    {
+      "x": 9,
+      "y": 10
+    },
+    {
+      "x": 17,
+      "y": 0
+    },
+    {
+      "x": 13,
+      "y": 2
+    },
+    {
+      "x": 0,
+      "y": 21
+    },
+    {
+      "x": 8,
+      "y": 17
+    },
+    {
+      "x": 14,
+      "y": 3
+    },
+    {
+      "x": 0,
+      "y": 11
+    },
+    {
+      "x": 19,
+      "y": 0
+    },
+    {
+      "x": 6,
+      "y": 7
+    },
+    {
+      "x": 4,
+      "y": 22
+    },
+    {
+      "x": 19,
+      "y": 22
+    },
+    {
+      "x": 5,
+      "y": 6
+    },
+    {
+      "x": 7,
+      "y": 12
+    },
+    {
+      "x": 4,
+      "y": 9
+    },
+    {
+      "x": 23,
+      "y": 7
+    },
+    {
+      "x": 0,
+      "y": 22
+    },
+    {
+      "x": 4,
+      "y": 14
+    },
+    {
+      "x": -1,
+      "y": 3
+    },
+    {
+      "x": 0,
+      "y": 2
+    },
+    {
+      "x": 3,
+      "y": 21
+    },
+    {
+      "x": 2,
+      "y": 3
+    },
+    {
+      "x": 17,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 8
+    },
+    {
+      "x": 7,
+      "y": 15
+    },
+    {
+      "x": 18,
+      "y": 15
+    },
+    {
+      "x": 22,
+      "y": 11
+    },
+    {
+      "x": 15,
+      "y": 10
+    },
+    {
+      "x": 18,
+      "y": 13
+    },
+    {
+      "x": 16,
+      "y": 14
+    },
+    {
+      "x": 19,
+      "y": 10
+    },
+    {
+      "x": 9,
+      "y": 5
+    },
+    {
+      "x": 24,
+      "y": 21
+    },
+    {
+      "x": 1,
+      "y": 7
+    },
+    {
+      "x": 13,
+      "y": 11
+    },
+    {
+      "x": 24,
+      "y": 10
+    },
+    {
+      "x": -1,
+      "y": 21
+    },
+    {
+      "x": 7,
+      "y": 10
+    },
+    {
+      "x": 19,
+      "y": 7
+    },
+    {
+      "x": 5,
+      "y": 9
+    },
+    {
+      "x": 12,
+      "y": 2
+    },
+    {
+      "x": 8,
+      "y": -1
+    },
+    {
+      "x": 17,
+      "y": 13
+    },
+    {
+      "x": 18,
+      "y": 2
+    },
+    {
+      "x": 13,
+      "y": 12
+    },
+    {
+      "x": 21,
+      "y": 22
+    },
+    {
+      "x": 14,
+      "y": 10
+    },
+    {
+      "x": 2,
+      "y": 11
+    },
+    {
+      "x": 18,
+      "y": -1
+    },
+    {
+      "x": 21,
+      "y": 3
+    },
+    {
+      "x": 4,
+      "y": 6
+    },
+    {
+      "x": 15,
+      "y": 12
+    },
+    {
+      "x": 13,
+      "y": 3
+    },
+    {
+      "x": 11,
+      "y": 2
+    },
+    {
+      "x": 14,
+      "y": -1
+    },
+    {
+      "x": 22,
+      "y": 12
+    },
+    {
+      "x": 4,
+      "y": 16
+    },
+    {
+      "x": 22,
+      "y": 20
+    },
+    {
+      "x": 15,
+      "y": 20
+    },
+    {
+      "x": 2,
+      "y": 0
+    },
+    {
+      "x": 0,
+      "y": 8
+    },
+    {
+      "x": 18,
+      "y": 16
+    },
+    {
+      "x": 0,
+      "y": -1
+    },
+    {
+      "x": 19,
+      "y": 17
+    },
+    {
+      "x": 21,
+      "y": -1
+    },
+    {
+      "x": 7,
+      "y": 4
+    },
+    {
+      "x": 20,
+      "y": 8
+    },
+    {
+      "x": 5,
+      "y": 15
+    },
+    {
+      "x": 13,
+      "y": 6
+    },
+    {
+      "x": 7,
+      "y": 8
+    },
+    {
+      "x": 24,
+      "y": 22
+    },
+    {
+      "x": 22,
+      "y": 22
+    },
+    {
+      "x": 12,
+      "y": 17
+    },
+    {
+      "x": 4,
+      "y": -1
+    },
+    {
+      "x": 6,
+      "y": 22
+    },
+    {
+      "x": 22,
+      "y": 17
+    },
+    {
+      "x": 22,
+      "y": 15
+    },
+    {
+      "x": 5,
+      "y": 5
+    },
+    {
+      "x": 17,
+      "y": -1
+    },
+    {
+      "x": -1,
+      "y": 15
+    },
+    {
+      "x": 24,
+      "y": 17
+    },
+    {
+      "x": 16,
+      "y": 0
+    },
+    {
+      "x": 9,
+      "y": 9
+    },
+    {
+      "x": 11,
+      "y": 4
+    },
+    {
+      "x": -1,
+      "y": 8
+    },
+    {
+      "x": 24,
+      "y": 19
+    },
+    {
+      "x": 21,
+      "y": 7
+    },
+    {
+      "x": 8,
+      "y": 15
+    },
+    {
+      "x": 9,
+      "y": 4
+    },
+    {
+      "x": 12,
+      "y": 11
+    },
+    {
+      "x": 10,
+      "y": 21
+    },
+    {
+      "x": 10,
+      "y": 16
+    },
+    {
+      "x": 2,
+      "y": 7
+    },
+    {
+      "x": 3,
+      "y": 19
+    },
+    {
+      "x": 24,
+      "y": 20
+    },
+    {
+      "x": 8,
+      "y": 19
+    },
+    {
+      "x": 14,
+      "y": 22
+    },
+    {
+      "x": 11,
+      "y": 12
+    },
+    {
+      "x": 17,
+      "y": 22
+    },
+    {
+      "x": 22,
+      "y": 18
+    },
+    {
+      "x": 11,
+      "y": 18
+    },
+    {
+      "x": 9,
+      "y": 15
+    },
+    {
+      "x": 5,
+      "y": 22
+    },
+    {
+      "x": 19,
+      "y": 13
+    },
+    {
+      "x": 9,
+      "y": 0
+    },
+    {
+      "x": 16,
+      "y": 16
+    },
+    {
+      "x": 18,
+      "y": 10
+    },
+    {
+      "x": 23,
+      "y": 5
+    },
+    {
+      "x": 23,
+      "y": 2
+    },
+    {
+      "x": 19,
+      "y": 12
+    },
+    {
+      "x": 5,
+      "y": 3
+    },
+    {
+      "x": 15,
+      "y": 15
+    },
+    {
+      "x": 3,
+      "y": 0
+    },
+    {
+      "x": 22,
+      "y": 5
+    },
+    {
+      "x": 12,
+      "y": 8
+    },
+    {
+      "x": 14,
+      "y": 16
+    },
+    {
+      "x": 6,
+      "y": 6
+    },
+    {
+      "x": 12,
+      "y": 18
+    },
+    {
+      "x": 17,
+      "y": 15
+    },
+    {
+      "x": 17,
+      "y": 18
+    },
+    {
+      "x": 23,
+      "y": 18
+    },
+    {
+      "x": 22,
+      "y": 14
+    },
+    {
+      "x": 18,
+      "y": 21
+    },
+    {
+      "x": 6,
+      "y": 4
+    },
+    {
+      "x": 17,
+      "y": 4
+    },
+    {
+      "x": 7,
+      "y": 18
+    },
+    {
+      "x": 17,
+      "y": 12
+    },
+    {
+      "x": 23,
+      "y": 4
+    },
+    {
+      "x": -1,
+      "y": 7
+    },
+    {
+      "x": 9,
+      "y": 20
+    },
+    {
+      "x": 16,
+      "y": 8
+    },
+    {
+      "x": 11,
+      "y": 1
+    },
+    {
+      "x": 21,
+      "y": 8
+    },
+    {
+      "x": 15,
+      "y": 5
+    },
+    {
+      "x": 11,
+      "y": 6
+    },
+    {
+      "x": 24,
+      "y": 8
+    },
+    {
+      "x": 10,
+      "y": 5
+    },
+    {
+      "x": 9,
+      "y": 8
+    },
+    {
+      "x": 24,
+      "y": 2
+    },
+    {
+      "x": 14,
+      "y": 0
+    },
+    {
+      "x": 13,
+      "y": 20
+    },
+    {
+      "x": 22,
+      "y": 7
+    },
+    {
+      "x": 12,
+      "y": 6
+    },
+    {
+      "x": 20,
+      "y": 16
+    },
+    {
+      "x": 11,
+      "y": 3
+    },
+    {
+      "x": 6,
+      "y": 18
+    },
+    {
+      "x": 14,
+      "y": 21
+    },
+    {
+      "x": 14,
+      "y": 9
+    },
+    {
+      "x": 9,
+      "y": 1
+    },
+    {
+      "x": 8,
+      "y": 0
+    },
+    {
+      "x": 10,
+      "y": 6
+    },
+    {
+      "x": 14,
+      "y": 4
+    },
+    {
+      "x": 0,
+      "y": 17
+    },
+    {
+      "x": 8,
+      "y": 6
+    },
+    {
+      "x": 18,
+      "y": 11
+    },
+    {
+      "x": 4,
+      "y": 0
+    },
+    {
+      "x": 3,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": 12
+    },
+    {
+      "x": 6,
+      "y": 20
+    },
+    {
+      "x": 19,
+      "y": 14
+    },
+    {
+      "x": 8,
+      "y": 22
+    },
+    {
+      "x": 6,
+      "y": 11
+    },
+    {
+      "x": 20,
+      "y": 20
+    },
+    {
+      "x": 21,
+      "y": 16
+    },
+    {
+      "x": 9,
+      "y": 18
+    },
+    {
+      "x": 12,
+      "y": 7
+    },
+    {
+      "x": 2,
+      "y": 9
+    },
+    {
+      "x": 8,
+      "y": 7
+    },
+    {
+      "x": 21,
+      "y": 5
+    },
+    {
+      "x": 9,
+      "y": 6
+    },
+    {
+      "x": 3,
+      "y": 17
+    },
+    {
+      "x": 10,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 13
+    },
+    {
+      "x": 9,
+      "y": 11
+    },
+    {
+      "x": 16,
+      "y": 17
+    },
+    {
+      "x": -1,
+      "y": 10
+    },
+    {
+      "x": 10,
+      "y": 15
+    },
+    {
+      "x": 1,
+      "y": 17
+    },
+    {
+      "x": 5,
+      "y": 19
+    },
+    {
+      "x": 9,
+      "y": 2
+    },
+    {
+      "x": 19,
+      "y": 19
+    },
+    {
+      "x": 19,
+      "y": -1
+    },
+    {
+      "x": 15,
+      "y": 0
+    },
+    {
+      "x": 14,
+      "y": 8
+    },
+    {
+      "x": 3,
+      "y": 6
+    },
+    {
+      "x": 6,
+      "y": 17
+    },
+    {
+      "x": 4,
+      "y": 7
+    },
+    {
+      "x": 7,
+      "y": 3
+    },
+    {
+      "x": 12,
+      "y": 10
+    },
+    {
+      "x": 8,
+      "y": 1
+    },
+    {
+      "x": 2,
+      "y": 2
+    },
+    {
+      "x": 6,
+      "y": 12
+    },
+    {
+      "x": 5,
+      "y": 7
+    },
+    {
+      "x": 11,
+      "y": 10
+    },
+    {
+      "x": 15,
+      "y": 2
+    },
+    {
+      "x": 13,
+      "y": 16
+    },
+    {
+      "x": 16,
+      "y": 6
+    },
+    {
+      "x": 11,
+      "y": 7
+    },
+    {
+      "x": 24,
+      "y": 9
+    },
+    {
+      "x": 21,
+      "y": 19
+    },
+    {
+      "x": 13,
+      "y": 4
+    },
+    {
+      "x": 6,
+      "y": 19
+    },
+    {
+      "x": 6,
+      "y": 0
+    },
+    {
+      "x": 18,
+      "y": 14
+    },
+    {
+      "x": 15,
+      "y": 4
+    },
+    {
+      "x": 22,
+      "y": 10
+    },
+    {
+      "x": 15,
+      "y": 3
+    },
+    {
+      "x": 7,
+      "y": 0
+    },
+    {
+      "x": 12,
+      "y": 4
+    },
+    {
+      "x": 3,
+      "y": 13
+    },
+    {
+      "x": 7,
+      "y": 7
+    },
+    {
+      "x": 18,
+      "y": 1
+    },
+    {
+      "x": 10,
+      "y": 22
+    },
+    {
+      "x": 5,
+      "y": 2
+    },
+    {
+      "x": 22,
+      "y": 3
+    },
+    {
+      "x": 11,
+      "y": 0
+    },
+    {
+      "x": 0,
+      "y": 5
+    },
+    {
+      "x": 23,
+      "y": 3
+    },
+    {
+      "x": 5,
+      "y": 11
+    },
+    {
+      "x": 24,
+      "y": 15
+    },
+    {
+      "x": 8,
+      "y": 2
+    },
+    {
+      "x": 12,
+      "y": 9
+    },
+    {
+      "x": 7,
+      "y": 13
+    },
+    {
+      "x": 21,
+      "y": 10
+    },
+    {
+      "x": 6,
+      "y": 8
+    },
+    {
+      "x": 18,
+      "y": 6
+    },
+    {
+      "x": 14,
+      "y": 19
+    },
+    {
+      "x": 3,
+      "y": 20
+    },
+    {
+      "x": 2,
+      "y": 17
+    },
+    {
+      "x": 13,
+      "y": 7
+    },
+    {
+      "x": 5,
+      "y": 13
+    },
+    {
+      "x": 13,
+      "y": 21
+    },
+    {
+      "x": 22,
+      "y": -1
+    },
+    {
+      "x": 10,
+      "y": 11
+    },
+    {
+      "x": 7,
+      "y": 14
+    },
+    {
+      "x": 13,
+      "y": 9
+    },
+    {
+      "x": 23,
+      "y": 11
+    },
+    {
+      "x": 20,
+      "y": 6
+    },
+    {
+      "x": 5,
+      "y": 18
+    },
+    {
+      "x": 23,
+      "y": 15
+    },
+    {
+      "x": 24,
+      "y": 13
+    },
+    {
+      "x": 18,
+      "y": 7
+    },
+    {
+      "x": 13,
+      "y": 18
+    },
+    {
+      "x": 1,
+      "y": 14
+    },
+    {
+      "x": 16,
+      "y": 21
+    },
+    {
+      "x": 16,
+      "y": 22
+    },
+    {
+      "x": 18,
+      "y": 4
+    },
+    {
+      "x": 8,
+      "y": 21
+    },
+    {
+      "x": 8,
+      "y": 10
+    },
+    {
+      "x": 16,
+      "y": 10
+    },
+    {
+      "x": 23,
+      "y": 13
+    },
+    {
+      "x": 11,
+      "y": 8
+    },
+    {
+      "x": 17,
+      "y": 2
+    },
+    {
+      "x": 23,
+      "y": 20
+    },
+    {
+      "x": 4,
+      "y": 13
+    },
+    {
+      "x": 9,
+      "y": 17
+    },
+    {
+      "x": 16,
+      "y": 4
+    },
+    {
+      "x": 24,
+      "y": 3
+    },
+    {
+      "x": 21,
+      "y": 6
+    },
+    {
+      "x": 0,
+      "y": 20
+    },
+    {
+      "x": 23,
+      "y": 8
+    },
+    {
+      "x": 23,
+      "y": 9
+    },
+    {
+      "x": -1,
+      "y": 12
+    },
+    {
+      "x": 18,
+      "y": 8
+    },
+    {
+      "x": 21,
+      "y": 9
+    },
+    {
+      "x": 2,
+      "y": 14
+    },
+    {
+      "x": 15,
+      "y": 17
+    },
+    {
+      "x": 4,
+      "y": 3
+    },
+    {
+      "x": -1,
+      "y": 22
+    },
+    {
+      "x": 13,
+      "y": 5
+    },
+    {
+      "x": 12,
+      "y": 13
+    },
+    {
+      "x": 3,
+      "y": 14
+    },
+    {
+      "x": 13,
+      "y": -1
+    },
+    {
+      "x": 4,
+      "y": 19
+    },
+    {
+      "x": 10,
+      "y": 19
+    },
+    {
+      "x": 11,
+      "y": 9
+    },
+    {
+      "x": 1,
+      "y": 21
+    },
+    {
+      "x": 1,
+      "y": 9
+    },
+    {
+      "x": 17,
+      "y": 14
+    },
+    {
+      "x": 14,
+      "y": 1
+    },
+    {
+      "x": 17,
+      "y": 7
+    },
+    {
+      "x": 1,
+      "y": 12
+    },
+    {
+      "x": 3,
+      "y": 12
+    },
+    {
+      "x": 0,
+      "y": 3
+    },
+    {
+      "x": 21,
+      "y": 12
+    },
+    {
+      "x": 9,
+      "y": 22
+    },
+    {
+      "x": 13,
+      "y": 13
+    },
+    {
+      "x": 10,
+      "y": 7
+    },
+    {
+      "x": 10,
+      "y": 18
+    },
+    {
+      "x": 1,
+      "y": 10
+    },
+    {
+      "x": 8,
+      "y": 11
+    },
+    {
+      "x": 8,
+      "y": 9
+    },
+    {
+      "x": 12,
+      "y": 12
+    },
+    {
+      "x": 21,
+      "y": 14
+    },
+    {
+      "x": 12,
+      "y": 16
+    },
+    {
+      "x": 7,
+      "y": -1
+    },
+    {
+      "x": 7,
+      "y": 19
+    },
+    {
+      "x": 2,
+      "y": 1
+    },
+    {
+      "x": 10,
+      "y": 12
+    },
+    {
+      "x": 17,
+      "y": 9
+    },
+    {
+      "x": 7,
+      "y": 2
+    },
+    {
+      "x": 18,
+      "y": 12
+    },
+    {
+      "x": 20,
+      "y": 7
+    },
+    {
+      "x": 24,
+      "y": 5
+    },
+    {
+      "x": -1,
+      "y": 4
+    },
+    {
+      "x": 11,
+      "y": 15
+    },
+    {
+      "x": 1,
+      "y": 20
+    },
+    {
+      "x": 11,
+      "y": 16
+    },
+    {
+      "x": -1,
+      "y": -1
+    },
+    {
+      "x": 1,
+      "y": 19
+    },
+    {
+      "x": 17,
+      "y": 8
+    },
+    {
+      "x": 23,
+      "y": 6
+    },
+    {
+      "x": 18,
+      "y": 0
+    },
+    {
+      "x": 14,
+      "y": 14
+    },
+    {
+      "x": 8,
+      "y": 20
+    },
+    {
+      "x": 2,
+      "y": 22
+    },
+    {
+      "x": 2,
+      "y": 19
+    },
+    {
+      "x": 22,
+      "y": 9
+    },
+    {
+      "x": 21,
+      "y": 2
+    },
+    {
+      "x": 10,
+      "y": 10
+    },
+    {
+      "x": 22,
+      "y": 19
+    }
+  ]
+}

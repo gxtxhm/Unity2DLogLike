@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2904861902395916669
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8625641961598175375
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_BOO_ROOM",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Don't_Blink_icon_001",
+  "ValidInBossChambers": 0,
+  "MutuallyExclusive": [],
+  "ConeAngle": 35.0,
+  "DarknessEffectShader": {
+    "m_FileID": 0,
+    "m_PathID": -6447787181255211014
+  }
+}

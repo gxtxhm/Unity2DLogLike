@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4899867380666110781
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2908738774767931343
+  },
+  "m_Name": "",
+  "delay": 1.0,
+  "meltTime": 2.0,
+  "doesGoop": 1,
+  "goop": {
+    "m_FileID": 0,
+    "m_PathID": 8432322495237810952
+  },
+  "goopRadius": 0.35
+}

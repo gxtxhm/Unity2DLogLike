@@ -1,0 +1,446 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5094097452224653238
+  },
+  "m_Name": "_Global Injected Shrine Table",
+  "InjectionData": [
+    {
+      "annotation": "basic shrines",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": -4440025168473275479
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.85,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "CHALLENGE - CASTLE",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 8888109277370301424
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.15,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 2,
+          "requireTileset": 1,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "CHALLENGE - GUNGEON",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": -2988738520155474955
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.15,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 1,
+          "requireTileset": 1,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "CHALLENGE - MINES",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": -2708413840569200019
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.15,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 16,
+          "requireTileset": 1,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "CHALLENGE - CATACOMB",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 1857120008231590821
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.15,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 32,
+          "requireTileset": 1,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "CHALLENGE - FORGE",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        0,
+        3,
+        2
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": -5556491037251536669
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 0.15,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 3,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 64,
+          "requireTileset": 1,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    }
+  ],
+  "UseInvalidWeightAsNoInjection": 1,
+  "PreventInjectionOfFailedPrerequisites": 0,
+  "IsNPCCell": 0,
+  "IgnoreUnmetPrerequisiteEntries": 1,
+  "OnlyOne": 1,
+  "ChanceToSpawnOne": 1.0,
+  "AttachedInjectionData": []
+}

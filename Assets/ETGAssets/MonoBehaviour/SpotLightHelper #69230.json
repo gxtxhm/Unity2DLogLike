@@ -1,0 +1,47 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8011043585787519041
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -370139921406087750
+  },
+  "m_Name": "",
+  "pointDirectlyAtFloor": 0,
+  "zHeightOffset": -45.0,
+  "randomStartingRotation": 0,
+  "swayRotation": 0,
+  "swaySpeed": 0.18,
+  "rotationMin": 0.0,
+  "rotationMax": 0.0,
+  "rotationSpeed": 20.0,
+  "randomStartingCookieAngle": 0,
+  "pulseCookieAngle": 0,
+  "pulseCookieAngleHang": 1.0,
+  "pulseCookieAngleSpeed4Real": 1.0,
+  "cookieAngleMin": 0.0,
+  "cookieAngleMax": 0.0,
+  "randomIntensity": 0,
+  "pulseIntensity": 0,
+  "pulseIntensityHang": 0.0,
+  "pulseIntensitySpeed4Real": 10.0,
+  "intensityMin": 0.0,
+  "intensityMax": 0.0,
+  "doPingPong": 0,
+  "startColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "endColor": {
+    "r": 1.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "pingPongTime": 2.0,
+  "otherNumber": 1.5
+}

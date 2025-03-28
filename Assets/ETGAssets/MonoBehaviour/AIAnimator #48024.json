@@ -1,0 +1,256 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6490297512836448476
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 5,
+    "Prefix": "idle",
+    "AnimNames": [
+      "",
+      "idle_bw_right",
+      "idle_right",
+      "",
+      "idle_left",
+      "idle_bw_left"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 5,
+    "Prefix": "run",
+    "AnimNames": [
+      "",
+      "run_bw_right",
+      "run_right",
+      "",
+      "run_left",
+      "run_bw_left"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "dagger",
+      "anim": {
+        "Type": 1,
+        "Prefix": "dagger_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "dagger_quick",
+      "anim": {
+        "Type": 1,
+        "Prefix": "dagger_attack_quick",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "cheese_spray",
+      "anim": {
+        "Type": 1,
+        "Prefix": "cheese_spray",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "cheese_wheel_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "maniac",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "cheese_wheel_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "wheel_pound",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "quick_move",
+      "anim": {
+        "Type": 5,
+        "Prefix": "run",
+        "AnimNames": [
+          "",
+          "run_bw_right",
+          "run_right",
+          "",
+          "run_left",
+          "run_bw_left"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "trap_throw",
+      "anim": {
+        "Type": 2,
+        "Prefix": "trap_throw",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "tail_attack",
+      "anim": {
+        "Type": 1,
+        "Prefix": "tail_attack",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "dodge",
+      "anim": {
+        "Type": 5,
+        "Prefix": "dodge",
+        "AnimNames": [
+          "",
+          "dodge_bw_right",
+          "dodge_right",
+          "",
+          "dodge_left",
+          "dodge_bw_left"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [
+    {
+      "name": "stomp",
+      "screenShake": {
+        "magnitude": 0.25,
+        "speed": 3.0,
+        "time": 0.6,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 0,
+        "simpleVibrationTime": 0,
+        "simpleVibrationStrength": 0
+      }
+    }
+  ],
+  "IdleFidgetAnimations": []
+}

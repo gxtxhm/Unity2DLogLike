@@ -1,0 +1,103 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7157093925624732645
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8630674436150415493
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "usesOverrideInteractionRegion": 0,
+  "overrideRegionOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "overrideRegionDimensions": {
+    "x": 10.0,
+    "y": 10.0
+  },
+  "overrideInteractionRadius": 2.0,
+  "PreventInteraction": 0,
+  "AllowPlayerToPassEventually": 1,
+  "speakPoint": {
+    "m_FileID": 0,
+    "m_PathID": -2676104032047054728
+  },
+  "SpeaksGleepGlorpenese": 0,
+  "audioCharacterSpeechTag": "tutorialknight",
+  "playerApproachRadius": 5.0,
+  "conversationBreakRadius": 7.0,
+  "echo1": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "echo2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PreventCoopInteraction": 0,
+  "IsPaletteSwapped": 0,
+  "PaletteTexture": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "teleportInSettings": {
+    "anim": "",
+    "animDelay": 0.0,
+    "vfx": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxDelay": 0.0,
+    "timing": 0,
+    "vfxAnchor": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "teleportOutSettings": {
+    "anim": "",
+    "animDelay": 0.0,
+    "vfx": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "vfxDelay": 0.0,
+    "timing": 0,
+    "vfxAnchor": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "itemsToLeaveBehind": [],
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DisableOnShortcutRun": 0,
+  "OptionalMinimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OverheadUIElementDelay": 1.0,
+  "OverheadUIElementOnPreInteract": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OptionalCustomNotificationSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OutlineDepth": 0.4,
+  "OutlineLuminanceCutoff": 0.05,
+  "ReassignPrefabReferences": [],
+  "MovementSpeed": 3.0,
+  "PathableTiles": 2,
+  "IsDoingForcedSpeech": 0
+}

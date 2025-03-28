@@ -1,0 +1,52 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2194261696537718260
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8004463764496719270
+  },
+  "m_Name": "",
+  "flipStyle": 3,
+  "shadowSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DamageReceivedOnSlide": 30.0,
+  "unflippedBreakAnimation": "",
+  "flipAnimation": "",
+  "shadowFlipAnimation": "",
+  "pitfallAnimation": "",
+  "breakAnimation": "",
+  "prebreakFrames": [],
+  "prebreakFramesUnflipped": [],
+  "BreaksOnBreakAnimation": 0,
+  "flipSubElements": [],
+  "outlineNorth": {
+    "m_FileID": 0,
+    "m_PathID": 5721918370318033914
+  },
+  "outlineEast": {
+    "m_FileID": 0,
+    "m_PathID": 7015367669461455822
+  },
+  "outlineSouth": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "outlineWest": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UsesCustomHeightsOffGround": 1,
+  "CustomStartHeightOffGround": -1.0,
+  "CustomNorthFlippedHeightOffGround": -1.5,
+  "CustomEastFlippedHeightOffGround": -1.5,
+  "CustomSouthFlippedHeightOffGround": -1.5,
+  "CustomWestFlippedHeightOffGround": -1.5,
+  "DelayMoveable": 0,
+  "MoveableDelay": 1.0,
+  "VibrationDelay": 0.25
+}

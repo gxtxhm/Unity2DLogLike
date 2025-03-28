@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 982
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 48
+  },
+  "m_Name": "",
+  "optionType": 4,
+  "itemType": 0,
+  "labelControl": {
+    "m_FileID": 0,
+    "m_PathID": 3704
+  },
+  "selectedLabelControl": {
+    "m_FileID": 0,
+    "m_PathID": 3416
+  },
+  "infoControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "fillbarControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "buttonControl": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxChecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "checkboxUnchecked": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "labelOptions": [
+    "#OPTIONS_SPEAKERS",
+    "#OPTIONS_HEADPHONES"
+  ],
+  "infoOptions": [],
+  "up": {
+    "m_FileID": 0,
+    "m_PathID": 3957
+  },
+  "down": {
+    "m_FileID": 0,
+    "m_PathID": 3515
+  },
+  "left": {
+    "m_FileID": 0,
+    "m_PathID": 3292
+  },
+  "right": {
+    "m_FileID": 0,
+    "m_PathID": 3283
+  },
+  "selectOnAction": 0
+}

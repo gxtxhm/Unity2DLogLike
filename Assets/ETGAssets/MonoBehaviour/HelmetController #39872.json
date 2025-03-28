@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3291325818037110479
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2685574707958156405
+  },
+  "m_Name": "",
+  "helmetEffect": {
+    "m_FileID": 0,
+    "m_PathID": -1799576507952108276
+  },
+  "helmetForce": 10.0
+}

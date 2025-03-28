@@ -1,0 +1,231 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2431489829934910032
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5821667192643717908
+  },
+  "m_Name": "",
+  "placeableWidth": 24,
+  "placeableHeight": 15,
+  "difficulty": 0,
+  "isPassable": 1,
+  "shopItems": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spawnPositions": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -6965304431639131048
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2134023546029027500
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5997914825297361907
+    }
+  ],
+  "shopItemsGroup2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spawnPositionsGroup2": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2653770610388434968
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 453043913864778845
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6238589233123800786
+    }
+  ],
+  "speakerAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -2857425794823472569
+  },
+  "speechPoint": {
+    "m_FileID": 0,
+    "m_PathID": -192819236180353796
+  },
+  "ItemHeightOffGroundModifier": -0.5,
+  "shopItemShadowPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -7279183566291509047
+  },
+  "Witchkeeper": {
+    "m_FileID": 0,
+    "m_PathID": 5163008916588152776
+  },
+  "WitchStandPoint": {
+    "m_FileID": 0,
+    "m_PathID": -3462257691198112018
+  },
+  "WitchSleepPoint": {
+    "m_FileID": 0,
+    "m_PathID": -3229020579663748051
+  },
+  "WitchChairPoint": {
+    "m_FileID": 0,
+    "m_PathID": -4400421664707087237
+  },
+  "ChanceToBeAsleep": 0.5,
+  "Hologramophone": {
+    "m_FileID": 0,
+    "m_PathID": -7964623349446068276
+  },
+  "ExampleBlueprintPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -2030587712411699646
+  },
+  "ExampleBlueprintPrefabItem": {
+    "m_FileID": 0,
+    "m_PathID": -3587013991537896690
+  },
+  "metaShopTiers": [
+    {
+      "overrideTierCost": 2,
+      "itemId1": 2,
+      "overrideItem1Cost": 1,
+      "itemId2": 424,
+      "overrideItem2Cost": 2,
+      "itemId3": 87,
+      "overrideItem3Cost": 2
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 39,
+      "overrideItem1Cost": 5,
+      "itemId2": 113,
+      "overrideItem2Cost": 4,
+      "itemId3": 229,
+      "overrideItem3Cost": 3
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 423,
+      "overrideItem1Cost": 4,
+      "itemId2": 295,
+      "overrideItem2Cost": 5,
+      "itemId3": 383,
+      "overrideItem3Cost": 6
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 422,
+      "overrideItem1Cost": 5,
+      "itemId2": 216,
+      "overrideItem2Cost": 8,
+      "itemId3": 28,
+      "overrideItem3Cost": 5
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 277,
+      "overrideItem1Cost": 6,
+      "itemId2": 286,
+      "overrideItem2Cost": 6,
+      "itemId3": 323,
+      "overrideItem3Cost": 8
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 107,
+      "overrideItem1Cost": 8,
+      "itemId2": 425,
+      "overrideItem2Cost": 4,
+      "itemId3": 477,
+      "overrideItem3Cost": 6
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 118,
+      "overrideItem1Cost": 8,
+      "itemId2": 167,
+      "overrideItem2Cost": 7,
+      "itemId3": 276,
+      "overrideItem3Cost": 7
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 180,
+      "overrideItem1Cost": 8,
+      "itemId2": 290,
+      "overrideItem2Cost": 10,
+      "itemId3": 40,
+      "overrideItem3Cost": 7
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 155,
+      "overrideItem1Cost": 12,
+      "itemId2": 331,
+      "overrideItem2Cost": 6,
+      "itemId3": 314,
+      "overrideItem3Cost": 10
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 225,
+      "overrideItem1Cost": 8,
+      "itemId2": 201,
+      "overrideItem2Cost": 12,
+      "itemId3": 239,
+      "overrideItem3Cost": 10
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 175,
+      "overrideItem1Cost": 10,
+      "itemId2": 0,
+      "overrideItem2Cost": 8,
+      "itemId3": 149,
+      "overrideItem3Cost": 10
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 41,
+      "overrideItem1Cost": 13,
+      "itemId2": 365,
+      "overrideItem2Cost": 9,
+      "itemId3": 362,
+      "overrideItem3Cost": 14
+    },
+    {
+      "overrideTierCost": -1,
+      "itemId1": 16,
+      "overrideItem1Cost": 25,
+      "itemId2": 232,
+      "overrideItem2Cost": 25,
+      "itemId3": 169,
+      "overrideItem3Cost": 20
+    },
+    {
+      "overrideTierCost": 20,
+      "itemId1": 476,
+      "overrideItem1Cost": 100,
+      "itemId2": 358,
+      "overrideItem2Cost": 30,
+      "itemId3": 258,
+      "overrideItem3Cost": 25
+    },
+    {
+      "overrideTierCost": 20,
+      "itemId1": 16,
+      "overrideItem1Cost": 100,
+      "itemId2": 627,
+      "overrideItem2Cost": 200,
+      "itemId3": 16,
+      "overrideItem3Cost": 100
+    }
+  ]
+}

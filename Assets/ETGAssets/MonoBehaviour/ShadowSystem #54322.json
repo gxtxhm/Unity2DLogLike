@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 143
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 23
+  },
+  "m_Name": "",
+  "IsDynamic": 1,
+  "lightRadius": 20.0,
+  "ignoreUnityLight": 1,
+  "uLightColor": {
+    "r": 0.74264705,
+    "g": 0.2560852,
+    "b": 0.22388624,
+    "a": 1.0
+  },
+  "uLightIntensity": 0.0,
+  "uLightRange": 8.0,
+  "uLightCookie": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "uLightCookieAngle": 0.0,
+  "ignoreCustomFloorLight": 0,
+  "minLuminance": 0.5,
+  "shadowBias": 0.001,
+  "shadowCamera": {
+    "m_FileID": 0,
+    "m_PathID": 381
+  },
+  "highQuality": 1,
+  "lightDistanceShader": {
+    "m_FileID": 2,
+    "m_PathID": -8133150868317665684
+  },
+  "transparentShader": {
+    "m_FileID": 2,
+    "m_PathID": -2117903303088032678
+  },
+  "casterShader": {
+    "m_FileID": 2,
+    "m_PathID": -2486980637361740548
+  },
+  "shadowMapSize": 512,
+  "CoronalLight": 0,
+  "PersonalCookies": []
+}

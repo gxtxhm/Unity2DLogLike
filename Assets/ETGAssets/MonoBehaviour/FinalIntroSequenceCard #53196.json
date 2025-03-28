@@ -1,0 +1,78 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1074
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 61
+  },
+  "m_Name": "",
+  "StartCameraTransform": {
+    "m_FileID": 0,
+    "m_PathID": 1800
+  },
+  "EndCameraTransform": {
+    "m_FileID": 0,
+    "m_PathID": 2188
+  },
+  "BGRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 2487
+  },
+  "SpriteRenderers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2314
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2450
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2330
+    }
+  ],
+  "GunRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "StartHoldTime": 0.0,
+  "PanTime": 12.0,
+  "EndHoldTime": 0.0,
+  "GunFadeDelay": 3.0,
+  "GunFadeTime": 2.5,
+  "CustomTextFadeInTime": -1.0,
+  "CustomTextFadeOutTime": -1.0,
+  "AssociatedKeys": [
+    "#INTRO_VIDEO_02a",
+    "#INTRO_VIDEO_02b"
+  ],
+  "AssociatedKeyTimes": [
+    0.0,
+    6.0
+  ],
+  "borderSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3495
+  },
+  "additionalBraveLights": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4261
+    }
+  ],
+  "LightingFadeInDuration": 6.0,
+  "LightingFadeOutDuration": 6.0,
+  "LightingReturnToNeutralGray": 0,
+  "clockhand1": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "clockhand2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

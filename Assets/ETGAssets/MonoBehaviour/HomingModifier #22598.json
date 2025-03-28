@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6749073518943225518
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5424178676176979109
+  },
+  "m_Name": "",
+  "HomingRadius": 6.0,
+  "AngularVelocity": 80.0
+}

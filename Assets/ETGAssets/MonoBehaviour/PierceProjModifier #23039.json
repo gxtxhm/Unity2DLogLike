@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4768074112365388901
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3319050337483275088
+  },
+  "m_Name": "",
+  "penetration": 10,
+  "penetratesBreakables": 0,
+  "preventPenetrationOfActors": 0,
+  "BeastModeLevel": 0,
+  "UsesMaxBossImpacts": 0,
+  "MaxBossImpacts": -1
+}

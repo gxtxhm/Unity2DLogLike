@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7958174013081650944
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3514947311751488349
+  },
+  "m_Name": "",
+  "shellCasing": {
+    "m_FileID": 1,
+    "m_PathID": 671557996272955978
+  },
+  "inheritRotationAsDirection": 0,
+  "shellsToLaunch": 40,
+  "minForce": 2.0,
+  "maxForce": 10.0,
+  "angleVariance": 0.0
+}

@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1280310633183787506
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8941349999934804219
+  },
+  "m_Name": "",
+  "TargetSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "TargetPlayer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "MirrorSprite": {
+    "m_FileID": 0,
+    "m_PathID": -5991010277884820787
+  },
+  "UsesOverrideTintColor": 1,
+  "OverrideTintColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  }
+}

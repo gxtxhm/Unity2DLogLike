@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3284071844138952560
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "pause_screen_door_001",
+    "pause_screen_door_002",
+    "pause_screen_door_003",
+    "pause_screen_door_004",
+    "pause_screen_door_005",
+    "pause_screen_door_006",
+    "pause_screen_door_007",
+    "pause_screen_door_008",
+    "pause_screen_door_009",
+    "pause_screen_door_010",
+    "pause_screen_door_011",
+    "pause_screen_door_012",
+    "pause_screen_door_013",
+    "pause_screen_door_014",
+    "pause_screen_door_015",
+    "pause_screen_door_016"
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5063175317022362145
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7388334300834601678
+  },
+  "m_Name": "",
+  "CurrentRewardManager": {
+    "m_FileID": 2,
+    "m_PathID": -7025387310502751067
+  },
+  "OriginalRewardManager": {
+    "m_FileID": 2,
+    "m_PathID": -3744564719066541937
+  },
+  "SynergyManager": {
+    "m_FileID": 2,
+    "m_PathID": -1393603526085818587
+  },
+  "GlobalInjectionData": {
+    "m_FileID": 2,
+    "m_PathID": 2975576931885027261
+  },
+  "DefaultAlienConversationFont": {
+    "m_FileID": 2,
+    "m_PathID": -7425430862170305791
+  },
+  "DefaultNormalConversationFont": {
+    "m_FileID": 2,
+    "m_PathID": 4754641603648816274
+  },
+  "RandomIntForCurrentRun": 0,
+  "LastShortcutFloorLoaded": 0,
+  "controlType": 0,
+  "IsSelectingCharacter": 0,
+  "CurrentlyGeneratingDungeonPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DungeonToAutoLoad": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LastPausingPlayerID": -1,
+  "dungeonFloors": [
+    {
+      "dungeonSceneName": "tt_foyer",
+      "dungeonPrefabPath": "Base_Foyer",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_castle",
+      "dungeonPrefabPath": "Base_Castle",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": 300.0,
+      "bossDpsCap": 30.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt5",
+      "dungeonPrefabPath": "Base_Gungeon",
+      "priceMultiplier": 1.2,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.3,
+      "damageCap": 300.0,
+      "bossDpsCap": 42.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_mines",
+      "dungeonPrefabPath": "Base_Mines",
+      "priceMultiplier": 1.4,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.6,
+      "damageCap": 300.0,
+      "bossDpsCap": 60.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_catacombs",
+      "dungeonPrefabPath": "Base_Catacombs",
+      "priceMultiplier": 1.5,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.85,
+      "damageCap": 300.0,
+      "bossDpsCap": 70.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_forge",
+      "dungeonPrefabPath": "Base_Forge",
+      "priceMultiplier": 1.6,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 2.1,
+      "damageCap": 300.0,
+      "bossDpsCap": 78.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_bullethell",
+      "dungeonPrefabPath": "Base_BulletHell",
+      "priceMultiplier": 2.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 2.1,
+      "damageCap": 300.0,
+      "bossDpsCap": 80.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    }
+  ],
+  "customFloors": [
+    {
+      "dungeonSceneName": "tt_tutorial",
+      "dungeonPrefabPath": "Base_Tutorial",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_belly",
+      "dungeonPrefabPath": "Base_Belly",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [
+        {
+          "flowPath": "Testing/Single Room Demonstration Flow",
+          "weight": 1.0,
+          "levelMode": 0,
+          "prerequisites": [],
+          "forceUseIfAvailable": 1,
+          "overridesLevelDetailText": 0,
+          "overrideLevelDetailText": ""
+        }
+      ],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_cathedral",
+      "dungeonPrefabPath": "Base_Cathedral",
+      "priceMultiplier": 1.4,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.6666,
+      "damageCap": 300.0,
+      "bossDpsCap": 60.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_future",
+      "dungeonPrefabPath": "Base_Future",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [
+        {
+          "flowPath": "Testing/Single Room Demonstration Flow",
+          "weight": 1.0,
+          "levelMode": 0,
+          "prerequisites": [],
+          "forceUseIfAvailable": 1,
+          "overridesLevelDetailText": 0,
+          "overrideLevelDetailText": ""
+        }
+      ],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_jungle",
+      "dungeonPrefabPath": "Base_Jungle",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [
+        {
+          "flowPath": "Testing/Single Room Demonstration Flow",
+          "weight": 1.0,
+          "levelMode": 0,
+          "prerequisites": [],
+          "forceUseIfAvailable": 1,
+          "overridesLevelDetailText": 0,
+          "overrideLevelDetailText": ""
+        }
+      ],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_nakatomi",
+      "dungeonPrefabPath": "Base_Nakatomi",
+      "priceMultiplier": 2.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 2.1,
+      "damageCap": 300.0,
+      "bossDpsCap": 78.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_phobos",
+      "dungeonPrefabPath": "Base_Phobos",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [
+        {
+          "flowPath": "Testing/Single Room Demonstration Flow",
+          "weight": 1.0,
+          "levelMode": 0,
+          "prerequisites": [],
+          "forceUseIfAvailable": 1,
+          "overridesLevelDetailText": 0,
+          "overrideLevelDetailText": ""
+        }
+      ],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_sewer",
+      "dungeonPrefabPath": "Base_Sewer",
+      "priceMultiplier": 1.2,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.3333,
+      "damageCap": 300.0,
+      "bossDpsCap": 42.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "tt_west",
+      "dungeonPrefabPath": "Base_West",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "ss_resourcefulrat",
+      "dungeonPrefabPath": "Base_ResourcefulRat",
+      "priceMultiplier": 1.5,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.85,
+      "damageCap": 300.0,
+      "bossDpsCap": 58.0,
+      "flowEntries": [
+        {
+          "flowPath": "ResourcefulRatLair_flow",
+          "weight": 1.0,
+          "levelMode": 0,
+          "prerequisites": [],
+          "forceUseIfAvailable": 1,
+          "overridesLevelDetailText": 0,
+          "overrideLevelDetailText": ""
+        }
+      ],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_pilot",
+      "dungeonPrefabPath": "FinalScenario_Pilot",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_convict",
+      "dungeonPrefabPath": "FinalScenario_Convict",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_soldier",
+      "dungeonPrefabPath": "FinalScenario_Soldier",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_guide",
+      "dungeonPrefabPath": "FinalScenario_Guide",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_coop",
+      "dungeonPrefabPath": "FinalScenario_Coop",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_robot",
+      "dungeonPrefabPath": "FinalScenario_Robot",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    },
+    {
+      "dungeonSceneName": "fs_bullet",
+      "dungeonPrefabPath": "FinalScenario_Bullet",
+      "priceMultiplier": 1.0,
+      "secretDoorHealthMultiplier": 1.0,
+      "enemyHealthMultiplier": 1.0,
+      "damageCap": -1.0,
+      "bossDpsCap": -1.0,
+      "flowEntries": [],
+      "predefinedSeeds": []
+    }
+  ],
+  "TargetQuickRestartLevel": -1,
+  "PREVENT_MAIN_MENU_TEXT": 0,
+  "DEBUG_UI_VISIBLE": 1,
+  "DAVE_INFO_VISIBLE": 0,
+  "COOP_ENEMY_HEALTH_MULTIPLIER": 1.4,
+  "COOP_ENEMY_PROJECTILE_SPEED_MULTIPLIER": 0.95,
+  "DUAL_WIELDING_DAMAGE_FACTOR": 0.75,
+  "PierceDamageScaling": [
+    0.5
+  ],
+  "BloodthirstOptions": {
+    "NumKillsForHealRequiredBase": 5,
+    "NumKillsAddedPerHealthGained": 4,
+    "NumKillsRequiredCap": 25,
+    "Radius": 6.5,
+    "DamagePerSecond": 35.0,
+    "PercentAffected": 0.333
+  },
+  "EnemyReplacementTiers": [
+    {
+      "Name": "Chancebulon replaces Sig and a few others, after hollow 3 times",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 30,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 253,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 2,
+      "MaxPerRun": 6,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [
+        "864ea5a6a9324efc95a0dd2407f42810",
+        "1a4872dafdb34fd29fe8ac90bd2cea67",
+        "0b547ac6b6fc4d68876a241a88f5ca6a",
+        "3f6d6b0c4a7c4690807435c7b37c35a5",
+        "d8a445ea4d944cc1b55a40f22821ae69"
+      ],
+      "ReplacementGuids": [
+        "1bc2a07ef87741be90c37096910843ab"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": -1,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Dynamite Guy replaces everything basically",
+      "Prereqs": [],
+      "TargetTileset": 65533,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 10,
+      "TargetAllSignatureEnemies": 0,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [
+        "01972dee89fc4404a5c408d50007dad5",
+        "d4a9836f8ab14f3fadd0f597438b1f1f",
+        "88b6b6a93d4b4234a67844ef4728382c",
+        "70216cae6c1346309d86d4a0b4603045",
+        "3cadf10c489b461f9fb8814abc1a09c1",
+        "e5cffcfabfae489da61062ea20539887",
+        "c0ff3744760c4a2eb0bb52ac162056e6",
+        "6f22935656c54ccfb89fca30ad663a64",
+        "a400523e535f41ac80a43ff6b06dc0bf",
+        "ed37fa13e0fa4fcf8239643957c51293",
+        "022d7c822bc146b58fe3b0287568aaa2",
+        "062b9b64371e46e195de17b6f10e47c8",
+        "db35531e66ce41cbb81d507a34366dfe",
+        "31a3ea0c54a745e182e22ea54844a82d",
+        "c5b11bfc065d417b9c4d03a5e385fe2c",
+        "128db2f0781141bcb505d8f00f9e4d47",
+        "b54d89f9e802455cbb2b8a96a31e8259",
+        "7f665bd7151347e298e4d366f8818284",
+        "2752019b770f473193b08b4005dc781f",
+        "9d50684ce2c044e880878e86dbada919",
+        "0b547ac6b6fc4d68876a241a88f5ca6a",
+        "864ea5a6a9324efc95a0dd2407f42810",
+        "57255ed50ee24794b7aac1ac3cfb8a95",
+        "45192ff6d6cb43ed8f1a874ab6bef316",
+        "ec8ea75b557d4e7b8ceeaacdf6f8238c",
+        "336190e29e8a4f75ab7486595b700d4a",
+        "ba657723b2904aa79f9e51bce7d23872",
+        "8b4a938cdbc64e64822e841e482ba3d2",
+        "3e98ccecf7334ff2800188c417e67c15",
+        "cd4a4b7f612a4ba9a720b9f97c52f38c",
+        "cf2b7021eac44e3f95af07db9a7c442c",
+        "c50a862d19fc4d30baeba54795e8cb93",
+        "9b4fb8a2a60a457f90dcf285d34143ac",
+        "b1540990a4f1480bbcb3bea70d67f60d",
+        "eed5addcc15148179f300cc0d9ee7f94",
+        "f905765488874846b7ff257ff81d6d0c",
+        "21dd14e5ca2a4a388adab5b11b69a1e1",
+        "ffdc8680bdaa487f8f31995539f74265",
+        "9b2cf2949a894599917d4d391a0b7394",
+        "206405acad4d4c33aac6717d184dc8d4",
+        "ccf6d241dad64d989cbcaca2a8477f01",
+        "43426a2e39584871b287ac31df04b544"
+      ],
+      "ReplacementGuids": [
+        "c0260c286c8d4538a697c5bf24976ccf"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": -1,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Dynamite Guy replaces everything basically in castle only",
+      "Prereqs": [],
+      "TargetTileset": 2,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 1,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 1,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "c0260c286c8d4538a697c5bf24976ccf"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": 26,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Gripmaster once every few runs, replaces a sig enemy after reaching force 3 times",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 31,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 255,
+      "ChanceToReplace": 0.03,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 1,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "22fc2c2c45fb47cf9fb5f7b043a70122"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": 3,
+      "RoomMinSize": 20,
+      "RoomCantContain": [
+        "475c20c1fd474dfbad54954e7cba29c1"
+      ],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Phase SPider Replaces sigs in column rooms, after getting to forge thrice",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 31,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 253,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 3,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "98ca70157c364750a60f5e0084f9d3e2"
+      ],
+      "RoomMustHaveColumns": 1,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": -1,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Tarnisher once every few runs replaces a sig enemy after reaching forge 3 times",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 31,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 253,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 2,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "475c20c1fd474dfbad54954e7cba29c1"
+      ],
+      "RoomMustHaveColumns": 1,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": 3,
+      "RoomMinSize": 20,
+      "RoomCantContain": [
+        "22fc2c2c45fb47cf9fb5f7b043a70122"
+      ],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "Displacer beast remove all enemies from room mines onward",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 2,
+          "statToCheck": 30,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 252,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 2,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "45192ff6d6cb43ed8f1a874ab6bef316"
+      ],
+      "RoomMustHaveColumns": 1,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": 25,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 1
+    },
+    {
+      "Name": "replace small percentage of signature enemies with easier enemies, when they aren't alone in a room",
+      "Prereqs": [],
+      "TargetTileset": 125,
+      "ChanceToReplace": 0.2,
+      "MaxPerFloor": 1,
+      "MaxPerRun": 2,
+      "TargetAllSignatureEnemies": 1,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "c0260c286c8d4538a697c5bf24976ccf",
+        "1a4872dafdb34fd29fe8ac90bd2cea67"
+      ],
+      "RoomMustHaveColumns": 1,
+      "RoomMinEnemyCount": 2,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": 20,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "pulls displacer beast out of anything before the mines till youve got to the forge twice.",
+      "Prereqs": [
+        {
+          "prerequisiteType": 1,
+          "prerequisiteOperation": 0,
+          "statToCheck": 31,
+          "maxToCheck": 0,
+          "comparisonValue": 2.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "TargetTileset": 7,
+      "ChanceToReplace": 0.9,
+      "MaxPerFloor": 4,
+      "MaxPerRun": 10,
+      "TargetAllSignatureEnemies": 0,
+      "TargetAllNonSignatureEnemies": 0,
+      "TargetGuids": [
+        "45192ff6d6cb43ed8f1a874ab6bef316"
+      ],
+      "ReplacementGuids": [
+        "864ea5a6a9324efc95a0dd2407f42810",
+        "1bc2a07ef87741be90c37096910843ab"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": 20,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    },
+    {
+      "Name": "puts a beadie in the gungeon in some rooms replacing a normal bulletman",
+      "Prereqs": [],
+      "TargetTileset": 5,
+      "ChanceToReplace": 0.9,
+      "MaxPerFloor": 2,
+      "MaxPerRun": 2,
+      "TargetAllSignatureEnemies": 0,
+      "TargetAllNonSignatureEnemies": 1,
+      "TargetGuids": [],
+      "ReplacementGuids": [
+        "7b0b1b6d9ce7405b86b75ce648025dd6"
+      ],
+      "RoomMustHaveColumns": 0,
+      "RoomMinEnemyCount": -1,
+      "RoomMaxEnemyCount": -1,
+      "RoomMinSize": -1,
+      "RoomCantContain": [],
+      "RemoveAllOtherEnemies": 0
+    }
+  ],
+  "RainbowRunForceIncludedIDs": [
+    637,
+    116,
+    77,
+    102,
+    64,
+    168,
+    174,
+    65,
+    410,
+    158,
+    631,
+    440,
+    529,
+    300,
+    209,
+    312,
+    322,
+    203,
+    382,
+    340,
+    541,
+    539,
+    54
+  ],
+  "RainbowRunForceExcludedIDs": [
+    281,
+    289,
+    166,
+    573,
+    267,
+    293,
+    489,
+    493,
+    212,
+    463,
+    254,
+    525,
+    487,
+    63,
+    460,
+    308,
+    462,
+    272,
+    306
+  ]
+}

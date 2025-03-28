@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7429555057984124817
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8019690293630531813
+  },
+  "m_Name": "",
+  "SpawningPlayer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "introStyle": 0,
+  "introDuration": 0.5,
+  "coreDuration": 10000.0,
+  "damageRadius": 1.0,
+  "radius": 21.0,
+  "gravitationalForce": 600.0,
+  "gravitationalForceActors": 900.0,
+  "affectsBullets": 1,
+  "destroysBullets": 1,
+  "affectsDebris": 1,
+  "destroysDebris": 1,
+  "affectsEnemies": 1,
+  "damageToEnemiesPerSecond": 35.0,
+  "affectsPlayer": 0,
+  "damageToPlayerPerSecond": 0.0,
+  "outroStyle": 0,
+  "outroDuration": 0.5,
+  "novaForce": 50.0,
+  "distortStrength": -1.0,
+  "distortTimeScale": 0.517,
+  "distortRadiusFactor": 0.6,
+  "HasHellSynergy": 0,
+  "HellSynergy": 0,
+  "HellSynergyVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OuterLimitsVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OuterLimitsDamageVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

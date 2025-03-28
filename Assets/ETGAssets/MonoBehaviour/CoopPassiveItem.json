@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8978515031868240001
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 755899524224077354
+  },
+  "m_Name": "",
+  "PickupObjectId": 326,
+  "quality": 4,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 0,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 1,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Number 2",
+  "ForcedPositionInAmmonomicon": 204,
+  "UsesCustomCost": 0,
+  "CustomCost": 120,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 0,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "modifiers": [
+    {
+      "statToBoost": 0,
+      "modifyType": 0,
+      "amount": 2.0,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 5,
+      "modifyType": 1,
+      "amount": 1.41,
+      "isMeatBunBuff": 0
+    }
+  ]
+}

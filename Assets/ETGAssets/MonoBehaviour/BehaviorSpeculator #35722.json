@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9163088468697169565
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -4965953925713460218
+    }
+  ],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":false,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"PathInterval\":0.25,\"CloseDistance\":9.0,\"CloseTime\":3.0,\"TooCloseDistance\":6.0,\"TooCloseLOS\":true,\"DesiredDistance\":14.0,\"PlayerPersonalSpace\":0,\"CanAttackWhileMoving\":false,\"ManuallyDefineRoom\":true,\"roomMin\":{\"x\":11.0,\"y\":62.0},\"roomMax\":{\"x\":54.0,\"y\":86.0},\"$type\":\"FleeTargetBehavior\"}]",
+    "[{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Buff the Big Bad Wolf Bot\",\"Probability\":1.0,\"Behavior\":{\"behaviorName\":\"Clap (Eagle)\",\"behaviorProb\":10000.0,\"behaviorCooldown\":4.0,\"SearchInterval\":1.0,\"EnemiesToBuff\":1.0,\"UsesBuffEffect\":true,\"buffEffect\":{\"SpeedMultiplier\":1.0,\"CooldownMultiplier\":1.0,\"HealthMultiplier\":1.0,\"KeepHealthPercentage\":true,\"AffectsPlayers\":false,\"AffectsEnemies\":true,\"effectIdentifier\":\"wolfBuff\",\"resistanceType\":\"None\",\"stackMode\":\"Ignore\",\"duration\":10000.0,\"maxStackedDuration\":-1.0,\"AppliesTint\":false,\"TintColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":0.5},\"AppliesDeathTint\":false,\"DeathTintColor\":{\"r\":0.388000011444092,\"g\":0.388000011444092,\"b\":0.388000011444092,\"a\":1.0},\"AppliesOutlineTint\":false,\"OutlineTintColor\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":1.0},\"OverheadVFX\":0,\"PlaysVFXOnActor\":false},\"JamEnemies\":false,\"SmallJamEffect\":null,\"LargeJamEffect\":null,\"BuffAnimation\":\"buff\",\"BuffVfx\":\"\",\"Cooldown\":3.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"BossFinalGuideBuffBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.2,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

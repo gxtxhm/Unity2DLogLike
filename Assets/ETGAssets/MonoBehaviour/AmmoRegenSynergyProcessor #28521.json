@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7705275518639711956
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7925553151755119987
+  },
+  "m_Name": "",
+  "RequiredSynergy": 179,
+  "AmmoPerSecond": 0.1,
+  "PreventGainWhileFiring": 1
+}

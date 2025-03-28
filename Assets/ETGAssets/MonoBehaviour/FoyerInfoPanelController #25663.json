@@ -1,0 +1,45 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4180500711861605328
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5946412425723104229
+  },
+  "m_Name": "",
+  "characterIdentity": 7,
+  "scaledSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 395722119843108602
+    }
+  ],
+  "arrow": {
+    "m_FileID": 0,
+    "m_PathID": 395722119843108602
+  },
+  "textPanel": {
+    "m_FileID": 0,
+    "m_PathID": 5075908921738293865
+  },
+  "itemsPanel": {
+    "m_FileID": 0,
+    "m_PathID": -4825865169294942496
+  },
+  "followTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "AdditionalDaveOffset": {
+    "x": 0.1875,
+    "y": -0.1875,
+    "z": 0.0
+  }
+}

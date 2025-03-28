@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3663003061563612865
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1445471938167380563
+  },
+  "m_Name": "",
+  "bmFont": {
+    "m_FileID": 0,
+    "m_PathID": -4563205959815899506
+  },
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 8642425898883501574
+  },
+  "texture": {
+    "m_FileID": 0,
+    "m_PathID": -8737360014731720327
+  },
+  "gradientTexture": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "dupeCaps": 0,
+  "flipTextureY": 0,
+  "proxyFont": 0,
+  "useTk2dCamera": 0,
+  "targetHeight": 640,
+  "targetOrthoSize": 1.0,
+  "sizeDef": {
+    "type": 0,
+    "orthoSize": 0.5,
+    "pixelsPerMeter": 100.0,
+    "width": 960.0,
+    "height": 16.0
+  },
+  "gradientCount": 1,
+  "manageMaterial": 1,
+  "loadable": 0,
+  "charPadX": 0,
+  "data": {
+    "m_FileID": 0,
+    "m_PathID": 2875124266318267400
+  },
+  "version": 1
+}

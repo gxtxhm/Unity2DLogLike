@@ -1,0 +1,515 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5257293945040329721
+  },
+  "m_Name": "ENV_RAT_STAMP_DATA",
+  "tileStampWeight": 0.0,
+  "spriteStampWeight": 0.0,
+  "objectStampWeight": 1.0,
+  "stamps": [],
+  "spriteStamps": [],
+  "objectStamps": [
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": 1789519619556430301
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": -392427506350778192
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 254052278946074272
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": -7220305764354333266
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.5,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": -5067407768859068297
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.5,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": -7172381974900828428
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 2.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 3,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": 8389567390567364940
+      }
+    },
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 2.0,
+      "placementRule": 3,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 3,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 2722514776847339966
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 7926750459092627434
+      }
+    },
+    {
+      "width": 1,
+      "height": 2,
+      "relativeWeight": 1.0,
+      "placementRule": 3,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 1837048816263990073
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 2.0,
+      "placementRule": 2,
+      "occupySpace": 2,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 4780403969828316929
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": -7593881677959193938
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": -6834923969187720161
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 6512162613317126165
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": -2669129074209042708
+      }
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 4,
+        "m_PathID": 2654902832614453957
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": 3260117858589122938
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": 3517180083476384723
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": -5200845979655686295
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": -9083103201545851464
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 3,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": -8718125870396569881
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 8,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 3,
+        "m_PathID": 3260117858589122938
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": -8715344379674886668
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": -1545287702205559604
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": 7744461506175515720
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 1.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 0,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": -6359514095318302468
+      }
+    }
+  ],
+  "SymmetricFrameChance": 0.25,
+  "SymmetricCompleteChance": 0.6
+}

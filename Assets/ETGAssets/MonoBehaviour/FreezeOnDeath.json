@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3564948415584791239
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1506150540709682614
+  },
+  "m_Name": "",
+  "deathFreezeAnim": "death_freeze",
+  "deathShatterAnim": "death_shatter",
+  "deathInstantShatterAnim": "death_quick_shatter",
+  "shatterVfx": {
+    "m_FileID": 1,
+    "m_PathID": -6643735740938926415
+  }
+}

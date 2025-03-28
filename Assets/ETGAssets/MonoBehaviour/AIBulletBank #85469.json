@@ -1,0 +1,92 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7701921988985978135
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6949743339884284451
+  },
+  "m_Name": "",
+  "Bullets": [
+    {
+      "Name": "default",
+      "BulletObject": {
+        "m_FileID": 0,
+        "m_PathID": -772758952024339083
+      },
+      "OverrideProjectile": 1,
+      "ProjectileData": {
+        "damage": 0.5,
+        "speed": 7.0,
+        "range": 5.0,
+        "force": 5.0,
+        "damping": 0.0,
+        "UsesCustomAccelerationCurve": 0,
+        "AccelerationCurve": {
+          "m_Curve": [],
+          "m_PreInfinity": 0,
+          "m_PostInfinity": 0,
+          "m_RotationOrder": 4
+        },
+        "CustomAccelerationCurveDuration": 0.0,
+        "onDestroyBulletScript": {
+          "scriptTypeName": ""
+        }
+      },
+      "PlayAudio": 0,
+      "AudioSwitch": "",
+      "AudioEvent": "",
+      "AudioLimitOncePerFrame": 0,
+      "AudioLimitOncePerAttack": 0,
+      "MuzzleFlashEffects": {
+        "type": 0,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 2,
+                  "m_PathID": -8451179156236109909
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 0,
+                "zHeight": 0.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      },
+      "MuzzleLimitOncePerFrame": 0,
+      "MuzzleInheritsTransformDirection": 0,
+      "SpawnShells": 0,
+      "ShellTransform": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "ShellForce": 1.75,
+      "ShellForceVariance": 0.75,
+      "DontRotateShell": 0,
+      "ShellGroundOffset": 0.0,
+      "ShellsLimitOncePerFrame": 0,
+      "rampBullets": 0,
+      "rampStartHeight": 0.0,
+      "rampTime": 0.0,
+      "conditionalMinDegFromNorth": 0.0,
+      "forceCanHitEnemies": 1,
+      "suppressHitEffectsIfOffscreen": 0,
+      "preloadCount": 0
+    }
+  ],
+  "useDefaultBulletIfMissing": 0,
+  "transforms": []
+}

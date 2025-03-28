@@ -1,0 +1,136 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5563197896038901807
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9091778748497539986
+  },
+  "m_Name": "",
+  "doorMode": 0,
+  "doorClosesAfterEveryOpen": 0,
+  "doorModules": [
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": 3690940329645626145
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "sewer_door_north_east_top_open",
+      "closeAnimationName": "sewer_door_north_east_top_close",
+      "AOAnimatorsToDisable": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -732090359714462332
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3475860187372070841
+        }
+      ],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "animator": {
+        "m_FileID": 0,
+        "m_PathID": -4301919684041198425
+      },
+      "openDepth": -1.0,
+      "closedDepth": -1.0,
+      "openPerpendicular": 1,
+      "horizontalFlips": 1,
+      "openAnimationName": "sewer_door_north_east_bottom_open",
+      "closeAnimationName": "sewer_door_north_east_bottom_close",
+      "AOAnimatorsToDisable": [],
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "rigidbody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "hideSealAnimators": 1,
+  "sealAnimators": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1470471963774943774
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1304698386173400154
+    }
+  ],
+  "sealChainAnimators": [],
+  "sealVFX": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 928275545088613150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4288396521222988136
+    }
+  ],
+  "unsealDistanceMaximum": -1.0,
+  "unsealedVFXOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "sealAnimationName": "sewer_blocker_horizontal_down",
+  "unsealAnimationName": "sewer_blocker_horizontal_up",
+  "playerNearSealedAnimationName": "",
+  "SupportsSubsidiaryDoors": 1,
+  "northSouth": 0,
+  "subsidiaryBlocker": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "subsidiaryDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "parentDoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LockAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChainsAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "isLocked": 0,
+  "lockIsBusted": 0,
+  "isSealed": 0,
+  "usesUnsealScreenShake": 0,
+  "unsealScreenShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  }
+}

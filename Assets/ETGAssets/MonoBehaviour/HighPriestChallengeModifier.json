@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4393959595080529809
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 798040574907667789
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_HIGHPRIEST",
+  "AlternateLanguageDisplayName": "#HIGHPRIEST_TITLE",
+  "AtlasSpriteName": "Big_Boss_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [],
+  "CandleGuid": "eeb33c3a5a8e4eaaaaf39a743e8767bc",
+  "NumCandles": 6,
+  "MergoCooldown": 25.0
+}

@@ -1,0 +1,807 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3503184358747220187
+  },
+  "m_Name": "F1_Castle_Flow_02_TwoBigWings",
+  "fallbackRoomTable": {
+    "m_FileID": 2,
+    "m_PathID": -7210867175153413833
+  },
+  "phantomRoomTable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "subtypeRestrictions": [
+    {
+      "baseCategoryRestriction": 2,
+      "normalSubcategoryRestriction": 1,
+      "bossSubcategoryRestriction": 0,
+      "specialSubcategoryRestriction": 0,
+      "secretSubcategoryRestriction": 0,
+      "maximumRoomsOfSubtype": 1
+    }
+  ],
+  "m_nodes": [
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 0,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 2,
+        "m_PathID": -6010779070167058981
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "",
+      "childNodeGuids": [
+        "3ed0ca8a-d587-47ab-ab1d-fdda59f82e25"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "d9be71d3-8d97-48af-8eda-54aa897862be",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 5,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 2,
+        "m_PathID": -4591410309757956836
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "4f95360b-16e2-43c7-8f34-d2a70a9dfefd",
+      "childNodeGuids": [
+        "a0098d24-7733-4baf-82c0-11ce3e068261"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "036aafaf-a754-4410-94c5-2c4e5139a5bf",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 3,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "036aafaf-a754-4410-94c5-2c4e5139a5bf",
+      "childNodeGuids": [
+        "f06e0430-437a-481e-9b34-604d145cc77d"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "a0098d24-7733-4baf-82c0-11ce3e068261",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 0,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 2,
+        "m_PathID": -6767730034964588312
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "a0098d24-7733-4baf-82c0-11ce3e068261",
+      "childNodeGuids": [],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "f06e0430-437a-481e-9b34-604d145cc77d",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 5,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 2,
+        "m_PathID": 7744927674516001830
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "8cad90e2-fbbd-43e6-9f41-8f2cd424375e",
+      "childNodeGuids": [
+        "524c2e78-7006-4f2e-bbc0-340fdab5b408"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "4fef9f49-a6e4-4bc7-8b1b-86fb706efdc4",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 1,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "28700206-9136-4000-a186-407e401683c7",
+      "childNodeGuids": [
+        "e9141368-9364-41fb-8896-61472bde462e"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "d64eb8a9-4f64-4f39-9bde-b8e7c2fd46ff",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "d64eb8a9-4f64-4f39-9bde-b8e7c2fd46ff",
+      "childNodeGuids": [
+        "decb2885-e01d-4e47-820e-889e95062b8d"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "e9141368-9364-41fb-8896-61472bde462e",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "6b71f34a-cd50-4954-a66a-f624f18793de",
+      "childNodeGuids": [
+        "d64eb8a9-4f64-4f39-9bde-b8e7c2fd46ff",
+        "4f95360b-16e2-43c7-8f34-d2a70a9dfefd"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "28700206-9136-4000-a186-407e401683c7",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 4,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "decb2885-e01d-4e47-820e-889e95062b8d",
+      "childNodeGuids": [],
+      "loopTargetNodeGuid": "d64eb8a9-4f64-4f39-9bde-b8e7c2fd46ff",
+      "loopTargetIsOneWay": 1,
+      "guidAsString": "c3c14231-8790-461a-9e39-1372b212794e",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "4fef9f49-a6e4-4bc7-8b1b-86fb706efdc4",
+      "childNodeGuids": [
+        "f818287a-3312-48bb-ad7a-ac6f32af9a03"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "524c2e78-7006-4f2e-bbc0-340fdab5b408",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 4,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "524c2e78-7006-4f2e-bbc0-340fdab5b408",
+      "childNodeGuids": [],
+      "loopTargetNodeGuid": "8cad90e2-fbbd-43e6-9f41-8f2cd424375e",
+      "loopTargetIsOneWay": 1,
+      "guidAsString": "f818287a-3312-48bb-ad7a-ac6f32af9a03",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "3ed0ca8a-d587-47ab-ab1d-fdda59f82e25",
+      "childNodeGuids": [
+        "6b71f34a-cd50-4954-a66a-f624f18793de",
+        "8cad90e2-fbbd-43e6-9f41-8f2cd424375e"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "fa79f862-8cd6-43a9-aa16-9649c1726c0b",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "d9be71d3-8d97-48af-8eda-54aa897862be",
+      "childNodeGuids": [
+        "fa79f862-8cd6-43a9-aa16-9649c1726c0b"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "3ed0ca8a-d587-47ab-ab1d-fdda59f82e25",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "fa79f862-8cd6-43a9-aa16-9649c1726c0b",
+      "childNodeGuids": [
+        "4fef9f49-a6e4-4bc7-8b1b-86fb706efdc4"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "8cad90e2-fbbd-43e6-9f41-8f2cd424375e",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "e9141368-9364-41fb-8896-61472bde462e",
+      "childNodeGuids": [
+        "c3c14231-8790-461a-9e39-1372b212794e"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "decb2885-e01d-4e47-820e-889e95062b8d",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 2,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "28700206-9136-4000-a186-407e401683c7",
+      "childNodeGuids": [
+        "036aafaf-a754-4410-94c5-2c4e5139a5bf"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "4f95360b-16e2-43c7-8f34-d2a70a9dfefd",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    },
+    {
+      "isSubchainStandin": 0,
+      "nodeType": 0,
+      "roomCategory": 0,
+      "percentChance": 1.0,
+      "priority": 0,
+      "overrideExactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideRoomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "capSubchain": 0,
+      "subchainIdentifier": "",
+      "limitedCopiesOfSubchain": 0,
+      "maxCopiesOfSubchain": 1,
+      "subchainIdentifiers": [],
+      "receivesCaps": 0,
+      "isWarpWingEntrance": 0,
+      "handlesOwnWarping": 0,
+      "forcedDoorType": 0,
+      "loopForcedDoorType": 0,
+      "nodeExpands": 0,
+      "initialChainPrototype": "n",
+      "chainRules": [],
+      "minChainLength": 3,
+      "maxChainLength": 8,
+      "minChildrenToBuild": 1,
+      "maxChildrenToBuild": 1,
+      "canBuildDuplicateChildren": 0,
+      "parentNodeGuid": "fa79f862-8cd6-43a9-aa16-9649c1726c0b",
+      "childNodeGuids": [
+        "28700206-9136-4000-a186-407e401683c7"
+      ],
+      "loopTargetNodeGuid": "",
+      "loopTargetIsOneWay": 0,
+      "guidAsString": "6b71f34a-cd50-4954-a66a-f624f18793de",
+      "flow": {
+        "m_FileID": 0,
+        "m_PathID": 6023484138999444909
+      }
+    }
+  ],
+  "m_nodeGuids": [
+    "d9be71d3-8d97-48af-8eda-54aa897862be",
+    "036aafaf-a754-4410-94c5-2c4e5139a5bf",
+    "a0098d24-7733-4baf-82c0-11ce3e068261",
+    "f06e0430-437a-481e-9b34-604d145cc77d",
+    "4fef9f49-a6e4-4bc7-8b1b-86fb706efdc4",
+    "d64eb8a9-4f64-4f39-9bde-b8e7c2fd46ff",
+    "e9141368-9364-41fb-8896-61472bde462e",
+    "28700206-9136-4000-a186-407e401683c7",
+    "c3c14231-8790-461a-9e39-1372b212794e",
+    "524c2e78-7006-4f2e-bbc0-340fdab5b408",
+    "f818287a-3312-48bb-ad7a-ac6f32af9a03",
+    "fa79f862-8cd6-43a9-aa16-9649c1726c0b",
+    "3ed0ca8a-d587-47ab-ab1d-fdda59f82e25",
+    "8cad90e2-fbbd-43e6-9f41-8f2cd424375e",
+    "decb2885-e01d-4e47-820e-889e95062b8d",
+    "4f95360b-16e2-43c7-8f34-d2a70a9dfefd",
+    "6b71f34a-cd50-4954-a66a-f624f18793de"
+  ],
+  "m_firstNodeGuid": "d9be71d3-8d97-48af-8eda-54aa897862be",
+  "flowInjectionData": [],
+  "sharedInjectionData": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -4991352892918510790
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3786482884721250633
+    }
+  ]
+}

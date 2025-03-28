@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6918903412898232791
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -678246360182028011
+  },
+  "m_Name": "",
+  "RequiresNoSynergy": 0,
+  "SynergyToCheck": 351,
+  "OnlyOnEmptyClip": 0,
+  "DoesRadialBurst": 0,
+  "RadialBurstSettings": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 1,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "MinToSpawnPerWave": 10,
+    "MaxToSpawnPerWave": 10,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 0,
+    "AlignFirstShot": 0,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  },
+  "DoesDirectedBurst": 1,
+  "DirectedBurstSettings": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 1,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -3884097053670383549
+      }
+    },
+    "MinToSpawnPerWave": 3,
+    "MaxToSpawnPerWave": 3,
+    "NumberWaves": 3,
+    "TimeBetweenWaves": 0.1,
+    "SpiralWaves": 0,
+    "AngleSubtended": 1.0,
+    "UseShotgunStyleVelocityModifier": 0,
+    "ForceAllowGoop": 0
+  },
+  "SwitchGroup": "",
+  "SFX": ""
+}

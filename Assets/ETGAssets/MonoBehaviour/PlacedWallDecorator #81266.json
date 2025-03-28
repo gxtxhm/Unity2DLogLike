@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8308214213280197732
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3310515514655000842
+  },
+  "m_Name": "",
+  "wallClearanceXStart": 0,
+  "wallClearanceYStart": 0,
+  "wallClearanceWidth": 6,
+  "wallClearanceHeight": 6,
+  "ignoreWallDrawing": 1,
+  "ignoresBorders": 1
+}

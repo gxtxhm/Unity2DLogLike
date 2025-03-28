@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7496579745666521382
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 553663259725489287
+  },
+  "m_Name": "",
+  "validColors": [
+    {
+      "r": 0.9191176,
+      "g": 0.7520731,
+      "b": 0.5406574,
+      "a": 1.0
+    }
+  ]
+}

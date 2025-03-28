@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4506354163810044266
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8352001656135711615
+  },
+  "m_Name": "",
+  "TellAnimation": "selfbuff",
+  "SpecifyTellDuration": 1,
+  "TellDuration": 3.0,
+  "DoCharge": 1,
+  "CrazedAnimaton": "craze",
+  "CrazedRunSpeed": 7.0,
+  "EnableBehavior": 0,
+  "BehaviorName": "",
+  "TriggerWhenLastEnemy": 1,
+  "DisableHitAnims": 0
+}

@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6193498252146720114
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "notification_purp_box_shine_001",
+    "notification_purp_box_shine_002",
+    "notification_purp_box_shine_003",
+    "notification_purp_box_shine_004",
+    "notification_purp_box_shine_005",
+    "notification_purp_box_shine_006",
+    "notification_purp_box_shine_007",
+    "notification_purp_box_shine_008",
+    "notification_box_purp_001"
+  ]
+}

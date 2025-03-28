@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6486100963123882088
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7939937858691934879
+  },
+  "m_Name": "",
+  "Priority": 3,
+  "IsRoomLimited": 0,
+  "MaxNumberInRoom": 5
+}

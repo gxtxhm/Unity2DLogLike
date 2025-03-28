@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7898857222177871107
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2894507035493704892
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_FRIENDLY_FIRE",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Unfriendly_Fire_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": []
+}

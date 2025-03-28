@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1275991615354592847
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8232415637669395747
+  },
+  "m_Name": "",
+  "DamageRequired": 500.0,
+  "BecomeMimicVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UnbecomeMimicVfx": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AcquisitionAudioEvent": "",
+  "RefillingAmmoAudioEvent": ""
+}

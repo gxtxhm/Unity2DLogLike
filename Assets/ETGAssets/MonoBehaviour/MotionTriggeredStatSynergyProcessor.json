@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2315087160063183556
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6226632971237554790
+  },
+  "m_Name": "",
+  "RequiredSynergy": 152,
+  "Stat": {
+    "statToBoost": 1,
+    "modifyType": 1,
+    "amount": 2.0,
+    "isMeatBunBuff": 0
+  },
+  "TimeRequiredMoving": 2.0
+}

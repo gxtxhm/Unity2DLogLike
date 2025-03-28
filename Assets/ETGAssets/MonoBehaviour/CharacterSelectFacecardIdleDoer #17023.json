@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7185967729197005743
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6222636618951456449
+  },
+  "m_Name": "",
+  "appearAnimation": "convict_facecard_appear",
+  "coreIdleAnimation": "convict_facecard_idle",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "usesMultipleIdleAnimations": 0,
+  "multipleIdleAnimations": [],
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

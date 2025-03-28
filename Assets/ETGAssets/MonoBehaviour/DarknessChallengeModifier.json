@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 544916122938577296
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3321861310857411177
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_DARKNESS",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Dark_Was_The_Night_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [],
+  "DarknessEffectShader": {
+    "m_FileID": 0,
+    "m_PathID": -6447787181255211014
+  },
+  "FlashlightAngle": 30.0
+}

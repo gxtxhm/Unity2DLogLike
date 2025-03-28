@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5263197593062683872
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1192790858581614595
+  },
+  "m_Name": "",
+  "usesStartAnimation": 0,
+  "startAnimation": "",
+  "usesAnimation": 1,
+  "animation": "electric_lightning_beam_middle",
+  "usesCascadeTimer": 0,
+  "cascadeTimer": 0.1,
+  "usesSoftMaxLength": 0,
+  "softMaxLength": 0.0,
+  "usesGlobalTimer": 1,
+  "globalTimer": 0.0,
+  "destroyOnEmpty": 1,
+  "FlipUvsY": 0,
+  "rampHeight": 0,
+  "rampStartHeight": 2.0,
+  "rampTime": 1.0,
+  "boneSpawnOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UsesDispersalParticles": 1,
+  "DispersalDensity": 7.0,
+  "DispersalMinCoherency": 0.8,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 5713304429768919506
+  }
+}

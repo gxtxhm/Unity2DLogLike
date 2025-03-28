@@ -1,0 +1,5885 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3704619532697429809
+  },
+  "m_Enabled": 0,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1931842972182129318
+  },
+  "m_Name": "",
+  "fsm": {
+    "dataVersion": 1,
+    "usedInTemplate": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "name": "Foyer FSM",
+    "startState": "Idle",
+    "states": [
+      {
+        "name": "Idle",
+        "description": "",
+        "colorIndex": 1,
+        "position": {
+          "x": 65.828125,
+          "y": 155.83594,
+          "width": 149.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "playerInteract",
+              "isSystemEvent": 0,
+              "isGlobal": 1
+            },
+            "toState": "Check Coop",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.SetSaveFlag",
+            "HutongGames.PlayMaker.Actions.PlayBraveAnimation",
+            "HutongGames.PlayMaker.Actions.EndConversation"
+          ],
+          "customNames": [
+            "",
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            2,
+            11
+          ],
+          "actionHashCodes": [
+            93957200,
+            86338581,
+            68280249
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [
+            {
+              "ownerOption": 0,
+              "gameObject": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                }
+              }
+            }
+          ],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "idle"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            235,
+            136,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            17,
+            20,
+            18,
+            7,
+            15,
+            17,
+            7,
+            18,
+            15,
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "paramName": [
+            "targetFlag",
+            "value",
+            "GameObject",
+            "animName",
+            "mode",
+            "duration",
+            "dontPlayIfPlaying",
+            "next",
+            "nextAnimName",
+            "waitTime",
+            "playOnOtherTalkDoerInRoom",
+            "killZombieTextBoxes",
+            "doNotLerpCamera",
+            "suppressReinteractDelay",
+            "suppressFurtherInteraction"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            0,
+            0,
+            6,
+            10,
+            15,
+            17,
+            1,
+            21,
+            26,
+            28,
+            30,
+            32,
+            34
+          ],
+          "paramByteDataSize": [
+            4,
+            2,
+            0,
+            0,
+            4,
+            5,
+            2,
+            4,
+            0,
+            5,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "Mode Switchboard",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 463.2422,
+          "y": 198.95312,
+          "width": 142.0,
+          "height": 16.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.ModeSwitchboard"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            0
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [],
+          "paramName": [],
+          "paramDataPos": [],
+          "paramByteDataSize": []
+        }
+      },
+      {
+        "name": "Mauser Intro",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 464.1875,
+          "y": 285.29688,
+          "width": 105.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "First Hunt Text",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_FIRST_HUNT_INTRO_01"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            1,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "End Conversation  2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 2053.1875,
+          "y": 416.79688,
+          "width": 152.0,
+          "height": 16.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.EndConversation",
+            "HutongGames.PlayMaker.Actions.RestartWhenFinished"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            4
+          ],
+          "actionHashCodes": [
+            68280249,
+            0
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            17,
+            17,
+            17,
+            17
+          ],
+          "paramName": [
+            "killZombieTextBoxes",
+            "doNotLerpCamera",
+            "suppressReinteractDelay",
+            "suppressFurtherInteraction"
+          ],
+          "paramDataPos": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "paramByteDataSize": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "State 1",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 214.1875,
+          "y": 350.29688,
+          "width": 125.0,
+          "height": 64.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "new hunt",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Mauser Intro",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "hunt complete",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Mauser Complete",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "hunt incomplete",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Random",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.MonsterHuntSwitch"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            90661893
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            110,
+            101,
+            119,
+            32,
+            104,
+            117,
+            110,
+            116,
+            104,
+            117,
+            110,
+            116,
+            32,
+            105,
+            110,
+            99,
+            111,
+            109,
+            112,
+            108,
+            101,
+            116,
+            101,
+            104,
+            117,
+            110,
+            116,
+            32,
+            99,
+            111,
+            109,
+            112,
+            108,
+            101,
+            116,
+            101,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            23,
+            23,
+            23,
+            1
+          ],
+          "paramName": [
+            "NeedsNewHunt",
+            "HuntIncomplete",
+            "HuntComplete",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            8,
+            23,
+            36
+          ],
+          "paramByteDataSize": [
+            8,
+            15,
+            13,
+            1
+          ]
+        }
+      },
+      {
+        "name": "Trigger Next Hunt",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1576.1875,
+          "y": 405.29688,
+          "width": 138.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Introduce Hunt",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.TriggerNextMonsterHunt"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            55769442
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            17
+          ],
+          "paramName": [
+            "OnlySetText"
+          ],
+          "paramDataPos": [
+            0
+          ],
+          "paramByteDataSize": [
+            2
+          ]
+        }
+      },
+      {
+        "name": "Frifle Complete",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 712.1875,
+          "y": 383.29688,
+          "width": 121.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Unlock Reward",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_HUNT_COMPLETE"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "First Hunt Text",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 609.1875,
+          "y": 287.29688,
+          "width": 118.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Mauser Intro 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_INTRO_01"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Frifle Incomplete",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 728.1875,
+          "y": 485.29688,
+          "width": 133.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Trigger Next Hunt 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_HUNT_INCOMPLETE"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_REMINDER"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            2,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            2,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Mauser Intro 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 759.1875,
+          "y": 287.29688,
+          "width": 118.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "First Hunt Text 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_FIRST_HUNT_INTRO_02"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            1,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "First Hunt Text 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 912.1875,
+          "y": 287.29688,
+          "width": 131.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Mauser Intro 3",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_INTRO_02"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Mauser Intro 3",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1074.1875,
+          "y": 286.29688,
+          "width": 118.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "First Hunt Text 3",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_FIRST_HUNT_INTRO_03"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            1,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "First Hunt Text 3",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1227.1875,
+          "y": 274.29688,
+          "width": 131.0,
+          "height": 48.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "no",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Insult",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "yes",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Joyous",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_INTRO_03"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_ACCEPT"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_DECLINE"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            121,
+            101,
+            115,
+            110,
+            111,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            2,
+            2
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            18,
+            18,
+            12,
+            23,
+            23,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "",
+            "",
+            "events",
+            "",
+            "",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            13,
+            16,
+            18,
+            20,
+            25,
+            30,
+            3,
+            32,
+            34,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            2,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Insult",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1410.1875,
+          "y": 268.29688,
+          "width": 100.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "End Conversation  2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_DECLINED"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Joyous",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1413.1875,
+          "y": 317.29688,
+          "width": 100.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Trigger Next Hunt",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_FIRST_HUNT_INTRO"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Mauser Complete",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 514.9297,
+          "y": 380.29688,
+          "width": 134.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Frifle Complete",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_HUNT_COMPLETE_01"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            1,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Frifle Next Hunt",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1230.9297,
+          "y": 388.29688,
+          "width": 125.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Trigger Next Hunt",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_NEXT_HUNT_INTRO"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Random",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 518.1875,
+          "y": 519.2969,
+          "width": 100.0,
+          "height": 48.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "yes",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Frifle Incomplete",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "no",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Mauser Incomplete",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.SendRandomEvent"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            19850866
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            121,
+            101,
+            115,
+            110,
+            111,
+            0,
+            0,
+            0,
+            63,
+            0,
+            0,
+            0,
+            0,
+            63,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            2,
+            2
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmEvent",
+            "HutongGames.PlayMaker.FsmFloat"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            12,
+            23,
+            23,
+            12,
+            15,
+            15,
+            15
+          ],
+          "paramName": [
+            "events",
+            "",
+            "",
+            "weights",
+            "",
+            "",
+            "delay"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            3,
+            1,
+            5,
+            10,
+            15
+          ],
+          "paramByteDataSize": [
+            0,
+            3,
+            2,
+            0,
+            5,
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "name": "Mauser Incomplete",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 710.9297,
+          "y": 585.2969,
+          "width": 146.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Trigger Next Hunt 3",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_HUNT_INCOMPLETE"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#MAUSER_REMINDER"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            2,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            2,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Introduce Hunt",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1761.1875,
+          "y": 405.29688,
+          "width": 119.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "End Conversation  2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 1,
+              "name": "QuestIntroString",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Unlock Reward",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 964.1875,
+          "y": 387.29688,
+          "width": 120.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Frifle Next Hunt",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [],
+          "customNames": [],
+          "actionEnabled": [],
+          "actionIsOpen": [],
+          "actionStartIndex": [],
+          "actionHashCodes": [],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [],
+          "paramName": [],
+          "paramDataPos": [],
+          "paramByteDataSize": []
+        }
+      },
+      {
+        "name": "Trigger Next Hunt 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1214.0,
+          "y": 494.5,
+          "width": 151.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 1,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Introduce Hunt 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.TriggerNextMonsterHunt",
+            "HutongGames.PlayMaker.Actions.SetStringValue"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            1
+          ],
+          "actionHashCodes": [
+            55769442,
+            66138304
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 1,
+              "name": "QuestIntroString",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_HUNT_INCOMPLETE_REMINDER"
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            17,
+            18,
+            18,
+            1
+          ],
+          "paramName": [
+            "OnlySetText",
+            "stringVariable",
+            "stringValue",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "paramByteDataSize": [
+            2,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "name": "Trigger Next Hunt 3",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1210.0,
+          "y": 585.5,
+          "width": 151.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 1,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Introduce Hunt 3",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.TriggerNextMonsterHunt",
+            "HutongGames.PlayMaker.Actions.SetStringValue"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            1
+          ],
+          "actionHashCodes": [
+            55769442,
+            66138304
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 1,
+              "name": "QuestIntroString",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#FRIFLE_HUNT_INCOMPLETE_REMINDER"
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            17,
+            18,
+            18,
+            1
+          ],
+          "paramName": [
+            "OnlySetText",
+            "stringVariable",
+            "stringValue",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "paramByteDataSize": [
+            2,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "name": "Introduce Hunt 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1444.0,
+          "y": 497.5,
+          "width": 132.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "numbro",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 1,
+              "name": "QuestIntroString",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Introduce Hunt 3",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1440.0,
+          "y": 582.5,
+          "width": 132.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "numbro 2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 1,
+              "name": "QuestIntroString",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "numbro",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1633.0,
+          "y": 499.0,
+          "width": 100.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "End Conversation  2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            0
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7634402245732162243
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#HUNT_KILLNUMBER_GENERIC"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "numbro 2",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 1634.0,
+          "y": 584.5,
+          "width": 100.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "End Conversation  2",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            0
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#HUNT_KILLNUMBER_GENERIC"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            0,
+            0,
+            1,
+            2,
+            13,
+            15,
+            20,
+            25,
+            1,
+            27,
+            29,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "Check Coop",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 261.0,
+          "y": 145.0,
+          "width": 100.0,
+          "height": 48.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "isCoop",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Rebuke Coop",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Mode Switchboard",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.CharacterClassSwitch"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            45723767
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            7,
+            0,
+            0,
+            0,
+            105,
+            115,
+            67,
+            111,
+            111,
+            112,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            1
+          ],
+          "arrayParamTypes": [
+            "PlayableCharacters",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            12,
+            7,
+            12,
+            23,
+            1
+          ],
+          "paramName": [
+            "compareTo",
+            "",
+            "sendEvent",
+            "",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            1,
+            4,
+            10
+          ],
+          "paramByteDataSize": [
+            0,
+            4,
+            0,
+            6,
+            1
+          ]
+        }
+      },
+      {
+        "name": "Rebuke Coop",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 425.0,
+          "y": 114.5,
+          "width": 106.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "End State 5",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.BeginConversation",
+            "HutongGames.PlayMaker.Actions.DialogueBox"
+          ],
+          "customNames": [
+            "",
+            ""
+          ],
+          "actionEnabled": [
+            1,
+            1
+          ],
+          "actionIsOpen": [
+            1,
+            1
+          ],
+          "actionStartIndex": [
+            0,
+            5
+          ],
+          "actionHashCodes": [
+            89987726,
+            34040686
+          ],
+          "unityObjectParams": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          ],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "#COOP_REBUKE"
+            },
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": ""
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            191,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            128,
+            62,
+            0,
+            0,
+            0,
+            64,
+            64,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [
+            1,
+            0,
+            0
+          ],
+          "arrayParamTypes": [
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmString",
+            "HutongGames.PlayMaker.FsmEvent"
+          ],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            7,
+            7,
+            15,
+            1,
+            8,
+            7,
+            7,
+            16,
+            12,
+            18,
+            12,
+            12,
+            17,
+            15,
+            15,
+            17,
+            18,
+            17,
+            17,
+            5
+          ],
+          "paramName": [
+            "conversationType",
+            "locked",
+            "overrideNpcScreenHeight",
+            "UsesCustomScreenBuffer",
+            "CustomScreenBuffer",
+            "condition",
+            "sequence",
+            "persistentStringsToShow",
+            "dialogue",
+            "",
+            "responses",
+            "events",
+            "skipWalkAwayEvent",
+            "forceCloseTime",
+            "zombieTime",
+            "SuppressDefaultAnims",
+            "OverrideTalkAnim",
+            "PlayBoxOnInteractingPlayer",
+            "IsThoughtBubble",
+            "AlternativeTalker"
+          ],
+          "paramDataPos": [
+            0,
+            4,
+            8,
+            13,
+            14,
+            22,
+            26,
+            30,
+            0,
+            0,
+            1,
+            2,
+            35,
+            37,
+            42,
+            47,
+            1,
+            49,
+            51,
+            0
+          ],
+          "paramByteDataSize": [
+            4,
+            4,
+            5,
+            1,
+            8,
+            4,
+            4,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            5,
+            2,
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "End State 5",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 586.0,
+          "y": 124.5,
+          "width": 100.0,
+          "height": 16.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.RestartWhenFinished"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            0
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [],
+          "paramName": [],
+          "paramDataPos": [],
+          "paramByteDataSize": []
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "FINISHED",
+        "isSystemEvent": 1,
+        "isGlobal": 0
+      },
+      {
+        "name": "ArtfulDodgerSuccess",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "MoreRooms",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "NoMoreRooms",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "RESTART",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "modeBegin",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "modeComplete",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "modeQuest",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "playerAccept",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "playerHasNoMoney",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "playerInteract",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "playerPaid",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "playerReject",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "playerWalkedAway",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "selectThrowInPot",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "takePlayerDamage",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "new hunt",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "hunt complete",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "hunt incomplete",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "no",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "yes",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "isCoop",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      }
+    ],
+    "globalTransitions": [
+      {
+        "fsmEvent": {
+          "name": "modeBegin",
+          "isSystemEvent": 0,
+          "isGlobal": 0
+        },
+        "toState": "State 1",
+        "linkStyle": 0,
+        "linkConstraint": 0,
+        "colorIndex": 0
+      },
+      {
+        "fsmEvent": {
+          "name": "RESTART",
+          "isSystemEvent": 0,
+          "isGlobal": 1
+        },
+        "toState": "Idle",
+        "linkStyle": 0,
+        "linkConstraint": 0,
+        "colorIndex": 0
+      },
+      {
+        "fsmEvent": {
+          "name": "playerWalkedAway",
+          "isSystemEvent": 0,
+          "isGlobal": 1
+        },
+        "toState": "Idle",
+        "linkStyle": 0,
+        "linkConstraint": 0,
+        "colorIndex": 0
+      }
+    ],
+    "variables": {
+      "floatVariables": [],
+      "intVariables": [
+        {
+          "useVariable": 1,
+          "name": "npcNumber1",
+          "tooltip": "",
+          "showInInspector": 0,
+          "networkSync": 0,
+          "value": 0
+        }
+      ],
+      "boolVariables": [],
+      "stringVariables": [
+        {
+          "useVariable": 1,
+          "name": "QuestIntroString",
+          "tooltip": "",
+          "showInInspector": 0,
+          "networkSync": 0,
+          "value": ""
+        },
+        {
+          "useVariable": 1,
+          "name": "currentMode",
+          "tooltip": "",
+          "showInInspector": 0,
+          "networkSync": 0,
+          "value": "modeBegin"
+        },
+        {
+          "useVariable": 1,
+          "name": "npcReplacementString",
+          "tooltip": "",
+          "showInInspector": 0,
+          "networkSync": 0,
+          "value": ""
+        }
+      ],
+      "vector2Variables": [],
+      "vector3Variables": [],
+      "colorVariables": [],
+      "rectVariables": [],
+      "quaternionVariables": [],
+      "gameObjectVariables": [],
+      "objectVariables": [],
+      "materialVariables": [],
+      "textureVariables": [],
+      "arrayVariables": [],
+      "enumVariables": [],
+      "categories": [
+        ""
+      ],
+      "variableCategoryIDs": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "description": "",
+    "docUrl": "",
+    "showStateLabel": 1,
+    "maxLoopCount": 0,
+    "watermark": "",
+    "password": "",
+    "locked": 0,
+    "manualUpdate": 0,
+    "keepDelayedEventsOnStateExit": 0,
+    "preprocessed": 0,
+    "ExposedEvents": [],
+    "RestartOnEnable": 1,
+    "EnableDebugFlow": 0,
+    "EnableBreakpoints": 1,
+    "editorFlags": 3,
+    "activeStateName": "",
+    "mouseEvents": 0,
+    "handleTriggerEnter2D": 0,
+    "handleTriggerExit2D": 0,
+    "handleTriggerStay2D": 0,
+    "handleCollisionEnter2D": 0,
+    "handleCollisionExit2D": 0,
+    "handleCollisionStay2D": 0,
+    "handleTriggerEnter": 0,
+    "handleTriggerExit": 0,
+    "handleTriggerStay": 0,
+    "handleCollisionEnter": 0,
+    "handleCollisionExit": 0,
+    "handleCollisionStay": 0,
+    "handleParticleCollision": 0,
+    "handleControllerColliderHit": 0,
+    "handleJointBreak": 0,
+    "handleJointBreak2D": 0,
+    "handleOnGUI": 0,
+    "handleFixedUpdate": 0,
+    "handleApplicationEvents": 0,
+    "handleAnimatorMove": 0,
+    "handleAnimatorIK": 0
+  },
+  "fsmTemplate": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "eventHandlerComponentsAdded": 0
+}

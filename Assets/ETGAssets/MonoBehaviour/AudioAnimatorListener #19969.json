@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5577871775148318865
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8905154137937956173
+  },
+  "m_Name": "",
+  "animationAudioEvents": [
+    {
+      "eventTag": "impact",
+      "eventName": "play_wpn_wandbundle_impact_01"
+    }
+  ]
+}

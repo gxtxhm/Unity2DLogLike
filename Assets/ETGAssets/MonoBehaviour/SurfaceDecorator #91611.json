@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1875965273783007718
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7040612198671906931
+  },
+  "m_Name": "",
+  "tableTable": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "chanceToDecorate": 1.0,
+  "localSurfaceOrigin": {
+    "x": 3,
+    "y": 16
+  },
+  "localSurfaceDimensions": {
+    "x": 10,
+    "y": 4
+  },
+  "heightOffGround": 0.5,
+  "parentSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

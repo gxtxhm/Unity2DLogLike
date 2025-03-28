@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -183747650856433220
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 587971280420248690
+  },
+  "m_Name": "",
+  "explosionVfx": [
+    {
+      "m_FileID": 1,
+      "m_PathID": -2652175161095520027
+    }
+  ],
+  "explosionMidDelay": 0.15,
+  "explosionCount": 15,
+  "bigExplosionVfx": {
+    "m_FileID": 1,
+    "m_PathID": 5243546660362736755
+  },
+  "throneFallDelay": 1.0,
+  "thronePrefab": {
+    "m_FileID": 0,
+    "m_PathID": -2751901303579904707
+  }
+}

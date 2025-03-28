@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3344461407701281844
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1465008040475283204
+  },
+  "m_Name": "",
+  "PickupObjectId": 523,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 1,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Stout Bullets",
+  "ForcedPositionInAmmonomicon": 100,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 6,
+      "modifyType": 1,
+      "amount": 0.7,
+      "isMeatBunBuff": 0
+    },
+    {
+      "statToBoost": 15,
+      "modifyType": 1,
+      "amount": 1.5,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "RangeCap": 7.0,
+  "MaxDamageIncrease": 1.75,
+  "MinDamageIncrease": 1.125,
+  "ScaleIncrease": 1.5,
+  "DescaleAmount": 0.5,
+  "DamageCutOnDescale": 2.0
+}

@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3304211569144268396
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7845036810670074857
+  },
+  "m_Name": "",
+  "IsRatTrapdoorLadder": 1,
+  "IsHelicopterLadder": 0
+}

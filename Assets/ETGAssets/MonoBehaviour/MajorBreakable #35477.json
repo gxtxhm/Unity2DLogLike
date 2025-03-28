@@ -1,0 +1,111 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3669964359835845759
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8278001065150162792
+  },
+  "m_Name": "",
+  "HitPoints": 20.0,
+  "DamageReduction": 0.0,
+  "MinHits": 0,
+  "EnemyDamageOverride": -1,
+  "ImmuneToBeastMode": 0,
+  "ScaleWithEnemyHealth": 0,
+  "OnlyExplosions": 0,
+  "IgnoreExplosions": 0,
+  "GameActorMotionBreaks": 0,
+  "PlayerRollingBreaks": 0,
+  "spawnShards": 1,
+  "distributeShards": 1,
+  "shardClusters": [
+    {
+      "minFromCluster": 6,
+      "maxFromCluster": 6,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1552587864262024560
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1674185835687890712
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7882850707931450232
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3859360281384974418
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1511515970092177300
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8001537805996414659
+        }
+      ]
+    }
+  ],
+  "minShardPercentSpeed": 0.05,
+  "maxShardPercentSpeed": 0.3,
+  "shardBreakStyle": 0,
+  "usesTemporaryZeroHitPointsState": 0,
+  "spriteNameToUseAtZeroHP": "",
+  "destroyedOnBreak": 1,
+  "childrenToDestroy": [],
+  "playsAnimationOnNotBroken": 0,
+  "notBreakAnimation": "",
+  "handlesOwnBreakAnimation": 0,
+  "breakAnimation": "",
+  "handlesOwnPrebreakFrames": 0,
+  "prebreakFrames": [],
+  "damageVfx": {
+    "type": 0,
+    "effects": []
+  },
+  "damageVfxMinTimeBetween": 0.2,
+  "breakVfx": {
+    "type": 4,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 1,
+              "m_PathID": 5243546660362736755
+            },
+            "orphaned": 1,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 0,
+            "zHeight": 0.0,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "breakVfxParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "delayDamageVfx": 0,
+  "SpawnItemOnBreak": 1,
+  "ItemIdToSpawnOnBreak": 350,
+  "HandlePathBlocking": 0
+}

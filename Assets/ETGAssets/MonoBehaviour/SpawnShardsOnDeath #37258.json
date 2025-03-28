@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 77550769093750332
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4003240238805309214
+  },
+  "m_Name": "",
+  "deathType": 2,
+  "preDeathDelay": 0.0,
+  "triggerName": "UNUSED",
+  "breakStyle": 100,
+  "direction": {
+    "x": 1.0,
+    "y": 0.0
+  },
+  "minAngle": -55.0,
+  "maxAngle": 55.0,
+  "verticalSpeed": 2.0,
+  "minMagnitude": 3.5,
+  "maxMagnitude": 5.5,
+  "shardClusters": [
+    {
+      "minFromCluster": 4,
+      "maxFromCluster": 4,
+      "forceMultiplier": 2.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 2.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1856693878871845984
+        }
+      ]
+    },
+    {
+      "minFromCluster": 15,
+      "maxFromCluster": 25,
+      "forceMultiplier": 2.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 2.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4993295944578083426
+        }
+      ]
+    }
+  ],
+  "heightOffGround": 0.1
+}

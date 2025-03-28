@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8825899545860379456
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3962785561691415965
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "PlayerReflection": {
+    "m_FileID": 0,
+    "m_PathID": -4787974676564771205
+  },
+  "CoopPlayerReflection": {
+    "m_FileID": 0,
+    "m_PathID": -6529363031494918609
+  },
+  "ChestReflection": {
+    "m_FileID": 0,
+    "m_PathID": 509408434831679718
+  },
+  "ChestSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "MirrorSprite": {
+    "m_FileID": 0,
+    "m_PathID": -5991010277884820787
+  },
+  "ShatterSystem": {
+    "m_FileID": 0,
+    "m_PathID": 7602487016508359228
+  },
+  "CURSE_EXPOSED": 3.5
+}

@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8948245269994159706
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2463601770433076127
+  },
+  "m_Name": "",
+  "PickupObjectId": 120,
+  "quality": 0,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Armor Piece",
+  "ForcedPositionInAmmonomicon": -1,
+  "UsesCustomCost": 1,
+  "CustomCost": 25,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 0,
+  "pickupName": "Armor Piece",
+  "healAmount": 0.0,
+  "armorAmount": 1,
+  "healVFX": {
+    "m_FileID": 0,
+    "m_PathID": 5103438007792668790
+  },
+  "armorVFX": {
+    "m_FileID": 0,
+    "m_PathID": 8831073810657839593
+  },
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": -6788108550378028340
+  }
+}

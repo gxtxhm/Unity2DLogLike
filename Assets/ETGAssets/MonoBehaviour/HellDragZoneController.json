@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6523935143848834276
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3618466087568175394
+  },
+  "m_Name": "",
+  "HoleObject": {
+    "m_FileID": 0,
+    "m_PathID": 6207486366638404790
+  },
+  "HellDragVFX": {
+    "m_FileID": 0,
+    "m_PathID": -4440179348383614527
+  },
+  "CryoButtonPrefab": {
+    "m_FileID": 4,
+    "m_PathID": -5391634836658615491
+  },
+  "cryoAnimatorName": "CryoLayer",
+  "cryoArriveAnimation": "hell_exit_ice",
+  "cyroDepartAnimation": "hell_exit_ice_reverse"
+}

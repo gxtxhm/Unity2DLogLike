@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 169
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 32
+  },
+  "m_Name": "",
+  "FinalFormSpriteName": "new_bottom_floor_level_one_final_floor_001",
+  "IntermediateFormSpriteName": "new_bottom_floor_level_one_ver2_002",
+  "BaseSpriteName": "new_bottom_floor_level_one_ver2_001",
+  "PitSprite": {
+    "m_FileID": 0,
+    "m_PathID": 753
+  },
+  "FinalPitName": "new_pit_border_smallpit",
+  "IntermediatePitName": "new_pit_border_001",
+  "BasePitName": "new_pit_border_bigpit"
+}

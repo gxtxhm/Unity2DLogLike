@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3923371637790582289
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 111804288734492170
+  },
+  "m_Name": "",
+  "Suppress": 0,
+  "lockMode": 0,
+  "JailCellKeyId": -1,
+  "IdleAnimName": "lock_guy_look_straight",
+  "UnlockAnimName": "look_guy_unlock",
+  "NoKeyAnimName": "lock_guy_laugh",
+  "SpitAnimName": "lock_guy_spit",
+  "BustedAnimName": "lock_guy_busted"
+}

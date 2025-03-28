@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1161065112414656174
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 40394118046617740
+  },
+  "m_Name": "",
+  "Formes": [
+    {
+      "RequiresSynergy": 0,
+      "RequiredSynergy": 0,
+      "FormeID": 15
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 95,
+      "FormeID": 611
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 597103227945694623
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6856161567341107433
+  },
+  "m_Name": "",
+  "overrideDeathAnim": "melt",
+  "preventExplodeOnDeath": 1
+}

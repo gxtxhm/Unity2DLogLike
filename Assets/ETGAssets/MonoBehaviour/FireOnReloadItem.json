@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3725881169888517267
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5827585579887036906
+  },
+  "m_Name": "",
+  "PickupObjectId": 500,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Hip Holster",
+  "ForcedPositionInAmmonomicon": 232,
+  "UsesCustomCost": 0,
+  "CustomCost": 65,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ActivationChance": 1.0,
+  "InternalCooldown": 1.0,
+  "TriggersRadialBulletBurst": 1,
+  "RadialBurstSettings": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 1,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "MinToSpawnPerWave": 1,
+    "MaxToSpawnPerWave": 1,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 0,
+    "AlignFirstShot": 1,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  },
+  "IsHipHolster": 1
+}

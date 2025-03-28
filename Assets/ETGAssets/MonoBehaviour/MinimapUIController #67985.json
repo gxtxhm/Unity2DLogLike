@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3001532160627838514
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4321488025843792118
+  },
+  "m_Name": "",
+  "DockSprite": {
+    "m_FileID": 0,
+    "m_PathID": -2129110326097778627
+  },
+  "QuestPanel": {
+    "m_FileID": 0,
+    "m_PathID": 4559430465726497851
+  },
+  "GrabbyPanel": {
+    "m_FileID": 0,
+    "m_PathID": -7470653232427048161
+  },
+  "ItemPanel_PC": {
+    "m_FileID": 0,
+    "m_PathID": -1199620326705967540
+  },
+  "ItemPanel_PC_Foreign": {
+    "m_FileID": 0,
+    "m_PathID": 2634841757972863647
+  },
+  "SonyControlsPanel01": {
+    "m_FileID": 0,
+    "m_PathID": 2988802368842029997
+  },
+  "SonyControlsPanel02": {
+    "m_FileID": 0,
+    "m_PathID": 3423202428717211397
+  },
+  "SonyControlsPanel01Foreign": {
+    "m_FileID": 0,
+    "m_PathID": -2722071631476448231
+  },
+  "SonyControlsPanel02Foreign": {
+    "m_FileID": 0,
+    "m_PathID": -2642838806770927671
+  },
+  "DockPanel": {
+    "m_FileID": 0,
+    "m_PathID": 4512196544480906869
+  },
+  "CoopDockPanelLeft": {
+    "m_FileID": 0,
+    "m_PathID": -4685596024145186272
+  },
+  "CoopDockPanelRight": {
+    "m_FileID": 0,
+    "m_PathID": -8856966301246302692
+  },
+  "ControllerCrosshair": {
+    "m_FileID": 0,
+    "m_PathID": -2850492917695086185
+  },
+  "LevelNameLabel": {
+    "m_FileID": 0,
+    "m_PathID": -3585256886950422041
+  },
+  "DropItemButton": {
+    "m_FileID": 0,
+    "m_PathID": 4163622595337192319
+  },
+  "DropItemSprite": {
+    "m_FileID": 0,
+    "m_PathID": -5737969858759670024
+  },
+  "DropItemLabel": {
+    "m_FileID": 0,
+    "m_PathID": 1638022098638421333
+  },
+  "DropItemButtonForeign": {
+    "m_FileID": 0,
+    "m_PathID": -5253170923610166070
+  },
+  "DropItemSpriteForeign": {
+    "m_FileID": 0,
+    "m_PathID": -4552206839611981383
+  },
+  "DropItemLabelForeign": {
+    "m_FileID": 0,
+    "m_PathID": 1162435158129258743
+  },
+  "AdditionalControlsToToggle": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -863062647318497756
+    }
+  ],
+  "minimapCamera": {
+    "m_FileID": 0,
+    "m_PathID": 9186970529152447398
+  },
+  "TurboModeIndicator": {
+    "m_FileID": 0,
+    "m_PathID": 1169003633352255674
+  },
+  "DispenserIcon": {
+    "m_FileID": 0,
+    "m_PathID": 3903938331770377502
+  },
+  "DispenserLabel": {
+    "m_FileID": 0,
+    "m_PathID": -4565650562863872921
+  },
+  "RatTaunty": {
+    "m_FileID": 0,
+    "m_PathID": 4247075106783343349
+  }
+}

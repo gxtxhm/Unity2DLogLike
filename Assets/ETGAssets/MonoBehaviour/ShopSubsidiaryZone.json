@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2490557205635331097
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3402023804259212672
+  },
+  "m_Name": "",
+  "shopItems": {
+    "m_FileID": 0,
+    "m_PathID": -3174299547621192794
+  },
+  "spawnPositions": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2746350393974715653
+    }
+  ],
+  "shopItemShadowPrefab": {
+    "m_FileID": 1,
+    "m_PathID": -7279183566291509047
+  },
+  "IsShopRoundTable": 0,
+  "PrecludeAllDiscounts": 1
+}

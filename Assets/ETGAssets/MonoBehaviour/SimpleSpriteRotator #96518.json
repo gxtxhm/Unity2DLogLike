@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -95668825930966598
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4989784935144072339
+  },
+  "m_Name": "",
+  "angularVelocity": 1440.0,
+  "acceleration": 0.0,
+  "UseWorldCenter": 0,
+  "ForceUpdateZDepth": 1,
+  "RotateParent": 0,
+  "RotateDuringBossIntros": 1,
+  "RandomStartingAngle": 0
+}

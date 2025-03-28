@@ -1,0 +1,552 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2916848467779709614
+  },
+  "m_Name": "CatacombsIceChannels",
+  "roomTypeRestriction": -1,
+  "topLeftIndices": {
+    "indices": [
+      320
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topIndices": {
+    "indices": [
+      408
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightIndices": {
+    "indices": [
+      342
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "leftIndices": {
+    "indices": [
+      452
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "centerIndices": {
+    "indices": [
+      298
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "rightIndices": {
+    "indices": [
+      430
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftIndices": {
+    "indices": [
+      364
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomIndices": {
+    "indices": [
+      474
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightIndices": {
+    "indices": [
+      386
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "horizontalIndices": {
+    "indices": [
+      584
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "verticalIndices": {
+    "indices": [
+      606
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCapIndices": {
+    "indices": [
+      496
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "rightCapIndices": {
+    "indices": [
+      518
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomCapIndices": {
+    "indices": [
+      562
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "leftCapIndices": {
+    "indices": [
+      540
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "allSidesIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topLeftNubIndices": {
+    "indices": [
+      522
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightNubIndices": {
+    "indices": [
+      521
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftNubIndices": {
+    "indices": [
+      500
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightNubIndices": {
+    "indices": [
+      499
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "extendedSet": 0,
+  "topCenterLeftIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCenterRightIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowLeftIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowRightIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomLeftCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomRightCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubLeftIndices": {
+    "indices": [
+      409
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubRightIndices": {
+    "indices": [
+      410
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubBothIndices": {
+    "indices": [
+      411
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubTopIndices": {
+    "indices": [
+      431
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubBottomIndices": {
+    "indices": [
+      432
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubBothIndices": {
+    "indices": [
+      433
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubLeftIndices": {
+    "indices": [
+      475
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubRightIndices": {
+    "indices": [
+      476
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubBothIndices": {
+    "indices": [
+      477
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubTopIndices": {
+    "indices": [
+      453
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubBottomIndices": {
+    "indices": [
+      454
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubBothIndices": {
+    "indices": [
+      455
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalNubsTopLeftBottomRight": {
+    "indices": [
+      498
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalNubsTopRightBottomLeft": {
+    "indices": [
+      497
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsTop": {
+    "indices": [
+      519
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsRight": {
+    "indices": [
+      541
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsBottom": {
+    "indices": [
+      520
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsLeft": {
+    "indices": [
+      542
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "quadNubs": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightWithNub": {
+    "indices": [
+      343
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topLeftWithNub": {
+    "indices": [
+      321
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightWithNub": {
+    "indices": [
+      387
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftWithNub": {
+    "indices": [
+      365
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderNE": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderSE": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderSW": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderNW": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingNE": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingSE": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingSW": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingNW": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "CenterCheckerboard": 0,
+  "CheckerboardDimension": 1,
+  "CenterIndicesAreStrata": 0,
+  "PitInternalSquareGrids": [],
+  "PitInternalSquareOptions": {
+    "PitSquareChance": 0.1,
+    "CanBeFlushLeft": 0,
+    "CanBeFlushRight": 0,
+    "CanBeFlushBottom": 0
+  },
+  "PitBorderIsInternal": 0,
+  "PitBorderOverridesFloorTile": 0,
+  "CeilingBorderUsesDistancedCenters": 0,
+  "UsesRatChunkBorders": 0,
+  "RatChunkNormalSet": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "RatChunkBottomSet": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "PathFacewallStamp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathSidewallStamp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathPitPosts": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "PathPitPostsBL": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "PathPitPostsBR": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "PathStubNorth": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubEast": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubSouth": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubWest": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

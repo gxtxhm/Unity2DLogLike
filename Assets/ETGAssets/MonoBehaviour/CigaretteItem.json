@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1000920614940053242
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9141827583480753453
+  },
+  "m_Name": "",
+  "inAirVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "smokeSystem": {
+    "m_FileID": 0,
+    "m_PathID": -7761247807201826090
+  },
+  "sparkVFX": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DestroyOnGrounded": 0
+}

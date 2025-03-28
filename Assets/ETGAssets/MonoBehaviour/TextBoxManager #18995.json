@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5057822023933264116
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -909336830738670279
+  },
+  "m_Name": "",
+  "boxSprite": {
+    "m_FileID": 0,
+    "m_PathID": 8567981116735463623
+  },
+  "textMesh": {
+    "m_FileID": 0,
+    "m_PathID": 6789670449106563060
+  },
+  "continueTextMesh": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "additionalPaddingLeft": 0.2,
+  "additionalPaddingRight": 0.2,
+  "additionalPaddingTop": 0.1,
+  "additionalPaddingBottom": -0.1,
+  "continuePaddingRight": 0.0,
+  "continuePaddingBottom": 0.0,
+  "fitToScreen": 1,
+  "textColor": {
+    "r": 0.16078432,
+    "g": 0.10980392,
+    "b": 0.07450981,
+    "a": 1.0
+  }
+}

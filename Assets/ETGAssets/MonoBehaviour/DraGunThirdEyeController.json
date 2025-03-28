@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4234460538167255832
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4891756264094969823
+  },
+  "m_Name": "",
+  "IntroDummy": {
+    "m_FileID": 0,
+    "m_PathID": 7521965433545246877
+  },
+  "IntroAttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": -2290008912224669913
+  },
+  "RoarDummy": {
+    "m_FileID": 0,
+    "m_PathID": -8114153263544570376
+  },
+  "RoarAttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": 3974500045413346463
+  },
+  "AttachPoint": {
+    "m_FileID": 0,
+    "m_PathID": -3171025500075595798
+  },
+  "particleSystems": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7409514574618584056
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2602325575182999989
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1639080815445106807
+    }
+  ]
+}

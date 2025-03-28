@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 345
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 36
+  },
+  "m_Name": "",
+  "activeReloadSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3359
+  },
+  "progressSlider": {
+    "m_FileID": 0,
+    "m_PathID": 3446
+  },
+  "celebrationSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3713
+  },
+  "startValue": 14,
+  "endValue": 105,
+  "lieFactor": 20,
+  "follower": {
+    "m_FileID": 0,
+    "m_PathID": 4029
+  },
+  "initialDelay": 0.1,
+  "finalDelay": 0.35,
+  "statusBarDrain": {
+    "m_FileID": 0,
+    "m_PathID": 3364
+  },
+  "statusBarPoison": {
+    "m_FileID": 0,
+    "m_PathID": 3770
+  },
+  "statusBarFire": {
+    "m_FileID": 0,
+    "m_PathID": 3222
+  },
+  "statusBarCurse": {
+    "m_FileID": 0,
+    "m_PathID": 3882
+  }
+}

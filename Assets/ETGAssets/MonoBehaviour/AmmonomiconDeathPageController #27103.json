@@ -1,0 +1,102 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6927461245338282030
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5706425090484363933
+  },
+  "m_Name": "",
+  "isRightPage": 0,
+  "isVictoryPage": 0,
+  "youDiedLabel": {
+    "m_FileID": 0,
+    "m_PathID": 529511593780057856
+  },
+  "gungeoneerTitle": {
+    "m_FileID": 0,
+    "m_PathID": -8917127872921501854
+  },
+  "areaTitle": {
+    "m_FileID": 0,
+    "m_PathID": 7120455915469073219
+  },
+  "timeTitle": {
+    "m_FileID": 0,
+    "m_PathID": 1504297566052606334
+  },
+  "moneyTitle": {
+    "m_FileID": 0,
+    "m_PathID": -235207248393257436
+  },
+  "killsTitle": {
+    "m_FileID": 0,
+    "m_PathID": 3487437744925341535
+  },
+  "gungeoneerLabel": {
+    "m_FileID": 0,
+    "m_PathID": 6385343840652210850
+  },
+  "areaLabel": {
+    "m_FileID": 0,
+    "m_PathID": -7948859906854225466
+  },
+  "timeLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3192119643822285194
+  },
+  "moneyLabel": {
+    "m_FileID": 0,
+    "m_PathID": 355914143967223093
+  },
+  "killsLabel": {
+    "m_FileID": 0,
+    "m_PathID": 172005126758355034
+  },
+  "deathNumberLabel": {
+    "m_FileID": 0,
+    "m_PathID": -7425868887917611490
+  },
+  "coopDeathNumberLabel": {
+    "m_FileID": 0,
+    "m_PathID": 6524129370264551139
+  },
+  "coopIndividualDeathsNumberLabel": {
+    "m_FileID": 0,
+    "m_PathID": -3351414916676605421
+  },
+  "hauntingLabel": {
+    "m_FileID": 0,
+    "m_PathID": -2445317393167563900
+  },
+  "quickRestartButton": {
+    "m_FileID": 0,
+    "m_PathID": -3762164818891762804
+  },
+  "mainMenuButton": {
+    "m_FileID": 0,
+    "m_PathID": 6137271338172421216
+  },
+  "killedByHeaderLabel": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "killedByLabel": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "photoSprite": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ChallengeModeRibbon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "RatDeathDrawings": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

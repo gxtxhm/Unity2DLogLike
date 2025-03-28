@@ -1,0 +1,130 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5094097452224653238
+  },
+  "m_Name": "Catacombs Common Injection Data",
+  "InjectionData": [
+    {
+      "annotation": "Bullet Unlock Secret Room",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        4
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": -2682540012806301276
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 1.0,
+      "chanceToSpawn": 1.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [
+        {
+          "prerequisiteType": 4,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 50107,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        },
+        {
+          "prerequisiteType": 5,
+          "prerequisiteOperation": 2,
+          "statToCheck": 28,
+          "maxToCheck": 0,
+          "comparisonValue": 0.0,
+          "useSessionStatValue": 0,
+          "encounteredObjectGuid": "",
+          "encounteredRoom": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "requiredNumberOfEncounters": 0,
+          "requiredCharacter": 0,
+          "requireCharacter": 0,
+          "requiredTileset": 0,
+          "requireTileset": 0,
+          "saveFlagToCheck": 0,
+          "requireFlag": 0,
+          "requireDemoMode": 0
+        }
+      ],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "Sell Creep (Nakatomi)",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        1
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 8369965854759510091
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 1,
+      "chanceToLock": 0.0,
+      "selectionWeight": 1.0,
+      "chanceToSpawn": 100.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 0,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    }
+  ],
+  "UseInvalidWeightAsNoInjection": 1,
+  "PreventInjectionOfFailedPrerequisites": 0,
+  "IsNPCCell": 0,
+  "IgnoreUnmetPrerequisiteEntries": 0,
+  "OnlyOne": 0,
+  "ChanceToSpawnOne": 0.5,
+  "AttachedInjectionData": []
+}

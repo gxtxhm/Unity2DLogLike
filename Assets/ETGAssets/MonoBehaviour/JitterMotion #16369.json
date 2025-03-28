@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5055357426441070836
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2431652335076140806
+  },
+  "m_Name": "",
+  "AllowCameraInfluence": 1,
+  "InfluenceAxialX": 20.0,
+  "InfluenceAxialY": 20.0,
+  "positionFrequency": 0.1,
+  "rotationFrequency": 0.2,
+  "positionAmount": 0.5,
+  "rotationAmount": 10.0,
+  "positionComponents": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "rotationComponents": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.0
+  },
+  "positionOctave": 3,
+  "rotationOctave": 3,
+  "UseMainCameraShakeAmount": 1
+}

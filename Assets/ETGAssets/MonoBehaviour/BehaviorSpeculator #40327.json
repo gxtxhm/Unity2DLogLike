@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1542557821073830103
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":false,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[{\"PathInterval\":0.25,\"CloseDistance\":9.0,\"CloseTime\":3.0,\"TooCloseDistance\":6.0,\"TooCloseLOS\":true,\"DesiredDistance\":14.0,\"PlayerPersonalSpace\":0,\"CanAttackWhileMoving\":false,\"ManuallyDefineRoom\":false,\"roomMin\":{\"x\":0.0,\"y\":0.0},\"roomMax\":{\"x\":0.0,\"y\":0.0},\"$type\":\"FleeTargetBehavior\"}]",
+    "[{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Spawn a Shelleton\",\"Probability\":1.0,\"Behavior\":{\"DefineSpawnRadius\":false,\"MinSpawnRadius\":0.0,\"MaxSpawnRadius\":0.0,\"MaxRoomOccupancy\":-1,\"MaxSummonedAtOnce\":1,\"MaxToSpawn\":3,\"NumToSpawn\":1,\"KillSpawnedOnDeath\":true,\"CrazeAfterMaxSpawned\":true,\"BlackPhantomChance\":0.0,\"EnemeyGuids\":[\"21dd14e5ca2a4a388adab5b11b69a1e1\"],\"selectionType\":\"Random\",\"OverrideCorpse\":null,\"SummonTime\":5.0,\"DisableDrops\":false,\"HideGun\":false,\"StopDuringAnimation\":true,\"SummonAnim\":\"magic\",\"SummonVfx\":\"magic\",\"TargetVfx\":\"summon\",\"TargetVfxLoops\":true,\"PostSummonAnim\":null,\"ManuallyDefineRoom\":false,\"roomMin\":{\"x\":0.0,\"y\":0.0},\"roomMax\":{\"x\":0.0,\"y\":0.0},\"Cooldown\":5.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"SummonEnemyBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 0.2,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 0,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

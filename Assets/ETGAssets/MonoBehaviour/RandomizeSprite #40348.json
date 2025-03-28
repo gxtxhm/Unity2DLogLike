@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6286387800149634525
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3437773378441611256
+  },
+  "m_Name": "",
+  "spriteNames": [
+    "mouser_debris_001",
+    "mouser_debris_002",
+    "mouser_debris_003"
+  ],
+  "animationNames": [],
+  "UseStaticIndex": 0
+}

@@ -1,0 +1,249 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5257293945040329721
+  },
+  "m_Name": "ENV_FORGE_STAMP_DATA",
+  "tileStampWeight": 1.0,
+  "spriteStampWeight": 0.0,
+  "objectStampWeight": 1.0,
+  "stamps": [],
+  "spriteStamps": [],
+  "objectStamps": [
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 5633675419745286975
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": -5869613353124429031
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 4022972552092857455
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": -8411642182939376815
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 2.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 2,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 1302304514014099063
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 2.0,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 2,
+      "preferredIntermediaryStamps": 1,
+      "intermediaryMatchingStyle": 0,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 1,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 2,
+        "m_PathID": -3933307764082763024
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.5,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 3,
+      "intermediaryMatchingStyle": 7,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": 8780726377028360734
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.5,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 0,
+      "preferredIntermediaryStamps": 3,
+      "intermediaryMatchingStyle": 7,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 0,
+        "m_PathID": -731875918720314869
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 4545578693991556186
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": -3637640859056975792
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 2116264957884649415
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "relativeWeight": 0.25,
+      "placementRule": 2,
+      "occupySpace": 0,
+      "stampCategory": 1,
+      "preferredIntermediaryStamps": 4,
+      "intermediaryMatchingStyle": 6,
+      "requiresForcedMatchingStyle": 0,
+      "opulence": 0,
+      "roomTypeData": [],
+      "indexOfSymmetricPartner": -1,
+      "preventRoomRepeats": 0,
+      "objectReference": {
+        "m_FileID": 1,
+        "m_PathID": 3430691536273365982
+      }
+    }
+  ],
+  "SymmetricFrameChance": 0.1,
+  "SymmetricCompleteChance": 0.1
+}

@@ -1,0 +1,131 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1950592782404674835
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5925963486897087977
+  },
+  "m_Name": "",
+  "RequiredNumberOfGuns": 2,
+  "LootTable": {
+    "m_FileID": 1,
+    "m_PathID": -3119490351517448801
+  },
+  "DefinedRecipes": [
+    {
+      "Annotation": "mutant arm",
+      "gunIDs_A": [
+        125,
+        36,
+        88,
+        186,
+        227
+      ],
+      "gunIDs_B": [
+        87,
+        207,
+        406,
+        208,
+        347
+      ],
+      "resultID": 333,
+      "flagToSet": 34010
+    },
+    {
+      "Annotation": "cold 45",
+      "gunIDs_A": [
+        62,
+        484,
+        38,
+        50,
+        56,
+        35,
+        22
+      ],
+      "gunIDs_B": [
+        40,
+        130,
+        178,
+        225,
+        387,
+        226
+      ],
+      "resultID": 223,
+      "flagToSet": 34011
+    },
+    {
+      "Annotation": "stinger",
+      "gunIDs_A": [
+        14
+      ],
+      "gunIDs_B": [
+        39
+      ],
+      "resultID": 92,
+      "flagToSet": 0
+    },
+    {
+      "Annotation": "machine gun hand",
+      "gunIDs_A": [
+        125,
+        36,
+        227
+      ],
+      "gunIDs_B": [
+        96,
+        94,
+        15,
+        43
+      ],
+      "resultID": 186,
+      "flagToSet": 0
+    },
+    {
+      "Annotation": "crescent moon",
+      "gunIDs_A": [
+        12,
+        126,
+        381,
+        227
+      ],
+      "gunIDs_B": [
+        145,
+        395,
+        385,
+        100
+      ],
+      "resultID": 52,
+      "flagToSet": 0
+    }
+  ],
+  "QualityDistribution": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 1.0,
+        "outSlope": 1.0
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 1.0,
+        "outSlope": 1.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 0
+  },
+  "IsProcessing": 0,
+  "CanBeReused": 0,
+  "evilMuncherReward": 0,
+  "evilMuncherPostRewardChance": 0.07,
+  "PoopSteamPrefab": {
+    "m_FileID": 1,
+    "m_PathID": -8294673019964272131
+  }
+}

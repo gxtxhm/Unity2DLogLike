@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6813395746389649552
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3437773378441611256
+  },
+  "m_Name": "",
+  "spriteNames": [
+    "neck_bone_front_002",
+    "neck_bone_left_002",
+    "neck_bone_right_002"
+  ],
+  "animationNames": [],
+  "UseStaticIndex": 0
+}

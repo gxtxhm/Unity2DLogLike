@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1862110028305402200
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7361653699770502806
+  },
+  "m_Name": "",
+  "_objectReferences": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8890869472164034186
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4020174157338650019
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4020174157338650019
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4020174157338650019
+    }
+  ],
+  "_serializedStateKeys": [
+    "OverrideBehaviors",
+    "TargetBehaviors",
+    "MovementBehaviors",
+    "AttackBehaviors",
+    "OtherBehaviors"
+  ],
+  "_serializedStateValues": [
+    "[]",
+    "[{\"Radius\":35.0,\"LineOfSight\":true,\"ObjectPermanence\":true,\"SearchInterval\":0.25,\"PauseOnTargetSwitch\":false,\"PauseTime\":0.25,\"$type\":\"TargetPlayerBehavior\"}]",
+    "[]",
+    "[{\"ShareCooldowns\":false,\"AttackBehaviors\":[{\"NickName\":\"Reflect Shot\",\"Probability\":1000.0,\"Behavior\":{\"ShootPoint\":0,\"BulletScript\":{\"scriptTypeName\":\"PhantomAgunimNonReflect1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"hover_intro\",\"FireAnimation\":\"hover\",\"PostFireAnimation\":\"hover_outro\",\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":true,\"ChargeVfx\":\"\",\"TellVfx\":\"\",\"FireVfx\":\"hover_charge\",\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":7.5,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":6.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Move\",\"Probability\":2.0,\"Behavior\":{\"MoveTime\":1.5,\"MinSpeed\":4.5,\"MaxSpeed\":0.0,\"DisableCollisionDuringMove\":true,\"MinDistFromHorizontalWall\":4,\"MinDistFromNorthWall\":2,\"MinTilesAbovePlayer\":5,\"MaxTilesAbovePlayer\":12,\"MinDistanceFromPlayer\":4,\"UseSouthWall\":true,\"MinTilesBelowPlayer\":5,\"MaxTilesBelowPlayer\":12,\"MinDistFromSouthWall\":1,\"preMoveAnimation\":\"move_in\",\"moveAnimation\":\"move_loop\",\"postMoveAnimation\":\"move_out\",\"enableShadowTrail\":false,\"Cooldown\":5.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.0,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"BossFinalBulletAgunimMoveBehavior\"}},{\"NickName\":\"Lightning\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":1,\"BulletScript\":{\"scriptTypeName\":\"BossFinalBulletAgunimLightning1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":false,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"lightning\",\"FireAnimation\":\"\",\"PostFireAnimation\":\"\",\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":\"\",\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":1.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.5,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":null,\"GroupCooldown\":0.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":null,\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Arc Shot (South)\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":2,\"BulletScript\":{\"scriptTypeName\":\"BossFinalBulletAgunimArc1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":true,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"arc_attack\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":0.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.5,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"arc\",\"GroupCooldown\":1.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":{\"StartAngle\":200.0,\"SweepAngle\":140.0,\"targetAreaOrigin\":\"HitboxCenter\",\"$type\":\"ShootBehavior+ArcFiringArea\"},\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}},{\"NickName\":\"Arc Shot (Sides)\",\"Probability\":1.0,\"Behavior\":{\"ShootPoint\":3,\"BulletScript\":{\"scriptTypeName\":\"PhantomAgunimArc1\"},\"BulletName\":null,\"LeadAmount\":0.0,\"StopDuring\":\"Tell\",\"ImmobileDuringStop\":false,\"MoveSpeedModifier\":1.0,\"LockFacingDirection\":true,\"ContinueAimingDuringTell\":false,\"ReaimOnFire\":false,\"MultipleFireEvents\":false,\"RequiresTarget\":true,\"PreventTargetSwitching\":false,\"Uninterruptible\":false,\"ClearGoop\":false,\"ClearGoopRadius\":2.0,\"ShouldOverrideFireDirection\":false,\"OverrideFireDirection\":0.0,\"SpecifyAiAnimator\":null,\"ChargeAnimation\":null,\"ChargeTime\":0.0,\"TellAnimation\":\"arc_attack_reverse\",\"FireAnimation\":null,\"PostFireAnimation\":null,\"HideGun\":true,\"OverrideBaseAnims\":false,\"OverrideIdleAnim\":null,\"OverrideMoveAnim\":null,\"UseVfx\":false,\"ChargeVfx\":null,\"TellVfx\":null,\"FireVfx\":null,\"Vfx\":null,\"EnabledDuringAttack\":[],\"Cooldown\":0.0,\"CooldownVariance\":0.0,\"AttackCooldown\":0.5,\"GlobalCooldown\":0.0,\"InitialCooldown\":0.0,\"InitialCooldownVariance\":0.0,\"GroupName\":\"arc\",\"GroupCooldown\":1.0,\"MinRange\":0.0,\"Range\":0.0,\"MinWallDistance\":0.0,\"MaxEnemiesInRoom\":0.0,\"MinHealthThreshold\":0.0,\"MaxHealthThreshold\":1.0,\"HealthThresholds\":[],\"AccumulateHealthThresholds\":true,\"targetAreaStyle\":{\"StartAngle\":-45.0,\"SweepAngle\":270.0,\"targetAreaOrigin\":\"HitboxCenter\",\"$type\":\"ShootBehavior+ArcFiringArea\"},\"IsBlackPhantom\":false,\"resetCooldownOnDamage\":null,\"RequiresLineOfSight\":false,\"MaxUsages\":0,\"$type\":\"ShootBehavior\"}}],\"$type\":\"AttackBehaviorGroup\"}]",
+    "[]"
+  ],
+  "InstantFirstTick": 0,
+  "TickInterval": 0.1,
+  "PostAwakenDelay": 2.0,
+  "RemoveDelayOnReinforce": 0,
+  "OverrideStartingFacingDirection": 1,
+  "StartingFacingDirection": -90.0,
+  "SkipTimingDifferentiator": 0
+}

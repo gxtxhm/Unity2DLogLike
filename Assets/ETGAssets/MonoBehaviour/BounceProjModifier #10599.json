@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8363006717177170398
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5802624943162512767
+  },
+  "m_Name": "",
+  "numberOfBounces": 7,
+  "chanceToDieOnBounce": 0.0,
+  "percentVelocityToLoseOnBounce": 0.0,
+  "damageMultiplierOnBounce": 0.9,
+  "usesAdditionalScreenShake": 1,
+  "additionalScreenShake": {
+    "magnitude": 0.125,
+    "speed": 12.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "useLayerLimit": 0,
+  "layerLimit": 0,
+  "ExplodeOnEnemyBounce": 0,
+  "removeBulletScriptControl": 1,
+  "suppressHitEffectsOnBounce": 0,
+  "onlyBounceOffTiles": 0,
+  "bouncesTrackEnemies": 1,
+  "bounceTrackRadius": 7.0,
+  "TrackEnemyChance": 1.0
+}

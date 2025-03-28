@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6876611085122312612
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "object_box_synergy_001",
+    "object_box_synergy_002",
+    "object_box_synergy_003",
+    "object_box_synergy_004",
+    "object_box_synergy_005",
+    "object_box_synergy_006",
+    "object_box_synergy_007",
+    "object_box_synergy_008"
+  ]
+}

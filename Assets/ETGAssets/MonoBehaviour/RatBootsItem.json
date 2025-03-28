@@ -1,0 +1,57 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6809396779354532436
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2697940893745637042
+  },
+  "m_Name": "",
+  "PickupObjectId": 667,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 3,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 171012,
+  "itemName": "Rat Boots",
+  "ForcedPositionInAmmonomicon": 161,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 0,
+      "modifyType": 0,
+      "amount": 1.5,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "HoverTime": 1.2,
+  "FlickerPortion": 0.7,
+  "FlickerFrequency": 0.05,
+  "FloorVFX": {
+    "m_FileID": 0,
+    "m_PathID": -6894772492650192461
+  },
+  "RatAnimationLibrary": {
+    "m_FileID": 0,
+    "m_PathID": -5922710174307743993
+  }
+}

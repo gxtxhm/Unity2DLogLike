@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1384668240454463697
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8767928171480694652
+  },
+  "m_Name": "",
+  "RequiredSynergy": 336,
+  "SnapsToAngleMultiple": 0,
+  "AngleMultiple": 90.0,
+  "HasChanceToGainAmmo": 0,
+  "ChanceToGainAmmo": 0.0,
+  "SetsFlying": 1,
+  "SetsGoopReloadFree": 0
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6361329569398230971
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8272162018765824946
+  },
+  "m_Name": "",
+  "SpawnObject": {
+    "m_FileID": 0,
+    "m_PathID": -1450839719641487673
+  },
+  "tossForce": 0.0,
+  "DelayTime": 0.45,
+  "canBounce": 0,
+  "orphaned": 1,
+  "preventRotation": 0,
+  "AnimToPlay": "fossilized_gun_reload",
+  "RequiresSynergy": 0,
+  "RequiredSynergy": 0,
+  "RequiresActualReload": 0
+}

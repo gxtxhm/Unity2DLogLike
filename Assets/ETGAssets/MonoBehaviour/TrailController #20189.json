@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2074687118095386624
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1192790858581614595
+  },
+  "m_Name": "",
+  "usesStartAnimation": 1,
+  "startAnimation": "exotic_submissile_exhaust",
+  "usesAnimation": 1,
+  "animation": "exotic_submissile_exhaust",
+  "usesCascadeTimer": 1,
+  "cascadeTimer": 0.1,
+  "usesSoftMaxLength": 0,
+  "softMaxLength": 0.0,
+  "usesGlobalTimer": 1,
+  "globalTimer": 1.0,
+  "destroyOnEmpty": 1,
+  "FlipUvsY": 0,
+  "rampHeight": 0,
+  "rampStartHeight": 2.0,
+  "rampTime": 1.0,
+  "boneSpawnOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UsesDispersalParticles": 0,
+  "DispersalDensity": 3.0,
+  "DispersalMinCoherency": 0.2,
+  "DispersalMaxCoherency": 1.0,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

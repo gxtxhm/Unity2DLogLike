@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 628
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 35
+  },
+  "m_Name": "",
+  "DockSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3753
+  },
+  "QuestPanel": {
+    "m_FileID": 0,
+    "m_PathID": 3705
+  },
+  "GrabbyPanel": {
+    "m_FileID": 0,
+    "m_PathID": 3672
+  },
+  "ItemPanel_PC": {
+    "m_FileID": 0,
+    "m_PathID": 3886
+  },
+  "ItemPanel_PC_Foreign": {
+    "m_FileID": 0,
+    "m_PathID": 3319
+  },
+  "SonyControlsPanel01": {
+    "m_FileID": 0,
+    "m_PathID": 3390
+  },
+  "SonyControlsPanel02": {
+    "m_FileID": 0,
+    "m_PathID": 3365
+  },
+  "SonyControlsPanel01Foreign": {
+    "m_FileID": 0,
+    "m_PathID": 3588
+  },
+  "SonyControlsPanel02Foreign": {
+    "m_FileID": 0,
+    "m_PathID": 3341
+  },
+  "DockPanel": {
+    "m_FileID": 0,
+    "m_PathID": 3276
+  },
+  "CoopDockPanelLeft": {
+    "m_FileID": 0,
+    "m_PathID": 3294
+  },
+  "CoopDockPanelRight": {
+    "m_FileID": 0,
+    "m_PathID": 3936
+  },
+  "ControllerCrosshair": {
+    "m_FileID": 0,
+    "m_PathID": 3180
+  },
+  "LevelNameLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3911
+  },
+  "DropItemButton": {
+    "m_FileID": 0,
+    "m_PathID": 3841
+  },
+  "DropItemSprite": {
+    "m_FileID": 0,
+    "m_PathID": 3414
+  },
+  "DropItemLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3433
+  },
+  "DropItemButtonForeign": {
+    "m_FileID": 0,
+    "m_PathID": 3531
+  },
+  "DropItemSpriteForeign": {
+    "m_FileID": 0,
+    "m_PathID": 3576
+  },
+  "DropItemLabelForeign": {
+    "m_FileID": 0,
+    "m_PathID": 3308
+  },
+  "AdditionalControlsToToggle": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3906
+    }
+  ],
+  "minimapCamera": {
+    "m_FileID": 0,
+    "m_PathID": 2053
+  },
+  "TurboModeIndicator": {
+    "m_FileID": 0,
+    "m_PathID": 3370
+  },
+  "DispenserIcon": {
+    "m_FileID": 0,
+    "m_PathID": 3799
+  },
+  "DispenserLabel": {
+    "m_FileID": 0,
+    "m_PathID": 3227
+  },
+  "RatTaunty": {
+    "m_FileID": 0,
+    "m_PathID": 3323
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6536967895049831646
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8234382802793997664
+  },
+  "m_Name": "",
+  "ArmoredId": -1,
+  "UnarmoredId": 544,
+  "ArmorUpAnimation": "armgun_un_rearm",
+  "ArmorLostAnimation": "armgun_burst"
+}

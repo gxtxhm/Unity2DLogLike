@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6731032524343967506
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -546846232107180322
+  },
+  "m_Name": "",
+  "RequiresPlayerItemActive": 0,
+  "modifiers": [
+    {
+      "statToBoost": 0,
+      "modifyType": 0,
+      "amount": 1.0,
+      "isMeatBunBuff": 0
+    }
+  ]
+}

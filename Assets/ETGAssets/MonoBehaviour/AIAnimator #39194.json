@@ -1,0 +1,181 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5743900931121175362
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 8,
+    "Prefix": "move_fire",
+    "AnimNames": [
+      "",
+      "move_fire_north_north_east",
+      "move_fire_north_east",
+      "move_fire_east_north_east",
+      "",
+      "move_fire_east_south_east",
+      "move_fire_south_east",
+      "move_fire_south_south_east",
+      "",
+      "move_fire_south_south_west",
+      "move_fire_south_west",
+      "move_fire_west_south_west",
+      "",
+      "move_fire_west_north_west",
+      "move_fire_north_west",
+      "move_fire_north_north_west"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 6,
+    "Prefix": "hit",
+    "AnimNames": [
+      "hit_north",
+      "hit_north_east",
+      "hit_east",
+      "hit_south_east",
+      "hit_south",
+      "hit_south_west",
+      "hit_west",
+      "hit_north_west"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "HitReactChance": 0.25,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "idle_shoot",
+      "anim": {
+        "Type": 10,
+        "Prefix": "idle_shoot",
+        "AnimNames": [
+          "fire_up",
+          "fire_north_east",
+          "fire_right",
+          "fire_south_east",
+          "fire_down",
+          "fire_south_west",
+          "fire_left",
+          "fire_north_west"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "land",
+      "anim": {
+        "Type": 1,
+        "Prefix": "land",
+        "AnimNames": [
+          "fire_up"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "jump",
+      "anim": {
+        "Type": 1,
+        "Prefix": "jump",
+        "AnimNames": [
+          "fire_up"
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

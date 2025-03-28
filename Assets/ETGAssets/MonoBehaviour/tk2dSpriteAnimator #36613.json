@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4118955957080420250
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3272130915213367153
+  },
+  "m_Name": "",
+  "library": {
+    "m_FileID": 3,
+    "m_PathID": -1959735753127535638
+  },
+  "defaultClipId": 4,
+  "AdditionalCameraVisibilityRadius": 0.0,
+  "AnimateDuringBossIntros": 0,
+  "AlwaysIgnoreTimeScale": 0,
+  "ForceSetEveryFrame": 0,
+  "playAutomatically": 1,
+  "IsFrameBlendedAnimation": 0,
+  "clipTime": 0.0,
+  "deferNextStartClip": 0
+}

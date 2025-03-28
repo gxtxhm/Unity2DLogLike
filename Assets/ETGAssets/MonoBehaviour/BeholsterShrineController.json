@@ -1,0 +1,62 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1869822724264351958
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4491259583616230953
+  },
+  "m_Name": "",
+  "placeableWidth": 4,
+  "placeableHeight": 2,
+  "difficulty": 0,
+  "isPassable": 1,
+  "displayTextKey": "#SHRINE_BEHOLSTER_DISPLAY",
+  "acceptOptionKey": "#SHRINE_BEHOLSTER_ACCEPT",
+  "declineOptionKey": "#SHRINE_CHALLENGE_DECLINE",
+  "spentOptionKey": "#SHRINE_GENERIC_SPENT",
+  "talkPoint": {
+    "m_FileID": 0,
+    "m_PathID": -6688931944708517262
+  },
+  "AlternativeOutlineTarget": {
+    "m_FileID": 0,
+    "m_PathID": -1274360551789264337
+  },
+  "Gun01ID": 90,
+  "Gun02ID": 129,
+  "Gun03ID": 43,
+  "Gun04ID": 32,
+  "Gun05ID": 42,
+  "Gun06ID": 30,
+  "Gun01Sprite": {
+    "m_FileID": 0,
+    "m_PathID": 1827818270812933541
+  },
+  "Gun02Sprite": {
+    "m_FileID": 0,
+    "m_PathID": -407745261987097837
+  },
+  "Gun03Sprite": {
+    "m_FileID": 0,
+    "m_PathID": 1712167824244097070
+  },
+  "Gun04Sprite": {
+    "m_FileID": 0,
+    "m_PathID": 4018252001539223151
+  },
+  "Gun05Sprite": {
+    "m_FileID": 0,
+    "m_PathID": 7994311904140415428
+  },
+  "Gun06Sprite": {
+    "m_FileID": 0,
+    "m_PathID": 8175793163747128235
+  },
+  "VFXStonePuff": {
+    "m_FileID": 1,
+    "m_PathID": 6737433343243429861
+  }
+}

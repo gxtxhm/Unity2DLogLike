@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5318944282460442027
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4608144288024198594
+  },
+  "m_Name": "",
+  "RequiredSynergy": 232,
+  "MakesGoopIgnitable": 1,
+  "ChangesGoopDefinition": 0,
+  "ChangedDefinition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3259335010865059348
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1200132719687536770
+  },
+  "m_Name": "",
+  "Debug": {
+    "DrawGrid": 0,
+    "DrawImpassable": 0,
+    "DrawWeights": 0,
+    "DrawRoomNums": 0,
+    "DrawPaths": 0,
+    "TestPath": 0,
+    "TestPathOrigin": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "TestPathClearance": {
+      "x": 1.0,
+      "y": 1.0
+    }
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1862110028305402200
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -2548597792847217326
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 5,
+    "Prefix": "idle",
+    "AnimNames": [
+      "",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "move",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "hover_intro",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_hover_intro",
+        "AnimNames": [
+          "attack_hover_back_intro",
+          "attack_hover_intro",
+          "attack_hover_intro",
+          "attack_hover_intro",
+          "attack_hover_intro",
+          "attack_hover_intro"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "hover",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_hover",
+        "AnimNames": [
+          "",
+          "attack_hover",
+          "attack_hover",
+          "attack_hover",
+          "attack_hover",
+          "attack_hover"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "hover_outro",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_hover_outro",
+        "AnimNames": [
+          "attack_hover_back_outro",
+          "attack_hover_outro",
+          "attack_hover_outro",
+          "attack_hover_outro",
+          "attack_hover_outro",
+          "attack_hover_outro"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "lightning",
+      "anim": {
+        "Type": 5,
+        "Prefix": "attack_lightning",
+        "AnimNames": [
+          "",
+          "attack_lightning",
+          "attack_lightning",
+          "attack_lightning",
+          "attack_lightning",
+          "attack_lightning"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "arc_attack",
+      "anim": {
+        "Type": 2,
+        "Prefix": "attack",
+        "AnimNames": [
+          "",
+          ""
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "arc_attack_reverse",
+      "anim": {
+        "Type": 2,
+        "Prefix": "attack",
+        "AnimNames": [
+          "attack_left",
+          "attack_right"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "move_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "move_intro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "move_loop",
+      "anim": {
+        "Type": 5,
+        "Prefix": "move_loop",
+        "AnimNames": [
+          "move_front",
+          "move_right",
+          "move_right",
+          "move_front",
+          "move_left",
+          "move_left"
+        ],
+        "Flipped": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "move_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "move_outro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "hover_charge",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -5854706335448516260
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -7852388646578895149
+                },
+                "orphaned": 1,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 5.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "hover_charge_loop",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -5854706335448516260
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 5832672893869051025
+                },
+                "orphaned": 1,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -4.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "hover_charge_end",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": -5854706335448516260
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -321589596134857391
+                },
+                "orphaned": 1,
+                "attached": 1,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": -4.0,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

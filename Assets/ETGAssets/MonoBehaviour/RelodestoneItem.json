@@ -1,0 +1,89 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2019808662180627872
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1727275058189522744
+  },
+  "m_Name": "",
+  "PickupObjectId": 536,
+  "quality": 5,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 1,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Relodestone",
+  "ForcedPositionInAmmonomicon": 60,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 1,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 500.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "Relodestone",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "relode_stone_001",
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 10,
+      "modifyType": 1,
+      "amount": 0.5,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "EffectRadius": 10.0,
+  "duration": 5.0,
+  "GravitationalForce": 500.0,
+  "ContinuousVFX": {
+    "m_FileID": 0,
+    "m_PathID": -6311524256646923231
+  },
+  "RelodestarBurst": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 0,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": -2752289531612955962
+      }
+    },
+    "MinToSpawnPerWave": 10,
+    "MaxToSpawnPerWave": 10,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 1,
+    "AlignFirstShot": 0,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  }
+}

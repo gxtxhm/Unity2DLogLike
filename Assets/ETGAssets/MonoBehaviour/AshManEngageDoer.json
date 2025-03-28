@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4229979292997890215
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -879935259593168401
+  },
+  "m_Name": "",
+  "FromStatueChance": 0.3,
+  "BreakablePrefix": "Forge_Ash_Bullet",
+  "MinSpawnDelay": 2.0,
+  "MaxSpawnDelay": 6.0
+}

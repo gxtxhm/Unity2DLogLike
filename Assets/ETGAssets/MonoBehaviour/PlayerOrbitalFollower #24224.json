@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4537614028736219968
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6175093386656120785
+  },
+  "m_Name": "",
+  "shootProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 8584666370972216146
+  },
+  "shootCooldown": 2.0,
+  "shouldRotate": 1,
+  "rotationOffset": -90.0,
+  "maxRotationDegreesPerSecond": 360.0,
+  "BlanksOnProjectileRadius": 0,
+  "BlankRadius": 4.0,
+  "BlankFrequency": 3.0,
+  "BlankAnimationName": "",
+  "BlankIdleName": "",
+  "IdleAnimation": "space_friend_idle",
+  "synergies": [
+    {
+      "SynergyToCheck": 61,
+      "EngagesFiring": 0,
+      "ShootCooldownMultiplier": 0.25,
+      "AdditionalShots": 0,
+      "OverrideProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "HasOverrideAnimations": 1,
+      "OverrideIdleAnimation": "space2_friend_idle"
+    }
+  ],
+  "PredictsChests": 0
+}

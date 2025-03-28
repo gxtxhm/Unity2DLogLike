@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1678254576146094727
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5381109113487538693
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_FINAL_ATTACK",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Buckshot_icon_001",
+  "ValidInBossChambers": 0,
+  "MutuallyExclusive": [],
+  "DeathBulletScript": {
+    "scriptTypeName": "CircleBurst12"
+  },
+  "DefaultFallbackProjectile": {
+    "m_FileID": 2,
+    "m_PathID": -6003953132172606863
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4429648425271559901
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1825709797929089244
+  },
+  "m_Name": "",
+  "overrideMaterialDefinition": {
+    "m_FileID": 1,
+    "m_PathID": -9085600822337000802
+  },
+  "overrideHitEffect": {
+    "effects": []
+  },
+  "overrideHitEffectPool": {
+    "type": 0,
+    "effects": []
+  },
+  "additionalHitEffects": [],
+  "SuppressAllHitEffects": 0
+}

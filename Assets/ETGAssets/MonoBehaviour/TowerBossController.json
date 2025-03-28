@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4217894232389305296
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4596250233876048283
+  },
+  "m_Name": "",
+  "placeableWidth": 5,
+  "placeableHeight": 5,
+  "difficulty": 0,
+  "isPassable": 1,
+  "cockpitHealthHaver": {
+    "m_FileID": 0,
+    "m_PathID": 3215337218595197318
+  },
+  "towerSprite": {
+    "m_FileID": 0,
+    "m_PathID": -2219044309182255977
+  },
+  "irisLeft": {
+    "m_FileID": 0,
+    "m_PathID": 6891808955580266638
+  },
+  "irisRight": {
+    "m_FileID": 0,
+    "m_PathID": 7112926353506039398
+  },
+  "laserEmitters": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 9038695374181591605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5649322358474530436
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8714364665871229018
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9219585284127566571
+    }
+  ],
+  "ellipseCenter": {
+    "x": 1.325,
+    "y": 3.56
+  },
+  "ellipseAxes": {
+    "x": 1.25,
+    "y": 0.625
+  },
+  "beamProjectile": {
+    "m_FileID": 0,
+    "m_PathID": 8990490951296932996
+  },
+  "spinSpeed": 60.0,
+  "currentPhase": 0
+}

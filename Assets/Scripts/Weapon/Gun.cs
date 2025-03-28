@@ -11,12 +11,14 @@ public class Gun : Weapon
 
     public override void Reload()
     {
+        base.Reload();
         StartCoroutine("CoReload");
     }
 
     public override void Shoot()
     {
         if (IsReloading) return;
+        base.Shoot();
         curAmmo--;
         GameObject bullet = PoolingManager.Instance.GetItem(PoolingType.GunBullet);
         bullet.transform.position = Muzzle.transform.position;

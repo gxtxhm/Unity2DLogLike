@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8488217344170591617
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8068790857335581540
+  },
+  "m_Name": "",
+  "PlayersCanTrigger": 1,
+  "EnemiesCanTrigger": 0,
+  "ArbitraryObjectsCanTrigger": 0,
+  "CanUnpress": 1,
+  "depressAnimationName": "right_switch_down",
+  "unpressAnimationName": "right_switch_up"
+}

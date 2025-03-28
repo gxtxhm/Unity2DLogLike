@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3218933690180413829
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4213652281263177144
+  },
+  "m_Name": "",
+  "RequiredSequentialShots": 3,
+  "AmmoToGain": 1
+}

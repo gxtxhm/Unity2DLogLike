@@ -1,0 +1,607 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 643774249847849352
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1931842972182129318
+  },
+  "m_Name": "",
+  "fsm": {
+    "dataVersion": 1,
+    "usedInTemplate": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "name": "No Blank Checker",
+    "startState": "Init",
+    "states": [
+      {
+        "name": "Init",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 55.5,
+          "y": 102.5,
+          "width": 141.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "shouldHaveBlanks",
+              "isSystemEvent": 0,
+              "isGlobal": 1
+            },
+            "toState": "Check for Blanks",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [],
+          "customNames": [],
+          "actionEnabled": [],
+          "actionIsOpen": [],
+          "actionStartIndex": [],
+          "actionHashCodes": [],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [],
+          "paramName": [],
+          "paramDataPos": [],
+          "paramByteDataSize": []
+        }
+      },
+      {
+        "name": "Success",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 68.5,
+          "y": 248.5,
+          "width": 100.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Init",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.SendEventByName"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            27360954
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [
+            {
+              "target": 2,
+              "excludeSelf": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": 0
+              },
+              "gameObject": {
+                "ownerOption": 0,
+                "gameObject": {
+                  "useVariable": 0,
+                  "name": "",
+                  "tooltip": "",
+                  "showInInspector": 0,
+                  "networkSync": 0,
+                  "value": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  }
+                }
+              },
+              "fsmName": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": "Tutorial Knight Blanks"
+              },
+              "sendToChildren": {
+                "useVariable": 0,
+                "name": "",
+                "tooltip": "",
+                "showInInspector": 0,
+                "networkSync": 0,
+                "value": 0
+              },
+              "fsmComponent": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            }
+          ],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [
+            {
+              "useVariable": 0,
+              "name": "",
+              "tooltip": "",
+              "showInInspector": 0,
+              "networkSync": 0,
+              "value": "playerNeedsBlank"
+            }
+          ],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            31,
+            18,
+            15,
+            1
+          ],
+          "paramName": [
+            "eventTarget",
+            "sendEvent",
+            "delay",
+            "everyFrame"
+          ],
+          "paramDataPos": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "paramByteDataSize": [
+            0,
+            0,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "name": "Check for South",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 263.5,
+          "y": 234.5,
+          "width": 125.0,
+          "height": 48.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "playerSouth",
+              "isSystemEvent": 0,
+              "isGlobal": 0
+            },
+            "toState": "Success",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          },
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Check for Blanks",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.Delay"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            24013776
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            0,
+            63,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            15
+          ],
+          "paramName": [
+            "time"
+          ],
+          "paramDataPos": [
+            0
+          ],
+          "paramByteDataSize": [
+            5
+          ]
+        }
+      },
+      {
+        "name": "Check for Blanks",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 255.0,
+          "y": 103.0,
+          "width": 131.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "hasNoBlanks",
+              "isSystemEvent": 0,
+              "isGlobal": 1
+            },
+            "toState": "Wait for a bit",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [],
+          "customNames": [],
+          "actionEnabled": [],
+          "actionIsOpen": [],
+          "actionStartIndex": [],
+          "actionHashCodes": [],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [],
+          "paramName": [],
+          "paramDataPos": [],
+          "paramByteDataSize": []
+        }
+      },
+      {
+        "name": "Wait for a bit",
+        "description": "",
+        "colorIndex": 0,
+        "position": {
+          "x": 448.0,
+          "y": 153.0,
+          "width": 107.0,
+          "height": 32.0
+        },
+        "isBreakpoint": 0,
+        "isSequence": 0,
+        "hideUnused": 0,
+        "transitions": [
+          {
+            "fsmEvent": {
+              "name": "FINISHED",
+              "isSystemEvent": 1,
+              "isGlobal": 0
+            },
+            "toState": "Check for South",
+            "linkStyle": 0,
+            "linkConstraint": 0,
+            "colorIndex": 0
+          }
+        ],
+        "actionData": {
+          "actionNames": [
+            "HutongGames.PlayMaker.Actions.Delay"
+          ],
+          "customNames": [
+            ""
+          ],
+          "actionEnabled": [
+            1
+          ],
+          "actionIsOpen": [
+            1
+          ],
+          "actionStartIndex": [
+            0
+          ],
+          "actionHashCodes": [
+            24013776
+          ],
+          "unityObjectParams": [],
+          "fsmGameObjectParams": [],
+          "fsmOwnerDefaultParams": [],
+          "animationCurveParams": [],
+          "functionCallParams": [],
+          "fsmTemplateControlParams": [],
+          "fsmEventTargetParams": [],
+          "fsmPropertyParams": [],
+          "layoutOptionParams": [],
+          "fsmStringParams": [],
+          "fsmObjectParams": [],
+          "fsmVarParams": [],
+          "fsmArrayParams": [],
+          "fsmEnumParams": [],
+          "fsmFloatParams": [],
+          "fsmIntParams": [],
+          "fsmBoolParams": [],
+          "fsmVector2Params": [],
+          "fsmVector3Params": [],
+          "fsmColorParams": [],
+          "fsmRectParams": [],
+          "fsmQuaternionParams": [],
+          "stringParams": [],
+          "byteData": [
+            0,
+            0,
+            64,
+            64,
+            0
+          ],
+          "arrayParamSizes": [],
+          "arrayParamTypes": [],
+          "customTypeSizes": [],
+          "customTypeNames": [],
+          "paramDataType": [
+            15
+          ],
+          "paramName": [
+            "time"
+          ],
+          "paramDataPos": [
+            0
+          ],
+          "paramByteDataSize": [
+            5
+          ]
+        }
+      }
+    ],
+    "events": [
+      {
+        "name": "FINISHED",
+        "isSystemEvent": 1,
+        "isGlobal": 0
+      },
+      {
+        "name": "hasBlanks",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "hasNoBlanks",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      },
+      {
+        "name": "playerSouth",
+        "isSystemEvent": 0,
+        "isGlobal": 0
+      },
+      {
+        "name": "shouldHaveBlanks",
+        "isSystemEvent": 0,
+        "isGlobal": 1
+      }
+    ],
+    "globalTransitions": [],
+    "variables": {
+      "floatVariables": [],
+      "intVariables": [],
+      "boolVariables": [],
+      "stringVariables": [],
+      "vector2Variables": [],
+      "vector3Variables": [],
+      "colorVariables": [],
+      "rectVariables": [],
+      "quaternionVariables": [],
+      "gameObjectVariables": [],
+      "objectVariables": [],
+      "materialVariables": [],
+      "textureVariables": [],
+      "arrayVariables": [],
+      "enumVariables": [],
+      "categories": [
+        ""
+      ],
+      "variableCategoryIDs": []
+    },
+    "description": "",
+    "docUrl": "",
+    "showStateLabel": 1,
+    "maxLoopCount": 0,
+    "watermark": "",
+    "password": "",
+    "locked": 0,
+    "manualUpdate": 0,
+    "keepDelayedEventsOnStateExit": 0,
+    "preprocessed": 1,
+    "ExposedEvents": [],
+    "RestartOnEnable": 1,
+    "EnableDebugFlow": 0,
+    "EnableBreakpoints": 1,
+    "editorFlags": 3,
+    "activeStateName": "",
+    "mouseEvents": 0,
+    "handleTriggerEnter2D": 0,
+    "handleTriggerExit2D": 0,
+    "handleTriggerStay2D": 0,
+    "handleCollisionEnter2D": 0,
+    "handleCollisionExit2D": 0,
+    "handleCollisionStay2D": 0,
+    "handleTriggerEnter": 0,
+    "handleTriggerExit": 0,
+    "handleTriggerStay": 0,
+    "handleCollisionEnter": 0,
+    "handleCollisionExit": 0,
+    "handleCollisionStay": 0,
+    "handleParticleCollision": 0,
+    "handleControllerColliderHit": 0,
+    "handleJointBreak": 0,
+    "handleJointBreak2D": 0,
+    "handleOnGUI": 0,
+    "handleFixedUpdate": 0,
+    "handleApplicationEvents": 0,
+    "handleAnimatorMove": 0,
+    "handleAnimatorIK": 0
+  },
+  "fsmTemplate": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "eventHandlerComponentsAdded": 0
+}

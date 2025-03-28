@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4790741232416086389
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8425753112061609534
+  },
+  "m_Name": "",
+  "poofVfx": {
+    "m_FileID": 0,
+    "m_PathID": 6534958099516354115
+  },
+  "OnlyOnClipEmpty": 1,
+  "SynergyContingent": 1,
+  "RequiredSynergy": 132
+}

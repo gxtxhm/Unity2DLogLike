@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5191587144326568076
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3072687790971592862
+  },
+  "m_Name": "",
+  "placeableWidth": 5,
+  "placeableHeight": 5,
+  "difficulty": 0,
+  "isPassable": 1,
+  "baseShopType": 3,
+  "FoyerMetaShopForcedTiers": 0,
+  "IsBeetleMerchant": 0,
+  "ExampleBlueprintPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "shopItems": {
+    "m_FileID": 0,
+    "m_PathID": 4466583248577373925
+  },
+  "spawnPositions": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5359708244794015907
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5053277750121431521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6934487014221192305
+    }
+  ],
+  "shopItemsGroup2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spawnPositionsGroup2": [],
+  "spawnGroupTwoItem1Chance": 0.5,
+  "spawnGroupTwoItem2Chance": 0.5,
+  "spawnGroupTwoItem3Chance": 0.5,
+  "shopkeepFSM": {
+    "m_FileID": 0,
+    "m_PathID": 2071700132058862823
+  },
+  "shopItemShadowPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -8733103861718258329
+  },
+  "cat": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OptionalMinimapIcon": {
+    "m_FileID": 1,
+    "m_PathID": -3786492616981176711
+  },
+  "ShopCostModifier": 1.0,
+  "FlagToSetOnEncounter": 45301
+}

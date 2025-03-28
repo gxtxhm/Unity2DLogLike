@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5235801613155181219
+  },
+  "m_Enabled": 0,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7126000373147073620
+  },
+  "m_Name": "",
+  "LimitPrefix": "bullet limb",
+  "OverrideHeightOffGround": 1,
+  "HeightOffGround": 9.0,
+  "OverrideLimbName": "limb",
+  "OverrideFinalLimbName": "",
+  "CollideWithOthers": 1,
+  "DisableTileMapCollisions": 1,
+  "RotateToMatchTransforms": 0,
+  "WarpBullets": 1
+}

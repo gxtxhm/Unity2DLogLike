@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5911726783816503131
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "map_border_intro_001",
+    "map_border_intro_002_004_006",
+    "map_border_intro_003",
+    "map_border_intro_003",
+    "map_border_intro_002_004_006",
+    "map_border_intro_002_004_006",
+    "map_border_intro_005",
+    "map_border_intro_005",
+    "map_border_intro_002_004_006"
+  ]
+}

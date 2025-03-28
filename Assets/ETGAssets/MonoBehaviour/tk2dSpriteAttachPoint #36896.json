@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2114427916119655683
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6173266617801935031
+  },
+  "m_Name": "",
+  "attachPoints": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -2713873404663335477
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8920179334142848602
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4843899334679329917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8108812230802225232
+    }
+  ],
+  "deactivateUnusedAttachPoints": 0,
+  "disableEmissionOnUnusedParticleSystems": 0,
+  "ignorePosition": 0,
+  "ignoreScale": 0,
+  "ignoreRotation": 0,
+  "centerUnusedAttachPoints": 0
+}

@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7678135572750502942
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7126000373147073620
+  },
+  "m_Name": "",
+  "LimitPrefix": "",
+  "OverrideHeightOffGround": 1,
+  "HeightOffGround": 10.0,
+  "OverrideLimbName": "",
+  "OverrideFinalLimbName": "",
+  "CollideWithOthers": 1,
+  "DisableTileMapCollisions": 0,
+  "RotateToMatchTransforms": 0,
+  "WarpBullets": 0
+}

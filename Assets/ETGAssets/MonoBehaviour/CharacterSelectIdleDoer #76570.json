@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4493645627082000979
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8795072134096688675
+  },
+  "m_Name": "",
+  "coreIdleAnimation": "select_idle",
+  "onSelectedAnimation": "select_choose",
+  "idleMin": 4.0,
+  "idleMax": 10.0,
+  "phases": [
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_crouch",
+      "holdAnimation": "select_crouch_idle",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "select_crouch_draw",
+      "outAnimation": "select_crouch_out",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "holdMin": 4.0,
+      "holdMax": 10.0,
+      "inAnimation": "select_pose",
+      "holdAnimation": "select_pose_idle",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "select_pose_dance",
+      "outAnimation": "",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "holdMin": 2.0,
+      "holdMax": 4.0,
+      "inAnimation": "select_thumbsup",
+      "holdAnimation": "",
+      "optionalHoldChance": 0.5,
+      "optionalHoldIdleAnimation": "",
+      "outAnimation": "select_thumbsup_out",
+      "vfxTrigger": 0,
+      "vfxHoldPeriod": 1.0,
+      "vfxSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "endVFXSpriteAnimator": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "IsEevee": 0,
+  "EeveeTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "AnimationLibraries": []
+}

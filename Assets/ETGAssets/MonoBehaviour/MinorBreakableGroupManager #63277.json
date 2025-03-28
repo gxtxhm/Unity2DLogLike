@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2995529994929687130
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6422029600318574056
+  },
+  "m_Name": "",
+  "behavior": 2,
+  "autodetectDimensions": 0,
+  "overridePixelDimensions": {
+    "x": 19,
+    "y": 8
+  }
+}

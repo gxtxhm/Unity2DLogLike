@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7795196642579979907
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8673606650239193142
+  },
+  "m_Name": "",
+  "anchorStyle": 0,
+  "isEnabled": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "tooltip": "",
+  "pivot": 8,
+  "zindex": 7,
+  "color": {
+    "rgba": 4294967295
+  },
+  "disabledColor": {
+    "rgba": 4294967295
+  },
+  "size": {
+    "x": 15.0,
+    "y": 210.0
+  },
+  "minSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maxSize": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "clipChildren": 0,
+  "inverseClipChildren": 0,
+  "tabIndex": -1,
+  "canFocus": 0,
+  "autoFocus": 0,
+  "layout": {
+    "anchorStyle": 5,
+    "margins": {
+      "left": 1255.0,
+      "top": 483.0,
+      "right": 10.0,
+      "bottom": 27.0
+    },
+    "owner": {
+      "m_FileID": 0,
+      "m_PathID": -1612167138263702855
+    }
+  },
+  "renderOrder": 9,
+  "isLocalized": 0,
+  "hotZoneScale": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "allowSignalEvents": 1,
+  "PrecludeUpdateCycle": 0,
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "spriteName": "chamber_full_letter_001",
+  "flip": 0,
+  "fillDirection": 0,
+  "fillAmount": 1.0,
+  "invertFill": 0,
+  "tileScale": {
+    "x": 3.0,
+    "y": 3.0
+  },
+  "tileScroll": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "EnableBlackLineFix": 0
+}

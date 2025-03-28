@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8961782662344833800
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -526382357300039424
+  },
+  "m_Name": "",
+  "RequiredSynergy": 259,
+  "OnlyArmorDamage": 0,
+  "DoesRadialBurst": 0,
+  "RadialBurst": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 1,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "MinToSpawnPerWave": 10,
+    "MaxToSpawnPerWave": 10,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 0,
+    "AlignFirstShot": 0,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  },
+  "DoesRadialSlow": 1,
+  "RadialSlow": {
+    "EffectRadius": 100.0,
+    "RadialSlowInTime": 0.1,
+    "RadialSlowHoldTime": 4.0,
+    "RadialSlowOutTime": 0.5,
+    "RadialSlowTimeModifier": 0.0,
+    "audioEvent": "",
+    "DoesSepia": 1,
+    "DoesCirclePass": 0,
+    "UpdatesForNewEnemies": 1
+  },
+  "OnTriggeredAudioEvent": ""
+}

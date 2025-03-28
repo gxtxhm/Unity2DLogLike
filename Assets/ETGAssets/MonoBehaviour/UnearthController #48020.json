@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5300846548691196850
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2828950626327688762
+  },
+  "m_Name": "",
+  "triggerAnim": "awaken",
+  "dirtVfx": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7544962027737814071
+    }
+  ],
+  "dirtCount": 2,
+  "dustVfx": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 8458164388207366008
+    }
+  ],
+  "dustMidDelay": 0.5,
+  "dustOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "dustDimensions": {
+    "x": 0.8,
+    "y": 0.25
+  }
+}

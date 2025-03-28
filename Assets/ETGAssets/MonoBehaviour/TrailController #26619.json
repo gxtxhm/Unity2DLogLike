@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3081184011244799522
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1192790858581614595
+  },
+  "m_Name": "",
+  "usesStartAnimation": 0,
+  "startAnimation": "",
+  "usesAnimation": 1,
+  "animation": "bulletbow_trail_middle",
+  "usesCascadeTimer": 1,
+  "cascadeTimer": 0.0,
+  "usesSoftMaxLength": 0,
+  "softMaxLength": 0.0,
+  "usesGlobalTimer": 0,
+  "globalTimer": 0.08,
+  "destroyOnEmpty": 1,
+  "FlipUvsY": 0,
+  "rampHeight": 1,
+  "rampStartHeight": 2.0,
+  "rampTime": 1.0,
+  "boneSpawnOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "UsesDispersalParticles": 1,
+  "DispersalDensity": 12.0,
+  "DispersalMinCoherency": 0.1,
+  "DispersalMaxCoherency": 0.4,
+  "DispersalParticleSystemPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 5713304429768919506
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5752356084347889184
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2043994806717107206
+  },
+  "m_Name": "",
+  "TierThresholds": [
+    10,
+    30,
+    200
+  ],
+  "TiersToDropOnDamage": 1,
+  "MaxTier": 3,
+  "TierVFX": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1278310666829815730
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -3414642837904456773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1052758213824556547
+    }
+  ]
+}

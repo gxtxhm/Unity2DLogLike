@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6997599087860602260
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 40394118046617740
+  },
+  "m_Name": "",
+  "Formes": [
+    {
+      "RequiresSynergy": 0,
+      "RequiredSynergy": 0,
+      "FormeID": 36
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 122,
+      "FormeID": 623
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 123,
+      "FormeID": 622
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 124,
+      "FormeID": 624
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 125,
+      "FormeID": 618
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 126,
+      "FormeID": 621
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 127,
+      "FormeID": 620
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 128,
+      "FormeID": 619
+    },
+    {
+      "RequiresSynergy": 1,
+      "RequiredSynergy": 129,
+      "FormeID": 617
+    }
+  ]
+}

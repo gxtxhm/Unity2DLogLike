@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5728774686881642264
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3223513853651881199
+  },
+  "m_Name": "",
+  "deathType": 1,
+  "preDeathDelay": 0.0,
+  "triggerName": "",
+  "chanceToSpawn": 0.0,
+  "spawnVfx": "",
+  "enemySelection": 10,
+  "enemyGuidsToSpawn": [
+    "3590db6c4eac474a93299a908cb77ab2",
+    "1398aaccb26d42f3b998c367b7800b85"
+  ],
+  "minSpawnCount": 1,
+  "maxSpawnCount": 1,
+  "spawnPosition": 20,
+  "extraPixelWidth": 0,
+  "spawnRadius": 10.0,
+  "guaranteedSpawnGenerations": 3.0,
+  "spawnAnim": "",
+  "spawnsCanDropLoot": 0,
+  "DoNormalReinforcement": 1
+}

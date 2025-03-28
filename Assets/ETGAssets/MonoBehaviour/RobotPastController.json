@@ -1,0 +1,83 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8218078059580321361
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2328597138543454691
+  },
+  "m_Name": "",
+  "InstantBossFight": 0,
+  "DoWavesOfEnemies": 0,
+  "WelcomeBot": {
+    "m_FileID": 0,
+    "m_PathID": 7947467874981405605
+  },
+  "EmperorBot": {
+    "m_FileID": 0,
+    "m_PathID": 7474794295006480834
+  },
+  "validPrefixes": [
+    "bluebot",
+    "flatbot",
+    "greenbot",
+    "purpbot",
+    "redbot",
+    "yelbot"
+  ],
+  "directionalAffixes": [
+    "_front",
+    "_front_left",
+    "_back_left",
+    "_back",
+    "_back_right",
+    "_front_right",
+    "_off_front",
+    "_off_front_left",
+    "_off_back_left",
+    "_off_back",
+    "_off_back_right",
+    "_off_front_right"
+  ],
+  "RobotPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -3807386881923442898
+  },
+  "WarpVFX": {
+    "m_FileID": 0,
+    "m_PathID": -7724484675557340754
+  },
+  "outerRectMin": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "outerRectMax": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "innerRectMin": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "innerRectMax": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "EmperorSprite": {
+    "m_FileID": 0,
+    "m_PathID": 7070258749509240446
+  },
+  "excludedRect": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 0.0,
+    "height": 0.0
+  },
+  "CritterIds": [
+    "95ea1a31fc9e4415a5f271b9aedf9b15",
+    "42432592685e47c9941e339879379d3a",
+    "4254a93fc3c84c0dbe0a8f0dddf48a5a"
+  ]
+}

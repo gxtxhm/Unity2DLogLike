@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 367
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 49
+  },
+  "m_Name": "",
+  "renderCamera": {
+    "m_FileID": 0,
+    "m_PathID": 2205
+  },
+  "useTouch": 1,
+  "useMouse": 1,
+  "useJoystick": 1,
+  "joystickClickButton": 32,
+  "horizontalAxis": "Horizontal",
+  "verticalAxis": "Vertical",
+  "axisPollingInterval": 0.15,
+  "retainFocus": 0,
+  "touchClickRadius": 125,
+  "hoverStartDelay": 0.0,
+  "hoverNotifactionFrequency": 0.0
+}

@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8981802327697235165
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6222636618951456449
+  },
+  "m_Name": "",
+  "appearAnimation": "marine_facecard_appear",
+  "coreIdleAnimation": "marine_facecard_idle",
+  "idleMin": 0.5,
+  "idleMax": 2.0,
+  "usesMultipleIdleAnimations": 1,
+  "multipleIdleAnimations": [
+    "marine_facecard_idle",
+    "convict_facecard_idle",
+    "guide_facecard_idle",
+    "rogue_facecard_idle",
+    "robot_facecard_idle"
+  ],
+  "EeveeTex": {
+    "m_FileID": 2,
+    "m_PathID": -1873493035977698543
+  }
+}

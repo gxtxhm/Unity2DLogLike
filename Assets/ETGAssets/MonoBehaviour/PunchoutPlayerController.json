@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7887473283814631150
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1842636746107418217
+  },
+  "m_Name": "",
+  "HealthBarUI": {
+    "m_FileID": 0,
+    "m_PathID": 2618341814420192554
+  },
+  "StarsUI": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5494007997636291218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6752579510357439115
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8403175709562569706
+    }
+  ],
+  "Opponent": {
+    "m_FileID": 0,
+    "m_PathID": -937503750317556755
+  },
+  "PlayerUiSprite": {
+    "m_FileID": 0,
+    "m_PathID": -2946251316851784140
+  },
+  "CoopAnimator": {
+    "m_FileID": 0,
+    "m_PathID": -5221378049048286627
+  },
+  "starRemovedAnimationPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -826361257594871100
+  },
+  "starRemovedOffset": {
+    "x": -3.0,
+    "y": -1.0,
+    "z": 0.0
+  },
+  "InputBufferTime": 0.1,
+  "MaxExhaust": 4.35,
+  "ExhauseRecoveryRate": 0.2,
+  "BlockStickyFriction": 0.1,
+  "DuckCameraSway": 0.8,
+  "DodgeCameraSway": 1.4,
+  "PunchCameraSway": 0.4,
+  "SuperBackCameraSway": 0.8,
+  "SuperForwardCameraSway": 0.4,
+  "CosmicTex": {
+    "m_FileID": 1,
+    "m_PathID": -1873493035977698543
+  }
+}

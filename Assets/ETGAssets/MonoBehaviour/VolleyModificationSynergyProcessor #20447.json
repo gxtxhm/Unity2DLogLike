@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3741420599456634342
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4900672001211909050
+  },
+  "m_Name": "",
+  "synergies": [
+    {
+      "RequiredSynergy": 167,
+      "AddsChargeProjectile": 0,
+      "ChargeProjectileToAdd": {
+        "ChargeTime": 0.0,
+        "Projectile": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "UsedProperties": 0,
+        "AmmoCost": 0,
+        "VfxPool": {
+          "type": 0,
+          "effects": []
+        },
+        "LightIntensity": 0.0,
+        "ScreenShake": {
+          "magnitude": 0.0,
+          "speed": 0.0,
+          "time": 0.0,
+          "falloff": 0.0,
+          "direction": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vibrationType": 0,
+          "simpleVibrationTime": 0,
+          "simpleVibrationStrength": 0
+        },
+        "OverrideShootAnimation": "",
+        "OverrideMuzzleFlashVfxPool": {
+          "type": 0,
+          "effects": []
+        },
+        "MegaReflection": 0,
+        "AdditionalWwiseEvent": ""
+      },
+      "AddsModules": 0,
+      "ModulesToAdd": [],
+      "AddsDuplicatesOfBaseModule": 0,
+      "DuplicatesOfBaseModule": 0,
+      "BaseModuleDuplicateAngle": 0.0,
+      "ReplacesSourceProjectile": 1,
+      "ReplacementChance": 1.0,
+      "OnlyReplacesAdditionalProjectiles": 0,
+      "ReplacementProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 4243497945790668283
+      },
+      "UsesMultipleReplacementProjectiles": 1,
+      "MultipleReplacementsSequential": 1,
+      "MultipleReplacementProjectiles": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 4243497945790668283
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8968623981428629677
+        }
+      ],
+      "ReplacementSkipsChargedShots": 1,
+      "SetsNumberFinalProjectiles": 0,
+      "NumberFinalProjectiles": 0,
+      "AddsNewFinalProjectile": 0,
+      "NewFinalProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "NewFinalProjectileAmmoType": "",
+      "SetsBurstCount": 0,
+      "MakesDefaultModuleBurst": 0,
+      "BurstMultiplier": 0.0,
+      "BurstShift": 0,
+      "AddsPossibleProjectileToPrimaryModule": 0,
+      "AdditionalModuleProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

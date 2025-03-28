@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8568202476024324232
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7207542960448818713
+  },
+  "m_Name": "",
+  "PrefabToSpawn": {
+    "m_FileID": 0,
+    "m_PathID": 617024582087738670
+  },
+  "Identifier": "PaydaySynergyProcessor"
+}

@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 162
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 46
+  },
+  "m_Name": "",
+  "TargetCharacter": 6,
+  "CostumeSprite": {
+    "m_FileID": 0,
+    "m_PathID": 808
+  },
+  "AlternateCostumeSprite": {
+    "m_FileID": 0,
+    "m_PathID": 745
+  },
+  "TargetLibrary": {
+    "m_FileID": 2,
+    "m_PathID": 7042627413517211836
+  },
+  "HasCustomTrigger": 0,
+  "CustomTriggerIsFlag": 0,
+  "TriggerFlag": 0,
+  "CustomTriggerIsSpecialReserve": 0
+}

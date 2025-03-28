@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 957
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 16
+  },
+  "m_Name": "",
+  "autoAimMode": 1,
+  "showCursor": 0,
+  "magnetAngles": {
+    "movementCardinal": 20.0,
+    "movementOrdinal": 0.0,
+    "aimCardinal": 0.0,
+    "aimOrdinal": 0.0
+  },
+  "controllerAutoAimDegrees": 15.0,
+  "controllerSuperAutoAimDegrees": 60.0,
+  "controllerFakeSemiAutoCooldown": 0.25,
+  "PressActions": [
+    {
+      "Control": 9,
+      "BufferTime": 0.15
+    },
+    {
+      "Control": 12,
+      "BufferTime": 0.3
+    }
+  ],
+  "HoldActions": [
+    {
+      "Control": 8,
+      "BufferTime": 0.25
+    }
+  ]
+}

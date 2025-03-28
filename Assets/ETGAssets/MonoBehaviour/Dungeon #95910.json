@@ -1,0 +1,343 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4066518902838747456
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7308223789583632610
+  },
+  "m_Name": "",
+  "contentSource": 0,
+  "DungeonSeed": 0,
+  "DungeonShortName": "#HEGEMONYSPACE_SHORTNAME",
+  "DungeonFloorName": "#HEGEMONYSPACE_NAME",
+  "DungeonFloorLevelTextOverride": "#HEGEMONYSPACE_SECONDLINE",
+  "LevelOverrideType": 5,
+  "debugSettings": {
+    "RAPID_DEBUG_DUNGEON_ITERATION_SEEKER": 0,
+    "RAPID_DEBUG_DUNGEON_ITERATION": 0,
+    "RAPID_DEBUG_DUNGEON_COUNT": 100,
+    "GENERATION_VIEWER_MODE": 0,
+    "FULL_MINIMAP_VISIBILITY": 0,
+    "COOP_TEST": 0,
+    "DISABLE_ENEMIES": 0,
+    "DISABLE_LOOPS": 1,
+    "DISABLE_SECRET_ROOM_COVERS": 0,
+    "DISABLE_OUTLINES": 0,
+    "WALLS_ARE_PITS": 0
+  },
+  "PatternSettings": {
+    "flows": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2635638516205300544
+      }
+    ],
+    "mandatoryExtraRooms": [],
+    "optionalExtraRooms": [],
+    "MAX_GENERATION_ATTEMPTS": 250,
+    "DEBUG_RENDER_CANVASES_SEPARATELY": 0
+  },
+  "ForceRegenerationOfCharacters": 1,
+  "ActuallyGenerateTilemap": 1,
+  "decoSettings": {
+    "standardRoomVisualSubtypes": {
+      "elements": [
+        {
+          "annotation": "pilot final",
+          "value": 0,
+          "weight": 1.0,
+          "additionalPrerequisites": []
+        }
+      ]
+    },
+    "decalLayerStyle": 99,
+    "decalSize": 3,
+    "decalSpacing": 1,
+    "decalExpansion": 0,
+    "patternLayerStyle": 0,
+    "patternSize": 4,
+    "patternSpacing": 3,
+    "patternExpansion": 1,
+    "decoPatchFrequency": 0.01,
+    "ambientLightColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ambientLightColorTwo": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "lowQualityAmbientLightColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "lowQualityAmbientLightColorTwo": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "lowQualityCheapLightVector": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -1.0,
+      "w": 0.0
+    },
+    "UsesAlienFXFloorColor": 1,
+    "AlienFXFloorColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "generateLights": 0,
+    "lightCullingPercentage": 0.2,
+    "lightOverlapRadius": 8,
+    "nearestAllowedLight": 12.0,
+    "minLightExpanseWidth": 2,
+    "lightHeight": -2.0,
+    "lightCookies": [],
+    "debug_view": 1
+  },
+  "tileIndices": {
+    "tilesetId": 16384,
+    "dungeonCollection": {
+      "m_FileID": 2,
+      "m_PathID": -5026697353456491840
+    },
+    "dungeonCollectionSupportsDiagonalWalls": 0,
+    "aoTileIndices": {
+      "AOFloorTileIndex": 0,
+      "AOBottomWallBaseTileIndex": 1,
+      "AOBottomWallTileRightIndex": 2,
+      "AOBottomWallTileLeftIndex": 3,
+      "AOBottomWallTileBothIndex": 4,
+      "AOTopFacewallRightIndex": 6,
+      "AOTopFacewallLeftIndex": 5,
+      "AOTopFacewallBothIndex": 7,
+      "AOFloorWallLeft": 5,
+      "AOFloorWallRight": 6,
+      "AOFloorWallBoth": 7,
+      "AOFloorPizzaSliceLeft": 8,
+      "AOFloorPizzaSliceRight": 9,
+      "AOFloorPizzaSliceBoth": 10,
+      "AOFloorPizzaSliceLeftWallRight": 11,
+      "AOFloorPizzaSliceRightWallLeft": 12,
+      "AOFloorWallUpAndLeft": 13,
+      "AOFloorWallUpAndRight": 14,
+      "AOFloorWallUpAndBoth": 15,
+      "AOFloorDiagonalWallNortheast": 42,
+      "AOFloorDiagonalWallNortheastLower": 64,
+      "AOFloorDiagonalWallNortheastLowerJoint": 86,
+      "AOFloorDiagonalWallNorthwest": 43,
+      "AOFloorDiagonalWallNorthwestLower": 65,
+      "AOFloorDiagonalWallNorthwestLowerJoint": 87,
+      "AOBottomWallDiagonalNortheast": -1,
+      "AOBottomWallDiagonalNorthwest": -1
+    },
+    "placeBorders": 1,
+    "placePits": 0,
+    "chestHighWallIndices": [
+      {
+        "index": 41,
+        "likelihood": 0.5,
+        "overrideLayerIndex": 0,
+        "overrideIndex": 0
+      }
+    ],
+    "decalIndexGrid": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "patternIndexGrid": {
+      "m_FileID": 2,
+      "m_PathID": -5446381572099976220
+    },
+    "globalSecondBorderTiles": [],
+    "edgeDecorationTiles": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  },
+  "roomMaterialDefinitions": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -7554393697916609147
+    }
+  ],
+  "dungeonWingDefinitions": [],
+  "pathGridDefinitions": [],
+  "dungeonDustups": {
+    "runDustup": {
+      "m_FileID": 2,
+      "m_PathID": -6153322112070528405
+    },
+    "waterDustup": {
+      "m_FileID": 2,
+      "m_PathID": -3841551850150223722
+    },
+    "additionalWaterDustup": {
+      "m_FileID": 1,
+      "m_PathID": 2337832957517466865
+    },
+    "rollNorthDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollNorthEastDustup": {
+      "m_FileID": 2,
+      "m_PathID": 969010270415358311
+    },
+    "rollEastDustup": {
+      "m_FileID": 2,
+      "m_PathID": 4230881288371159507
+    },
+    "rollSouthEastDustup": {
+      "m_FileID": 2,
+      "m_PathID": 2784138954288912344
+    },
+    "rollSouthDustup": {
+      "m_FileID": 2,
+      "m_PathID": -7553737111083548375
+    },
+    "rollSouthWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollNorthWestDustup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "rollLandDustup": {
+      "m_FileID": 2,
+      "m_PathID": 8257744222429916424
+    }
+  },
+  "damageTypeEffectMatrix": {
+    "m_FileID": 2,
+    "m_PathID": 7255180833153675081
+  },
+  "stampData": {
+    "m_FileID": 2,
+    "m_PathID": -7025535735596939569
+  },
+  "UsesCustomFloorIdea": 0,
+  "FloorIdea": {
+    "ValidEasyEnemyPlaceables": [],
+    "ValidHardEnemyPlaceables": [],
+    "UseWallSawblades": 0,
+    "UseRollingLogsVertical": 0,
+    "UseRollingLogsHorizontal": 0,
+    "UseFloorPitTraps": 0,
+    "UseFloorFlameTraps": 0,
+    "UseFloorSpikeTraps": 0,
+    "UseFloorConveyorBelts": 0,
+    "UseCaveIns": 0,
+    "UseAlarmMushrooms": 0,
+    "UseMineCarts": 0,
+    "UseChandeliers": 0,
+    "CanIncludePits": 1
+  },
+  "PlaceDoors": 1,
+  "doorObjects": {
+    "m_FileID": 2,
+    "m_PathID": -2885887924012950520
+  },
+  "lockedDoorObjects": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "oneWayDoorObjects": {
+    "m_FileID": 2,
+    "m_PathID": 3568730190406587653
+  },
+  "oneWayDoorPressurePlate": {
+    "m_FileID": 4,
+    "m_PathID": -6687512074454403569
+  },
+  "phantomBlockerDoorObjects": {
+    "m_FileID": 2,
+    "m_PathID": -2978133155552623911
+  },
+  "alternateDoorObjectsNakatomi": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "UsesWallWarpWingDoors": 0,
+  "WarpWingDoorPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "baseChestContents": {
+    "m_FileID": 2,
+    "m_PathID": 3925269189959038224
+  },
+  "SecretRoomSimpleTriggersFacewall": [
+    {
+      "m_FileID": 2,
+      "m_PathID": 5046537172439297165
+    }
+  ],
+  "SecretRoomSimpleTriggersSidewall": [
+    {
+      "m_FileID": 2,
+      "m_PathID": -4036495129809366723
+    }
+  ],
+  "SecretRoomComplexTriggers": [],
+  "SecretRoomDoorSparkVFX": {
+    "m_FileID": 2,
+    "m_PathID": -7925762178754920400
+  },
+  "SecretRoomHorizontalPoofVFX": {
+    "m_FileID": 2,
+    "m_PathID": 3151688407611872210
+  },
+  "SecretRoomVerticalPoofVFX": {
+    "m_FileID": 2,
+    "m_PathID": -4970224119828901946
+  },
+  "RatTrapdoor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "NormalRatGUID": "",
+  "sharedSettingsPrefab": {
+    "m_FileID": 2,
+    "m_PathID": 1056171823026138583
+  },
+  "BossMasteryTokenItemId": -1,
+  "UsesOverrideTertiaryBossSets": 0,
+  "OverrideTertiaryRewardSets": [],
+  "defaultPlayerPrefab": {
+    "m_FileID": 4,
+    "m_PathID": 181091431091280954
+  },
+  "StripPlayerOnArrival": 0,
+  "SuppressEmergencyCrates": 0,
+  "SetTutorialFlag": 0,
+  "PlayerIsLight": 0,
+  "PlayerLightColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "PlayerLightIntensity": 3.0,
+  "PlayerLightRadius": 5.0,
+  "PrefabsToAutoSpawn": [],
+  "musicEventName": "Play_MUS_Ending_Pilot_01"
+}

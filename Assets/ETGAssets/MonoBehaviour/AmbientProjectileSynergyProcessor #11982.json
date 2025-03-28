@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6453676907914771382
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5708525278547852678
+  },
+  "m_Name": "",
+  "SynergyToCheck": 39,
+  "TimeBetweenAmbientProjectiles": 5.0,
+  "ActiveEvenWithoutEnemies": 0,
+  "UsesRadius": 0,
+  "Radius": 5.0,
+  "Ambience": {
+    "ProjectileInterface": {
+      "UseCurrentGunProjectile": 0,
+      "SpecifiedProjectile": {
+        "m_FileID": 0,
+        "m_PathID": 789416173753753169
+      }
+    },
+    "MinToSpawnPerWave": 3,
+    "MaxToSpawnPerWave": 5,
+    "NumberWaves": 1,
+    "NumberSubwaves": 1,
+    "TimeBetweenWaves": 1.0,
+    "SpiralWaves": 1,
+    "AlignFirstShot": 0,
+    "AlignOffset": 0.0,
+    "SweepBeams": 0,
+    "BeamSweepDegrees": 360.0,
+    "AimFirstAtNearestEnemy": 0,
+    "FixOverlapCollision": 0,
+    "ForceAllowGoop": 0
+  }
+}

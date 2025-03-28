@@ -1,0 +1,46 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3871084872931401743
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3328515094935663922
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 1,
+  "PedestalA1Items": [
+    78
+  ],
+  "PedestalA2Items": [
+    85
+  ],
+  "PedestalA3Items": [
+    224
+  ],
+  "PedestalA4Items": [
+    67
+  ],
+  "PedestalB1Items": [
+    600
+  ],
+  "PedestalB2Items": [
+    120
+  ],
+  "PedestalB3Items": [
+    565
+  ],
+  "PedestalB4Items": [
+    67
+  ],
+  "RatChestItems": [
+    667,
+    662,
+    626,
+    663
+  ]
+}

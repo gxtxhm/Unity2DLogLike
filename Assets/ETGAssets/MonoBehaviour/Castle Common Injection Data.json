@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5094097452224653238
+  },
+  "m_Name": "Castle Common Injection Data",
+  "InjectionData": [
+    {
+      "annotation": "Sewers Exit",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        4
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": -7126396876642666688
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 1.0,
+      "chanceToSpawn": 2.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 1,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    },
+    {
+      "annotation": "Fireplace Backup",
+      "DEBUG_FORCE_SPAWN": 0,
+      "OncePerRun": 0,
+      "placementRules": [
+        4
+      ],
+      "roomTable": {
+        "m_FileID": 0,
+        "m_PathID": -9116484533135783077
+      },
+      "exactRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "IsWarpWing": 0,
+      "RequiresMasteryToken": 0,
+      "chanceToLock": 0.0,
+      "selectionWeight": 1.0,
+      "chanceToSpawn": 2.0,
+      "RequiredValidPlaceable": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "prerequisites": [],
+      "CanBeForcedSecret": 0,
+      "RandomNodeChildMinDistanceFromEntrance": 0,
+      "exactSecondaryRoom": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "framedCombatNodes": 0
+    }
+  ],
+  "UseInvalidWeightAsNoInjection": 0,
+  "PreventInjectionOfFailedPrerequisites": 0,
+  "IsNPCCell": 0,
+  "IgnoreUnmetPrerequisiteEntries": 0,
+  "OnlyOne": 0,
+  "ChanceToSpawnOne": 0.5,
+  "AttachedInjectionData": []
+}

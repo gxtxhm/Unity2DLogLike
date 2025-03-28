@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4087042590193519547
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2012276426234782883
+  },
+  "m_Name": "",
+  "PickupObjectId": 422,
+  "quality": 3,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 1,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Heart Holster",
+  "ForcedPositionInAmmonomicon": 220,
+  "UsesCustomCost": 0,
+  "CustomCost": 35,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "modifiers": [
+    {
+      "statToBoost": 3,
+      "modifyType": 0,
+      "amount": 1.0,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGive": 0,
+  "ModifiesDodgeRoll": 0,
+  "DodgeRollTimeMultiplier": 0.9,
+  "DodgeRollDistanceMultiplier": 1.25,
+  "AdditionalInvulnerabilityFrames": 0,
+  "IsJunk": 0,
+  "GivesCurrency": 0,
+  "CurrencyToGive": 0,
+  "IsMasteryToken": 0
+}

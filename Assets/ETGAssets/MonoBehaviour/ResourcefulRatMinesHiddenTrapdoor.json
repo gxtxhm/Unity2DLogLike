@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8916947338213875938
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2313313736732569735
+  },
+  "m_Name": "",
+  "placeableWidth": 4,
+  "placeableHeight": 4,
+  "difficulty": 0,
+  "isPassable": 1,
+  "TargetMinecartRoom": {
+    "m_FileID": 0,
+    "m_PathID": 7462073237842074111
+  },
+  "FirstSecretRoom": {
+    "m_FileID": 0,
+    "m_PathID": 5265687931665115511
+  },
+  "SecondSecretRoom": {
+    "m_FileID": 0,
+    "m_PathID": 5678448610351551893
+  },
+  "OverridePitGrid": {
+    "m_FileID": 0,
+    "m_PathID": 5270305516296686329
+  },
+  "BlendMaterial": {
+    "m_FileID": 1,
+    "m_PathID": 8106448452479197450
+  },
+  "LockBlendMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 2966461155572077344
+  },
+  "Lock": {
+    "m_FileID": 0,
+    "m_PathID": -7978718883144591585
+  },
+  "StoneFloorTex": {
+    "m_FileID": 0,
+    "m_PathID": -27579334809544808
+  },
+  "DirtFloorTex": {
+    "m_FileID": 1,
+    "m_PathID": -8973106567095614576
+  },
+  "ExplosionReactDistance": 8.0,
+  "FlightCollider": {
+    "m_FileID": 0,
+    "m_PathID": -8146197676913048551
+  },
+  "MinimapIcon": {
+    "m_FileID": 4,
+    "m_PathID": 3658801893414687214
+  }
+}

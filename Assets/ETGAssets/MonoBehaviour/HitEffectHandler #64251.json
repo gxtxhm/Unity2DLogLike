@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7653739635636234367
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1825709797929089244
+  },
+  "m_Name": "",
+  "overrideMaterialDefinition": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overrideHitEffect": {
+    "effects": [
+      {
+        "effect": {
+          "m_FileID": 0,
+          "m_PathID": 8812197103175233034
+        },
+        "orphaned": 0,
+        "attached": 1,
+        "persistsOnDeath": 0,
+        "usesZHeight": 0,
+        "zHeight": 0.0,
+        "alignment": 0,
+        "destructible": 0
+      }
+    ]
+  },
+  "overrideHitEffectPool": {
+    "type": 0,
+    "effects": []
+  },
+  "additionalHitEffects": [],
+  "SuppressAllHitEffects": 0
+}

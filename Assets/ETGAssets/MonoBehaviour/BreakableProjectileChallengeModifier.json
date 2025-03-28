@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 8394552432122280362
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3385145206540028389
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_POT_SHOTS",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Potshots_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [],
+  "AimAtPlayer": 1
+}

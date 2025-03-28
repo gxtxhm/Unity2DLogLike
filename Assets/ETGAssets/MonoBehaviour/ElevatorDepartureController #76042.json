@@ -1,0 +1,143 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2886305101520064746
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8218280887899394906
+  },
+  "m_Name": "",
+  "placeableWidth": 6,
+  "placeableHeight": 4,
+  "difficulty": 0,
+  "isPassable": 1,
+  "elevatorAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 6454096202631422183
+  },
+  "ceilingAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facewallAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "floorAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 5298092949693720110
+  },
+  "priorSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5378801503391709570
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4967484562316548209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2419133426118847717
+    }
+  ],
+  "postSprites": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -1318080538749611379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2937599629840543829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8296150534299256468
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6845133582826260592
+    }
+  ],
+  "chunker": {
+    "m_FileID": 0,
+    "m_PathID": 3610202587660954093
+  },
+  "spawnTransform": {
+    "m_FileID": 0,
+    "m_PathID": -8118592561308435220
+  },
+  "elevatorFloor": {
+    "m_FileID": 0,
+    "m_PathID": -1979933594348144655
+  },
+  "crumblyBumblyAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 5850176383177960930
+  },
+  "smokeAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 422126135170385539
+  },
+  "elevatorDescendAnimName": "bullet_elevator_arrive",
+  "elevatorOpenAnimName": "bullet_elevator_open",
+  "elevatorCloseAnimName": "bullet_elevator_close",
+  "elevatorDepartAnimName": "bullet_elevator_depart",
+  "arrivalShake": {
+    "magnitude": 0.8,
+    "speed": 8.0,
+    "time": 0.15,
+    "falloff": 0.1,
+    "direction": {
+      "x": 0.0,
+      "y": -1.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "doorOpenShake": {
+    "magnitude": 0.0,
+    "speed": 0.0,
+    "time": 0.1,
+    "falloff": 0.0,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "doorCloseShake": {
+    "magnitude": 0.0,
+    "speed": 0.0,
+    "time": 0.1,
+    "falloff": 0.0,
+    "direction": {
+      "x": -1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "departureShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.2,
+    "falloff": 0.4,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "ReturnToFoyerWithNewInstance": 0,
+  "UsesOverrideTargetFloor": 0,
+  "OverrideTargetFloor": 0
+}

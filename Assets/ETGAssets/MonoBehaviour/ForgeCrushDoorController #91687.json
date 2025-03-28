@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6898950918200495522
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5503685604607198149
+  },
+  "m_Name": "",
+  "placeableWidth": 2,
+  "placeableHeight": 3,
+  "difficulty": 0,
+  "isPassable": 1,
+  "DamageToEnemies": 30.0,
+  "KnockbackForcePlayers": 50.0,
+  "KnockbackForceEnemies": 50.0,
+  "DoScreenShake": 0,
+  "ScreenShake": {
+    "magnitude": 0.35,
+    "speed": 6.0,
+    "time": 0.06,
+    "falloff": 0.0,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "CloseAnimName": "crush_door_tall_close",
+  "OpenAnimName": "crush_door_tall_open",
+  "SubsidiaryAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SubsidiaryCloseAnimName": "",
+  "SubsidiaryOpenAnimName": "",
+  "vfxAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 5005126274672865921
+  },
+  "DelayTime": 0.4,
+  "TimeClosed": 2.0,
+  "CooldownTime": 3.0
+}

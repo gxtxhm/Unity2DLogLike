@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1660805416178251073
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7197225639461932240
+  },
+  "m_Name": "",
+  "LeftRedMarine": {
+    "m_FileID": 0,
+    "m_PathID": -6224764207305922584
+  },
+  "LeftGreenMarine": {
+    "m_FileID": 0,
+    "m_PathID": -2113184084040109535
+  },
+  "RightRedMarine": {
+    "m_FileID": 0,
+    "m_PathID": 6616310694032545410
+  },
+  "RightGreenMarine": {
+    "m_FileID": 0,
+    "m_PathID": 3287404980360691103
+  },
+  "LeftRedMarineShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": -4176662368723327979
+  },
+  "RightRedMarineShootPoint": {
+    "m_FileID": 0,
+    "m_PathID": -8375016023065450508
+  },
+  "AreaDoor": {
+    "m_FileID": 0,
+    "m_PathID": 8398255099691934315
+  },
+  "CellDoor": {
+    "m_FileID": 0,
+    "m_PathID": 6812594717741812329
+  },
+  "SpeakPoints": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7362069672894046434
+    }
+  ],
+  "VictoryTalkDoer": {
+    "m_FileID": 0,
+    "m_PathID": -4660424977154630684
+  },
+  "BossCollisionExceptions": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7161603689441437362
+    }
+  ],
+  "AmbientScreenShakeSettings": {
+    "magnitude": 0.5,
+    "speed": 7.0,
+    "time": 0.4,
+    "falloff": 0.2,
+    "direction": {
+      "x": 1.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "MinTimeBetweenAmbientShakes": 4.0,
+  "MaxTimeBetweenAmbientShakes": 12.0,
+  "TerrorPortal": {
+    "m_FileID": 0,
+    "m_PathID": 2674783441862525410
+  }
+}

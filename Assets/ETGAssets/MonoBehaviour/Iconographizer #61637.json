@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6895974438293867394
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6800047427775124013
+  },
+  "m_Name": "",
+  "SonySpriteName": "ps4_RS",
+  "XboxSpriteName": "xbone_RS",
+  "SwitchSpriteName": "ps4_RS",
+  "SwitchSingleJoyConSpriteName": "ps4_LS",
+  "InteractOverride": 0,
+  "DoResize": 0,
+  "ResizeScale": 3.0
+}

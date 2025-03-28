@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 989
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 95
+  },
+  "m_Name": "",
+  "up": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "down": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "left": {
+    "m_FileID": 0,
+    "m_PathID": 4290
+  },
+  "right": {
+    "m_FileID": 0,
+    "m_PathID": 3620
+  },
+  "selectOnAction": 1,
+  "clearRepeatingOnSelect": 1
+}

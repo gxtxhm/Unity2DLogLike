@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2521240900939506254
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "rat_not_minimap_anim_001",
+    "rat_not_minimap_anim_002",
+    "rat_not_minimap_anim_003",
+    "rat_not_minimap_anim_004",
+    "rat_not_minimap_anim_005",
+    "rat_not_minimap_anim_006"
+  ]
+}

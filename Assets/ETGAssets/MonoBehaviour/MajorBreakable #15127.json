@@ -1,0 +1,154 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5423530988211304973
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8278001065150162792
+  },
+  "m_Name": "",
+  "HitPoints": 40.0,
+  "DamageReduction": 0.0,
+  "MinHits": 0,
+  "EnemyDamageOverride": -1,
+  "ImmuneToBeastMode": 0,
+  "ScaleWithEnemyHealth": 0,
+  "OnlyExplosions": 0,
+  "IgnoreExplosions": 0,
+  "GameActorMotionBreaks": 0,
+  "PlayerRollingBreaks": 0,
+  "spawnShards": 1,
+  "distributeShards": 0,
+  "shardClusters": [
+    {
+      "minFromCluster": 0,
+      "maxFromCluster": 2,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 2,
+          "m_PathID": 9021084038171184468
+        }
+      ]
+    },
+    {
+      "minFromCluster": 0,
+      "maxFromCluster": 3,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 2,
+          "m_PathID": -2984377795478345469
+        }
+      ]
+    },
+    {
+      "minFromCluster": 2,
+      "maxFromCluster": 4,
+      "forceMultiplier": 1.0,
+      "forceAxialMultiplier": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotationMultiplier": 1.0,
+      "clusterObjects": [
+        {
+          "m_FileID": 2,
+          "m_PathID": 1664658914032155740
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": -5978793374499632222
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": 6676663299340159713
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": 3421510638010405972
+        },
+        {
+          "m_FileID": 2,
+          "m_PathID": 5497060930201852974
+        }
+      ]
+    }
+  ],
+  "minShardPercentSpeed": 0.05,
+  "maxShardPercentSpeed": 0.3,
+  "shardBreakStyle": 0,
+  "usesTemporaryZeroHitPointsState": 0,
+  "spriteNameToUseAtZeroHP": "",
+  "destroyedOnBreak": 0,
+  "childrenToDestroy": [],
+  "playsAnimationOnNotBroken": 0,
+  "notBreakAnimation": "",
+  "handlesOwnBreakAnimation": 0,
+  "breakAnimation": "",
+  "handlesOwnPrebreakFrames": 0,
+  "prebreakFrames": [],
+  "damageVfx": {
+    "type": 0,
+    "effects": []
+  },
+  "damageVfxMinTimeBetween": 0.2,
+  "breakVfx": {
+    "type": 1,
+    "effects": [
+      {
+        "effects": [
+          {
+            "effect": {
+              "m_FileID": 2,
+              "m_PathID": -8226385909598139861
+            },
+            "orphaned": 0,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 1,
+            "zHeight": 2.0,
+            "alignment": 0,
+            "destructible": 0
+          },
+          {
+            "effect": {
+              "m_FileID": 2,
+              "m_PathID": 8061880744197657521
+            },
+            "orphaned": 0,
+            "attached": 0,
+            "persistsOnDeath": 0,
+            "usesZHeight": 1,
+            "zHeight": -0.5,
+            "alignment": 0,
+            "destructible": 0
+          }
+        ]
+      }
+    ]
+  },
+  "breakVfxParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "delayDamageVfx": 0,
+  "SpawnItemOnBreak": 0,
+  "ItemIdToSpawnOnBreak": -1,
+  "HandlePathBlocking": 0
+}

@@ -1,0 +1,15 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7974592720245061903
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7061474078211653857
+  },
+  "m_Name": "",
+  "pickupIdToGive": 409,
+  "flagToSetOnAcquisition": 0,
+  "destroyThisOnAcquisition": 1
+}

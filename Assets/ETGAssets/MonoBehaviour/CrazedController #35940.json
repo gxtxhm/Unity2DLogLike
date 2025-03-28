@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8135799179096460442
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8352001656135711615
+  },
+  "m_Name": "",
+  "TellAnimation": "",
+  "SpecifyTellDuration": 0,
+  "TellDuration": 0.0,
+  "DoCharge": 0,
+  "CrazedAnimaton": "bullet",
+  "CrazedRunSpeed": 7.0,
+  "EnableBehavior": 1,
+  "BehaviorName": "Fire Self",
+  "TriggerWhenLastEnemy": 1,
+  "DisableHitAnims": 1
+}

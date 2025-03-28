@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1468925536577331552
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6751634338993186307
+  },
+  "m_Name": "",
+  "quantizeHealth": 1,
+  "quantizedIncrement": 0.5,
+  "flashesOnDamage": 1,
+  "incorporealityOnDamage": 1,
+  "incorporealityTime": 1.4,
+  "PreventAllDamage": 0,
+  "persistsOnDeath": 0,
+  "maximumHealth": 3.0,
+  "currentHealth": 4.0,
+  "currentArmor": 0.0,
+  "usesInvulnerabilityPeriod": 1,
+  "invulnerabilityPeriod": 1.0,
+  "useFortunesFavorInvulnerability": 0,
+  "deathEffect": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "damagedAudioEvent": "",
+  "overrideDeathAudioEvent": "",
+  "overrideDeathAnimation": "",
+  "shakesCameraOnDamage": 1,
+  "cameraShakeOnDamage": {
+    "magnitude": 0.7,
+    "speed": 8.0,
+    "time": 0.15,
+    "falloff": 0.1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vibrationType": 10,
+    "simpleVibrationTime": 20,
+    "simpleVibrationStrength": 20
+  },
+  "damageTypeModifiers": [],
+  "healthIsNumberOfHits": 0,
+  "OnlyAllowSpecialBossDamage": 0,
+  "spawnBulletScript": 0,
+  "chanceToSpawnBulletScript": 0.0,
+  "overrideDeathAnimBulletScript": "",
+  "noCorpseWhenBulletScriptDeath": 0,
+  "bulletScriptType": 0,
+  "bulletScript": {
+    "scriptTypeName": ""
+  },
+  "bossHealthBar": 0,
+  "overrideBossName": "",
+  "forcePreventVictoryMusic": 0,
+  "GlobalPixelColliderDamageMultiplier": 1.0
+}

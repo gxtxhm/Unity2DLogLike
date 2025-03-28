@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3221915399080861804
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 283250610993183836
+  },
+  "m_Name": "",
+  "texture": {
+    "m_FileID": 1,
+    "m_PathID": -7770915333153678466
+  },
+  "spriteCollectionSize": {
+    "type": 0,
+    "orthoSize": 0.5,
+    "pixelsPerMeter": 100.0,
+    "width": 960.0,
+    "height": 16.0
+  },
+  "anchor": 0,
+  "CustomShaderResource": "Brave/LitTk2dCustomFalloffTiltedCutout"
+}

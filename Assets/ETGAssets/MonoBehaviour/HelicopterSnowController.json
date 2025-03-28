@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3970292009871747689
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8148431292736762932
+  },
+  "m_Name": "",
+  "WorldSpaceVortexCenter": {
+    "x": 18.0,
+    "y": 40.0,
+    "z": 0.0
+  },
+  "VortexRadius": 10.0,
+  "VortexSpeed": 0.05
+}

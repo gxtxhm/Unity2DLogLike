@@ -1,0 +1,73 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7755695409699583834
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8490804861579387423
+  },
+  "m_Name": "",
+  "PostprocessSpawnedProjectiles": 0,
+  "spawnProjectilesInFlight": 1,
+  "projectileToSpawnInFlight": {
+    "m_FileID": 0,
+    "m_PathID": 4285185150883465446
+  },
+  "inFlightSpawnCooldown": 2.0,
+  "inFlightSpawnAngle": 360.0,
+  "InFlightSourceTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "usesComplexSpawnInFlight": 1,
+  "numToSpawnInFlight": 1,
+  "fireRandomlyInAngle": 0,
+  "inFlightAimAtEnemies": 1,
+  "inFlightSpawnAnimation": "gunslinger_projectile_shoot",
+  "spawnProjectilesOnCollision": 0,
+  "collisionSpawnStyle": 1,
+  "doOverrideObjectCollisionSpawnStyle": 0,
+  "overrideObjectSpawnStyle": 0,
+  "spawnCollisionProjectilesOnBounce": 0,
+  "projectileToSpawnOnCollision": {
+    "m_FileID": 0,
+    "m_PathID": 4285185150883465446
+  },
+  "UsesMultipleCollisionSpawnProjectiles": 0,
+  "collisionSpawnProjectiles": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4285185150883465446
+    }
+  ],
+  "numberToSpawnOnCollison": 2,
+  "startAngle": 180,
+  "randomRadialStartAngle": 0,
+  "spawnOnObjectCollisions": 1,
+  "alignToSurfaceNormal": 0,
+  "spawnProjecitlesOnDieInAir": 0,
+  "SpawnedProjectilesInheritData": 0,
+  "spawnAudioEvent": ""
+}

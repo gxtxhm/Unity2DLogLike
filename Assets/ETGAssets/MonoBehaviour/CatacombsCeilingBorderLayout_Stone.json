@@ -1,0 +1,564 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2916848467779709614
+  },
+  "m_Name": "CatacombsCeilingBorderLayout_Stone",
+  "roomTypeRestriction": -1,
+  "topLeftIndices": {
+    "indices": [
+      325
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topIndices": {
+    "indices": [
+      413
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightIndices": {
+    "indices": [
+      347
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "leftIndices": {
+    "indices": [
+      435
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "centerIndices": {
+    "indices": [
+      286
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "rightIndices": {
+    "indices": [
+      457
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftIndices": {
+    "indices": [
+      369
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomIndices": {
+    "indices": [
+      479
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightIndices": {
+    "indices": [
+      391
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "horizontalIndices": {
+    "indices": [
+      589
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "verticalIndices": {
+    "indices": [
+      611
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCapIndices": {
+    "indices": [
+      501
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "rightCapIndices": {
+    "indices": [
+      545
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomCapIndices": {
+    "indices": [
+      567
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "leftCapIndices": {
+    "indices": [
+      523
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "allSidesIndices": {
+    "indices": [
+      633
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topLeftNubIndices": {
+    "indices": [
+      527
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightNubIndices": {
+    "indices": [
+      526
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftNubIndices": {
+    "indices": [
+      505
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightNubIndices": {
+    "indices": [
+      504
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "extendedSet": 0,
+  "topCenterLeftIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topCenterRightIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowLeftIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "thirdTopRowRightIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomLeftCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "internalBottomRightCenterIndices": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubLeftIndices": {
+    "indices": [
+      414
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubRightIndices": {
+    "indices": [
+      415
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderTopNubBothIndices": {
+    "indices": [
+      416
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubTopIndices": {
+    "indices": [
+      459
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubBottomIndices": {
+    "indices": [
+      458
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderRightNubBothIndices": {
+    "indices": [
+      460
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubLeftIndices": {
+    "indices": [
+      481
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubRightIndices": {
+    "indices": [
+      480
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderBottomNubBothIndices": {
+    "indices": [
+      482
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubTopIndices": {
+    "indices": [
+      436
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubBottomIndices": {
+    "indices": [
+      437
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "borderLeftNubBothIndices": {
+    "indices": [
+      438
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalNubsTopLeftBottomRight": {
+    "indices": [
+      502
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalNubsTopRightBottomLeft": {
+    "indices": [
+      503
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsTop": {
+    "indices": [
+      547
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsRight": {
+    "indices": [
+      524
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsBottom": {
+    "indices": [
+      546
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "doubleNubsLeft": {
+    "indices": [
+      525
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "quadNubs": {
+    "indices": [
+      568
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topRightWithNub": {
+    "indices": [
+      348
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "topLeftWithNub": {
+    "indices": [
+      326
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomRightWithNub": {
+    "indices": [
+      392
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "bottomLeftWithNub": {
+    "indices": [
+      370
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderNE": {
+    "indices": [
+      349
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderSE": {
+    "indices": [
+      327
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderSW": {
+    "indices": [
+      349
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalBorderNW": {
+    "indices": [
+      327
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingNE": {
+    "indices": [
+      395
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingSE": {
+    "indices": [
+      373
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingSW": {
+    "indices": [
+      374
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "diagonalCeilingNW": {
+    "indices": [
+      396
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "CenterCheckerboard": 0,
+  "CheckerboardDimension": 1,
+  "CenterIndicesAreStrata": 0,
+  "PitInternalSquareGrids": [],
+  "PitInternalSquareOptions": {
+    "PitSquareChance": 0.1,
+    "CanBeFlushLeft": 0,
+    "CanBeFlushRight": 0,
+    "CanBeFlushBottom": 0
+  },
+  "PitBorderIsInternal": 0,
+  "PitBorderOverridesFloorTile": 0,
+  "CeilingBorderUsesDistancedCenters": 0,
+  "UsesRatChunkBorders": 0,
+  "RatChunkNormalSet": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "RatChunkBottomSet": {
+    "indices": [],
+    "indexWeights": []
+  },
+  "PathFacewallStamp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathSidewallStamp": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathPitPosts": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "PathPitPostsBL": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "PathPitPostsBR": {
+    "indices": [
+      -1
+    ],
+    "indexWeights": [
+      1.0
+    ]
+  },
+  "PathStubNorth": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubEast": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubSouth": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PathStubWest": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

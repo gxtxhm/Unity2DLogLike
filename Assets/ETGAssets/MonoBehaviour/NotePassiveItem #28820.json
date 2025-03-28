@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7778423410186701230
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3960191127720378921
+  },
+  "m_Name": "",
+  "PickupObjectId": 248,
+  "quality": -50,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 3,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 0,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 20005,
+  "itemName": "Note",
+  "ForcedPositionInAmmonomicon": 276,
+  "UsesCustomCost": 0,
+  "CustomCost": 20,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 0,
+  "passiveStatModifiers": [],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ResourcefulRatNoteIdentifier": 5
+}

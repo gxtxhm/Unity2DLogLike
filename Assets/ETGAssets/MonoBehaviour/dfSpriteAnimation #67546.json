@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2452178044126143079
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3905541811410153116
+  },
+  "m_Name": "",
+  "animationName": "ANIMATION",
+  "clip": {
+    "m_FileID": 0,
+    "m_PathID": 8011198130952713972
+  },
+  "alternativeLoopClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "percentChanceToPlayAlternative": 0.05,
+  "memberInfo": {
+    "Component": {
+      "m_FileID": 0,
+      "m_PathID": -3499222430160191510
+    },
+    "MemberName": "SpriteName"
+  },
+  "loopType": 1,
+  "LoopSectionFrameTarget": 7,
+  "LoopSectionFirstLength": -1.0,
+  "LoopDelayMin": 0.0,
+  "LoopDelayMax": 0.0,
+  "maxOneFrameDelta": 0,
+  "length": 1.0,
+  "autoStart": 1,
+  "skipToEndOnStop": 0,
+  "playDirection": 0,
+  "UseDefaultSpriteNameProperty": 1
+}

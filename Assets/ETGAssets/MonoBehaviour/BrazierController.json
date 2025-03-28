@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6317252972436518677
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3570335072950543409
+  },
+  "m_Name": "",
+  "placeableWidth": 1,
+  "placeableHeight": 1,
+  "difficulty": 0,
+  "isPassable": 0,
+  "directionalAnimationInfo": {
+    "fallUp": "brazier_flip_north",
+    "fallRight": "brazier_flip_east",
+    "fallDown": "brazier_flip_south",
+    "fallLeft": "brazier_flip_west"
+  },
+  "goop": {
+    "m_FileID": 0,
+    "m_PathID": -6986448845679542125
+  },
+  "goopLength": 6.0,
+  "goopWidth": 2.0,
+  "goopTime": 1.0,
+  "BreakAnimName": "brazier_idle_burst",
+  "directionalBreakAnims": {
+    "fallUp": "brazier_north_burst",
+    "fallRight": "brazier_east_burst",
+    "fallDown": "brazier_south_burst",
+    "fallLeft": "brazier_west_burst"
+  }
+}

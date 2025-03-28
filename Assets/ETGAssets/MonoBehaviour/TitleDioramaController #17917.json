@@ -1,0 +1,68 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2965432347544894904
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6968032858990546325
+  },
+  "m_Name": "",
+  "LichArmAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LichBodyAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LichCapeAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "BeaconBeams": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Eyeholes": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "FadeQuad": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PastIslandSprite": {
+    "m_FileID": 0,
+    "m_PathID": -3731729642190443910
+  },
+  "SkyRenderer": {
+    "m_FileID": 0,
+    "m_PathID": 3177880048353064670
+  },
+  "m_fadeCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "VFX_BulletImpact": {
+    "m_FileID": 0,
+    "m_PathID": -5213796620770385866
+  },
+  "VFX_Splash": {
+    "m_FileID": 0,
+    "m_PathID": -2820879452804392958
+  },
+  "VFX_TrailParticles": {
+    "m_FileID": 0,
+    "m_PathID": 2614978452426065938
+  },
+  "CloudsPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "BackupCloudsPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

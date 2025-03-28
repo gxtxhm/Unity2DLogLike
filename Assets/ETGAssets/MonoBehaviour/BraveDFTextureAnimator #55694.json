@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7726236348590648868
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8126627881637891524
+  },
+  "m_Name": "",
+  "textures": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -4977299958048657535
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -1575299518426605218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7435883322559323562
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7722928146637206594
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6588985381866707495
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6527471438796530018
+    }
+  ],
+  "fps": 60.0,
+  "IsOneShot": 0,
+  "OneShotDelayTime": 0.0,
+  "randomLoop": 0,
+  "timeless": 1,
+  "arbitraryLoopTarget": -1
+}

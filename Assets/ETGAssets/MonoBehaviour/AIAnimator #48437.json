@@ -1,0 +1,261 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4820018252191782694
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 3,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": -5058107384198963919
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 5,
+    "Prefix": "infinilich_idle_hand",
+    "AnimNames": [
+      "infinilich_idle_front_hand",
+      "infinilich_idle_right_hand",
+      "infinilich_idle_right_hand",
+      "infinilich_idle_front_hand",
+      "infinilich_idle_left_hand",
+      "infinilich_idle_left_hand"
+    ],
+    "Flipped": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "piriest_idle",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "hit",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 0.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 1,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "preintro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "blank",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "intro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_intro_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "attack_right",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_attack_left_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "attack_left",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_attack_right_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "attack_sweep",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_sweep",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "morph_gun",
+      "anim": {
+        "Type": 2,
+        "Prefix": "infinilich_spin_hand",
+        "AnimNames": [
+          "infinilich_morph_gun_left_hand",
+          "infinilich_morph_gun_right_hand"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "morph_missile",
+      "anim": {
+        "Type": 2,
+        "Prefix": "infinilich_spin_hand",
+        "AnimNames": [
+          "infinilich_morph_miss_left_hand",
+          "infinilich_morph_miss_right_hand"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "morph_boomerang",
+      "anim": {
+        "Type": 2,
+        "Prefix": "infinilich_spin_hand",
+        "AnimNames": [
+          "infinilich_morph_rang_left_hand",
+          "infinilich_morph_rang_right_hand"
+        ],
+        "Flipped": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "spin",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_spin_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "burst",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_burst_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "death",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_die_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "arms_in",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_arm_in_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "arms_out",
+      "anim": {
+        "Type": 1,
+        "Prefix": "infinilich_arm_out_hand",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [],
+  "OtherScreenShake": [],
+  "IdleFidgetAnimations": []
+}

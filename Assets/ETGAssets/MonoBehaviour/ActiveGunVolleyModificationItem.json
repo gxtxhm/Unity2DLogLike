@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4775421258755628959
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9111493276664132675
+  },
+  "m_Name": "",
+  "PickupObjectId": 168,
+  "quality": 1,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Double Vision",
+  "ForcedPositionInAmmonomicon": 58,
+  "UsesCustomCost": 0,
+  "CustomCost": 35,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 1,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 0,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 200.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [],
+  "duration": 10.0,
+  "AddsModule": 0,
+  "ModuleToAdd": {
+    "shootStyle": 0,
+    "ammoType": 0,
+    "customAmmoType": "",
+    "projectiles": [],
+    "sequenceStyle": 0,
+    "orderedGroupCounts": [],
+    "chargeProjectiles": [],
+    "maxChargeTime": 0.0,
+    "triggerCooldownForAnyChargeAmount": 0,
+    "isFinalVolley": 0,
+    "usesOptionalFinalProjectile": 0,
+    "finalProjectile": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "finalVolley": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "numberOfFinalProjectiles": 1,
+    "finalAmmoType": 0,
+    "finalCustomAmmoType": "",
+    "angleFromAim": 0.0,
+    "alternateAngle": 0,
+    "angleVariance": 0.0,
+    "positionOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "mirror": 0,
+    "inverted": 0,
+    "ammoCost": 1,
+    "burstShotCount": 3,
+    "burstCooldownTime": 0.2,
+    "cooldownTime": 1.0,
+    "numberOfShotsInClip": -1,
+    "ignoredForReloadPurposes": 0,
+    "preventFiringDuringCharge": 0
+  },
+  "DuplicatesOfBaseModule": 1,
+  "DuplicateAngleOffset": 10.0,
+  "SynergiesToIncrementDuplicates": [
+    111
+  ]
+}

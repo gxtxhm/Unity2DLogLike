@@ -1,0 +1,326 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1371657749398728860
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5119387452555491528
+  },
+  "m_Name": "",
+  "ChildAnimator": {
+    "m_FileID": 0,
+    "m_PathID": 2458050226476960574
+  },
+  "SpecifyAiActor": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "facingType": 0,
+  "DirectionParent": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "faceSouthWhenStopped": 0,
+  "faceTargetWhenStopped": 0,
+  "AnimatedFacingDirection": -90.0,
+  "directionalType": 10,
+  "RotationQuantizeTo": 0.0,
+  "RotationOffset": 0.0,
+  "ForceKillVfxOnPreDeath": 0,
+  "SuppressAnimatorFallback": 0,
+  "IsBodySprite": 1,
+  "IdleAnimation": {
+    "Type": 1,
+    "Prefix": "body_idle",
+    "AnimNames": [
+      ""
+    ],
+    "Flipped": [
+      0
+    ]
+  },
+  "MoveAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "FlightAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "HitReactChance": 1.0,
+  "MinTimeBetweenHitReacts": 0.0,
+  "HitType": 0,
+  "TalkAnimation": {
+    "Type": 0,
+    "Prefix": "",
+    "AnimNames": [],
+    "Flipped": []
+  },
+  "OtherAnimations": [
+    {
+      "name": "intro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "intro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "weak_intro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "body_weak_intro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "weak_idle",
+      "anim": {
+        "Type": 1,
+        "Prefix": "body_weak_idle",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "weak_outro",
+      "anim": {
+        "Type": 1,
+        "Prefix": "body_weak_outro",
+        "AnimNames": [
+          ""
+        ],
+        "Flipped": [
+          0
+        ]
+      }
+    }
+  ],
+  "OtherVFX": [
+    {
+      "name": "heart_burst",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 7937171434010971030
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 772906676745522865
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.1,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "hand_poof_left",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 5736772190258819115
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -7889625906903251565
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.1,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "hand_poof_right",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 452250555574052401
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": -5228905747533607585
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.1,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "heart_heal",
+      "anchorTransform": {
+        "m_FileID": 0,
+        "m_PathID": 8386822944476015361
+      },
+      "vfxPool": {
+        "type": 4,
+        "effects": [
+          {
+            "effects": [
+              {
+                "effect": {
+                  "m_FileID": 0,
+                  "m_PathID": 3626821962404547193
+                },
+                "orphaned": 0,
+                "attached": 0,
+                "persistsOnDeath": 0,
+                "usesZHeight": 1,
+                "zHeight": 0.1,
+                "alignment": 0,
+                "destructible": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "OtherScreenShake": [
+    {
+      "name": "intro_shake",
+      "screenShake": {
+        "magnitude": 0.2,
+        "speed": 3.0,
+        "time": 1.0,
+        "falloff": 0.4,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    },
+    {
+      "name": "roar_shake",
+      "screenShake": {
+        "magnitude": 0.3,
+        "speed": 3.0,
+        "time": 1.4,
+        "falloff": 0.5,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    },
+    {
+      "name": "die_shake",
+      "screenShake": {
+        "magnitude": 0.4,
+        "speed": 4.0,
+        "time": 3.0,
+        "falloff": 0.0,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    },
+    {
+      "name": "hand_poof_left",
+      "screenShake": {
+        "magnitude": 0.1,
+        "speed": 3.0,
+        "time": 0.75,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    },
+    {
+      "name": "hand_poof_right",
+      "screenShake": {
+        "magnitude": 0.1,
+        "speed": 3.0,
+        "time": 0.75,
+        "falloff": 0.35,
+        "direction": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "vibrationType": 10,
+        "simpleVibrationTime": 20,
+        "simpleVibrationStrength": 20
+      }
+    }
+  ],
+  "IdleFidgetAnimations": []
+}

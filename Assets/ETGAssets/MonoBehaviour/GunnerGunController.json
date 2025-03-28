@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4949469214756758313
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1349260781799083445
+  },
+  "m_Name": "",
+  "ChanceToSkull": 1.0,
+  "SkullPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 7911222860620133464
+  },
+  "Lifespan": 3.0,
+  "AmmoLossOnDamage": 40,
+  "ChanceToTriggerSynergy": 0.25
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5898146463930217065
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1464934641897332439
+  },
+  "m_Name": "",
+  "DisplayName": "#CH_BLOBULIN_RANCHER",
+  "AlternateLanguageDisplayName": "",
+  "AtlasSpriteName": "Blobulin_Rancher_icon_001",
+  "ValidInBossChambers": 1,
+  "MutuallyExclusive": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 3000288403911186641
+    }
+  ],
+  "SpawnTargetGuid": "42be66373a3d4d89b91a35c9ff8adfec",
+  "CooldownBetweenSpawns": 0.2,
+  "SafeRadius": 3.0
+}

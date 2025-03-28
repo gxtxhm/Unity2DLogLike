@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 284186083883470125
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2078075246537487981
+  },
+  "m_Name": "",
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": -3892462693424714894
+  },
+  "sprites": [
+    "notification_box_gold_shine_001",
+    "notification_box_gold_shine_002",
+    "notification_box_gold_shine_003",
+    "notification_box_gold_shine_004",
+    "notification_box_gold_shine_005",
+    "notification_box_gold_shine_006",
+    "notification_box_gold_shine_007",
+    "notification_box_gold_shine_008",
+    "notification_box_gold_001"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6126137272319549188
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8272162018765824946
+  },
+  "m_Name": "",
+  "SpawnObject": {
+    "m_FileID": 0,
+    "m_PathID": -3874779027206386765
+  },
+  "tossForce": 0.0,
+  "DelayTime": 0.0,
+  "canBounce": 0,
+  "orphaned": 1,
+  "preventRotation": 1,
+  "AnimToPlay": "",
+  "RequiresSynergy": 1,
+  "RequiredSynergy": 375,
+  "RequiresActualReload": 1
+}

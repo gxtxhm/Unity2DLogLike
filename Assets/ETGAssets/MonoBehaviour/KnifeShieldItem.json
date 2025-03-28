@@ -1,0 +1,77 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6004693264069781637
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 265033007673798022
+  },
+  "m_Name": "",
+  "PickupObjectId": 65,
+  "quality": 1,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 0,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Knife Shield",
+  "ForcedPositionInAmmonomicon": 64,
+  "UsesCustomCost": 0,
+  "CustomCost": 35,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "consumable": 0,
+  "consumableOnCooldownUse": 0,
+  "consumableOnActiveUse": 0,
+  "consumableHandlesOwnDuration": 0,
+  "customDestroyTime": -1.0,
+  "numberOfUses": 500,
+  "UsesNumberOfUsesBeforeCooldown": 0,
+  "canStack": 0,
+  "roomCooldown": 0,
+  "timeCooldown": 0.0,
+  "damageCooldown": 300.0,
+  "usableDuringDodgeRoll": 0,
+  "useAnimation": "",
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OnActivatedSprite": "",
+  "OnCooldownSprite": "",
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 14,
+      "modifyType": 0,
+      "amount": 1.0,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "numKnives": 8,
+  "knifeHealth": 0.5,
+  "knifeDamage": 30.0,
+  "circleRadius": 2.0,
+  "rotationDegreesPerSecond": 270.0,
+  "throwSpeed": 15.0,
+  "throwRange": 25.0,
+  "throwRadius": 1.5,
+  "radiusChangeDistance": 5.0,
+  "knifePrefab": {
+    "m_FileID": 0,
+    "m_PathID": -7095306010053364032
+  },
+  "knifeDeathVFX": {
+    "m_FileID": 0,
+    "m_PathID": -4819458217965414057
+  }
+}

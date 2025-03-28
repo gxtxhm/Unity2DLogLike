@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4853418058178054943
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6734040676403806775
+  },
+  "m_Name": "",
+  "IntroEvents": [
+    "Play_AGUNIM_VO_FIGHT_INTRO_01",
+    "Play_AGUNIM_VO_FIGHT_INTRO_02",
+    "Play_AGUNIM_VO_FIGHT_INTRO_03",
+    "Play_AGUNIM_VO_FIGHT_INTRO_04",
+    "Play_AGUNIM_VO_FIGHT_INTRO_05",
+    "Play_AGUNIM_VO_FIGHT_INTRO_06",
+    "Play_AGUNIM_VO_FIGHT_INTRO_07",
+    "Play_AGUNIM_VO_FIGHT_INTRO_08"
+  ],
+  "IntroKeys": [
+    "#AGUNIM_VO_FIGHT_INTRO_01",
+    "#AGUNIM_VO_FIGHT_INTRO_02",
+    "#AGUNIM_VO_FIGHT_INTRO_03",
+    "#AGUNIM_VO_FIGHT_INTRO_04",
+    "#AGUNIM_VO_FIGHT_INTRO_05",
+    "#AGUNIM_VO_FIGHT_INTRO_06",
+    "#AGUNIM_VO_FIGHT_INTRO_07",
+    "#AGUNIM_VO_FIGHT_INTRO_08"
+  ],
+  "DefeatedPlayerEvents": [
+    "Play_AGUNIM_VO_FIGHT_LOSE_01",
+    "Play_AGUNIM_VO_FIGHT_LOSE_02",
+    "Play_AGUNIM_VO_FIGHT_LOSE_03",
+    "Play_AGUNIM_VO_FIGHT_LOSE_04",
+    "Play_AGUNIM_VO_FIGHT_LOSE_05",
+    "Play_AGUNIM_VO_FIGHT_LOSE_06",
+    "Play_AGUNIM_VO_FIGHT_LOSE_07"
+  ],
+  "DefeatedPlayerKeys": [
+    "#AGUNIM_VO_FIGHT_LOSE_01",
+    "#AGUNIM_VO_FIGHT_LOSE_02",
+    "#AGUNIM_VO_FIGHT_LOSE_03",
+    "#AGUNIM_VO_FIGHT_LOSE_04",
+    "#AGUNIM_VO_FIGHT_LOSE_05",
+    "#AGUNIM_VO_FIGHT_LOSE_06",
+    "#AGUNIM_VO_FIGHT_LOSE_07"
+  ],
+  "KilledByPlayerEvents": [
+    "Play_AGUNIM_VO_FIGHT_WIN_01",
+    "Play_AGUNIM_VO_FIGHT_WIN_02",
+    "Play_AGUNIM_VO_FIGHT_WIN_03",
+    "Play_AGUNIM_VO_FIGHT_WIN_04",
+    "Play_AGUNIM_VO_FIGHT_WIN_05"
+  ],
+  "KilledByPlayerKeys": [
+    "#AGUNIM_VO_FIGHT_WIN_01",
+    "",
+    "#AGUNIM_VO_FIGHT_WIN_03",
+    "#AGUNIM_VO_FIGHT_WIN_04",
+    "#AGUNIM_VO_FIGHT_WIN_05"
+  ],
+  "DamageBarkEvents": [
+    "Play_AGUNIM_VO_FIGHT_HURT_01",
+    "Play_AGUNIM_VO_FIGHT_HURT_02",
+    "Play_AGUNIM_VO_FIGHT_HURT_03"
+  ],
+  "AttackBarkEvents": [
+    "Play_AGUNIM_VO_FIGHT_ATTACK_01",
+    "Play_AGUNIM_VO_FIGHT_ATTACK_02",
+    "Play_AGUNIM_VO_FIGHT_ATTACK_03",
+    "Play_AGUNIM_VO_FIGHT_ATTACK_04"
+  ]
+}

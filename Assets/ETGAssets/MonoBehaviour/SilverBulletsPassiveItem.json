@@ -1,0 +1,60 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6690553159076703389
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4388588714830570661
+  },
+  "m_Name": "",
+  "PickupObjectId": 538,
+  "quality": 2,
+  "additionalMagnificenceModifier": 0.0,
+  "ItemSpansBaseQualityTiers": 0,
+  "ItemRespectsHeartMagnificence": 0,
+  "associatedItemChanceMods": [],
+  "contentSource": 1,
+  "ShouldBeExcludedFromShops": 0,
+  "CanBeDropped": 1,
+  "PreventStartingOwnerFromDropping": 0,
+  "PersistsOnDeath": 0,
+  "RespawnsIfPitfall": 0,
+  "PreventSaveSerialization": 0,
+  "IgnoredByRat": 0,
+  "SaveFlagToSetOnAcquisition": 0,
+  "itemName": "Silver Bullets",
+  "ForcedPositionInAmmonomicon": 105,
+  "UsesCustomCost": 0,
+  "CustomCost": 0,
+  "PersistsOnPurchase": 0,
+  "CanBeSold": 1,
+  "passiveStatModifiers": [
+    {
+      "statToBoost": 22,
+      "modifyType": 1,
+      "amount": 1.25,
+      "isMeatBunBuff": 0
+    }
+  ],
+  "ArmorToGainOnInitialPickup": 0,
+  "minimapIcon": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "BlackPhantomDamageMultiplier": 3.25,
+  "TintBullets": 1,
+  "TintBeams": 0,
+  "TintColor": {
+    "r": 0.6661981,
+    "g": 0.6920326,
+    "b": 0.74264705,
+    "a": 1.0
+  },
+  "TintPriority": 2,
+  "SynergyPowerVFX": {
+    "m_FileID": 2,
+    "m_PathID": -3530964550194581865
+  }
+}

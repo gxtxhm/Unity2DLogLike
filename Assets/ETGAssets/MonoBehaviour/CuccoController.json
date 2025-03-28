@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3339383943875056579
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -860770904997376458
+  },
+  "m_Name": "",
+  "CanInterceptBullets": 1,
+  "IsCopDead": 0,
+  "IsCop": 0,
+  "CopDeathStatModifier": {
+    "statToBoost": 0,
+    "modifyType": 0,
+    "amount": 0.0,
+    "isMeatBunBuff": 0
+  },
+  "CurseOnCopDeath": 2,
+  "CanCrossPits": 0,
+  "BlanksOnActiveItemUsed": 0,
+  "InternalBlankCooldown": 10.0,
+  "HasStealthMode": 0,
+  "PredictsChests": 0,
+  "PredictsChestSynergy": 0,
+  "CanBePet": 0,
+  "companionID": 0,
+  "TeaSynergyHeatRing": {},
+  "m_pettingDoer": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_petOffset": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "HitsRequired": 8,
+  "HitDecayTime": 7.0,
+  "NumToSpawn": 20,
+  "SpawnDuration": 5.0,
+  "InternalCooldown": 10.0,
+  "MicroCuccoPrefab": {
+    "m_FileID": 0,
+    "m_PathID": -3517408181396497603
+  }
+}

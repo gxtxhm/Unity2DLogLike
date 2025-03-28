@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7318324332179443809
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8099492897980914576
+  },
+  "m_Name": "",
+  "Grip_StartAsEnemy": 0,
+  "Grip_EndOnEnemiesCleared": 1,
+  "Grip_EndAfterNumAttacks": 3,
+  "Grip_OverrideRoomsToSendBackward": -1,
+  "BecomeEnemeyPrereq": {
+    "prerequisiteType": 0,
+    "prerequisiteOperation": 2,
+    "statToCheck": 0,
+    "maxToCheck": 0,
+    "comparisonValue": 0.0,
+    "useSessionStatValue": 0,
+    "encounteredObjectGuid": "5b9e3496188a4a178ede5b17a62eb5cf",
+    "encounteredRoom": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "requiredNumberOfEncounters": 30,
+    "requiredCharacter": 0,
+    "requireCharacter": 1,
+    "requiredTileset": 0,
+    "requireTileset": 1,
+    "saveFlagToCheck": 0,
+    "requireFlag": 1,
+    "requireDemoMode": 0
+  },
+  "BecomeEnemyChance": 0.2,
+  "MinRoomWidth": 20,
+  "MinRoomHeight": 15
+}
