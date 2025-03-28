@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     AudioSource audioSource;
     [SerializeField]
-    
+    GameObject cursor;
 
 
     public GameObject WeaponPos;
@@ -115,6 +115,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
+        cursor.transform.position = mousePos;
 
         Vector2 dir = mousePos - transform.position; // 방향 벡터
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; // 라디안 → 도
