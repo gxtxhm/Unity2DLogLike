@@ -32,6 +32,7 @@ public abstract class Weapon : MonoBehaviour
     protected GameObject Muzzle;
 
     public Sprite weaponSprite;
+    public SpriteRenderer SpriteRenderer;
 
     protected GameObject bulletPrefab;
 
@@ -59,6 +60,7 @@ public abstract class Weapon : MonoBehaviour
         //Debug.Log(type);
         PoolingManager.Instance.AddInMap(bulletPrefab.GetComponent<Bullet>().poolingType, bulletPrefab);
         audioSource = GetComponentInParent<AudioSource>();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
     }
     public virtual void Shoot() { audioSource.PlayOneShot(shotClip); }
     public virtual void Reload() { audioSource.PlayOneShot(reloadClip); }

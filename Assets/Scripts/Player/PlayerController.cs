@@ -143,24 +143,32 @@ public class PlayerController : MonoBehaviour
             curWeaponDirection = "Left";
         }
 
+        curWeapon.SpriteRenderer.sortingOrder = 6;
 
         switch (curWeaponDirection)
         {
             case "Up":
                 if (isMove) animator.Play("WalkUp");else spriteRenderer.sprite = IdleUp;
+                if (angle < 0) curWeapon.SpriteRenderer.flipY = true;
+                else curWeapon.SpriteRenderer.flipY = false;
+                curWeapon.SpriteRenderer.sortingOrder = 4;
                 break;
             case "Down":
                 if (isMove) animator.Play("WalkDown");else spriteRenderer.sprite = IdleDown;
+                if (angle < 0) curWeapon.SpriteRenderer.flipY = true;
+                else curWeapon.SpriteRenderer.flipY = false;
                 break;
             case "Left":
                 if (isMove) animator.Play("WalkSide");
                 else spriteRenderer.sprite = IdleSide;
                 spriteRenderer.flipX = true;
+                curWeapon.SpriteRenderer.flipY = true;
                 break;
             case "Right":
                 if (isMove) animator.Play("WalkSide");
                 else spriteRenderer.sprite = IdleSide;
                 spriteRenderer.flipX = false;
+                curWeapon.SpriteRenderer.flipY = false;
                 break;
         }
     }
@@ -185,7 +193,7 @@ public class PlayerController : MonoBehaviour
     public void EquipWeapon(Weapon weapon)
     {
         weapon.transform.SetParent(WeaponPos.transform);
-        weapon.transform.localPosition = new Vector3(0,0.12f,0);
+        weapon.transform.localPosition = new Vector3(0,0.06f,0);
         weapon.transform.localRotation = Quaternion.Euler(0, 0, weapon.RotateZ);
         curWeapon = weapon;
         curWeapon.Init();

@@ -25,7 +25,7 @@ public class Test_Monster : MonoBehaviour
         hp-=damage;
         if (hp <= 0) { hp = 100; } //Destroy(gameObject, 1);
         slider.value = hp / 100.0f;
-        Debug.Log("hp:"+hp);
-        Debug.Log("slider:" + slider.value);
+        //Debug.Log("hp:"+hp);
+        //Debug.Log("slider:" + slider.value);
     }
 }
