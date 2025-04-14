@@ -58,6 +58,7 @@ public class DoorController : MonoBehaviour
     //}
     IEnumerator doorOpen()
     {
+
         GetComponent<BoxCollider2D>().enabled = false;
         float elapsedTime = 0f;
 
