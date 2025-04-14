@@ -19,7 +19,8 @@ public class DoorController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(doorOpen());
+        if(collision.tag == "Player")
+            StartCoroutine(doorOpen());
     }
 
     //IEnumerator doorOpen()
@@ -57,6 +58,7 @@ public class DoorController : MonoBehaviour
     //}
     IEnumerator doorOpen()
     {
+        GetComponent<BoxCollider2D>().enabled = false;
         float elapsedTime = 0f;
 
         // 초기 위치 저장

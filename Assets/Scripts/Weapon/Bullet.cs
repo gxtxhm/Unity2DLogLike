@@ -36,9 +36,14 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.gameObject.tag);
         if(collision.gameObject.CompareTag("Enemy"))
         {
             collision.gameObject.GetComponent<Test_Monster>().TakeDamage(Damage);
+            PoolingManager.Instance.ReturnBullet(gameObject);
+        }
+        else if(collision.gameObject.CompareTag("Wall"))
+        {
             PoolingManager.Instance.ReturnBullet(gameObject);
         }
     }
