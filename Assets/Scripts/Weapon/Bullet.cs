@@ -44,7 +44,10 @@ public class Bullet : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag("Wall"))
         {
+            Debug.Log("wall hit");
             PoolingManager.Instance.ReturnBullet(gameObject);
         }
     }
+
+    
 }

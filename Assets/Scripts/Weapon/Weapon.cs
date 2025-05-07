@@ -60,6 +60,7 @@ public abstract class Weapon : MonoBehaviour
         //Debug.Log(type);
         PoolingManager.Instance.AddInMap(bulletPrefab.GetComponent<Bullet>().poolingType, bulletPrefab);
         audioSource = GetComponentInParent<AudioSource>();
+        
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
     public virtual void Shoot() { audioSource.PlayOneShot(shotClip); }
