@@ -17,49 +17,26 @@ public class DoorController : MonoBehaviour
     [SerializeField]
     GameObject door2;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField]
+    BoxCollider2D curCollider;
+
+    public BoxCollider2D Collider { get { return curCollider; } }
+
+    public void Init()
+    {
+        curCollider.gameObject.GetComponent<ActionColliderTrigger>().triggerAction += TriggerAction;
+        curCollider = GetComponentInChildren<BoxCollider2D>();
+    }
+
+    void TriggerAction(Collider2D collision)
     {
         if(collision.tag == "Player")
             StartCoroutine(doorOpen());
     }
 
-    //IEnumerator doorOpen()
-    //{
-    //    float elapsedTime = 0;
-    //    Vector2 v1;
-    //    v1.x = door1.transform.position.x;
-    //    Vector2 v2;
-    //    v2.x = door2.transform.position.x;
-
-    //    Transform t1 = door1.GetComponentInChildren<Transform>();
-    //    Transform t2 = door2.GetComponentInChildren<Transform>();
-    //    Vector2 tv1 = Vector2.zero;
-    //    Vector2 tv2 = Vector2.zero;
-
-
-    //    while (elapsedTime < animTime)
-    //    {
-    //        elapsedTime += Time.deltaTime;
-
-    //        float newPosY = Mathf.Lerp(door1.transform.position.y, door1.transform.position.y - endPos.y, elapsedTime / animTime);
-    //        v1.y = newPosY;
-    //        door1.transform.position = v1;
-    //        tv1.y = -1*newPosY;
-    //        t1.localPosition = tv1;
-
-    //        newPosY = Mathf.Lerp(door2.transform.position.y, door2.transform.position.y - endPos.y, elapsedTime / animTime);
-    //        v2.y = newPosY;
-    //        door2.transform.position = v2;
-    //        tv2.y = -1*newPosY;
-    //        t2.localPosition = tv2;
-
-    //        yield return null;
-    //    }
-    //}
     IEnumerator doorOpen()
     {
-
-        GetComponent<BoxCollider2D>().enabled = false;
+        curCollider.enabled = false;
         float elapsedTime = 0f;
 
         // 초기 위치 저장
