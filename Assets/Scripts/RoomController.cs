@@ -119,6 +119,35 @@ public class RoomController : MonoBehaviour
     {
         return Width >= meanWidth * thresholdFactor && Height >= meanHeight * thresholdFactor;
     }
+
+    public void SetDoor(GameObject door, Vector2 dir)
+    {
+        if (dir == Vector2.left || dir == Vector2.right)
+        {
+            int randH = Random.Range(1, Height-1);
+
+            door.transform.SetParent(transform);
+            Vector3 pos = Vector3.zero;
+            if (dir == Vector2.right) pos.x = Width;
+            pos.y = randH;
+            pos.x -= Width / 2;
+            pos.y -= Height / 2;
+            door.transform.localPosition = pos;
+        }
+        else
+        {
+            int randW = Random.Range(1, Width-1);
+
+            door.transform.SetParent(transform);
+            Vector3 pos = Vector3.zero;
+            if (dir == Vector2.up) pos.y = Height;
+            pos.x = randW;
+            pos.x -= Width / 2;
+            pos.y -= Height / 2;
+            door.transform.localPosition = pos;
+        }
+    }
+
 }
 
 

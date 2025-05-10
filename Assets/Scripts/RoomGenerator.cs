@@ -27,13 +27,7 @@ public class RoomGenerator : MonoBehaviour
     GameObject frontDoor;
 
     [SerializeField]
-    GameObject backDoor;
-
-    [SerializeField]
-    GameObject leftDoor;
-
-    [SerializeField]
-    GameObject rightDoor;
+    GameObject sideDoor;
 
     int roomNumCnt = 0;
 
@@ -46,6 +40,17 @@ public class RoomGenerator : MonoBehaviour
     float tileSize = 1f; // <- 인스펙터에서 설정할 수 있도록
 
     List<Edge> mst;
+
+    Dictionary<Vector2,GameObject> DirToDoor = new Dictionary<Vector2,GameObject>();
+
+    public void Start()
+    {
+        DirToDoor.Clear();
+        DirToDoor.Add(Vector2.down, frontDoor);
+        DirToDoor.Add(Vector2.up, frontDoor);
+        DirToDoor.Add(Vector2.left, sideDoor);
+        DirToDoor.Add(Vector2.right, sideDoor);
+    }
 
     // 타원 안의 랜덤 위치 얻기
     Vector2 GetRandomPointInEllipse(float ellipseWidth, float ellipseHeight, float tileSize)
@@ -124,21 +129,6 @@ public class RoomGenerator : MonoBehaviour
             arr[yLen - 1, i] = 1;
         }
 
-        // 문 생성하는 것. 통로까지 완료하고 나중에
-        // door 방향 정하고 
-        // for test 우선은 아래 위로만
-        //DoorController enterd = Instantiate(frontDoor).GetComponent<DoorController>();
-        //DoorController exitd = Instantiate(frontDoor).GetComponent<DoorController>();
-        //enterd.gameObject.transform.SetParent(go.transform);
-        //exitd.gameObject.transform.SetParent(go.transform);
-
-        //int enterdRandPos = Random.Range(1, xLen - 1);
-        //int exitdRandPos = Random.Range(1, xLen - 1);
-        //arr[yLen - 1, enterdRandPos] = -1;
-        //arr[yLen - 1, enterdRandPos - 1] = 2;
-        //arr[0, exitdRandPos - 1] = 3;
-        //arr[0, exitdRandPos] = -1;
-
         // 배열값에 따라 맞는 프리팹 생성
         int yOffset = yLen / 2;
         int xOffset = xLen / 2;
@@ -151,28 +141,6 @@ public class RoomGenerator : MonoBehaviour
                 inst.transform.SetParent(go.transform);
                 inst.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
 
-                // TODO : 우선 통로 생성 후에 다른 타일 생성
-                //switch (arr[i, j])
-                //{
-                //    case 0:
-                //        inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
-                //        inst.transform.SetParent(go.transform);
-                //        inst.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
-                //        break;
-                //    case 1:
-                //        inst = Instantiate(wallTile, Vector3.zero, Quaternion.identity);
-                //        inst.transform.SetParent(go.transform);
-                //        inst.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
-                //        break;
-                //    case 2:
-
-                //        exitd.gameObject.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
-                //        break;
-                //    case 3:
-
-                //        enterd.gameObject.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
-                //        break;
-                //}
             }
         }
 
@@ -186,9 +154,9 @@ public class RoomGenerator : MonoBehaviour
     IEnumerator GenerateCorridor()
     {
         Kruscal kruscal = new Kruscal();
-        List<Kruscal.KruscalNode> nodes = new List<Kruscal.KruscalNode> ();
-        
-        for(int i=0;i<visualRooms.Count;i++)
+        List<Kruscal.KruscalNode> nodes = new List<Kruscal.KruscalNode>();
+
+        for (int i = 0; i < visualRooms.Count; i++)
         {
             Kruscal.KruscalNode node = new Kruscal.KruscalNode();
             node.Id = visualRooms[i].RoomId;
@@ -199,18 +167,44 @@ public class RoomGenerator : MonoBehaviour
 
         mst = kruscal.Run();
 
-        Dictionary<int,int> corCnt = new Dictionary<int,int>();
-
-        foreach(Edge e in mst)
+        foreach (Edge e in mst)
         {
-            corCnt[e.V1] = corCnt.ContainsKey(e.V1) ? corCnt[e.V1] + 1 : 1;
-            corCnt[e.V2] = corCnt.ContainsKey(e.V2) ? corCnt[e.V2] + 1 : 1;
+            Vector2 dir = (roomMap[e.V1].GetCenter() - roomMap[e.V2].GetCenter()).normalized;
 
-            // For Debug
-            Debug.Log(e.V1 + " <--> " + e.V2);
+            // 각도 계산 (도 단위)
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            if (angle < 0) angle += 360; // 0~360도로 변환
+
+            // 각도를 기본 방향으로 매핑
+            Vector2 snappedDir;
+            if (angle >= 45 && angle < 135)
+                snappedDir = Vector2.up; // 90도 ± 45도
+            else if (angle >= 135 && angle < 225)
+                snappedDir = Vector2.left; // 180도 ± 45도
+            else if (angle >= 225 && angle < 315)
+                snappedDir = Vector2.down; // 270도 ± 45도
+            else
+                snappedDir = Vector2.right; // 0도 ± 45도
+
+            GameObject door = CreateDoor(snappedDir);
+            roomMap[e.V1].SetDoor(door, snappedDir);
+
+            GameObject door2 =CreateDoor(-snappedDir);
+            roomMap[e.V2].SetDoor(door2, -snappedDir);
         }
 
         yield return null;
+    }
+
+    GameObject CreateDoor(Vector2 dir)
+    {
+        dir = dir.normalized;
+
+        GameObject prefab = DirToDoor[dir];
+
+        GameObject go = Instantiate(prefab,Vector3.zero,Quaternion.identity);
+
+        return go;
     }
 
     void OnDrawGizmos()
@@ -246,10 +240,22 @@ public class RoomGenerator : MonoBehaviour
         foreach (RoomController obj in visualRooms)
             obj.gameObject.SetActive(true);
 
-        //SnapAllRoomsToGrid(); // 위치 반올림 처리
+        SnapAllRoomsToGrid(); // 위치 반올림 처리
 
         StartCoroutine("GenerateCorridor");
     }
+
+    void SnapAllRoomsToGrid()
+    {
+        foreach (RoomController obj in visualRooms)
+        {
+            Vector3 pos = obj.transform.parent.transform.position;
+            pos.x = Mathf.Round(pos.x);
+            pos.y = Mathf.Round(pos.y);
+            obj.transform.parent.transform.position = pos;
+        }
+    }
+
     bool AllRoomsAreSleeping()
     {
         foreach (var rb in rigidbody2Ds)
