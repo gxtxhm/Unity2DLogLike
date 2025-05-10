@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class RoomGenerator : MonoBehaviour
@@ -34,8 +35,6 @@ public class RoomGenerator : MonoBehaviour
     [SerializeField]
     GameObject rightDoor;
 
-    
-
     int roomNumCnt = 0;
 
     List<Rigidbody2D> rigidbody2Ds = new List<Rigidbody2D>();
@@ -45,6 +44,8 @@ public class RoomGenerator : MonoBehaviour
 
     [SerializeField]
     float tileSize = 1f; // <- 인스펙터에서 설정할 수 있도록
+
+    List<Edge> mst;
 
     // 타원 안의 랜덤 위치 얻기
     Vector2 GetRandomPointInEllipse(float ellipseWidth, float ellipseHeight, float tileSize)
@@ -95,15 +96,6 @@ public class RoomGenerator : MonoBehaviour
         RoomController rc = go.AddComponent<RoomController>();
         visualRooms.Add(rc);
 
-        
-        // 문 생성하는 것. 통로까지 완료하고 나중에
-        // door 방향 정하고 
-        // for test 우선은 아래 위로만
-        //DoorController enterd = Instantiate(frontDoor).GetComponent<DoorController>();
-        //DoorController exitd = Instantiate(frontDoor).GetComponent<DoorController>();
-        //enterd.gameObject.transform.SetParent(go.transform);
-        //exitd.gameObject.transform.SetParent(go.transform);
-
         int xLen = Random.Range(minRoom, maxRoom);
         int yLen = Random.Range(minRoom, maxRoom);
 
@@ -131,12 +123,21 @@ public class RoomGenerator : MonoBehaviour
             arr[0, i] = 1;
             arr[yLen - 1, i] = 1;
         }
-        int enterdRandPos = Random.Range(1, xLen - 1);
-        int exitdRandPos = Random.Range(1, xLen - 1);
-        arr[yLen - 1, enterdRandPos] = -1;
-        arr[yLen - 1, enterdRandPos - 1] = 2;
-        arr[0, exitdRandPos - 1] = 3;
-        arr[0, exitdRandPos] = -1;
+
+        // 문 생성하는 것. 통로까지 완료하고 나중에
+        // door 방향 정하고 
+        // for test 우선은 아래 위로만
+        //DoorController enterd = Instantiate(frontDoor).GetComponent<DoorController>();
+        //DoorController exitd = Instantiate(frontDoor).GetComponent<DoorController>();
+        //enterd.gameObject.transform.SetParent(go.transform);
+        //exitd.gameObject.transform.SetParent(go.transform);
+
+        //int enterdRandPos = Random.Range(1, xLen - 1);
+        //int exitdRandPos = Random.Range(1, xLen - 1);
+        //arr[yLen - 1, enterdRandPos] = -1;
+        //arr[yLen - 1, enterdRandPos - 1] = 2;
+        //arr[0, exitdRandPos - 1] = 3;
+        //arr[0, exitdRandPos] = -1;
 
         // 배열값에 따라 맞는 프리팹 생성
         int yOffset = yLen / 2;
@@ -196,14 +197,36 @@ public class RoomGenerator : MonoBehaviour
         }
         kruscal.rooms = nodes;
 
-        List<Edge> mst = kruscal.Run();
+        mst = kruscal.Run();
+
+        Dictionary<int,int> corCnt = new Dictionary<int,int>();
 
         foreach(Edge e in mst)
         {
+            corCnt[e.V1] = corCnt.ContainsKey(e.V1) ? corCnt[e.V1] + 1 : 1;
+            corCnt[e.V2] = corCnt.ContainsKey(e.V2) ? corCnt[e.V2] + 1 : 1;
 
+            // For Debug
+            Debug.Log(e.V1 + " <--> " + e.V2);
         }
 
         yield return null;
+    }
+
+    void OnDrawGizmos()
+    {
+        if (mst == null || visualRooms == null) return;
+
+        Gizmos.color = Color.green; // 선 색상
+        foreach (Edge edge in mst)
+        {
+            RoomController room1 = visualRooms.Find(r => r.RoomId == edge.V1);
+            RoomController room2 = visualRooms.Find(r => r.RoomId == edge.V2);
+            if (room1 != null && room2 != null)
+            {
+                Gizmos.DrawLine(room1.GetCenter(), room2.GetCenter());
+            }
+        }
     }
 
     IEnumerator RunSeparation()

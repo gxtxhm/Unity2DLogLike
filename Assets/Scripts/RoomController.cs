@@ -112,7 +112,7 @@ public class RoomController : MonoBehaviour
 
     public Vector2 GetCenter()
     {
-        return (Vector2)transform.position + new Vector2(Width / 2f, Height / 2f);
+        return (Vector2)transform.position;// + new Vector2(Width / 2f, Height / 2f);
     }
 
     public bool IsMainRoom(float meanWidth, float meanHeight, float thresholdFactor = 1.25f)
