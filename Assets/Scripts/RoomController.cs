@@ -65,6 +65,8 @@ public class RoomController : MonoBehaviour
     public int Width { get; private set; }
     public int Height { get; private set; }
 
+    public int[,] roomArrayData;
+
     public RoomController()
     {
         
@@ -112,38 +114,35 @@ public class RoomController : MonoBehaviour
 
     public Vector2 GetCenter()
     {
-        return (Vector2)transform.position;// + new Vector2(Width / 2f, Height / 2f);
-    }
-
-    public bool IsMainRoom(float meanWidth, float meanHeight, float thresholdFactor = 1.25f)
-    {
-        return Width >= meanWidth * thresholdFactor && Height >= meanHeight * thresholdFactor;
+        return (Vector2)transform.position + new Vector2(Width / 2f, Height / 2f);
     }
 
     public void SetDoor(GameObject door, Vector2 dir)
     {
+
         if (dir == Vector2.left || dir == Vector2.right)
         {
-            int randH = Random.Range(1, Height-1);
+            int randH = Random.Range(1, Height - 2);
 
             door.transform.SetParent(transform);
             Vector3 pos = Vector3.zero;
-            if (dir == Vector2.right) pos.x = Width;
+            if (dir == Vector2.right) pos.x = Width - 1;
             pos.y = randH;
-            pos.x -= Width / 2;
-            pos.y -= Height / 2;
+            roomArrayData[randH, (int)pos.x] = 2;
+
+            if (dir == Vector2.right) pos.x += 1f;
             door.transform.localPosition = pos;
         }
         else
         {
-            int randW = Random.Range(1, Width-1);
+            int randW = Random.Range(1, Width - 2);
 
             door.transform.SetParent(transform);
             Vector3 pos = Vector3.zero;
-            if (dir == Vector2.up) pos.y = Height;
+            if (dir == Vector2.up) pos.y = Height - 1;
             pos.x = randW;
-            pos.x -= Width / 2;
-            pos.y -= Height / 2;
+            roomArrayData[(int)pos.y, randW] = 2;
+
             door.transform.localPosition = pos;
         }
     }

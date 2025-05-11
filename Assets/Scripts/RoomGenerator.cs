@@ -18,6 +18,9 @@ public class RoomGenerator : MonoBehaviour
     float roomPadding;
 
     [SerializeField]
+    GameObject corridorTile;
+
+    [SerializeField]
     GameObject floorTile;
 
     [SerializeField]
@@ -77,7 +80,7 @@ public class RoomGenerator : MonoBehaviour
             int x = Random.Range(-5, 5);
             int y = Random.Range(-5, 5);
 
-            GenerateRoom(new Vector3(x, y, 0));
+            GenerateRoom(new Vector3(x+0.5f, y+0.5f, 0));
 
             //Vector2 pos = GetRandomPointInEllipse(150f, 20f, tileSize); // width, height는 상황에 맞게 조절
             //GenerateRoom(new Vector3(pos.x, pos.y, 0));
@@ -90,6 +93,7 @@ public class RoomGenerator : MonoBehaviour
         StartCoroutine("RunSeparation");
 
     }
+
 
     void GenerateRoom(Vector3 sv)
     {
@@ -104,11 +108,6 @@ public class RoomGenerator : MonoBehaviour
         int xLen = Random.Range(minRoom, maxRoom);
         int yLen = Random.Range(minRoom, maxRoom);
 
-        BoxCollider2D bc = goo.AddComponent<BoxCollider2D>();
-        boxCollider2Ds.Add(bc);
-        bc.offset = Vector3.zero;
-        bc.size = new Vector2(xLen + roomPadding, yLen + roomPadding);
-
         Rigidbody2D rb = goo.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
@@ -116,31 +115,44 @@ public class RoomGenerator : MonoBehaviour
         rb.drag = 6;
         rigidbody2Ds.Add(rb);
 
+        BoxCollider2D bc = goo.AddComponent<BoxCollider2D>();
+        boxCollider2Ds.Add(bc);
+
+        float yOffset = yLen / 2;
+        float xOffset = xLen / 2;
+
+        bc.offset = new Vector2(xOffset, yOffset);
+        bc.size = new Vector2(xLen + roomPadding, yLen + roomPadding);
+
         // 배열로 미리 어떤 타일을 생성할지 세팅
-        int[,] arr = new int[yLen, xLen];
+        // 벽 세팅
+        rc.roomArrayData = new int[yLen, xLen];
         for (int i = 0; i < yLen; i++)
         {
-            arr[i, 0] = 1;
-            arr[i, xLen - 1] = 1;
+            rc.roomArrayData[i, 0] = 1;
+            rc.roomArrayData[i, xLen - 1] = 1;
         }
         for (int i = 0; i < xLen; i++)
         {
-            arr[0, i] = 1;
-            arr[yLen - 1, i] = 1;
+            rc.roomArrayData[0, i] = 1;
+            rc.roomArrayData[yLen - 1, i] = 1;
         }
 
-        // 배열값에 따라 맞는 프리팹 생성
-        int yOffset = yLen / 2;
-        int xOffset = xLen / 2;
+        // 방 크기만큼 바닥타일 생성
+        
         for (int i = 0; i < yLen; i++)
         {
             for (int j = 0; j < xLen; j++)
             {
-                GameObject inst;
-                inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
-                inst.transform.SetParent(go.transform);
-                inst.transform.localPosition = new Vector3(j - yOffset, i - xOffset, 0);
-
+                if (rc.roomArrayData[i, j] == 0)
+                {
+                    GameObject inst;
+                    inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
+                    inst.transform.SetParent(go.transform);
+                    inst.transform.localPosition = new Vector3(j, i, 0);
+                    rc.roomArrayData[i, j] = 5;
+                }
+                
             }
         }
 
@@ -167,9 +179,11 @@ public class RoomGenerator : MonoBehaviour
 
         mst = kruscal.Run();
 
+        GameObject corridors = new GameObject();
+
         foreach (Edge e in mst)
         {
-            Vector2 dir = (roomMap[e.V1].GetCenter() - roomMap[e.V2].GetCenter()).normalized;
+            Vector2 dir = (roomMap[e.V2].GetCenter() - roomMap[e.V1].GetCenter()).normalized;
 
             // 각도 계산 (도 단위)
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
@@ -191,9 +205,144 @@ public class RoomGenerator : MonoBehaviour
 
             GameObject door2 =CreateDoor(-snappedDir);
             roomMap[e.V2].SetDoor(door2, -snappedDir);
+
+            Vector2 randPos = GetRandomPos(door.transform.position, door2.transform.position);
+            bool mode;
+            Vector2 inputVec = door.transform.position;
+            Vector2 inputVec2 = door2.transform.position;
+            if (snappedDir == Vector2.up || snappedDir == Vector2.down)
+            {
+                mode = false;
+                if(snappedDir == Vector2.up)
+                {
+                    inputVec.y++; inputVec2.y--;
+                }
+                else
+                {
+                    inputVec2.y++; inputVec.y--;
+                }
+                    
+            }
+            else
+            {
+                mode = true;
+                if(snappedDir == Vector2.right)
+                {
+                    inputVec2.x--;
+                }
+                else
+                {
+                    inputVec.x--;
+                }
+            }
+            CreateCorridors(corridors, inputVec, randPos, mode);
+            CreateCorridors(corridors, randPos, inputVec2, !mode);
+
         }
+        CreateWall();
+        FilledFloorTile();
 
         yield return null;
+    }
+
+    void CreateCorridors(GameObject parent,Vector2 v, Vector2 v2, bool mode/* true : x -> y , false : y -> x */)
+    {
+        Debug.Log("mode : " + mode);
+        Vector2Int pos = new Vector2Int((int)v.x, (int)v.y);
+        Vector2Int pos2 = new Vector2Int((int)v2.x, (int)v2.y);
+        Debug.Log(pos.ToString());
+        Debug.Log(pos2.ToString());
+        if (mode)
+        {
+            // for문 수치 파악해보기
+            for (int x = pos.x; x != (pos2.x + ((pos2.x > pos.x) ? 1 : -1)); x += (pos2.x > pos.x) ? 1 : -1)
+            {
+                GameObject go = Instantiate(corridorTile, new Vector2(x, pos.y), Quaternion.identity);
+                go.transform.SetParent(parent.transform, true);
+            }
+
+            for (int y = pos.y; y != (pos2.y + ((pos2.y > pos.y) ? 1 : -1)); y += (pos2.y > pos.y) ? 1 : -1)
+            {
+                GameObject go = Instantiate(corridorTile, new Vector2(pos2.x, y), Quaternion.identity);
+                go.transform.SetParent(parent.transform, true);
+            }
+        }
+        else
+        {
+            for (int y = pos.y; y != (pos2.y + ((pos2.y > pos.y) ? 1 : -1)); y += (pos2.y > pos.y) ? 1 : -1)
+            {
+                GameObject go = Instantiate(corridorTile, new Vector2(pos.x, y), Quaternion.identity);
+                go.transform.SetParent(parent.transform, true);
+            }
+            for (int x = pos.x; x != (pos2.x + ((pos2.x > pos.x) ? 1 : -1)); x += (pos2.x > pos.x) ? 1 : -1)
+            {
+                GameObject go = Instantiate(corridorTile, new Vector2(x, pos2.y), Quaternion.identity);
+                go.transform.SetParent(parent.transform, true);
+            }
+        }
+        
+    }
+
+    Vector2 GetRandomPos(Vector3 pos, Vector3 pos2)
+    {
+        float maxY = Mathf.Max(pos.y, pos2.y);
+        float minY = Mathf.Min(pos.y, pos2.y);
+
+        float maxX = Mathf.Max(pos.x, pos2.x);
+        float minX = Mathf.Min(pos.x, pos2.x);
+
+        int offsetY = Mathf.RoundToInt((maxY - minY) / 4);
+        int offsetX = Mathf.RoundToInt((maxX - minX) / 4);
+
+        
+        float randX = Random.Range(minX + offsetX, maxX - offsetX);
+        float randY = Random.Range(minY + offsetY, maxY - offsetY);
+        randX = Mathf.Round(randX);
+        randY = Mathf.Round(randY);
+
+        Debug.Log("RandPoint : "+randX +", "+randY);
+        return new Vector2(randX, randY);
+    }
+
+    // 빈 곳 바닥으로 채우기
+    void FilledFloorTile()
+    {
+        foreach (RoomController rc in visualRooms)
+        {
+            for (int i = 0; i < rc.Height; i++)
+            {
+                for (int j = 0; j < rc.Width; j++)
+                {
+                    if(rc.roomArrayData[i, j]==2)
+                    {
+                        GameObject inst;
+                        inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
+                        inst.transform.SetParent(rc.transform);
+                        inst.transform.localPosition = new Vector3(j, i, 0);
+                        rc.roomArrayData[i, j] = 5;
+                    }
+                }
+            }
+        }
+    }
+
+    void CreateWall()
+    {
+        foreach (RoomController rc in visualRooms)
+        {
+            for(int i=0;i<rc.Height;i++)
+            {
+                for(int j=0;j<rc.Width;j++)
+                {
+                    if (rc.roomArrayData[i,j]==1)
+                    {
+                        GameObject go = Instantiate(wallTile);
+                        go.transform.SetParent(rc.transform);
+                        go.transform.localPosition = new Vector2(j, i);
+                    }
+                }
+            }
+        }
     }
 
     GameObject CreateDoor(Vector2 dir)
