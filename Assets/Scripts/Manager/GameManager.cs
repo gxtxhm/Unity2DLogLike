@@ -29,10 +29,13 @@ public class GameManager : MonoBehaviour
         
     }
     // Start is called before the first frame update
-    public void GameStart()
+    public void GameStart(RoomController rc)
     {
         //pc.Init();
         //WeaponManager.Instance.Init();
+
+        pc.transform.position = rc.GetCenter();
+        rc.StartRoom();
 
     }
     private void Start()

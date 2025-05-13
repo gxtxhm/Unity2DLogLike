@@ -17,8 +17,11 @@ public class RoomGenerator : MonoBehaviour
     [SerializeField]
     float roomPadding;
 
+    // middleX = 0, middleY =1,
+    // lf = 2 ,     lb = 3,
+    // rf = 4,      rb =5
     [SerializeField]
-    GameObject corridorTile;
+    GameObject[] corridorTile;
 
     [SerializeField]
     GameObject floorTile;
@@ -50,9 +53,6 @@ public class RoomGenerator : MonoBehaviour
     Dictionary<int,RoomController> roomMap = new Dictionary<int,RoomController>();
     List<BoxCollider2D> boxCollider2Ds = new List<BoxCollider2D>();
 
-    [SerializeField]
-    float tileSize = 1f; // <- 인스펙터에서 설정할 수 있도록
-
     List<Edge> mst;
 
     Dictionary<Vector2,GameObject> DirToDoor = new Dictionary<Vector2,GameObject>();
@@ -71,23 +71,6 @@ public class RoomGenerator : MonoBehaviour
         DirToDoor.Add(Vector2.right, rightDoor);
     }
 
-    // 타원 안의 랜덤 위치 얻기
-    Vector2 GetRandomPointInEllipse(float ellipseWidth, float ellipseHeight, float tileSize)
-    {
-        float t = 2 * Mathf.PI * Random.value;
-        float u = Random.value + Random.value;
-        float r = u > 1 ? 2 - u : u;
-
-        float x = (ellipseWidth * r * Mathf.Cos(t)) / 2f;
-        float y = (ellipseHeight * r * Mathf.Sin(t)) / 2f;
-
-        x = Mathf.Round(x / tileSize) * tileSize;
-        y = Mathf.Round(y / tileSize) * tileSize;
-
-        return new Vector2(x, y);
-    }
-
-
     public void StartGenerateRoom()
     {
         rigidbody2Ds.Clear();
@@ -97,9 +80,6 @@ public class RoomGenerator : MonoBehaviour
             int y = Random.Range(-5, 5);
 
             GenerateRoom(new Vector3(x+0.5f, y+0.5f, 0));
-
-            //Vector2 pos = GetRandomPointInEllipse(150f, 20f, tileSize); // width, height는 상황에 맞게 조절
-            //GenerateRoom(new Vector3(pos.x, pos.y, 0));
         }
 
         foreach (Rigidbody2D rb in rigidbody2Ds)
@@ -107,7 +87,6 @@ public class RoomGenerator : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Dynamic;
         }
         StartCoroutine("RunSeparation");
-
     }
 
 
@@ -172,8 +151,7 @@ public class RoomGenerator : MonoBehaviour
             }
         }
 
-        // 룸 Init 함수 
-        //rc.SetInit(enterd, exitd, xLen, yLen, roomNumCnt);//, xLen, yLen, roomNumCnt
+        // 룸 Init 함수
         rc.SetInit(xLen, yLen, roomNumCnt++);
         go.SetActive(false);
         roomMap.Add(rc.RoomId, rc);
@@ -263,8 +241,8 @@ public class RoomGenerator : MonoBehaviour
         {
             room.GeneratePathMap();
         }
-
-        GameManager.Instance.GameStart();
+        int randRoom = Random.Range(0, roomNumCnt);
+        GameManager.Instance.GameStart(visualRooms[randRoom]);
         yield return null;
     }
 
@@ -276,38 +254,83 @@ public class RoomGenerator : MonoBehaviour
         }
     }
 
+    // dx > 0 , dy > 0
+    // x = false : left, x = true : right
+    // y = false : front, y = true : back
+    GameObject GetDirToCorridorTile(bool x, bool y)
+    {
+        // lf
+        if (!x && !y) return corridorTile[2];
+        // lb
+        else if (!x && y) return corridorTile[3];
+        // rf
+        else if (x && !y) return corridorTile[4];
+        // rb
+        else if(x && y) return corridorTile[5];
+
+        else return null;
+    }
+
     void CreateCorridors(GameObject parent,Vector2 v, Vector2 v2, bool mode/* true : x -> y , false : y -> x */)
     {
-        //Debug.Log("mode : " + mode);
         Vector2Int pos = new Vector2Int((int)v.x, (int)v.y);
         Vector2Int pos2 = new Vector2Int((int)v2.x, (int)v2.y);
-        //Debug.Log(pos.ToString());
-        //Debug.Log(pos2.ToString());
+
+        int dx = (pos2.x > pos.x) ? 1 : -1;
+        int dy = (pos2.y > pos.y) ? 1 : -1;
+
         if (mode)
         {
-            // for문 수치 파악해보기
-            for (int x = pos.x; x != (pos2.x + ((pos2.x > pos.x) ? 1 : -1)); x += (pos2.x > pos.x) ? 1 : -1)
+            for (int x = pos.x; x != (pos2.x + dx); x += dx)
             {
-                GameObject go = Instantiate(corridorTile, new Vector2(x, pos.y), Quaternion.identity);
-                go.transform.SetParent(parent.transform, true);
+                GameObject go=null;
+                if(pos2.x == x)
+                {
+                    // 모서리 생성 (pos2.x,pos.y)
+                    GameObject prefab = GetDirToCorridorTile((dx > 0), (dy < 0));
+                    go = Instantiate(prefab, new Vector2(pos2.x, pos.y), Quaternion.identity);
+                }
+                else
+                {
+                    // new Vector2(x, pos.y)
+                    go = Instantiate(corridorTile[0], new Vector2(x, pos.y), Quaternion.identity);
+                }
+                if(go!=null)
+                    go.transform.SetParent(parent.transform, true);
             }
 
-            for (int y = pos.y; y != (pos2.y + ((pos2.y > pos.y) ? 1 : -1)); y += (pos2.y > pos.y) ? 1 : -1)
+            for (int y = pos.y; y != (pos2.y + dy); y += dy)
             {
-                GameObject go = Instantiate(corridorTile, new Vector2(pos2.x, y), Quaternion.identity);
+                if(y == pos.y)
+                    continue;
+                GameObject go = Instantiate(corridorTile[1], new Vector2(pos2.x, y), Quaternion.identity);
                 go.transform.SetParent(parent.transform, true);
             }
         }
         else
         {
-            for (int y = pos.y; y != (pos2.y + ((pos2.y > pos.y) ? 1 : -1)); y += (pos2.y > pos.y) ? 1 : -1)
+            for (int y = pos.y; y != (pos2.y + dy); y += dy)
             {
-                GameObject go = Instantiate(corridorTile, new Vector2(pos.x, y), Quaternion.identity);
-                go.transform.SetParent(parent.transform, true);
+                GameObject go = null;
+                if( y == pos2.y)
+                {
+                    // (pos.x, pos2.y) 모서리 생성
+                    GameObject prefab = GetDirToCorridorTile((dx < 0), (dy > 0));
+                    go = Instantiate(prefab, new Vector2(pos.x, pos2.y), Quaternion.identity);
+                }
+                else
+                {
+                    // (pos.x, y) 생성
+                    go = Instantiate(corridorTile[1], new Vector2(pos.x, y), Quaternion.identity);
+                }
+                if(go!=null)
+                    go.transform.SetParent(parent.transform, true);
             }
-            for (int x = pos.x; x != (pos2.x + ((pos2.x > pos.x) ? 1 : -1)); x += (pos2.x > pos.x) ? 1 : -1)
+            for (int x = pos.x; x != (pos2.x + dx); x += dx)
             {
-                GameObject go = Instantiate(corridorTile, new Vector2(x, pos2.y), Quaternion.identity);
+                if (x == pos.x) continue;
+                
+                GameObject go = Instantiate(corridorTile[0], new Vector2(x, pos2.y), Quaternion.identity);
                 go.transform.SetParent(parent.transform, true);
             }
         }
@@ -331,7 +354,6 @@ public class RoomGenerator : MonoBehaviour
         randX = Mathf.Round(randX);
         randY = Mathf.Round(randY);
 
-        //Debug.Log("RandPoint : "+randX +", "+randY);
         return new Vector2(randX, randY);
     }
 
