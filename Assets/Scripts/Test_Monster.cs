@@ -40,7 +40,7 @@ public class Test_Monster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //(int, int)[] path = await AStarPathfinding.GeneratePath(0, 0, 2, 0, walkableMap);
+        
     }
 
     public void StartBattle(bool[,] m)
@@ -52,8 +52,7 @@ public class Test_Monster : MonoBehaviour
     async void pathFinding()
     {
         Vector3 pos = GameManager.Instance.pc.gameObject.transform.localPosition;
-        //Debug.Log("pathFinding : " + Mathf.RoundToInt(pos.x) + " " + Mathf.RoundToInt(pos.y) + " " +
-        //    Mathf.RoundToInt(transform.localPosition.x) + " " + Mathf.RoundToInt(transform.localPosition.y));
+        
         path = await AStarPathfinding.GeneratePath(
             Mathf.RoundToInt(pos.x), Mathf.RoundToInt(pos.y), Mathf.RoundToInt(transform.localPosition.x), Mathf.RoundToInt(transform.localPosition.y), map);
 

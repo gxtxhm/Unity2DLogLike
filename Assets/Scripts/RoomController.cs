@@ -26,9 +26,7 @@ public class RoomController : MonoBehaviour
     public int Height { get; private set; }
 
     public TileType[,] roomArrayData;
-    public bool[,] bakedMap; 
-
-    
+    public bool[,] bakedMap;
 
     public void SetInit(int width = 0, int height = 0, int roomId = -1)
     {
