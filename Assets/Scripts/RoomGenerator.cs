@@ -197,7 +197,7 @@ public class RoomGenerator : MonoBehaviour
             GameObject door = CreateDoor(snappedDir);
             roomMap[e.V1].SetDoor(door, snappedDir);
 
-            GameObject door2 =CreateDoor(-snappedDir);
+            GameObject door2 = CreateDoor(-snappedDir);
             roomMap[e.V2].SetDoor(door2, -snappedDir);
 
             Vector2 randPos = GetRandomPos(door.transform.position, door2.transform.position);
@@ -229,8 +229,7 @@ public class RoomGenerator : MonoBehaviour
                     inputVec.x--;
                 }
             }
-            CreateCorridors(corridors, inputVec, randPos, mode);
-            CreateCorridors(corridors, randPos, inputVec2, !mode);
+            CreateCorridors(corridors, inputVec, randPos,inputVec2, mode);
 
         }
         CreateWall();
@@ -271,70 +270,100 @@ public class RoomGenerator : MonoBehaviour
         else return null;
     }
 
-    void CreateCorridors(GameObject parent,Vector2 v, Vector2 v2, bool mode/* true : x -> y , false : y -> x */)
+    void CreateCorridors(GameObject parent, Vector2 v, Vector2 v2 /*randPos*/, Vector2 v3, bool mode /* true: x -> y -> x, false: y -> x -> y */)
     {
         Vector2Int pos = new Vector2Int((int)v.x, (int)v.y);
         Vector2Int pos2 = new Vector2Int((int)v2.x, (int)v2.y);
+        Vector2Int pos3 = new Vector2Int((int)v3.x, (int)v3.y);
 
-        int dx = (pos2.x > pos.x) ? 1 : -1;
-        int dy = (pos2.y > pos.y) ? 1 : -1;
+        (Vector2Int, Vector2Int)[] path = new (Vector2Int, Vector2Int)[3];
 
+        // 경로 설정
         if (mode)
         {
-            for (int x = pos.x; x != (pos2.x + dx); x += dx)
-            {
-                GameObject go=null;
-                if(pos2.x == x)
-                {
-                    // 모서리 생성 (pos2.x,pos.y)
-                    GameObject prefab = GetDirToCorridorTile((dx > 0), (dy < 0));
-                    go = Instantiate(prefab, new Vector2(pos2.x, pos.y), Quaternion.identity);
-                }
-                else
-                {
-                    // new Vector2(x, pos.y)
-                    go = Instantiate(corridorTile[0], new Vector2(x, pos.y), Quaternion.identity);
-                }
-                if(go!=null)
-                    go.transform.SetParent(parent.transform, true);
-            }
-
-            for (int y = pos.y; y != (pos2.y + dy); y += dy)
-            {
-                if(y == pos.y)
-                    continue;
-                GameObject go = Instantiate(corridorTile[1], new Vector2(pos2.x, y), Quaternion.identity);
-                go.transform.SetParent(parent.transform, true);
-            }
+            path[0] = (pos, new Vector2Int(pos2.x, pos.y)); // x축
+            path[1] = (new Vector2Int(pos2.x, pos.y), new Vector2Int(pos2.x, pos3.y)); // y축
+            path[2] = (new Vector2Int(pos2.x, pos3.y), pos3); // x축
         }
         else
         {
-            for (int y = pos.y; y != (pos2.y + dy); y += dy)
+            path[0] = (pos, new Vector2Int(pos.x, pos2.y)); // y축
+            path[1] = (new Vector2Int(pos.x, pos2.y), new Vector2Int(pos3.x, pos2.y)); // x축
+            path[2] = (new Vector2Int(pos3.x, pos2.y), pos3); // y축
+        }
+
+        int yDiff = Mathf.Abs(pos3.y - pos2.y);
+
+        for (int i = 0; i < 3; i++)
+        {
+            Vector2Int start = path[i].Item1;
+            Vector2Int end = path[i].Item2;
+
+            int dx = (start.x == end.x) ? 0 : (end.x > start.x) ? 1 : -1;
+            int dy = (start.y == end.y) ? 0 : (end.y > start.y) ? 1 : -1;
+
+            // 직선 타일 생성
+            if (dx != 0) // x축 이동
+            {
+                int initX = (i == 0) ? start.x : start.x + dx;
+                for (int x = initX; x != end.x; x += dx)
+                {
+                    GameObject go = Instantiate(corridorTile[0], new Vector2(x, start.y), Quaternion.identity);
+                    go.transform.SetParent(parent.transform, true);
+                }
+            }
+            else if (dy != 0) // y축 이동
+            {
+                int initY = (i == 0) ? start.y : start.y + dy;
+                for (int y = initY; y != end.y; y += dy)
+                {
+                    GameObject go = Instantiate(corridorTile[1], new Vector2(start.x, y), Quaternion.identity);
+                    go.transform.SetParent(parent.transform, true);
+                }
+            }
+
+            // 모서리 타일 생성 (i < 2일 때만, 마지막 끝점 제외)
+            if (i < 2 && (dx != 0 || dy != 0))
             {
                 GameObject go = null;
-                if( y == pos2.y)
+                if (dx == 0 && dy == 0) // 동일 좌표
+                    continue;
+
+                // 다음 경로의 방향 확인
+                Vector2Int nextStart = path[i + 1].Item1;
+                Vector2Int nextEnd = path[i + 1].Item2;
+                int nextDx = (nextStart.x == nextEnd.x) ? 0 : (nextEnd.x > nextStart.x) ? 1 : -1;
+                int nextDy = (nextStart.y == nextEnd.y) ? 0 : (nextEnd.y > nextStart.y) ? 1 : -1;
+
+                if (dx != 0 && nextDy != 0) // x -> y
                 {
-                    // (pos.x, pos2.y) 모서리 생성
-                    GameObject prefab = GetDirToCorridorTile((dx < 0), (dy > 0));
-                    go = Instantiate(prefab, new Vector2(pos.x, pos2.y), Quaternion.identity);
+                    GameObject prefab = GetDirToCorridorTile((dx > 0), (nextDy < 0));
+                    go = Instantiate(prefab, new Vector2(end.x, end.y), Quaternion.identity);
                 }
-                else
+                else if (dy != 0 && nextDx != 0) // y -> x
                 {
-                    // (pos.x, y) 생성
-                    go = Instantiate(corridorTile[1], new Vector2(pos.x, y), Quaternion.identity);
+                    GameObject prefab = GetDirToCorridorTile((nextDx < 0), (dy > 0));
+                    go = Instantiate(prefab, new Vector2(end.x, end.y), Quaternion.identity);
                 }
-                if(go!=null)
+                else // 직선 경로
+                {
+                    go = Instantiate(dx != 0 ? corridorTile[0] : corridorTile[1], new Vector2(end.x, end.y), Quaternion.identity);
+                }
+
+                if (go != null)
                     go.transform.SetParent(parent.transform, true);
             }
-            for (int x = pos.x; x != (pos2.x + dx); x += dx)
+
+            // 최종 끝점 처리 (i == 2)
+            if (i==2)
             {
-                if (x == pos.x) continue;
+                GameObject go = null;
                 
-                GameObject go = Instantiate(corridorTile[0], new Vector2(x, pos2.y), Quaternion.identity);
-                go.transform.SetParent(parent.transform, true);
+                go = Instantiate((dx != 0)? corridorTile[0] : corridorTile[1],new Vector2(end.x,end.y),Quaternion.identity);
+                if (go != null)
+                    go.transform.SetParent(parent.transform, true);
             }
         }
-        
     }
 
     Vector2 GetRandomPos(Vector3 pos, Vector3 pos2)
