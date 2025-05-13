@@ -41,10 +41,16 @@ public class DoorController : MonoBehaviour
         rc = transform.parent.GetComponent<RoomController>();
     }
 
+    public void EnterPlayer()
+    {
+        isEntered = true;
+    }
+
     void ActionEnterDoor(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
+            Debug.Log("before IsEntered" + isEntered + "in ActionEnterDoor");   
             if(isEntered == false)
                 StartCoroutine(doorOpen());
             else
@@ -52,6 +58,7 @@ public class DoorController : MonoBehaviour
                 StartCoroutine(doorClose());
                 isEntered = false;
             }
+            Debug.Log("after IsEntered" + isEntered + "in ActionEnterDoor");
         }
     }
 
@@ -59,7 +66,8 @@ public class DoorController : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            if(isEntered == false)
+            Debug.Log("before IsEntered" + isEntered + "in ActionExitDoor");
+            if (isEntered == false)
             {
                 StartCoroutine (doorClose());
                 isEntered = true;
@@ -67,11 +75,14 @@ public class DoorController : MonoBehaviour
             }
             else
                 StartCoroutine(doorOpen());
+
+            Debug.Log("after IsEntered" + isEntered + "in ActionExitDoor");
         }
     }
 
     IEnumerator doorOpen()
     {
+        Debug.Log("doorOpen");
         float elapsedTime = 0f;
 
         // 초기 위치 저장
@@ -107,9 +118,9 @@ public class DoorController : MonoBehaviour
         Debug.Log("doorClose");
         float elapsedTime = 0f;
 
-        // 현재 위치 저장
-        Vector3 door1Start = door1.transform.position;
-        Vector3 door2Start = door2.transform.position;
+        // 현재 로컬 위치 저장
+        Vector3 door1Start = door1.transform.localPosition;
+        Vector3 door2Start = door2.transform.localPosition;
 
         Transform mask1 = door1.GetComponentInChildren<SpriteMask>().transform;
         Transform mask2 = door2.GetComponentInChildren<SpriteMask>().transform;
@@ -121,7 +132,7 @@ public class DoorController : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float t = Mathf.Clamp01(elapsedTime / animTime);
-            float offsetY = Mathf.Lerp(-endPos.y, 0, t); // 열린 상태에서 원래 위치로
+            float offsetY = Mathf.Lerp(0, endPos.y-1, t); // 열린 상태(-endPos.y)에서 원래 위치(0)로
 
             // 문은 위로 이동
             door1.transform.localPosition = door1Start + Vector3.down * offsetY;
@@ -133,12 +144,6 @@ public class DoorController : MonoBehaviour
 
             yield return null;
         }
-
-        // 최종 위치를 정확히 원래 위치로 설정
-        door1.transform.position = door1Start + Vector3.down * endPos.y;
-        door2.transform.position = door2Start + Vector3.down * endPos.y;
-        mask1.localPosition = mask1Start + Vector3.up * endPos.y;
-        mask2.localPosition = mask2Start + Vector3.up * endPos.y;
     }
 
 }

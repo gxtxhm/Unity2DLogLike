@@ -42,6 +42,7 @@ public class RoomController : MonoBehaviour
 
     }
 
+
     public void GeneratePathMap()
     {
         bakedMap = new bool[Height, Width];
@@ -69,6 +70,7 @@ public class RoomController : MonoBehaviour
         {
             dc.EnterCollider.enabled = false;
             dc.ExitCollider.enabled = false;
+            dc.EnterPlayer();
         }
     }
 
