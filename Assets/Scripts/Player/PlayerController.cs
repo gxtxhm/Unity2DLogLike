@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     Sprite IdleDown;
 
     [SerializeField]
-    float speed = 5.0f;
+    float speed = 8.0f;
 
     AudioSource audioSource;
     [SerializeField]
@@ -42,6 +42,8 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
+
+
         WeaponManager.Instance.AddWeapon(curWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon2);

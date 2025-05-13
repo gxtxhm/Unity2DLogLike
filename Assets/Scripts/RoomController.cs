@@ -1,76 +1,34 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class RoomController : MonoBehaviour
-//{
-//    [SerializeField]
-//    DoorController enterDoor;
-//    [SerializeField]
-//    DoorController exitDoor;
-
-
-//    //Test
-//    public int MonsterCnt = 3;
-//    GameObject PrefabMonster;
-
-//    public void SetInit(DoorController enter,DoorController exit)
-//    {
-//        enterDoor = enter;
-//        exitDoor = exit;
-//        PrefabMonster = Resources.Load<GameObject>("TestEnemy");
-
-//        enterDoor.Init();
-//        exitDoor.Init();
-//        exitDoor.Collider.enabled = false;
-//    }
-
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-//        Invoke("OpenExitDoor", 5f);
-//        return;
-//        int py=Random.Range(-6, 8);
-//        int px=Random.Range(-7, 7);
-//        for(int i = 0; i < MonsterCnt; i++) 
-//            Instantiate(PrefabMonster, new Vector3(px, py, 0), Quaternion.identity);
-
-
-//    }
-//    // For Test
-//    void OpenExitDoor()
-//    {
-//        exitDoor.Collider.enabled = true;
-//    }
-//}
-/// 복사 전 
-/// 
-
+﻿using AStar;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum TileType
+{
+    None,
+    Monster,
+    Creature,
+    Floor,
+    Door,
+    Wall
+}
+
 public class RoomController : MonoBehaviour
 {
-    [SerializeField]
-    DoorController enterDoor;
-    [SerializeField]
-    DoorController exitDoor;
+    List<DoorController> doors = new List<DoorController>();
 
+    int curMonster;
     public int MonsterCnt = 3;
-    GameObject PrefabMonster;
+    Test_Monster[] monsters; 
 
-    
     public int RoomId { get; private set; }
     public int Width { get; private set; }
     public int Height { get; private set; }
 
-    public int[,] roomArrayData;
+    public TileType[,] roomArrayData;
+    public bool[,] bakedMap; 
 
-    public RoomController()
-    {
-        
-    }
+    
 
     public void SetInit(int width = 0, int height = 0, int roomId = -1)
     {
@@ -79,37 +37,47 @@ public class RoomController : MonoBehaviour
         RoomId = roomId;
     }
 
-    public void SetInit(DoorController enter, DoorController exit, int width = 0, int height = 0, int roomId = -1)
-    {
-        enterDoor = enter;
-        exitDoor = exit;
-        PrefabMonster = Resources.Load<GameObject>("TestEnemy");
-
-        Width = width;
-        Height = height;
-        RoomId = roomId;
-
-        enterDoor.Init();
-        exitDoor.Init();
-        exitDoor.Collider.enabled = false;
-    }
-
     void Start()
     {
-        return;
-        Invoke("OpenExitDoor", 5f);
 
-        for (int i = 0; i < MonsterCnt; i++)
+    }
+
+    public void GeneratePathMap()
+    {
+        bakedMap = new bool[Height, Width];
+        for (int i = 0; i < Height; i++)
         {
-            int px = Random.Range(-7, 7);
-            int py = Random.Range(-6, 8);
-            Instantiate(PrefabMonster, new Vector3(px, py, 0), Quaternion.identity);
+            for (int j = 0; j < Width; j++)
+            {
+                if (roomArrayData[i, j] == TileType.Floor || roomArrayData[i, j] == TileType.Monster)
+                    bakedMap[i, j] = true;
+                else
+                    bakedMap[i, j] = false;
+            }
         }
     }
 
-    void OpenExitDoor()
+    // 첫 입장 시 시작됨
+    public void StartRoom()
     {
-        exitDoor.Collider.enabled = true;
+        if (curMonster == 0) return;
+        GameManager.Instance.pc.transform.SetParent(transform, true);
+        // 몬스터 활동 시작
+        Invoke("TriggerMonster", 0.2f);
+
+        foreach (DoorController dc in doors)
+        {
+            dc.EnterCollider.enabled = false;
+            dc.ExitCollider.enabled = false;
+        }
+    }
+
+    void TriggerMonster()
+    {
+        foreach (Test_Monster m in monsters)
+        {
+            m.StartBattle(bakedMap);
+        }
     }
 
     public Vector2 GetCenter()
@@ -119,7 +87,10 @@ public class RoomController : MonoBehaviour
 
     public void SetDoor(GameObject door, Vector2 dir)
     {
-
+        DoorController dc = door.GetComponent<DoorController>();
+        dc.DoorDir = dir;
+        doors.Add(dc);
+        
         if (dir == Vector2.left || dir == Vector2.right)
         {
             int randH = Random.Range(1, Height - 2);
@@ -128,7 +99,7 @@ public class RoomController : MonoBehaviour
             Vector3 pos = Vector3.zero;
             if (dir == Vector2.right) pos.x = Width - 1;
             pos.y = randH;
-            roomArrayData[randH, (int)pos.x] = 2;
+            roomArrayData[randH, (int)pos.x] = TileType.Door;
 
             if (dir == Vector2.right) pos.x += 1f;
             door.transform.localPosition = pos;
@@ -141,10 +112,76 @@ public class RoomController : MonoBehaviour
             Vector3 pos = Vector3.zero;
             if (dir == Vector2.up) pos.y = Height - 1;
             pos.x = randW;
-            roomArrayData[(int)pos.y, randW] = 2;
+            roomArrayData[(int)pos.y, randW] = TileType.Door;
 
             door.transform.localPosition = pos;
         }
+        dc.Init();
+    }
+
+    void ClearRoom()
+    {
+        if (curMonster != 0) return;
+
+        foreach(DoorController dc in doors)
+        {
+            dc.EnterCollider.enabled = true;
+            dc.ExitCollider.enabled = true;
+        }
+
+        GameManager.Instance.pc.transform.SetParent(null,true);
+    }
+
+    // 몬스터와 장애물 세팅
+    public void SetCreature(RoomGenerator rg)
+    {
+        int randMonster = Random.Range(1, MonsterCnt);
+        GameObject[] m = rg.CreateMonster(randMonster);
+        curMonster = m.Length;
+        monsters = new Test_Monster[m.Length];
+        for(int i=0;i<m.Length; i++)
+            monsters[i] = m[i].GetComponent<Test_Monster>();
+
+        int randCreature = Random.Range(1, 5);
+        GameObject[] objects = rg.CreateRandomCreature(randCreature);
+
+        for(int i=0;i<m.Length;i++)
+        {
+            while (true)
+            {
+                int randX = Random.Range(2, Width - 3);
+                int randY = Random.Range(2, Height - 3);
+                Vector2 v = GetCenter();
+                if (randX == v.x && randY == v.y) continue;
+                if (roomArrayData[randY, randX] == TileType.Floor)
+                {
+                    m[i].transform.SetParent(transform);
+                    m[i].transform.localPosition = new Vector2(randX, randY);
+                    roomArrayData[randY, randX] = TileType.Monster;
+                    m[i].GetComponent<Test_Monster>().Init(this);
+                    m[i].GetComponent<Test_Monster>().OnDeadEvent += () => { curMonster--; ClearRoom(); };
+                    break;
+                }
+            }
+        }
+        for(int i=0;i<objects.Length;i++)
+        {
+            while(true)
+            {
+                int randX = Random.Range(2, Width - 3);
+                int randY = Random.Range(2, Height - 3);
+                Vector2 v = GetCenter();
+                if (randX == v.x && randY == v.y) continue;
+                if (roomArrayData[randY, randX] == TileType.Floor)
+                {
+                    objects[i].transform.SetParent(transform);
+                    objects[i].transform.localPosition = new Vector2(randX,randY);
+                    roomArrayData[randY, randX] = TileType.Creature;
+                    break;
+                }
+            }
+        }
+        
     }
 
 }

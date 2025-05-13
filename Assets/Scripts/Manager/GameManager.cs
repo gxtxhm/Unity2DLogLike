@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public Image weaponImage;
     public TextMeshProUGUI bulletText;
 
+    public int CurRoomId { get; set; }
+
     private void Awake()
     {
         if(Instance == null)
@@ -27,12 +29,17 @@ public class GameManager : MonoBehaviour
         
     }
     // Start is called before the first frame update
-    void Start()
+    public void GameStart()
+    {
+        //pc.Init();
+        //WeaponManager.Instance.Init();
+
+    }
+    private void Start()
     {
         pc.Init();
         WeaponManager.Instance.Init();
     }
-
     // Update is called once per frame
     void Update()
     {

@@ -30,9 +30,20 @@ public class RoomGenerator : MonoBehaviour
     GameObject frontDoor;
 
     [SerializeField]
-    GameObject sideDoor;
+    GameObject backDoor;
+
+    [SerializeField]
+    GameObject leftDoor;
+
+    [SerializeField]
+    GameObject rightDoor;
 
     int roomNumCnt = 0;
+
+    [SerializeField]
+    GameObject prefabMonster;
+    [SerializeField]
+    GameObject[] creatures = new GameObject[4]; 
 
     List<Rigidbody2D> rigidbody2Ds = new List<Rigidbody2D>();
     List<RoomController> visualRooms = new List<RoomController>();
@@ -46,13 +57,18 @@ public class RoomGenerator : MonoBehaviour
 
     Dictionary<Vector2,GameObject> DirToDoor = new Dictionary<Vector2,GameObject>();
 
+    public RoomController GetRoomController(int roomId)
+    {
+        return roomMap[roomId];
+    }
+
     public void Start()
     {
         DirToDoor.Clear();
         DirToDoor.Add(Vector2.down, frontDoor);
-        DirToDoor.Add(Vector2.up, frontDoor);
-        DirToDoor.Add(Vector2.left, sideDoor);
-        DirToDoor.Add(Vector2.right, sideDoor);
+        DirToDoor.Add(Vector2.up, backDoor);
+        DirToDoor.Add(Vector2.left, leftDoor);
+        DirToDoor.Add(Vector2.right, rightDoor);
     }
 
     // 타원 안의 랜덤 위치 얻기
@@ -126,16 +142,16 @@ public class RoomGenerator : MonoBehaviour
 
         // 배열로 미리 어떤 타일을 생성할지 세팅
         // 벽 세팅
-        rc.roomArrayData = new int[yLen, xLen];
+        rc.roomArrayData = new TileType[yLen, xLen];
         for (int i = 0; i < yLen; i++)
         {
-            rc.roomArrayData[i, 0] = 1;
-            rc.roomArrayData[i, xLen - 1] = 1;
+            rc.roomArrayData[i, 0] = TileType.Wall;
+            rc.roomArrayData[i, xLen - 1] = TileType.Wall;
         }
         for (int i = 0; i < xLen; i++)
         {
-            rc.roomArrayData[0, i] = 1;
-            rc.roomArrayData[yLen - 1, i] = 1;
+            rc.roomArrayData[0, i] = TileType.Wall;
+            rc.roomArrayData[yLen - 1, i] = TileType.Wall;
         }
 
         // 방 크기만큼 바닥타일 생성
@@ -150,7 +166,7 @@ public class RoomGenerator : MonoBehaviour
                     inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
                     inst.transform.SetParent(go.transform);
                     inst.transform.localPosition = new Vector3(j, i, 0);
-                    rc.roomArrayData[i, j] = 5;
+                    rc.roomArrayData[i, j] = TileType.Floor;
                 }
                 
             }
@@ -241,17 +257,32 @@ public class RoomGenerator : MonoBehaviour
         }
         CreateWall();
         FilledFloorTile();
+        SetRoomCreature();
 
+        foreach(RoomController room in visualRooms)
+        {
+            room.GeneratePathMap();
+        }
+
+        GameManager.Instance.GameStart();
         yield return null;
+    }
+
+    void SetRoomCreature()
+    {
+        foreach(RoomController rc in visualRooms)
+        {
+            rc.SetCreature(this);
+        }
     }
 
     void CreateCorridors(GameObject parent,Vector2 v, Vector2 v2, bool mode/* true : x -> y , false : y -> x */)
     {
-        Debug.Log("mode : " + mode);
+        //Debug.Log("mode : " + mode);
         Vector2Int pos = new Vector2Int((int)v.x, (int)v.y);
         Vector2Int pos2 = new Vector2Int((int)v2.x, (int)v2.y);
-        Debug.Log(pos.ToString());
-        Debug.Log(pos2.ToString());
+        //Debug.Log(pos.ToString());
+        //Debug.Log(pos2.ToString());
         if (mode)
         {
             // for문 수치 파악해보기
@@ -300,7 +331,7 @@ public class RoomGenerator : MonoBehaviour
         randX = Mathf.Round(randX);
         randY = Mathf.Round(randY);
 
-        Debug.Log("RandPoint : "+randX +", "+randY);
+        //Debug.Log("RandPoint : "+randX +", "+randY);
         return new Vector2(randX, randY);
     }
 
@@ -313,13 +344,13 @@ public class RoomGenerator : MonoBehaviour
             {
                 for (int j = 0; j < rc.Width; j++)
                 {
-                    if(rc.roomArrayData[i, j]==2)
+                    if(rc.roomArrayData[i, j]==TileType.Door)
                     {
                         GameObject inst;
                         inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
                         inst.transform.SetParent(rc.transform);
                         inst.transform.localPosition = new Vector3(j, i, 0);
-                        rc.roomArrayData[i, j] = 5;
+                        //rc.roomArrayData[i, j] = 5;
                     }
                 }
             }
@@ -334,7 +365,7 @@ public class RoomGenerator : MonoBehaviour
             {
                 for(int j=0;j<rc.Width;j++)
                 {
-                    if (rc.roomArrayData[i,j]==1)
+                    if (rc.roomArrayData[i,j]==TileType.Wall)
                     {
                         GameObject go = Instantiate(wallTile);
                         go.transform.SetParent(rc.transform);
@@ -345,6 +376,8 @@ public class RoomGenerator : MonoBehaviour
         }
     }
 
+    
+
     GameObject CreateDoor(Vector2 dir)
     {
         dir = dir.normalized;
@@ -354,6 +387,27 @@ public class RoomGenerator : MonoBehaviour
         GameObject go = Instantiate(prefab,Vector3.zero,Quaternion.identity);
 
         return go;
+    }
+
+    public GameObject[] CreateMonster(int num)
+    {
+        GameObject[] go = new GameObject[num];
+        for(int i=0;i<num;i++)
+        {
+            go[i] = Instantiate(prefabMonster, Vector3.zero, Quaternion.identity);
+        }
+        return go;
+    }
+
+    public GameObject[] CreateRandomCreature(int num)
+    {
+        GameObject[] objects = new GameObject[num];
+        for(int i=0;i<num;i++)
+        {
+            int rand = Random.Range(0, creatures.Length);
+            objects[i] = Instantiate(creatures[rand]);
+        }
+        return objects;
     }
 
     void OnDrawGizmos()
@@ -381,9 +435,11 @@ public class RoomGenerator : MonoBehaviour
 
         Time.timeScale = 1f;
 
+
         for(int i=0;i<rigidbody2Ds.Count;i++)
         {
-            rigidbody2Ds[i].simulated = false;
+            //rigidbody2Ds[i].simulated = false;
+            Destroy(rigidbody2Ds[i]);
             boxCollider2Ds[i].enabled = false;
         }
         foreach (RoomController obj in visualRooms)
