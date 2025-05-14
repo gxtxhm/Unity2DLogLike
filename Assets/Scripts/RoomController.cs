@@ -25,21 +25,69 @@ public class RoomController : MonoBehaviour
     public int Width { get; private set; }
     public int Height { get; private set; }
 
+    public GameObject Structure;
+
     public TileType[,] roomArrayData;
     public bool[,] bakedMap;
+
+    //public void SetInit(int width = 0, int height = 0, int roomId = -1)
+    //{
+    //    Width = width;
+    //    Height = height;
+    //    RoomId = roomId;
+    //}
+
+    //// 첫 입장 시 시작됨
+    //public void StartRoom()
+    //{
+    //    if (curMonster == 0) return;
+    //    GameManager.Instance.pc.transform.SetParent(transform, true);
+    //    // 몬스터 활동 시작
+    //    Invoke("TriggerMonster", 0.2f);
+
+    //    foreach (DoorController dc in doors)
+    //    {
+    //        dc.EnterCollider.enabled = false;
+    //        dc.ExitCollider.enabled = false;
+    //        dc.EnterPlayer();
+    //    }
+    //}
+
+    public bool isVisited { get; private set; } // 방문 여부
+    public GameObject fog; // 안개 오브젝트
+    public GameObject minimapRoomSprite; // 미니맵 방 구조 스프라이트
 
     public void SetInit(int width = 0, int height = 0, int roomId = -1)
     {
         Width = width;
         Height = height;
         RoomId = roomId;
+        isVisited = false; // 초기화
     }
 
-    void Start()
+    // 방 입장 시 호출 (StartRoom 수정)
+    public void StartRoom()
     {
+        if (!isVisited)
+        {
+            isVisited = true;
+            if (fog != null) fog.SetActive(false); // 안개 제거
+            GameObject minimapImage = transform.Find("MinimapImage")?.gameObject;
+            if (minimapImage != null) minimapImage.SetActive(false); // 물음표 제거
+            if (minimapRoomSprite != null) minimapRoomSprite.SetActive(true); // 방 구조 표시
+        }
 
+        if (curMonster == 0) return;
+        GameManager.Instance.pc.transform.SetParent(transform, true);
+        Invoke("TriggerMonster", 0.2f);
+
+        foreach (DoorController dc in doors)
+        {
+            dc.EnterCollider.enabled = false;
+            dc.ExitCollider.enabled = false;
+            dc.EnterPlayer();
+        }
     }
-
 
     public void GeneratePathMap()
     {
@@ -53,22 +101,6 @@ public class RoomController : MonoBehaviour
                 else
                     bakedMap[i, j] = false;
             }
-        }
-    }
-
-    // 첫 입장 시 시작됨
-    public void StartRoom()
-    {
-        if (curMonster == 0) return;
-        GameManager.Instance.pc.transform.SetParent(transform, true);
-        // 몬스터 활동 시작
-        Invoke("TriggerMonster", 0.2f);
-
-        foreach (DoorController dc in doors)
-        {
-            dc.EnterCollider.enabled = false;
-            dc.ExitCollider.enabled = false;
-            dc.EnterPlayer();
         }
     }
 
@@ -129,7 +161,8 @@ public class RoomController : MonoBehaviour
             dc.ExitCollider.enabled = true;
         }
 
-        GameManager.Instance.pc.transform.SetParent(null,true);
+        GameManager.Instance.pc.StartClearText();
+        GameManager.Instance.UpdateRoomCount();
     }
 
     // 몬스터와 장애물 세팅

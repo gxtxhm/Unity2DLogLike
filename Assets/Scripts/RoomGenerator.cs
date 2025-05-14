@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoomGenerator : MonoBehaviour
 {
+    // test
+    [SerializeField]
+    Sprite floorSprite;
+
     [SerializeField]
     int minRoom;
     [SerializeField]
@@ -53,9 +58,17 @@ public class RoomGenerator : MonoBehaviour
     Dictionary<int,RoomController> roomMap = new Dictionary<int,RoomController>();
     List<BoxCollider2D> boxCollider2Ds = new List<BoxCollider2D>();
 
+    [SerializeField]
+    Sprite questionMarkSprite;
+
     List<Edge> mst;
 
     Dictionary<Vector2,GameObject> DirToDoor = new Dictionary<Vector2,GameObject>();
+
+    public int GetRoomCount()
+    {
+        return roomCount;
+    }
 
     public RoomController GetRoomController(int roomId)
     {
@@ -92,6 +105,80 @@ public class RoomGenerator : MonoBehaviour
 
     void GenerateRoom(Vector3 sv)
     {
+        //GameObject go = new GameObject("Room" + roomNumCnt);
+        //GameObject goo = new GameObject("Room");
+        //goo.transform.position = sv;
+        //go.transform.SetParent(goo.transform);
+        //go.transform.localPosition = Vector3.zero;
+        //RoomController rc = go.AddComponent<RoomController>();
+        //visualRooms.Add(rc);
+
+        //GameObject structure = new GameObject("Structure");
+        //structure.transform.SetParent(go.transform);
+        //rc.Structure = structure;
+        //structure.transform.localPosition = Vector3.zero;
+
+        //GameObject mapObject = new GameObject("MinimapImage");
+        //mapObject.AddComponent<SpriteRenderer>().sprite = questionMarkSprite;
+        //mapObject.layer = 13; // Minimap
+        //mapObject.transform.SetParent(go.transform);
+        //mapObject.transform.localPosition = Vector3.zero;
+
+        //int xLen = Random.Range(minRoom, maxRoom);
+        //int yLen = Random.Range(minRoom, maxRoom);
+
+        //Rigidbody2D rb = goo.AddComponent<Rigidbody2D>();
+        //rb.gravityScale = 0;
+        //rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        //rb.bodyType = RigidbodyType2D.Static;
+        //rb.drag = 6;
+        //rigidbody2Ds.Add(rb);
+
+        //BoxCollider2D bc = goo.AddComponent<BoxCollider2D>();
+        //boxCollider2Ds.Add(bc);
+
+        //float yOffset = yLen / 2;
+        //float xOffset = xLen / 2;
+
+        //bc.offset = new Vector2(xOffset, yOffset);
+        //bc.size = new Vector2(xLen + roomPadding, yLen + roomPadding);
+
+        //// 배열로 미리 어떤 타일을 생성할지 세팅
+        //// 벽 세팅
+        //rc.roomArrayData = new TileType[yLen, xLen];
+        //for (int i = 0; i < yLen; i++)
+        //{
+        //    rc.roomArrayData[i, 0] = TileType.Wall;
+        //    rc.roomArrayData[i, xLen - 1] = TileType.Wall;
+        //}
+        //for (int i = 0; i < xLen; i++)
+        //{
+        //    rc.roomArrayData[0, i] = TileType.Wall;
+        //    rc.roomArrayData[yLen - 1, i] = TileType.Wall;
+        //}
+
+        //// 방 크기만큼 바닥타일 생성
+
+        //for (int i = 0; i < yLen; i++)
+        //{
+        //    for (int j = 0; j < xLen; j++)
+        //    {
+        //        if (rc.roomArrayData[i, j] == 0)
+        //        {
+        //            GameObject inst;
+        //            inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
+        //            inst.transform.SetParent(structure.transform);
+        //            inst.transform.localPosition = new Vector3(j, i, 0);
+        //            rc.roomArrayData[i, j] = TileType.Floor;
+        //        }
+
+        //    }
+        //}
+
+        //// 룸 Init 함수
+        //rc.SetInit(xLen, yLen, roomNumCnt++);
+        //go.SetActive(false);
+        //roomMap.Add(rc.RoomId, rc);
         GameObject go = new GameObject("Room" + roomNumCnt);
         GameObject goo = new GameObject("Room");
         goo.transform.position = sv;
@@ -100,9 +187,45 @@ public class RoomGenerator : MonoBehaviour
         RoomController rc = go.AddComponent<RoomController>();
         visualRooms.Add(rc);
 
+        // 구조 오브젝트
+        GameObject structure = new GameObject("Structure");
+        structure.transform.SetParent(go.transform);
+        rc.Structure = structure;
+        structure.transform.localPosition = Vector3.zero;
+
+        // 미니맵 물음표
+        GameObject mapObject = new GameObject("MinimapImage");
+        SpriteRenderer qsr = mapObject.AddComponent<SpriteRenderer>();
+        qsr.sprite = questionMarkSprite;
+        qsr.sortingOrder = 3;
+        mapObject.layer = 13; // Minimap
+        mapObject.transform.SetParent(go.transform);
+        
+
+        
+        // 안개 오브젝트
+        GameObject fog = new GameObject("Fog");
+        SpriteRenderer fogSr = fog.AddComponent<SpriteRenderer>();
+        fogSr.sprite = floorSprite; // 바닥 타일 재사용
+        fogSr.color = Color.black; // 검정 안개
+        fogSr.sortingOrder = 1;
+        fogSr.sortingLayerName = "Creature";
+        fog.layer = LayerMask.NameToLayer("Default"); // 기본 레이어
+        fog.transform.SetParent(go.transform);
+        fog.transform.localPosition = Vector3.zero;
+        rc.fog = fog;
+
+        // 방 크기 설정
         int xLen = Random.Range(minRoom, maxRoom);
         int yLen = Random.Range(minRoom, maxRoom);
 
+        // 안개와 미니맵 스프라이트 스케일 조정
+        fog.transform.localScale = new Vector3(xLen, yLen, 1);
+        fog.transform.localPosition = new Vector2(xLen / 2.0f, yLen / 2.0f);
+
+        mapObject.transform.localPosition = new Vector2(xLen / 2.0f, yLen / 2.0f);
+
+        // 기존 코드 (Rigidbody2D, BoxCollider2D, 타일 생성 등)
         Rigidbody2D rb = goo.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
@@ -119,8 +242,7 @@ public class RoomGenerator : MonoBehaviour
         bc.offset = new Vector2(xOffset, yOffset);
         bc.size = new Vector2(xLen + roomPadding, yLen + roomPadding);
 
-        // 배열로 미리 어떤 타일을 생성할지 세팅
-        // 벽 세팅
+        // 벽 및 바닥 타일 설정
         rc.roomArrayData = new TileType[yLen, xLen];
         for (int i = 0; i < yLen; i++)
         {
@@ -133,25 +255,20 @@ public class RoomGenerator : MonoBehaviour
             rc.roomArrayData[yLen - 1, i] = TileType.Wall;
         }
 
-        // 방 크기만큼 바닥타일 생성
-        
         for (int i = 0; i < yLen; i++)
         {
             for (int j = 0; j < xLen; j++)
             {
                 if (rc.roomArrayData[i, j] == 0)
                 {
-                    GameObject inst;
-                    inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
-                    inst.transform.SetParent(go.transform);
+                    GameObject inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
+                    inst.transform.SetParent(structure.transform);
                     inst.transform.localPosition = new Vector3(j, i, 0);
                     rc.roomArrayData[i, j] = TileType.Floor;
                 }
-                
             }
         }
 
-        // 룸 Init 함수
         rc.SetInit(xLen, yLen, roomNumCnt++);
         go.SetActive(false);
         roomMap.Add(rc.RoomId, rc);
@@ -292,8 +409,6 @@ public class RoomGenerator : MonoBehaviour
             path[2] = (new Vector2Int(pos3.x, pos2.y), pos3); // y축
         }
 
-        int yDiff = Mathf.Abs(pos3.y - pos2.y);
-
         for (int i = 0; i < 3; i++)
         {
             Vector2Int start = path[i].Item1;
@@ -399,7 +514,7 @@ public class RoomGenerator : MonoBehaviour
                     {
                         GameObject inst;
                         inst = Instantiate(floorTile, Vector3.zero, Quaternion.identity);
-                        inst.transform.SetParent(rc.transform);
+                        inst.transform.SetParent(rc.Structure.transform);
                         inst.transform.localPosition = new Vector3(j, i, 0);
                         //rc.roomArrayData[i, j] = 5;
                     }
@@ -419,7 +534,7 @@ public class RoomGenerator : MonoBehaviour
                     if (rc.roomArrayData[i,j]==TileType.Wall)
                     {
                         GameObject go = Instantiate(wallTile);
-                        go.transform.SetParent(rc.transform);
+                        go.transform.SetParent(rc.Structure.transform);
                         go.transform.localPosition = new Vector2(j, i);
                     }
                 }

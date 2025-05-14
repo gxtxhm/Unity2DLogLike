@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,10 +42,11 @@ public class PlayerController : MonoBehaviour
 
     public Canvas GetCanvas() { return UICanvas; }
 
+    [SerializeField]
+    TextMeshProUGUI roomClearText;
+
     public void Init()
     {
-
-
         WeaponManager.Instance.AddWeapon(curWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon2);
@@ -66,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.isEnd) return;
         InputMove();
         RotateDirection();
         MovePlayer();
@@ -207,5 +211,46 @@ public class PlayerController : MonoBehaviour
     public void UnEquipWeapon()
     {
         curWeapon.gameObject.SetActive(false);
+    }
+
+    
+    public void StartClearText()
+    {
+        StartCoroutine(Co_ActiveRoomClearText());
+    }
+
+    IEnumerator Co_ActiveRoomClearText()
+    {
+        float animTime = 1f;
+        float elapsedTime = 0;
+        while(elapsedTime < animTime)
+        {
+            elapsedTime += Time.deltaTime;
+            float value = Mathf.Lerp(0, 1, elapsedTime / animTime);
+
+            Color c = roomClearText.color;
+            c.a = value;
+            roomClearText.color = c;
+
+            yield return null;
+        }
+        StartCoroutine(Co_DeActiveRoomClearText());
+    }
+
+    IEnumerator Co_DeActiveRoomClearText()
+    {
+        float animTime = 1f;
+        float elapsedTime = 0;
+        while (elapsedTime < animTime)
+        {
+            elapsedTime += Time.deltaTime;
+            float value = Mathf.Lerp(1, 0, elapsedTime / animTime);
+
+            Color c = roomClearText.color;
+            c.a = value;
+            roomClearText.color = c;
+
+            yield return null;
+        }
     }
 }

@@ -24,6 +24,8 @@ public class Test_Monster : MonoBehaviour
 
     Coroutine co;
 
+    bool isDead = false;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -51,6 +53,7 @@ public class Test_Monster : MonoBehaviour
 
     async void pathFinding()
     {
+        if(isDead) return;
         Vector3 pos = GameManager.Instance.pc.gameObject.transform.localPosition;
         
         path = await AStarPathfinding.GeneratePath(
@@ -69,6 +72,7 @@ public class Test_Monster : MonoBehaviour
     {
         while(true)
         {
+            if (isDead) break;
             pathFinding();
             
             yield return new WaitForSeconds(0.3f);
@@ -89,6 +93,7 @@ public class Test_Monster : MonoBehaviour
             // 현재 위치에서 목표 위치까지 이동
             while (Vector2.Distance(transform.position, targetPosition) > 0.01f)
             {
+                if (isDead) break;
                 transform.position = Vector2.MoveTowards(
                     transform.position,
                     targetPosition,
@@ -107,6 +112,7 @@ public class Test_Monster : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if(isDead) return;
         hp-=damage;
         if (hp <= 0) { OnDeadEvent?.Invoke(); }
         slider.value = hp / 100.0f;
@@ -114,6 +120,7 @@ public class Test_Monster : MonoBehaviour
 
     void Dead()
     {
+        isDead = true;
         StopAllCoroutines();
         gameObject.SetActive(false);
     }

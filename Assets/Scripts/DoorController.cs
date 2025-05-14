@@ -23,6 +23,9 @@ public class DoorController : MonoBehaviour
     [SerializeField]
     BoxCollider2D exitCollider;
 
+    [SerializeField]
+    BoxCollider2D collider;
+
     public BoxCollider2D EnterCollider { get { return enterCollider; } }
     public BoxCollider2D ExitCollider { get { return exitCollider; } }
 
@@ -57,15 +60,19 @@ public class DoorController : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            Debug.Log("before IsEntered" + isEntered + "in ActionEnterDoor");   
+            //Debug.log("before IsEntered" + isEntered + "in ActionEnterDoor");   
             if(isEntered == false)
+            {
                 StartCoroutine(doorOpen());
+                // 첫발견
+            }
             else
             {
                 StartCoroutine(doorClose());
                 isEntered = false;
+                GameManager.Instance.pc.transform.SetParent(null, true);
             }
-            Debug.Log("after IsEntered" + isEntered + "in ActionEnterDoor");
+            //Debug.log("after IsEntered" + isEntered + "in ActionEnterDoor");
         }
     }
 
@@ -73,7 +80,7 @@ public class DoorController : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            Debug.Log("before IsEntered" + isEntered + "in ActionExitDoor");
+            //Debug.log("before IsEntered" + isEntered + "in ActionExitDoor");
             if (isEntered == false)
             {
                 StartCoroutine (doorClose());
@@ -83,15 +90,15 @@ public class DoorController : MonoBehaviour
             else
                 StartCoroutine(doorOpen());
 
-            Debug.Log("after IsEntered" + isEntered + "in ActionExitDoor");
+            //Debug.log("after IsEntered" + isEntered + "in ActionExitDoor");
         }
     }
 
     IEnumerator doorOpen()
     {
-        Debug.Log("doorOpen");
+        //Debug.log("doorOpen");
         float elapsedTime = 0f;
-
+        collider.enabled = false;
         // 초기 위치 저장
         Vector3 door1Start = door1.transform.localPosition;
         Vector3 door2Start = door2.transform.localPosition;
@@ -118,13 +125,14 @@ public class DoorController : MonoBehaviour
 
             yield return null;
         }
+        collider.enabled = true;
     }
 
     IEnumerator doorClose()
     {
-        Debug.Log("doorClose");
+        //Debug.log("doorClose");
         float elapsedTime = 0f;
-
+        collider.enabled = false;
         // 현재 로컬 위치 저장
         Vector3 door1Start = door1.transform.localPosition;
         Vector3 door2Start = door2.transform.localPosition;
@@ -156,6 +164,8 @@ public class DoorController : MonoBehaviour
         door2.transform.localPosition = originPos.Item2;
         mask1.localPosition = Vector3.zero;
         mask2.localPosition = Vector3.zero;
+
+        collider.enabled = true;
     }
 
 }
