@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
 
     public void InitBullet(float angle)
     {
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        //transform.rotation = Quaternion.Euler(0, 0, angle);
         
         float angleRad = angle * Mathf.Deg2Rad;
         direc = new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad), 0).normalized;
@@ -36,15 +36,26 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Debug.Log(collision.gameObject.tag);
+        if(poolingType == PoolingType.ArrowBullet)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                collision.gameObject.GetComponent<PlayerController>().TakeDamage(Damage);
+                PoolingManager.Instance.ReturnBullet(gameObject);
+            }
+            else if (collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Creature"))
+            {
+                PoolingManager.Instance.ReturnBullet(gameObject);
+            }
+            return;
+        }
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<Test_Monster>().TakeDamage(Damage);
+            collision.gameObject.GetComponent<Monster>().TakeDamage(Damage);
             PoolingManager.Instance.ReturnBullet(gameObject);
         }
         else if(collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Creature"))
         {
-            //Debug.Log("Blocked Bullet");
             PoolingManager.Instance.ReturnBullet(gameObject);
         }
     }

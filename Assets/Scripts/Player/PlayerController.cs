@@ -5,6 +5,11 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+struct Heart
+{
+    public int stairs;
+}
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
@@ -21,6 +26,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     GameObject cursor;
 
+    [SerializeField]
+    Image[] heartsImage;
+
+    [SerializeField]
+    Sprite[] heartSprites;
+
+    Heart[] hearts = new Heart[3];
+    int heartsIndex = 2;
 
     public GameObject WeaponPos;
     Weapon curWeapon;
@@ -51,6 +64,14 @@ public class PlayerController : MonoBehaviour
         WeaponManager.Instance.AddWeapon(TestWeapon);
         WeaponManager.Instance.AddWeapon(TestWeapon2);
         EquipWeapon(curWeapon);
+
+        for(int i=0;i<3;i++)
+        {
+            hearts[i] = new Heart();
+            hearts[i].stairs = 2;
+
+            heartsImage[i].sprite = heartSprites[2];
+        }
     }
 
     private void Awake()
@@ -252,5 +273,18 @@ public class PlayerController : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        Debug.Log("플레이어가 데미지 입음!");
+        hearts[heartsIndex].stairs--;
+        heartsImage[heartsIndex].sprite = heartSprites[hearts[heartsIndex].stairs];
+
+        if (hearts[heartsIndex].stairs == 0)
+            heartsIndex--;
+
+        if (heartsIndex < 0)
+            GameManager.Instance.EndGamePanel();
     }
 }

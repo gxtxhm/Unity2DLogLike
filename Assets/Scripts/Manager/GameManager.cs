@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class GameManager : MonoBehaviour
     public GameObject WeaponPanel;
     public Image weaponImage;
     public TextMeshProUGUI bulletText;
+
+    [SerializeField]
+    GameObject arrowPrefab;
+
+    public UnityAction OnEndGame;
 
     public int CurRoomId { get; set; }
     public bool isEnd = false;
@@ -50,10 +56,20 @@ public class GameManager : MonoBehaviour
         if(clearRoomCount == roomGenerator.GetRoomCount())
         {
             isEnd = true;
+            OnEndGame.Invoke();
             finishPanel.SetActive(true);
 
             StartCoroutine(fadeInText(finishText));
         }
+    }
+
+    public void EndGamePanel()
+    {
+        isEnd = true;
+        OnEndGame.Invoke();
+        finishPanel.SetActive(true);
+        finishText.text = "Game Over...";
+        StartCoroutine(fadeInText(finishText));
     }
 
     IEnumerator fadeInText(TextMeshProUGUI text)
@@ -86,6 +102,12 @@ public class GameManager : MonoBehaviour
         rc.StartRoom();
 
     }
+
+    void EnemySet()
+    {
+        PoolingManager.Instance.AddInMap(PoolingType.ArrowBullet, arrowPrefab);
+    }
+
     private void Start()
     {
         finishText = finishPanel.GetComponentInChildren<TextMeshProUGUI>();
@@ -93,6 +115,9 @@ public class GameManager : MonoBehaviour
         pc.Init();
         WeaponManager.Instance.Init();
         roomGenerator.StartGenerateRoom();
+
+        // 적 관련 세팅
+        EnemySet();
     }
     // Update is called once per frame
     void Update()

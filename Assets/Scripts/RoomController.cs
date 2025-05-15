@@ -19,7 +19,7 @@ public class RoomController : MonoBehaviour
 
     int curMonster;
     public int MonsterCnt = 3;
-    Test_Monster[] monsters; 
+    Monster[] monsters; 
 
     public int RoomId { get; private set; }
     public int Width { get; private set; }
@@ -106,7 +106,7 @@ public class RoomController : MonoBehaviour
 
     void TriggerMonster()
     {
-        foreach (Test_Monster m in monsters)
+        foreach (Monster m in monsters)
         {
             m.StartBattle(bakedMap);
         }
@@ -171,9 +171,9 @@ public class RoomController : MonoBehaviour
         int randMonster = Random.Range(1, MonsterCnt);
         GameObject[] m = rg.CreateMonster(randMonster);
         curMonster = m.Length;
-        monsters = new Test_Monster[m.Length];
+        monsters = new Monster[m.Length];
         for(int i=0;i<m.Length; i++)
-            monsters[i] = m[i].GetComponent<Test_Monster>();
+            monsters[i] = m[i].GetComponent<Monster>();
 
         int randCreature = Random.Range(1, 5);
         GameObject[] objects = rg.CreateRandomCreature(randCreature);
@@ -191,8 +191,8 @@ public class RoomController : MonoBehaviour
                     m[i].transform.SetParent(transform);
                     m[i].transform.localPosition = new Vector2(randX, randY);
                     roomArrayData[randY, randX] = TileType.Monster;
-                    m[i].GetComponent<Test_Monster>().Init(this);
-                    m[i].GetComponent<Test_Monster>().OnDeadEvent += () => { curMonster--; ClearRoom(); };
+                    m[i].GetComponent<Monster>().Init(this);
+                    m[i].GetComponent<Monster>().OnDeadEvent += () => { curMonster--; ClearRoom(); };
                     break;
                 }
             }

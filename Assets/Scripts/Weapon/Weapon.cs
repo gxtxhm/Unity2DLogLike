@@ -57,7 +57,7 @@ public abstract class Weapon : MonoBehaviour
         RotateZ = weaponData.RotateZ;
         shotClip = weaponData.shotClip;
         reloadClip = weaponData.reloadClip;
-        //Debug.Log(type);
+
         PoolingManager.Instance.AddInMap(bulletPrefab.GetComponent<Bullet>().poolingType, bulletPrefab);
         audioSource = GetComponentInParent<AudioSource>();
         

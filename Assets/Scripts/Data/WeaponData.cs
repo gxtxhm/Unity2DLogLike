@@ -6,7 +6,8 @@ public enum WeaponType
 {
     Rifle,
     Gun,
-    ShotGun
+    ShotGun,
+    EnemyGun
 }
 
 [CreateAssetMenu(menuName = "Weapon Data")]

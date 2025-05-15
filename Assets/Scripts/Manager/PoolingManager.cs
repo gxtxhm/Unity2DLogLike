@@ -9,7 +9,8 @@ public enum PoolingType
 {
     GunBullet,
     RifleBullet,
-    ShotGunBullet
+    ShotGunBullet,
+    ArrowBullet
 }
 
 public class PoolingManager : MonoBehaviour
