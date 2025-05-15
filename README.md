@@ -24,24 +24,31 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
 ## 문제 해결 과정
 
 - **복도 생성 알고리즘 개선**:
+  
   - **문제점**:
     - 초기 알고리즘은 `GenerateCorridors`로 ㄱ자 경로를 두 번 생성(x→y, y→x 또는 반대).
     - 일자 복도에서 중간 지점에 불필요한 모서리 타일 생성.
     - 모서리 직후 또 다른 모서리 생성 시 콜라이더 방향 오류.
     - 원인: 두 번째 함수 호출 시 이전/다음 방향 정보 손실, 데이터 저장 없음.
     - 모든 통로 데이터 저장은 메모리 낭비로 판단.
+      
   - **해결 과정**:
+    
     - **단일 함수 호출**: `CreateCorridors`로 한 번에 처리, 방향 정보 손실 방지.
+      
     - **3경로 접근**: ㄱ자 두 번 대신 3개 직선 경로(x→y→x 또는 y→x→y)를 `for`문으로 생성.
+      
     - **구현**:
       - `path` 배열로 시작/끝점 관리.
       - `dx`, `dy`로 현재 방향, `nextDx`, `nextDy`로 다음 방향 계산.
       - `GetDirToCorridorTile`로 모서리 타일 동적 선택(예: x→y, dx>0, nextDy<0 → rb).
       - 마지막 경로(`i==2`)는 직선 타일로 마무리.
+        
     - **고민**:
       - 두 번 호출 방식은 간단했으나, 모서리 연속 시 한계 명확.
       - 종이 스케치로 경로 시각화, 3경로 아이디어 도출.
       - 메모리 효율성을 위해 데이터 저장 대신 단일 호출 채택.
+        
   - **결과**: 중간 모서리 버그 제거, 콜라이더 방향 오류 해결, 모든 통로 깔끔하게 생성.
 
 ## 데모
@@ -64,21 +71,26 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
   - `RunSeparation`: 동적 분리 후 `SnapAllRoomsToGrid`로 좌표 반올림.
   - `RoomController.roomArrayData`: 2D 배열로 타일 관리(벽=`TileType.Wall`, 문=`TileType.Door`, 바닥=`TileType.Floor`).
   - 바닥(`floorTile`), 벽(`wallTile`), 미니맵용 `questionMarkSprite`, 안개(`fog`) 생성.
+    
 - **최소 신장 트리(MST)** (`GenerateCorridor`, `Kruscal`, `UnionFind`):
   - `Kruscal.Run`: 유클리드 거리로 MST 생성.
   - `UnionFind`: 경로 압축과 랭크 최적화.
   - `OnDrawGizmos`로 시각화(녹색 선).
+    
 - **문 생성** (`GenerateCorridor`, `CreateDoor`, `RoomController.SetDoor`):
   - MST 엣지로 방향 계산(`Mathf.Atan2`, 상/하/좌/우).
   - `CreateDoor`: `DirToDoor`로 프리팹 선택.
   - `SetDoor`: 랜덤 위치에 문 배치, `TileType.Door` 기록.
+    
 - **복도 생성** (`GenerateCorridor`, `CreateCorridors`):
   - 초기: ㄱ자 경로 두 번 생성, 일자 복도 모서리 및 콜라이더 오류.
   - 개선: `CreateCorridors`로 3경로(x→y→x 또는 y→x→y) 생성.
   - 직선(`corridorTile[0,1]`), 모서리(`corridorTile[2~5]`) 타일 배치.
   - `GetDirToCorridorTile`: 현재/다음 방향으로 모서리 선택.
+    
 - **콜라이더 설정** (`CreateCorridors`):
   - 직선과 모서리에 콜라이더 설정, 방향 기반 막힌 면 처리.
+    
 - **마무리** (`CreateWall`, `FilledFloorTile`, `SetRoomCreature`):
   - 벽, 문 앞 바닥 타일, 몬스터 생성.
 
@@ -92,6 +104,7 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
   - `WeaponDatabase`: 무기 프리팹과 `WeaponType` 매핑.
   - `Gun`, `Rifle`, `ShotGun`: 단일, 연사, 확산 발사.
   - `Bullet`: 이동, 충돌, 풀링 반환.
+    
 - **기능**:
   - 발사: `PlayerController.Co_Shoot`, `FireRate`로 간격 조절.
   - 재장전: `CoReload`로 슬라이더 애니메이션.
@@ -102,14 +115,19 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
 
 - **문 시스템** (`DoorController`, `ActionColliderTrigger`):
   - `doorOpen`/`doorClose`로 애니메이션, 방 전환.
+    
 - **몬스터 AI** (`Monster`):
   - A*로 플레이어 추적, `Co_Shoot`로 공격.
+    
 - **미니맵** (`RoomController`):
   - 방 구조와 안개 표시, 방문 시 제거.
+    
 - **플레이어** (`PlayerController`):
   - 키보드 이동, 마우스 조준, 체력 UI.
+    
 - **카메라** (`CameraController`):
   - 플레이어와 마우스 기반 부드러운 이동.
+    
 - **게임 관리** (`GameManager`):
   - 방 클리어 카운트, 게임 종료 UI.
 
