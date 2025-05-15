@@ -48,10 +48,11 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
 
 - **스크린샷**:
 -   ***던전 맵 생성***
--  ![던전 맵 생성]<br>(https://github.com/user-attachments/assets/14ee5626-a92e-4825-b58c-2df76eaff73f)
+-  ![던전 맵 생성](https://github.com/user-attachments/assets/14ee5626-a92e-4825-b58c-2df76eaff73f)
 -   ***게임 플레이 화면***
--  ![게임 플레이 화면]<br>(https://github.com/user-attachments/assets/c5a530b3-4082-464d-a6b8-1ba59fd8d8b3)
-- **데모 영상**: [*(데모 영상)*]<br>(https://youtu.be/8IGIkZRLaw4)
+-  ![게임 플레이 화면](https://github.com/user-attachments/assets/c5a530b3-4082-464d-a6b8-1ba59fd8d8b3)
+- **데모 영상**
+-  [*(데모 영상)*](https://youtu.be/8IGIkZRLaw4)
 
 ## 주요 기능
 
