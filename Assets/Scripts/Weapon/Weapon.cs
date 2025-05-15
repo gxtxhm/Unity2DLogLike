@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +15,7 @@ public abstract class Weapon : MonoBehaviour
     AudioClip reloadClip;
     [SerializeField]
     protected AudioSource audioSource;
-    // TODO : Action À¸·Î shoot, reload µî·Ï
+    
     [SerializeField]
     protected WeaponData weaponData;
 

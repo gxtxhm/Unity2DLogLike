@@ -1,4 +1,4 @@
-using AStar;
+ï»¿using AStar;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -66,10 +66,10 @@ public class Monster : MonoBehaviour
         if (canShoot == false) return;
         if (isDead) return;
 
-        Vector2 dir = player.transform.localPosition - transform.localPosition; // ¹æÇâ º¤ÅÍ
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; // ¶óµð¾È ¡æ µµ
+        Vector2 dir = player.transform.localPosition - transform.localPosition; // ë°©í–¥ ë²¡í„°
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; // ë¼ë””ì•ˆ â†’ ë„
 
-        //Debug.Log($"°¢µµ {angle}µµ");
+        
         muzzle.transform.rotation = Quaternion.Euler(0, 0, angle + 180);
         StartCoroutine(Co_Shoot());
     }
@@ -113,7 +113,7 @@ public class Monster : MonoBehaviour
         if (path == null || path.Length == 0)
         {
             Debug.LogWarning("Path is empty or null!");
-            //pathFinding();
+            
             return;
         }
         co = StartCoroutine(FollowPath());
@@ -138,10 +138,10 @@ public class Monster : MonoBehaviour
         if (path == null) yield break;
         foreach (var point in path)
         {
-            // °æ·ÎÀÇ (x, y)¸¦ ¿ùµå ÁÂÇ¥·Î º¯È¯
+            
             Vector2 targetPosition = new Vector2(point.Item1, point.Item2);
             targetPosition += new Vector2(roomController.transform.position.x, roomController.transform.position.y);
-            // ÇöÀç À§Ä¡¿¡¼­ ¸ñÇ¥ À§Ä¡±îÁö ÀÌµ¿
+            
             while (Vector2.Distance(transform.position, targetPosition) > 0.01f)
             {
                 if (isDead) break;
@@ -150,10 +150,9 @@ public class Monster : MonoBehaviour
                     targetPosition,
                     moveSpeed * Time.deltaTime * 0.4f
                 );
-                yield return null; // ´ÙÀ½ ÇÁ·¹ÀÓ±îÁö ´ë±â
+                yield return null; 
             }
 
-            // ¸ñÇ¥ À§Ä¡¿¡ Á¤È®È÷ µµ´ÞÇÏµµ·Ï ¼³Á¤
             transform.position = targetPosition;
             transform.localPosition = targetPosition - new Vector2(roomController.transform.position.x, roomController.transform.position.y);
             

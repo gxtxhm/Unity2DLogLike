@@ -1,4 +1,4 @@
-using System.Collections;
+癤퓎sing System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -64,7 +64,6 @@ public class DoorController : MonoBehaviour
             if(isEntered == false)
             {
                 StartCoroutine(doorOpen());
-                // 첫발견
             }
             else
             {
@@ -99,7 +98,7 @@ public class DoorController : MonoBehaviour
         //Debug.log("doorOpen");
         float elapsedTime = 0f;
         collider.enabled = false;
-        // 초기 위치 저장
+        
         Vector3 door1Start = door1.transform.localPosition;
         Vector3 door2Start = door2.transform.localPosition;
 
@@ -115,11 +114,11 @@ public class DoorController : MonoBehaviour
             float t = Mathf.Clamp01(elapsedTime / animTime);
             float offsetY = Mathf.Lerp(0, -endPos.y, t);
 
-            // 문은 아래로 이동
+            // 
             door1.transform.localPosition = door1Start + Vector3.down * offsetY;
             door2.transform.localPosition = door2Start + Vector3.down * offsetY;
 
-            // 마스크는 위로 이동
+            // 
             mask1.localPosition = mask1Start + Vector3.up * offsetY;
             mask2.localPosition = mask2Start + Vector3.up * offsetY;
 
@@ -133,7 +132,7 @@ public class DoorController : MonoBehaviour
         //Debug.log("doorClose");
         float elapsedTime = 0f;
         collider.enabled = false;
-        // 현재 로컬 위치 저장
+        // 
         Vector3 door1Start = door1.transform.localPosition;
         Vector3 door2Start = door2.transform.localPosition;
 
@@ -147,7 +146,7 @@ public class DoorController : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float t = Mathf.Clamp01(elapsedTime / animTime);
-            float offsetY = Mathf.Lerp(0, endPos.y-0.5f, t); // 열린 상태(-endPos.y)에서 원래 위치(0)로
+            float offsetY = Mathf.Lerp(0, endPos.y-0.5f, t); // 
 
             mask1.localPosition = mask1Start + Vector3.up * offsetY;
             mask2.localPosition = mask2Start + Vector3.up * offsetY;
@@ -159,7 +158,7 @@ public class DoorController : MonoBehaviour
 
             yield return null;
         }
-        // 하드 코딩으로 원래 위치 맞추기
+        // 
         door1.transform.localPosition = originPos.Item1;
         door2.transform.localPosition = originPos.Item2;
         mask1.localPosition = Vector3.zero;

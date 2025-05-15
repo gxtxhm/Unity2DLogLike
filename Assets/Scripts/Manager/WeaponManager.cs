@@ -26,8 +26,7 @@ public class WeaponManager
         ReloadSlider = GameManager.Instance.pc.GetComponentInChildren<Slider>();
         ReloadSlider.gameObject.SetActive(false);
     }
-
-    // 내 소유 무기에 추가
+    // Add to mine
     public void AddWeapon(Weapon weapon)
     {
         weaponList.Add(weapon);
@@ -48,7 +47,7 @@ public class WeaponManager
         return weaponList[curIndex];
     }
 
-    // 랜덤으로 무기 오브젝트 하나 생성(내 소유는 아님)
+    // random create weapon object but not mine
     public Weapon RandomCreateWeapon()
     {
         return weaponDatabase.RandomCreateWeapon().GetComponent<Weapon>();

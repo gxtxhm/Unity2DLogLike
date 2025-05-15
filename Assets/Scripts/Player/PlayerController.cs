@@ -1,4 +1,4 @@
-using System.Collections;
+癤퓎sing System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -144,29 +144,25 @@ public class PlayerController : MonoBehaviour
         mousePos.z = 0;
         cursor.transform.position = mousePos;
 
-        Vector2 dir = mousePos - transform.position; // 방향 벡터
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; // 라디안 → 도
+        Vector2 dir = mousePos - transform.position; 
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; 
 
-        //Debug.Log($"각도 {angle}도");
+        
         WeaponPos.transform.rotation = Quaternion.Euler(0, 0, angle-90);
         if(angle >= -45 && angle < 45)
         {
-            //Debug.Log("Right");
             curWeaponDirection = "Right";
         }
         else if(angle >=45 && angle <135)
         {
-            //Debug.Log("Up");
             curWeaponDirection = "Up";
         }
         else if(angle>=-135 && angle<-45)
         {
-            //Debug.Log("Down");
             curWeaponDirection = "Down";
         }
         else
         {
-            //Debug.Log("Left");
             curWeaponDirection = "Left";
         }
 
@@ -277,7 +273,6 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        Debug.Log("플레이어가 데미지 입음!");
         hearts[heartsIndex].stairs--;
         heartsImage[heartsIndex].sprite = heartSprites[hearts[heartsIndex].stairs];
 

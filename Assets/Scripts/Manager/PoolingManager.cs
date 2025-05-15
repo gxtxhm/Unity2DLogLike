@@ -39,7 +39,7 @@ public class PoolingManager : MonoBehaviour
     {
         if (poolingMap.ContainsKey(name))
         {
-            Debug.Log($"{name.ToString()}은 poolingMap에 이미 존재합니다."); return;
+            Debug.Log($"already exists {name.ToString()} in poolingMap."); return;
         }
         poolingMap.Add(name, new Queue<GameObject>());
         prefabsMap.Add(name, prefab);
@@ -56,12 +56,12 @@ public class PoolingManager : MonoBehaviour
     {
         if (poolingMap.ContainsKey(name) == false)
         {
-            Debug.LogError($"{name}은 poolingMap에 없습니다."); return null;
+            Debug.LogError($"no exist {name} in poolingMap."); return null;
         }
 
         if(poolingMap[name].Count == 0)
         {
-            // 만약 전부 사용중이라면
+            // if all used
             for (int i = 0; i < DefaultPoolSize; i++)
             {
                 GameObject go = Instantiate(prefabsMap[name]);
@@ -71,7 +71,6 @@ public class PoolingManager : MonoBehaviour
             }
         }
         GameObject bullet = poolingMap[name].Dequeue();
-        //bullet.SetActive(true);
         return bullet;
     }
 

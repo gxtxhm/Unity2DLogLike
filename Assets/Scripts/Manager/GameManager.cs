@@ -116,7 +116,6 @@ public class GameManager : MonoBehaviour
         WeaponManager.Instance.Init();
         roomGenerator.StartGenerateRoom();
 
-        // 적 관련 세팅
         EnemySet();
     }
     // Update is called once per frame
