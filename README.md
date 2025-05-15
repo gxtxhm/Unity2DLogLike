@@ -10,16 +10,16 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
   - 물리엔진(`Rigidbody2D`, `BoxCollider2D`)으로 동적 방 분리.
   - Kruskal과 Union-Find로 효율적 최소 신장 트리(MST) 생성.
   - 단일 함수 호출과 3경로 접근으로 복도 생성 최적화, 모서리/콜라이더 버그 해결.
-  - 
+    
 - **무기 시스템**:
   - `ScriptableObject`로 무기 데이터 관리, 확장성 향상.
   - 오브젝트 풀링으로 총알 성능 최적화.
   - `Gun`, `Rifle`, `ShotGun`으로 다양한 발사 패턴(단일, 연사, 확산) 구현.
-  - 
+    
 - **몬스터 AI**:
   - A* Pathfinding Project로 동적 경로 찾기, 0.3초마다 갱신.
   - 플레이어 추적 및 총알 발사(`ArrowBullet`).
-  - 
+    
 - **문 시스템**:
   - 트리거 기반 문 애니메이션(`doorOpen`, `doorClose`).
   - 방 전환 시 자연스러운 상태 관리.
