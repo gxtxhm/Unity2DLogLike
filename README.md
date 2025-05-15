@@ -117,20 +117,35 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
 
 ## 리포지토리 구조
 ├── Assets/
+
 │   ├── Scripts/
+
 │   │   ├── RoomGenerator.cs    # 맵 생성 메인 로직
+
 │   │   ├── RoomController.cs   # 방 타일과 문 관리
+
 │   │   ├── Kruscal.cs         # Kruskal 알고리즘
+
 │   │   ├── UnionFind.cs       # 유니온-파인드
+
 │   │   ├── Weapon.cs          # 무기 시스템 기반
+
 │   │   ├── WeaponManager.cs   # 무기 관리
+
 │   │   ├── PoolingManager.cs  # 총알 풀링
+
 │   │   ├── Monster.cs         # 몬스터 AI
+
 │   │   ├── DoorController.cs  # 문 애니메이션
+
 │   │   ├── CameraController.cs # 카메라 이동
+
 │   ├── Scenes/
+
 │   ├── Sprites/
+
 ├── screenshots/
+
 └── README.md
 
 
