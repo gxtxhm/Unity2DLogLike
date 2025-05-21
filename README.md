@@ -8,7 +8,7 @@ Unity2DLogLike는 *Enter the Gungeon* 스타일의 2D 로그라이크 게임 프
 
 - **맵 자동생성**:
   - 물리엔진(`Rigidbody2D`, `BoxCollider2D`)으로 동적 방 분리.
-  - Kruskal과 Union-Find로 효율적 최소 신장 트리(MST) 생성.
+  - Procedural generation 알고리즘 구현 : Kruskal과 Union-Find로 효율적 최소 신장 트리(MST) 생성.
   - 단일 함수 호출과 3경로 접근으로 복도 생성 최적화, 모서리/콜라이더 버그 해결.
     
 - **무기 시스템**:
